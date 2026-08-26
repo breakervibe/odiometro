@@ -1,0 +1,96 @@
+/* ============================================================
+   ODIÓMETRO — tokens del sistema visual
+   Origen: artifact "Color + type pairing" de Claude Design.
+   Regla: ningún hex suelto fuera de este archivo. Si el pairing
+   cambia, se toca aquí y sólo aquí.
+   ============================================================ */
+:root{
+  color-scheme: light;
+
+  /* — marca — */
+  --morado:        #7a3d94;   /* primario: fondo de cabecera, cifras, acento */
+  --morado-hover:  #5c2b71;
+  --morado-hondo:  #4a1f5c;   /* tinta sobre durazno */
+  --morado-tinta:  #3d1a4d;   /* tinta sobre durazno, botones */
+  --morado-regla:  #8f5aa4;   /* borde sobre fondo morado */
+  --durazno:       #fbd2c6;   /* acento único; nunca compite con el morado */
+
+  /* Velo de la portada. En tokens porque son tres tintes derivados del
+     morado: si la marca cambia de morado, el velo tiene que seguirla o la
+     foto queda teñida de un morado que ya no existe en ningún otro sitio. */
+  --velo-1: 38,16,50;
+  --velo-2: 52,22,68;
+  --velo-3: 122,61,148;
+  --velo-pie: 24,10,32;
+  --durazno-claro: #fde0d7;   /* sólo para el hover del botón de acento */
+
+  /* — sobre fondo morado — */
+  --sobre-morado:      #eddef2;  /* cuerpo */
+  --sobre-morado-2:    #e7d6ed;  /* navegación */
+  --sobre-morado-3:    #dcc6e4;  /* metadatos */
+  --sobre-morado-tenue:#b98fc9;  /* etiquetas mono */
+  --sobre-morado-linea:#c79dd6;
+
+  /* — papel y tinta — */
+  --papel:    #f7f6f6;
+  --blanco:   #ffffff;
+  --tinta:    #262427;
+  --tinta-2:  #4f4b4f;
+  --tinta-3:  #5f5b5f;
+  --tinta-4:  #777277;
+  --tinta-5:  #8d888d;
+  --tinta-6:  #a09ba0;
+  --regla:    #e4e2e2;
+  --regla-2:  #dcdada;
+  --tinta-cita: #3a363a;      /* tinta de las citas destacadas */
+
+  /* — tintes de gravedad: derivados de la rampa, para fondos de etiqueta — */
+  --grav-baja-f:      #f2f8ec;  --grav-baja-b:      #d7e6c9;
+  --grav-media-f:     #fdf7e8;  --grav-media-b:     #f0dfb0;
+  --grav-mediaalta-f: #fdf1e7;  --grav-mediaalta-b: #f5cfae;
+
+  /* — bandas del índice: idénticas al tablero, no se reinventan — */
+  --b1: #2FD3A8;  /* Calma          0 – 1,9  */
+  --b2: #9BD437;  /* Murmullo       2 – 3,4  */
+  --b3: #F2BE3C;  /* Tensión      3,5 – 4,9  */
+  --b4: #FF8A3D;  /* Hostigamiento  5 – 6,9  */
+  --b5: #FF4D5A;  /* Linchamiento   7 – 10   */
+
+  /* — tipografía — */
+  --display: 'Schibsted Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --cuerpo:  'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono:    'IBM Plex Mono', ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', Consolas, monospace;
+
+  /* Escala. El pairing la fijaba entre 10,5 y 62 px; el extremo pequeño se
+     quedaba corto para un tablero que quiere entender cualquiera, así que sube
+     más abajo que arriba: el titular ya era grande y no necesitaba crecer al
+     mismo ritmo que el cuerpo y las etiquetas. */
+  --t-hero:   64px;
+  --t-cifra:  44px;
+  --t-h2:     36px;
+  --t-h3:     21px;
+  --t-lead:   20px;
+  --t-base:   18px;
+  --t-cuerpo: 17.5px;
+  --t-boton:  16px;
+  --t-nav:    17.5px;
+  --t-menor:  15.5px;
+  --t-pie:    15px;
+  --t-mono:   13px;
+  --t-mono-2: 12.5px;
+  --t-mono-3: 12px;
+
+  /* — ritmo — */
+  --ancho:   1240px;
+  --margen:  40px;
+  --nav-alto: 96px;   /* alto necesario para el logo con lema */
+  --pie-alto: 74px;   /* medido; lo usa la pantalla de cierre del tablero */
+
+  /* Las columnas laterales se ensanchan con la letra: a 250 px, una etiqueta
+     como «MONITOREADAS» en versalitas espaciadas ya no cabía en una línea. */
+  --lateral:  296px;
+}
+
+@media (max-width: 760px){
+  :root{ --t-hero: 42px; --t-cifra: 36px; --t-h2: 28px; --t-lead: 18px; --margen: 20px; --nav-alto: 74px; }
+}

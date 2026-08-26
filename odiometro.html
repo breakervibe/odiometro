@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Odiómetro · ¿quién recibe más hostilidad? — Observatorio de violencia digital</title>
+<meta name="description" content="Ranking y tablero del Odiómetro: magnitud de la hostilidad en línea contra las candidatas que monitoreamos en Ecuador, con su grupo de control masculino.">
+<link rel="icon" type="image/png" sizes="32x32" href="img/marca/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="img/marca/favicon.png">
+<link rel="apple-touch-icon" href="img/marca/favicon-180.png">
+<link rel="stylesheet" href="css/fuentes.css">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/sitio.css">
+<link rel="stylesheet" href="css/odiometro.css">
+<link rel="stylesheet" href="css/ranking.css">
+</head>
+<body class="pagina-tablero vista-ranking">
+<a class="saltar" href="#rkLista">Saltar al ranking</a>
+
+<header class="nav" id="nav">
+  <div class="nav__caja">
+    <a class="marca" href="index.html">
+      <img class="marca__logo" src="img/marca/logo-blanco.png" width="542" height="127"
+           alt="Odiómetro · rompe el odio, construye respeto">
+    </a>
+    <nav class="nav__enlaces" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="metodologia.html">Metodología</a>
+      <a href="odiometro.html" aria-current="page">Odiómetro</a>
+      <a href="quienes-somos.html">¿Quiénes somos?</a>
+      <details class="pais">
+        <summary>Ecuador <span aria-hidden="true">▾</span></summary>
+        <div class="pais__lista">
+          <span class="pais__act">Ecuador · activo</span>
+          <p>El método está diseñado para replicarse país por país. Los siguientes se anunciarán cuando haya padrón y grupo de control medidos.</p>
+        </div>
+      </details>
+    </nav>
+    <button class="nav__menu" type="button" aria-expanded="false" aria-controls="nav"><span class="sr-solo">Menú</span>☰</button>
+  </div>
+</header>
+
+<!-- Dos vistas en una página, conmutadas por #: el ranking aterriza y el
+     tablero se abre a demanda. Ninguna de las dos desplaza el documento cuando
+     el tablero está en pantalla: sus paneles ya tienen scroll propio, y una
+     segunda barra hacía que la rueda moviera una cosa u otra según el cursor. -->
+<main>
+
+  <!-- ── Vista 1 · Ranking ─────────────────────────────────────────── -->
+  <section class="rk" id="ranking" aria-labelledby="rkTitulo">
+    <div class="rk__cab">
+      <div>
+        <h1 id="rkTitulo">¿Quién recibe más hostilidad?</h1>
+        <p class="rk__lead">Nueve candidatas, medidas con el mismo método y en el mismo periodo. <b>La barra es la magnitud del Odiómetro, de 0 a 10; el color, su banda.</b> A la derecha, la categoría de agresión que más se dispara frente al grupo de control. Pulsa un nombre para ver su ficha.</p>
+      </div>
+      <nav class="vistas" aria-label="Vista">
+        <a href="#ranking" aria-current="page">Ranking</a>
+        <a href="#tablero">Tablero completo →</a>
+      </nav>
+    </div>
+
+    <div class="fijo">
+      <div class="leyenda" aria-hidden="true">
+        <span><i style="background:var(--b1)"></i>Calma 0–1,9</span><span><i style="background:var(--b2)"></i>Murmullo 2–3,4</span><span><i style="background:var(--b3)"></i>Tensión 3,5–4,9</span><span><i style="background:var(--b4)"></i>Hostigamiento 5–6,9</span><span><i style="background:var(--b5)"></i>Linchamiento 7–10</span>
+      </div>
+      <div class="escala" aria-hidden="true">
+        <span></span><span></span><span>Candidata</span>
+        <span class="escala__eje"><i style="left:0;transform:none">0</i><i style="left:20%">2</i><i style="left:35%">3,5</i><i style="left:50%">5</i><i style="left:70%">7</i><i style="left:100%;transform:translateX(-100%)">10</i></span>
+        <span style="text-align:right">Magnitud<sup>*</sup></span>
+        <span>Banda · ¿qué se dispara?<sup>**</sup></span>
+      </div>
+    </div>
+
+    <ol class="lista" id="rkLista" aria-live="polite">
+      <li class="rk__cargando">Cargando el ranking…</li>
+    </ol>
+
+    <p class="rk__pie rk__pie--nota"><sup>*</sup> Magnitud del Odiómetro, de 0 a 10, calculada sobre los últimos 15 días. «Hostilidad irrelevante»: demasiado poca para calcular una magnitud. <span id="rkActualizado"></span></p>
+    <p class="rk__pie rk__pie--nota"><sup>**</sup> Proporción: cuántas veces su tasa en esa categoría de agresión supera la del grupo de control masculino, medido con el mismo método y en el mismo periodo. «Ataques aislados»: tan pocos y sueltos que no hay categoría que comparar.</p>
+  </section>
+
+  <!-- ── Vista 2 · Tablero ─────────────────────────────────────────── -->
+  <section class="tv" id="tablero" aria-label="Tablero completo">
+    <div class="tablero" data-listo="no">
+      <div class="tablero__cargando">Cargando el tablero…</div>
+      <!-- El marco se carga la primera vez que se abre esta vista, no antes. -->
+      <iframe data-src="tablero/index.html" title="Tablero del Odiómetro: magnitud de la hostilidad en línea"></iframe>
+    </div>
+    <section class="solo-movil">
+      <div class="limite">
+        <p class="mono">El tablero</p>
+        <h2>Está hecho para una pantalla grande</h2>
+        <p>El tablero muestra la traza temporal y los paneles a la vez, y necesita ancho para que las curvas se puedan comparar. Ábrelo desde un computador; el ranking sí funciona aquí.</p>
+        <a class="btn btn--tinta" href="#ranking">← Volver al ranking</a>
+      </div>
+    </section>
+  </section>
+
+</main>
+
+<!-- Ficha por candidata. Se abre desde el ranking; sin volúmenes. -->
+<div class="ficha-fondo" id="fichaFondo" hidden>
+  <div class="ficha" role="dialog" aria-modal="true" aria-labelledby="fichaNom">
+    <button class="ficha__x" type="button" id="fichaX" aria-label="Cerrar ficha">✕</button>
+    <div class="ficha__cab" id="fichaCab"></div>
+    <div class="ficha__cuerpo">
+      <div><div class="ficha__cifras" id="fichaCifras"></div><p class="ficha__insight" id="fichaInsight"></p></div>
+      <div><div id="fichaComp"></div><div id="fichaCuentas"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Esta página NO lleva pie: ver la nota en css/odiometro.css. -->
+
+<script src="js/ranking.js"></script>
+<script>
+  // El iframe avisa cuando termina de pintar, para retirar el cartel de carga.
+  (function(){
+    var caja = document.querySelector('.tablero');
+    var marco = caja && caja.querySelector('iframe');
+    if (marco) marco.addEventListener('load', function(){ if (marco.src) caja.dataset.listo = 'si'; });
+  })();
+  // Menú móvil
+  (function(){
+    var nav = document.getElementById('nav');
+    var b = nav.querySelector('.nav__menu');
+    b.addEventListener('click', function(){
+      var abierto = nav.dataset.abierto === 'si';
+      nav.dataset.abierto = abierto ? 'no' : 'si';
+      b.setAttribute('aria-expanded', String(!abierto));
+    });
+  })();
+</script>
+</body>
+</html>

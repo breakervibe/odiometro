@@ -1,0 +1,179 @@
+/* ── Metodología · diez secciones con índice pegajoso ─────── */
+html{ scroll-padding-top: calc(var(--nav-alto) + 24px); }
+
+.met{ background: var(--blanco); }
+.met__rejilla{
+  display:grid; grid-template-columns: var(--lateral) minmax(0,1fr); gap: 64px;
+  max-width: var(--ancho); margin-inline:auto; padding: 56px var(--margen) 72px;
+  align-items:start;
+}
+
+/* — índice — */
+.indice{ position: sticky; top: calc(var(--nav-alto) + 28px); }
+.indice__rot{
+  font-family: var(--mono); font-size: var(--t-mono-3); font-weight:500;
+  letter-spacing:.18em; text-transform:uppercase; color: var(--tinta-5);
+  padding-bottom:12px; border-bottom:1px solid var(--regla); margin-bottom:6px;
+}
+.indice ol{ list-style:none; margin:0; padding:0; }
+.indice a{
+  display:block; padding:9px 0 9px 12px; font-size: var(--t-menor);
+  line-height:1.35; color: var(--tinta-3); border-left:2px solid transparent;
+}
+.indice a:hover{ color: var(--morado); }
+.indice a.activo{
+  color: var(--morado); font-weight:700;
+  border-left-color: var(--durazno); background: var(--papel);
+}
+.indice__num{ font-family: var(--mono); font-size: var(--t-mono-3); color: var(--tinta-5); }
+.indice a.activo .indice__num{ color: var(--morado); }
+
+/* — secciones — */
+.sec{ padding-block: 46px; border-top:1px solid var(--regla); }
+.sec:first-child{ border-top:0; padding-top:0; }
+.sec > h2{
+  font-size: var(--t-h2); font-weight:800; line-height:1.1;
+  letter-spacing:-.028em; margin-bottom:18px;
+}
+.sec h2 .sec__num{
+  font-family: var(--mono); font-size: var(--t-mono); font-weight:500;
+  letter-spacing:.16em; color: var(--morado); display:block; margin-bottom:10px;
+}
+.sec h3{
+  font-size: 23px; font-weight:700; letter-spacing:-.015em;
+  margin: 34px 0 12px;
+}
+.sec p{ font-size: var(--t-base); line-height:1.7; color: var(--tinta-2); max-width: 68ch; }
+.sec p + p{ margin-top:12px; }
+
+.entradilla{
+  font-size: 21px !important; line-height:1.55 !important;
+  color: var(--tinta) !important; border-left:3px solid var(--durazno);
+  padding-left:18px;
+}
+.nota{
+  font-family: var(--cuerpo); font-size: var(--t-pie); line-height:1.65;
+  color: var(--tinta-3); margin-top:16px; max-width: 68ch;
+  border-left:2px solid var(--regla-2); padding-left:15px;
+}
+
+.rot{
+  font-family: var(--mono); font-size: var(--t-mono-3); font-weight:500;
+  letter-spacing:.18em; text-transform:uppercase; color: var(--tinta-5);
+  margin-bottom:10px;
+}
+
+/* copy aún no escrito: visible a propósito, para que no se cuele */
+.pendiente{
+  display:block; border:1px dashed var(--regla-2); background: var(--papel);
+  padding:14px 16px; font-family: var(--mono); font-size: var(--t-mono-2);
+  color: var(--tinta-5); letter-spacing:.04em; max-width:68ch;
+}
+
+/* — tablas — */
+.tabla{ width:100%; border-collapse:collapse; margin-top:16px; font-size: var(--t-menor); }
+.tabla th{
+  text-align:left; font-family: var(--mono); font-size: var(--t-mono-2);
+  font-weight:500; letter-spacing:.16em; text-transform:uppercase;
+  color: var(--tinta-5); padding:0 14px 11px 0; border-bottom:1px solid var(--tinta);
+}
+.tabla td{
+  padding:14px 14px 14px 0; border-bottom:1px solid var(--regla);
+  vertical-align:top; line-height:1.55; color: var(--tinta-2);
+}
+/* La primera celda es la columna «#» en la tabla de categorías. */
+.tabla td:first-child{ font-family: var(--mono); color: var(--tinta-5); width:34px; }
+/* …pero en §01 y §09 la primera celda es texto con nombre propio. Sin el `td`
+   aquí, `.tabla td:first-child` ganaba por especificidad y las pintaba en
+   monoespaciada gris y a 34 px de ancho. */
+.tabla td.cat{
+  font-family: var(--display); font-weight:700; color: var(--tinta);
+  font-size: var(--t-menor); width:auto;
+}
+.grav{
+  display:inline-block; font-family: var(--mono); font-size: var(--t-mono-3);
+  letter-spacing:.1em; text-transform:uppercase; padding:4px 10px; white-space:nowrap;
+  background: var(--papel); border:1px solid var(--regla-2); color: var(--tinta-3);
+}
+.grav--baja{ border-color: var(--grav-baja-b); background: var(--grav-baja-f); }
+.grav--media{ border-color: var(--grav-media-b); background: var(--grav-media-f); }
+.grav--mediaalta{ border-color: var(--grav-mediaalta-b); background: var(--grav-mediaalta-f); }
+.grav--alta{ background: var(--tinta); border-color: var(--tinta); color: var(--blanco); }
+.grav--nula{ color: var(--tinta-6); }
+
+/* — fichas en rejilla — */
+.fichas{ display:grid; grid-template-columns: repeat(auto-fit, minmax(210px,1fr)); gap:1px; background: var(--regla); margin-top:18px; }
+.fichas > div{ background: var(--blanco); padding:20px 22px; }
+.fichas h4{
+  margin:0 0 8px; font-family: var(--display); font-size: var(--t-h3);
+  font-weight:700; letter-spacing:-.01em;
+}
+.fichas p{ font-size: var(--t-pie); line-height:1.6; color: var(--tinta-3); margin:0; }
+.fichas--marco{ border:1px solid var(--regla); }
+
+/* — gráfico del doble filtro — */
+.filtro{
+  display:flex; flex-wrap:wrap; align-items:center; gap:12px;
+  background: var(--papel); border:1px solid var(--regla); padding:22px; margin-top:18px;
+}
+.filtro__caja{
+  background: var(--blanco); border:1px solid var(--regla-2); padding:13px 17px;
+  font-family: var(--mono); font-size: var(--t-mono); color: var(--tinta-2); text-align:center;
+}
+.filtro__caja--fin{ background: var(--morado); border-color: var(--morado); color: var(--blanco); }
+.filtro__par{ display:flex; flex-direction:column; gap:6px; }
+.filtro__flecha{ color: var(--tinta-5); font-family: var(--mono); }
+
+/* — rampa de bandas — */
+.rampa{ display:grid; grid-template-columns: repeat(5,1fr); gap:2px; margin-top:18px; }
+.rampa > div{ background: var(--papel); padding:16px 14px; border-top:5px solid; }
+.rampa b{ display:block; font-family: var(--display); font-size: var(--t-h3); font-weight:700; }
+.rampa span{
+  font-family: var(--mono); font-size: var(--t-mono); color: var(--tinta-4);
+  font-variant-numeric: tabular-nums;
+}
+
+/* — barra de composición 40/25/25/10 — */
+.pesos{ display:flex; margin-top:18px; border:1px solid var(--regla); }
+.pesos > div{ padding:16px 14px; border-right:1px solid var(--regla); }
+.pesos > div:last-child{ border-right:0; }
+.pesos b{
+  display:block; font-family: var(--display); font-weight:800; font-size:26px;
+  line-height:1; letter-spacing:-.03em; color: var(--morado); margin-bottom:6px;
+}
+.pesos span{ font-size: var(--t-menor); color: var(--tinta-3); }
+
+/* — glosario — */
+.glosario{ border-top:1px solid var(--tinta); margin-top:18px; }
+.glosario details{ border-bottom:1px solid var(--regla); }
+.glosario summary{
+  cursor:pointer; list-style:none; padding:15px 0;
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  font-family: var(--display); font-weight:500; font-size: var(--t-h3);
+}
+.glosario summary::-webkit-details-marker{ display:none; }
+.glosario summary::after{ content:'+'; font-family: var(--mono); color: var(--morado); font-size:17px; }
+.glosario details[open] summary::after{ content:'−'; }
+.glosario details[open] summary{ color: var(--morado); font-weight:600; }
+/* La definición se lee como cualquier otro párrafo de la página: mismo cuerpo,
+   mismo interlineado. Antes iba dos escalones por debajo y parecía nota al pie. */
+.glosario p{ padding:0 0 22px; font-size: var(--t-base); line-height:1.7; color: var(--tinta-2); max-width:68ch; }
+
+@media (max-width: 980px){
+  /* `1fr` no baja del ancho mínimo del contenido: con la letra más grande, las
+     tablas de cuatro columnas empujaban la rejilla más allá del viewport y la
+     página entera se iba de lado. `minmax(0,·)` le da permiso para encoger. */
+  .met__rejilla{ grid-template-columns: minmax(0,1fr); gap:30px; padding-top:34px; }
+  /* Y lo que aun así no quepa rueda dentro de su caja, no de la página. */
+  .tabla{ display:block; overflow-x:auto; white-space:nowrap; }
+  .tabla td, .tabla th{ white-space:normal; }
+  .tabla td:last-child, .tabla th:last-child{ white-space:nowrap; }
+  .filtro, .pesos{ overflow-x:auto; }
+  .indice{ position:static; }
+  .indice ol{ display:flex; flex-wrap:wrap; gap:4px; }
+  .indice a{ border-left:0; border:1px solid var(--regla); padding:8px 12px; }
+  .indice a.activo{ border-color: var(--morado); }
+  .rampa{ grid-template-columns:1fr; }
+  .pesos{ flex-wrap:wrap; }
+  .pesos > div{ flex:1 1 45%; }
+}

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup · panel de tipos de agresión</title>
+<link rel="icon" type="image/png" sizes="32x32" href="img/marca/favicon-32.png">
+<style>
+/* ============================================================
+   MOCKUP — no forma parte del tablero.
+
+   Un solo panel con dos vistas, que sustituye a «¿Qué reciben
+   ellas?» y «¿De qué está hecho?». Los dos anteriores usaban la
+   misma taxonomía con nombres distintos, denominadores distintos
+   sin declarar y la misma forma visual: se leían como dos
+   categorizaciones rivales con cifras que no cuadraban.
+
+   Tipografía y tokens del tablero, no del sitio, para juzgarlo
+   como se vería dentro del instrumento.
+   ============================================================ */
+:root{
+  color-scheme: light;
+  --ground:#DCE4E9; --panel:#F7FAFB; --panel-2:#EDF2F5;
+  --ink:#10202B; --ink-2:#48606F; --ink-3:#7C91A0;
+  --rule:#D3DDE4; --rule-2:#E4EBEF; --control:#ABBAC5;
+  --ui:   system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --data: ui-monospace, "Cascadia Mono", "SF Mono", "Segoe UI Mono", Menlo, Consolas, monospace;
+}
+*{ box-sizing:border-box; }
+body{ margin:0; padding:22px; background:var(--ground); color:var(--ink); font-family:var(--ui); }
+
+.barra{ display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 18px; margin-bottom:18px; }
+.barra h1{ font-size:15px; font-weight:700; margin:0; letter-spacing:-.01em; }
+.barra p{ margin:0; font:11.5px/1.5 var(--data); color:var(--ink-2); }
+
+/* ── El panel ─────────────────────────────────────────────── */
+.panel{ background:var(--panel); border:1px solid var(--rule); max-width:1100px; }
+.panel__cab{
+  display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px;
+  padding:14px 18px; border-bottom:1px solid var(--rule);
+}
+.panel__cab h2{ font-size:15px; font-weight:700; margin:0; letter-spacing:-.01em; }
+.tabs{ display:flex; gap:2px; }
+.tabs button{
+  font:11.5px var(--data); cursor:pointer; padding:6px 13px;
+  background:var(--panel-2); color:var(--ink-3); border:1px solid var(--rule);
+}
+.tabs button:hover{ color:var(--ink); }
+.tabs button[aria-pressed="true"]{ background:var(--ink); color:var(--panel); border-color:var(--ink); }
+/* El denominador va en la cara, no en el ⓘ: es lo único que distingue una
+   vista de la otra, y es lo que faltaba en los dos paneles anteriores. */
+.deno{ margin-left:auto; font:11px var(--data); color:var(--ink-3); letter-spacing:.02em; }
+.cuerpo{ padding:16px 18px 18px; }
+
+/* ── Vista de composición ─────────────────────────────────── */
+.fc{
+  display:grid; grid-template-columns:1fr 280px 122px; gap:12px 16px;
+  align-items:center; padding:10px 0; border-bottom:1px solid var(--rule-2);
+}
+.fc:last-of-type{ border-bottom:0; }
+.fc--cab{ padding-bottom:8px; border-bottom:1px solid var(--ink); }
+.fc--cab span{ font:10.5px var(--data); color:var(--ink-3); letter-spacing:.06em; text-transform:uppercase; }
+.fc--cab em{ font-style:normal; letter-spacing:0; text-transform:none; }
+.fc__nom{ font-size:13.5px; }
+.fc__barras{ display:grid; gap:3px; }
+.fc__barras i{ display:block; height:8px; min-width:1px; }
+.fc__ella{ background:var(--ink); }
+.fc__el{ background:var(--control); }
+.fc__cifras{ display:grid; grid-template-columns:auto auto; gap:1px 9px; text-align:right; }
+.fc__cifras b{ font:600 12.5px var(--data); font-variant-numeric:tabular-nums; }
+.fc__cifras b.el{ color:var(--ink-2); font-weight:400; }
+.fc__cifras em{ font:10px var(--data); font-style:normal; color:var(--ink-3); }
+
+/* ── Vista de comparación ─────────────────────────────────── */
+.eje{ position:relative; height:18px; margin-bottom:6px; font:10px var(--data); color:var(--ink-3); }
+.eje span{ position:absolute; transform:translateX(-50%); }
+.fk{ display:grid; grid-template-columns:1fr 300px 104px; gap:12px 16px; align-items:center; padding:9px 0; }
+.fk__nom{ font-size:13.5px; }
+/* El total no es una categoría más: va arriba, en negrita y con una regla que
+   lo separa de las seis que lo explican. */
+.fk--total{ border-bottom:1px solid var(--ink); padding-bottom:12px; margin-bottom:6px; }
+.fk--total .fk__nom{ font-weight:700; }
+.fk__pista{
+  position:relative; height:20px; background:var(--panel-2);
+  border-left:1px solid var(--rule); border-right:1px solid var(--rule);
+}
+/* Longitud en log2 de la razón: «el doble» y «la mitad» se alejan lo mismo
+   del centro. Con escala lineal, una asimetría de 4,8× aplastaría al resto. */
+.fk__cero{ position:absolute; left:50%; top:0; bottom:0; width:1px; background:var(--ink-3); }
+.fk__barra{ position:absolute; top:4px; bottom:4px; }
+.fk__ella{ background:var(--ink); }
+.fk__el{ background:var(--control); }
+.fk__raz{ font:600 12.5px var(--data); text-align:right; font-variant-numeric:tabular-nums; }
+.fk__raz small{ display:block; font:10px var(--data); font-weight:400; color:var(--ink-3); }
+
+.nota{ font:11px/1.7 var(--data); color:var(--ink-2); border-top:1px solid var(--rule-2); padding-top:12px; margin:16px 0 0; }
+.nota b{ color:var(--ink); font-weight:600; }
+.nota + .nota{ border-top:0; padding-top:0; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<div class="barra">
+  <h1>Panel de tipos de agresión · propuesta</h1>
+  <p>Datos medidos contra la base · ventana de 15 días</p>
+</div>
+
+<section class="panel">
+  <div class="panel__cab">
+    <h2>Tipos de agresión</h2>
+    <div class="tabs" role="group" aria-label="Vista">
+      <button type="button" data-v="comp" aria-pressed="true">Composición</button>
+      <button type="button" data-v="asim" aria-pressed="false">Comparación con el control</button>
+    </div>
+    <span class="deno" id="deno"></span>
+  </div>
+  <div class="cuerpo" id="cuerpo"></div>
+</section>
+
+<script>
+// ── Un solo origen: los conteos de mensajes ──────────────────
+// La cuota es mensajes ÷ hostiles del grupo; la tasa es mensajes ÷ menciones
+// del grupo. Las dos vistas salen del mismo array, así que no pueden
+// contradecirse: fue lo que pasó al calcularlas por separado.
+const CAT = ['Insulto y desprecio','Estereotipo de género',
+             'Sexualización y cosificación','Desinformación de género',
+             'Racismo y discriminación','Amenaza y violencia explícita'];
+
+// Mensajes hostiles por categoría. Incluye los 24 y 13 en que las lecturas
+// vieron tipos distintos: cada uno va al AGRAVIO MÁS FUERTE que se le vio
+// —la mayor severidad asignada y, a igualdad, la categoría más grave de la
+// taxonomía—. Sin casilla residual y sin mensajes fuera del desglose.
+const MSG     = { ella:[363, 42, 65, 8, 17, 4], el:[479, 8, 30, 19, 38, 4] };
+const MENCION = { ella:12303, el:11140 };
+
+const hostiles = g => MSG[g].reduce((a,b)=>a+b,0);
+const cuota    = g => MSG[g].map(n => 100*n/hostiles(g));
+const tasa     = g => MSG[g].map(n => 100*n/MENCION[g]);
+const tasaTot  = g => 100*hostiles(g)/MENCION[g];
+
+const n1 = v => v.toLocaleString('es',{minimumFractionDigits:1,maximumFractionDigits:1});
+const n2 = v => v.toLocaleString('es',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+function razon(a, b){
+  const r = a/b;
+  return { txt:n1(r>=1?r:1/r)+'×', mas:r>=1, mag:Math.min(1, Math.abs(Math.log2(r))/3) };
+}
+
+function vistaComposicion(){
+  const ca = cuota('ella'), ce = cuota('el');
+  const filas = CAT.map((c,i) => `
+    <div class="fc">
+      <span class="fc__nom">${c}</span>
+      <span class="fc__barras">
+        <i class="fc__ella" style="width:${ca[i]}%"></i>
+        <i class="fc__el"   style="width:${ce[i]}%"></i>
+      </span>
+      <span class="fc__cifras">
+        <b>${n1(ca[i])} %</b><em>${MSG.ella[i]}</em>
+        <b class="el">${n1(ce[i])} %</b><em>${MSG.el[i]}</em>
+      </span>
+    </div>`).join('');
+  return `
+    <div class="fc fc--cab">
+      <span>Categoría</span>
+      <span><em>arriba ellas · abajo el control</em></span>
+      <span><em>% y nº de mensajes</em></span>
+    </div>${filas}
+    <p class="nota"><b>El insulto y el desprecio son el fondo común, no el hallazgo</b>
+    — el ${n1(ca[0])} % de lo que recibe ella y el ${n1(ce[0])} % de lo de él. Lo que
+    separa a los dos grupos está en las dos siguientes: estereotipo pesa
+    <b>${n1(ca[1]/ce[1])} veces más</b> en lo que recibe ella y sexualización
+    <b>${n1(ca[2]/ce[2])} veces más</b>.</p>`;
+}
+
+function vistaComparacion(){
+  const ta = tasa('ella'), te = tasa('el');
+  const filas = CAT.map((c,i) => {
+    const r = razon(ta[i], te[i]);
+    const w = (r.mag*50).toFixed(1);
+    const pos = r.mas ? `left:50%; width:${w}%` : `right:50%; width:${w}%`;
+    return `
+      <div class="fk">
+        <span class="fk__nom">${c}</span>
+        <span class="fk__pista">
+          <i class="fk__cero"></i>
+          <i class="fk__barra ${r.mas?'fk__ella':'fk__el'}" style="${pos}"></i>
+        </span>
+        <span class="fk__raz">${r.txt} ${r.mas?'más':'menos'}
+          <small>${n2(ta[i])} % · ${n2(te[i])} %</small></span>
+      </div>`;
+  }).join('');
+  const rt = razon(tasaTot('ella'), tasaTot('el'));
+  const wt = (rt.mag*50).toFixed(1);
+  const post = rt.mas ? `left:50%; width:${wt}%` : `right:50%; width:${wt}%`;
+  // El total va primero y separado: es el titular, y las seis filas de abajo
+  // son la explicación. Sin él, el insight habla de una cifra que no está.
+  const total = `
+    <div class="fk fk--total">
+      <span class="fk__nom">Toda la hostilidad</span>
+      <span class="fk__pista">
+        <i class="fk__cero"></i>
+        <i class="fk__barra ${rt.mas?'fk__ella':'fk__el'}" style="${post}"></i>
+      </span>
+      <span class="fk__raz">${rt.txt} ${rt.mas?'más':'menos'}
+        <small>${n2(tasaTot('ella'))} % · ${n2(tasaTot('el'))} %</small></span>
+    </div>`;
+  return `
+    <div class="eje">
+      <span style="left:14%">él recibe más</span>
+      <span style="left:50%">igual</span>
+      <span style="left:86%">ella recibe más</span>
+    </div>${total}${filas}
+    <p class="nota"><b>El total se explica solo.</b> Ellas reciben ${rt.txt}
+    ${rt.mas?'más':'menos'} hostilidad en conjunto (${n2(tasaTot('ella'))} % frente a
+    ${n2(tasaTot('el'))} %) <b>porque a él le llueven más insultos sin marca de género</b> —
+    ${n2(te[0])} % frente a ${n2(ta[0])} %. En estereotipo y sexualización la relación
+    se invierte.</p>`;
+}
+
+const cuerpo = document.getElementById('cuerpo');
+const deno   = document.getElementById('deno');
+function pintar(v){
+  const comp = v === 'comp';
+  cuerpo.innerHTML = comp ? vistaComposicion() : vistaComparacion();
+  deno.textContent = comp
+    ? `de lo hostil de cada grupo · ${hostiles('ella')} y ${hostiles('el')} mensajes`
+    : 'por cada 100 menciones recibidas';
+}
+document.querySelectorAll('[data-v]').forEach(b =>
+  b.addEventListener('click', () => {
+    document.querySelectorAll('[data-v]').forEach(o =>
+      o.setAttribute('aria-pressed', String(o === b)));
+    pintar(b.dataset.v);
+  }));
+pintar('comp');
+</script>
+</body>
+</html>

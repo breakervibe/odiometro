@@ -1,0 +1,2343 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odiómetro · violencia digital contra mujeres políticas en Ecuador</title>
+<style>*{margin:0;padding:0}</style>
+</head>
+<body>
+<title>Odiómetro Ecuador</title>
+<style>
+/* ============================================================
+   ODIÓMETRO — tablero de una pantalla
+   Mundo visual único y deliberado (sin tema claro/oscuro): todo
+   color se pinta explícitamente para que la página se sostenga
+   sobre cualquier fondo anfitrión.
+
+   Tres reglas que gobiernan todo:
+   1. El color vive en UN solo sitio: el sismógrafo. El resto del
+      tablero es tinta sobre papel. Por eso el instrumento se
+      invierte a fondo oscuro — es la pieza, no un panel más.
+   2. En la traza, el color va atado a la ALTURA. La posición y
+      las etiquetas de banda ya dicen el nivel; el tono sólo lo
+      refuerza, nunca lo sustituye.
+   3. Los textos explicativos no son copy: son una lectura más,
+      generada del dato, y van marcados como tales.
+   ============================================================ */
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400 700;
+  font-display:swap;src:url('../fonts/schibsted-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400 700;
+  font-display:swap;src:url('../fonts/schibsted-latinext.woff2') format('woff2');
+  unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Atkinson Hyperlegible Next';font-style:normal;font-weight:400 700;
+  font-display:swap;src:url('../fonts/atkinson-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Atkinson Hyperlegible Next';font-style:normal;font-weight:400 700;
+  font-display:swap;src:url('../fonts/atkinson-latinext.woff2') format('woff2');
+  unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;
+  src:url('../fonts/plexmono-400-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;
+  src:url('../fonts/plexmono-400-latinext.woff2') format('woff2');
+  unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;
+  src:url('../fonts/plexmono-500-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;
+  src:url('../fonts/plexmono-600-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+
+:root{
+  color-scheme: light;
+
+  /* ── Paleta ─────────────────────────────────────────────────────────────
+     Todos los valores vienen de sitio/css/tokens.css. El tablero tenía su
+     propia gama azul-fría, heredada de la maqueta de consola, y convivía mal
+     con el morado y el papel cálido del sitio: al embeberlo en un iframe se
+     leían como dos productos distintos.
+
+     Los nombres se conservan (--ground, --ink, --dk…) para no reescribir las
+     700 líneas de CSS que ya los usan. Lo que cambia es a qué apuntan.
+     ──────────────────────────────────────────────────────────────────────── */
+
+  /* superficies claras: papel del sitio, con el fondo teñido de morado para
+     que los paneles blancos se despeguen sin recurrir a sombras */
+  --ground:  #ece7ee;
+  --panel:   #ffffff;   /* --blanco */
+  --panel-2: #f7f6f6;   /* --papel  */
+
+  --ink:     #262427;   /* --tinta   */
+  --ink-2:   #5f5b5f;   /* --tinta-3 */
+  --ink-3:   #8d888d;   /* --tinta-5 */
+  --rule:    #dcdada;   /* --regla-2 */
+  --rule-2:  #e4e2e2;   /* --regla   */
+
+  /* el control es la línea base, no un actor: gris cálido, nunca acento */
+  --control: #a09ba0;   /* --tinta-6 */
+  --alarm:   #c2273c;
+  --acento:  #7a3d94;   /* --morado, con cuentagotas: foco y estado activo */
+
+  /* ── El instrumento ─────────────────────────────────────────────────────
+     El panel oscuro del sismógrafo era azul-negro. Ahora es el morado más
+     hondo del sitio: son los mismos tres tintes con los que se oscurece la
+     fotografía de portada (--velo-pie y --velo-1), así que el instrumento
+     queda emparentado con la portada en vez de flotar aparte.
+     ──────────────────────────────────────────────────────────────────────── */
+  --dk:      #180a20;   /* --velo-pie 24,10,32 */
+  --dk-2:    #261032;   /* --velo-1   38,16,50 */
+  /* Las tintas «sobre morado» del sitio funcionan en su cabecera, que es
+     morado medio. Sobre el casi-negro del instrumento el mismo lila se ve
+     lavado: cumple el contraste sobre el papel pero a 11 px, en versalitas
+     y con espaciado, se lee peor de lo que dice el número. Aquí van casi
+     neutras — conservan un rastro de lila y ganan de 7,1 a 10,1 de razón. */
+  --dk-ink:  #ffffff;   /* 19,0 : 1 */
+  --dk-ink2: #e6e1ea;   /* 14,8 : 1 */
+  --dk-ink3: #c2bac9;   /* 10,1 : 1 */
+  --dk-rule: rgba(255,255,255,.13);
+  /* Gris cálido con un rastro de morado, no morado. La curva del control
+     es la línea base contra la que se lee todo: pintarla con el color de
+     marca la convertiría en protagonista y le daría al grupo de hombres
+     el acento que le corresponde al proyecto. */
+  --dk-ctrl: #9a8fa3;
+
+  /* — bandas: ya eran idénticas a las del sitio, no se tocan — */
+  --b1: #2FD3A8;  /* Calma     */
+  --b2: #9BD437;  /* Murmullo  */
+  --b3: #F2BE3C;  /* Tensión   */
+  --b4: #FF8A3D;  /* Hostigamiento  */
+  --b5: #FF4D5A;  /* Linchamiento */
+
+  /* ── Tipografía ─────────────────────────────────────────────────────────
+     El tablero usaba system-ui: la misma letra que cualquier panel de
+     administración. Ahora carga las tres del sitio y reparte los papeles
+     igual que él: grotesca para la interfaz, Atkinson para la prosa que hay
+     que leer despacio, y mono para todo lo que es número.
+
+     La grotesca lleva el peso de la interfaz —y no Atkinson— porque su ancho
+     se parece al de system-ui: cambiar de familia no descoloca una rejilla
+     ya ajustada al píxel.
+     ──────────────────────────────────────────────────────────────────────── */
+  --ui:    'Schibsted Grotesk', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --prosa: 'Atkinson Hyperlegible Next', system-ui, -apple-system, "Segoe UI", sans-serif;
+  --data:  'IBM Plex Mono', ui-monospace, "Cascadia Mono", "SF Mono", "Segoe UI Mono", Menlo, Consolas, monospace;
+}
+
+*{ box-sizing: border-box; }
+html, body{ height: 100%; }
+body{
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--ui);
+  font-size: 14.5px; line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+
+/* ---------- primitivas ---------- */
+.eyebrow{
+  font-family: var(--data); font-size: 11px;
+  letter-spacing: .13em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0;
+}
+.say{
+  border-left: 2px solid var(--ink-3);
+  padding: 0 0 0 11px; margin: 0;
+  font-size: 14px; line-height: 1.5; color: var(--ink-2);
+}
+.say b{ color: var(--ink); font-weight: 600; }
+.say .stamp{
+  display: block; margin-top: 4px;
+  font-family: var(--data); font-size: 10px;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3);
+}
+.say--dk{ border-left-color: var(--dk-ink3); color: var(--dk-ink2); }
+.say--dk b{ color: var(--dk-ink); }
+.say--dk .stamp{ color: var(--dk-ink3); }
+
+/* ---------- barras superiores ---------- */
+.demo{
+  flex: none; background: var(--ink); color: var(--panel);
+  font-family: var(--data); font-size: 10.5px;
+  letter-spacing: .12em; text-transform: uppercase;
+  text-align: center; padding: 5px 16px;
+}
+.demo b{ color: #F0A9AE; font-weight: 400; }
+
+/* Sin marca propia: el tablero vive embebido bajo la cabecera del sitio,
+   que ya lleva el logo. Repetirlo era decir dos veces lo mismo y costaba
+   altura en una pantalla que quiere caber entera. */
+header{ flex: none; background: var(--ground); border-bottom: 1px solid var(--rule); }
+.bar{ padding: 9px 18px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.live{
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--data); font-size: 11.5px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2);
+}
+.pulse{ width: 7px; height: 7px; border-radius: 50%; background: var(--ink); animation: pulse 2.6s ease-out infinite; }
+/* En frío el punto deja de latir y se pone en alarma: el latido es la
+   señal de que hay dato entrando, y latir sobre un archivo de ayer era
+   justo la mentira que había que quitar. */
+.live--frio{ color: var(--alarm); }
+.live--frio .pulse{ animation: none; background: var(--alarm); }
+@keyframes pulse{ 0%,100%{ opacity:1 } 55%{ opacity:.25 } }
+.spacer{ flex: 1 1 auto; }
+/* Los rangos viven en la cabecera del panel oscuro: la fila de cabecera
+   propia costaba ~50 px de alto en una pantalla que quiere caber entera, y un
+   selector que gobierna todo el tablero puede vivir donde vive el título. */
+.ranges{ display: flex; background: var(--dk-2); border: 1px solid var(--dk-rule);
+         border-radius: 4px; overflow: hidden; }
+.volver{ margin-left: auto; margin-right: 12px; font-family: var(--ui); font-size: 13px;
+         font-weight: 600; color: var(--dk-ink2); text-decoration: none;
+         padding: 6px 12px; border: 1px solid var(--dk-rule); border-radius: 4px; }
+.volver:hover{ color: var(--dk-ink); background: rgba(255,255,255,.06); }
+.phead .note{ margin-left: 0; }
+.ranges button{
+  font-family: var(--ui); font-size: 13px; font-weight: 500;
+  background: none; color: var(--dk-ink3);
+  border: 0; border-right: 1px solid var(--dk-rule);
+  padding: 6px 13px; cursor: pointer; transition: background .14s, color .14s;
+}
+.ranges button:last-child{ border-right: 0; }
+.ranges button:hover{ color: var(--dk-ink); background: rgba(255,255,255,.06); }
+/* El único morado de la interfaz clara: marca qué ventana estás mirando.
+   Un acento que aparece una vez se lee como acento; repartido por el panel
+   se vuelve decoración. */
+.ranges button[aria-pressed="true"]{ color: #fff; background: var(--acento); }
+button:focus-visible{ outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* ---------- rejilla ---------- */
+.wrap{
+  flex: 1 1 auto; min-height: 0;
+  padding: 12px 18px 14px;
+  display: grid; grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: minmax(300px, 53fr) minmax(258px, 47fr);
+  gap: 12px;
+}
+.g3{ grid-column: span 3 } .g4{ grid-column: span 4 }
+.g5{ grid-column: span 5 } .g6{ grid-column: span 6 }
+.g7{ grid-column: span 7 }
+.g12{ grid-column: 1 / -1 }
+
+.panel{
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  display: flex; flex-direction: column;
+  min-width: 0; min-height: 0; overflow: hidden;
+}
+.phead{
+  flex: none; display: flex; align-items: center; gap: 8px;
+  padding: 9px 14px 8px; border-bottom: 1px solid var(--rule-2);
+}
+.phead h2{ font-size: 14.5px; font-weight: 700; margin: 0; }
+.phead .note{ font-family: var(--data); font-size: 10.5px; color: var(--ink-3); margin-left: auto; letter-spacing: .05em; }
+.pbody{ flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 12px 14px 13px; display: flex; flex-direction: column; }
+/* `column` es obligatorio: sin dirección, el flex colocó las filas del padrón
+   una al lado de otra y el panel salió con barra horizontal. */
+.scroller{ flex: 1 1 auto; min-height: 0; overflow-y: auto;
+           display: flex; flex-direction: column; }
+.scroller > *{ flex: 1 1 auto; }
+
+/* ---------- el instrumento ---------- */
+.panel--dk{ background: var(--dk); border-color: var(--dk); color: var(--dk-ink); }
+.panel--dk .phead{ border-bottom-color: var(--dk-rule); }
+.panel--dk .phead .note{ color: var(--dk-ink3); font-size: 11.5px; }
+.panel--dk .eyebrow{ color: var(--dk-ink3); font-size: 12px; }
+.panel--dk .say{ font-size: 14.5px; }
+.panel--dk .iq{ border-color: var(--dk-ink3); color: var(--dk-ink3); }
+.panel--dk .iq:hover{ color: var(--dk-ink); border-color: var(--dk-ink); }
+.panel--dk .iq[aria-expanded="true"]{ background: var(--dk-ink); border-color: var(--dk-ink); color: var(--dk); }
+.panel--dk .info{ background: var(--dk-2); }
+.panel--dk .info h3{ color: var(--dk-ink); }
+.panel--dk .info p{ color: var(--dk-ink2); }
+.panel--dk .info b{ color: var(--dk-ink); }
+.panel--dk .info .x{ color: var(--dk-ink3); }
+.panel--dk .info .x:hover{ background: var(--dk-rule); color: var(--dk-ink); }
+.panel--dk .levels > div{ border-bottom-color: var(--dk-rule); }
+.panel--dk .levels .rng{ color: var(--dk-ink3); }
+.panel--dk .levels p{ color: var(--dk-ink2); }
+.panel--dk button:focus-visible{ outline-color: var(--dk-ink); }
+
+/* La franja del episodio tiene su propia fila: la de arriba no puede
+   invadirla por mucho que crezca su contenido. */
+.instr{
+  flex: 1 1 auto; min-height: 0;
+  display: grid; grid-template-columns: 284px 1fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 20px; padding: 13px 16px 12px;
+}
+.readout{ display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+/* La lectura es lo único que puede ceder. El número, la banda y el control
+   nunca se encogen ni se desplazan: son la lectura del instrumento. */
+.readout > .eyebrow, .readout > .mag, .readout > .bandrow, .readout > .vs{ flex: none; }
+.mag{
+  font-family: var(--data); font-variant-numeric: tabular-nums;
+  font-size: 66px; font-weight: 600; line-height: .82;
+  letter-spacing: -.05em; margin: 6px 0 0 -4px;
+}
+.mag small{ font-size: 18px; letter-spacing: 0; color: var(--dk-ink3); margin-left: 3px; }
+.bandrow{ display: flex; align-items: baseline; gap: 10px; margin-top: 10px; }
+.bandname{ font-size: 18px; font-weight: 700; margin: 0; }
+.delta{ font-family: var(--data); font-size: 12.5px; color: var(--dk-ink2); margin: 0 0 0 auto; }
+.vs{
+  display: flex; align-items: baseline; gap: 10px;
+  margin-top: 11px; padding-top: 10px; border-top: 1px solid var(--dk-rule);
+}
+.vs .k{ font-size: 13px; color: var(--dk-ink3); }
+.vs .v{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 600; color: var(--dk-ctrl); margin-left: auto; }
+#sayNow{ margin-top: auto; padding-top: 12px; flex: 0 1 auto; min-height: 0; overflow-y: auto; }
+
+.recwrap{ position: relative; display: flex; flex-direction: column; min-height: 0; }
+.sides{
+  flex: none; display: flex; justify-content: space-between; align-items: center;
+  gap: 14px; flex-wrap: wrap;
+  font-family: var(--data); font-size: 11.5px;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--dk-ink3);
+}
+.lg{ display: inline-flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.sw{ display: inline-block; width: 13px; height: 3px; border-radius: 1px; }
+.sw--w{ background: linear-gradient(90deg, var(--b3), var(--b5)); }
+.sw--c{ background: var(--dk-ctrl); margin-left: 12px; }
+.sw--b{ height: 9px; background: rgba(255,138,61,.30); margin-left: 12px; }
+canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: crosshair; }
+/* Carrusel: cada marca está anclada a un instante y viaja con la traza.
+   El recorte de los bordes es lo que hace que entren y salgan limpias. */
+.timeaxis{
+  flex: none; position: relative; height: 23px; overflow: hidden;
+  font-family: var(--data); font-size: 11.5px; color: var(--dk-ink3);
+  margin-top: 5px; border-top: 1px solid var(--dk-rule);
+}
+.timeaxis span{
+  position: absolute; top: 6px; left: 0;
+  white-space: nowrap; will-change: transform;
+}
+.timeaxis .now{
+  left: auto; right: 0; transform: none; z-index: 2;
+  color: var(--dk-ink2); background: var(--dk); padding-left: 9px;
+}
+/* El texto lleva tinta, nunca el color de la serie: en ámbar o verde
+   sobre claro no se leía. El color va en el punto, que sí contrasta. */
+.tip{
+  position: absolute; pointer-events: none; opacity: 0;
+  transform: translate(-50%, 0);
+  /* Fondo propio, no `--dk-ink`: heredarlo ataba el tooltip a la tinta del
+     panel oscuro, y al aclararla el tooltip cambiaba de color sin que nadie
+     lo decidiera. */
+  background: var(--panel); color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 4px; padding: 9px 12px 10px;
+  font-family: var(--data); font-size: 13px; line-height: 1.55;
+  white-space: nowrap; transition: opacity .12s; z-index: 6;
+  box-shadow: 0 8px 22px rgba(0,0,0,.4);
+}
+.tip__t{
+  /* Estaba en --ink-3 sobre lila pálido: 2,7 : 1, menos de la mitad del
+     mínimo. Es la línea que dice QUÉ instante se está mirando. */
+  font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-2); margin-bottom: 7px;
+}
+.tip__r{ display: grid; grid-template-columns: 10px 58px auto; align-items: center; gap: 9px; }
+.tip__r + .tip__r{ margin-top: 3px; }
+.tip__r i{ display: block; width: 9px; height: 9px; border-radius: 50%; }
+/* La brecha lleva la misma marca que la banda sombreada del gráfico */
+.tip__r--gap{ margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--rule); }
+.tip__r--gap i{ border-radius: 1px; height: 11px; opacity: .42; }
+.tip__r span{ color: var(--ink-2); }
+.tip__r b{ font-weight: 600; font-variant-numeric: tabular-nums; }
+.tip__r b em{ font-style: normal; font-weight: 400; color: var(--ink-2); margin-left: 6px; }
+.pausehint{
+  position: absolute; top: 22px; right: 0; z-index: 5;
+  font-family: var(--data); font-size: 10px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--dk-ink3);
+  background: rgba(14,26,36,.88); padding: 2px 7px; border-radius: 2px;
+  pointer-events: none;
+}
+.pausehint[hidden]{ display: none; }
+/* franja del episodio: el episodio es un punto del tiempo, va en la línea */
+.strip{
+  grid-column: 1 / -1; grid-row: 2;
+  display: flex; align-items: baseline; gap: 22px; flex-wrap: wrap;
+  padding: 10px 16px 0; margin: 0 -16px;
+  border-top: 1px solid var(--dk-rule);
+}
+.strip .lab{
+  font-family: var(--data); font-size: 11.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--dk-ink3);
+}
+.strip .f{ font-size: 13.5px; color: var(--dk-ink2); }
+.strip .f b{ font-family: var(--data); font-variant-numeric: tabular-nums; font-weight: 600; color: var(--dk-ink); }
+.strip .f b.hot{ color: var(--b5); }
+
+/* ---------- información ---------- */
+.iq{
+  width: 19px; height: 19px; flex: none;
+  border-radius: 50%; border: 1.5px solid var(--ink-3);
+  background: none; color: var(--ink-3);
+  font-family: var(--data); font-size: 11.5px; font-weight: 700;
+  line-height: 1; cursor: pointer; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: color .14s, border-color .14s, background .14s;
+}
+.iq:hover{ color: var(--ink); border-color: var(--ink); }
+.iq[aria-expanded="true"]{ background: var(--ink); border-color: var(--ink); color: var(--panel); }
+.info{
+  position: absolute; inset: 0; z-index: 12;
+  background: var(--panel-2); padding: 13px 15px 15px; overflow-y: auto;
+}
+.info[hidden]{ display: none; }
+.info h3{ font-size: 13.5px; font-weight: 700; margin: 0 0 6px; padding-right: 22px; }
+.info h3 + h3{ margin-top: 14px; }
+/* Sin tope, en pantallas anchas la explicación salía a 200 caracteres por
+   línea y era ilegible. */
+.info p{ margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); max-width: 80ch; }
+.info .levels{ max-width: 96ch; }
+.info p + p{ margin-top: 8px; }
+.info b{ color: var(--ink); }
+.info .x{
+  position: absolute; top: 10px; right: 12px;
+  width: 22px; height: 22px; border: 0; border-radius: 3px;
+  background: none; color: var(--ink-3); cursor: pointer;
+  font-family: var(--data); font-size: 15px; line-height: 1; padding: 0;
+}
+.info .x:hover{ background: var(--rule); color: var(--ink); }
+
+.levels{ display: grid; margin-top: 3px; }
+.levels > div{
+  display: grid; grid-template-columns: 74px 96px 1fr;
+  gap: 12px; align-items: baseline;
+  padding: 6px 0; border-bottom: 1px solid var(--rule);
+}
+.levels > div:last-child{ border-bottom: 0; }
+.levels .rng{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 12.5px; color: var(--ink-3); }
+.levels .nm{ font-size: 13.5px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.levels .nm i{ display: block; width: 18px; height: 4px; border-radius: 1px; }
+.levels p{ margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.4; }
+
+/* ---------- tabla de personas ---------- */
+/* Retrato. En las monitoreadas admite foto real (data-URI: la CSP no deja
+   cargar imágenes externas) y cae a iniciales si no hay. En las cuentas
+   emisoras nunca lleva foto: una marca generada del código da identidad
+   visual sin identificar a nadie. */
+.face{
+  width: 30px; height: 30px; border-radius: 50%; flex: none;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--data); font-size: 10.5px; font-weight: 600;
+  background: var(--panel-2); border: 1.5px solid currentColor;
+  overflow: hidden;
+}
+.face img{ width: 100%; height: 100%; object-fit: cover; display: block; }
+.face--acct{
+  border-radius: 6px; border-color: var(--rule);
+  color: var(--ink-3); background: var(--panel-2);
+}
+.face--acct svg{ display: block; }
+
+.row{
+  display: grid; grid-template-columns: 30px minmax(110px,1fr) 96px 60px 88px;
+  align-items: center; gap: 12px;
+  padding: 8px 14px; border-bottom: 1px solid var(--rule-2);
+  width: 100%; text-align: left;
+  background: none; border-left: 0; border-right: 0; border-top: 0;
+  color: inherit; font: inherit; cursor: pointer; transition: background .13s;
+}
+.row:hover{ background: var(--panel-2); }
+.row:last-of-type{ border-bottom: 0; }
+.row .name{ display: block; font-size: 15.5px; font-weight: 600; }
+.row .warn{
+  display: inline-block; vertical-align: 1px; margin-left: 7px;
+  font-family: var(--data); font-size: 9px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--alarm);
+  border: 1px solid var(--alarm); border-radius: 2px; padding: 0 4px;
+}
+.row .name.code{ font-family: var(--data); font-size: 14.5px; letter-spacing: .02em; }
+.row .tagr{
+  display: inline-block; vertical-align: 1px; margin-left: 8px;
+  font-family: var(--data); font-size: 9px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-2);
+  border: 1px solid var(--rule); border-radius: 2px; padding: 0 5px;
+}
+.row .meta{ display: block; font-size: 12.5px; color: var(--ink-3); margin-top: 1px; }
+.row canvas{ display: block; width: 100%; height: 26px; }
+.row .mag2{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 21px; font-weight: 600; text-align: right; letter-spacing: -.03em; }
+.row .bnd{ font-size: 12.5px; text-align: right; }
+.row .bnd .dl{ display: block; font-family: var(--data); font-size: 11px; color: var(--ink-3); }
+
+/* ---------- listas ---------- */
+.seg{ display: flex; margin-left: auto; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+.seg button{
+  font-family: var(--ui); font-size: 11.5px; font-weight: 500;
+  background: var(--panel); color: var(--ink-3);
+  border: 0; border-right: 1px solid var(--rule);
+  padding: 3px 9px; cursor: pointer;
+}
+.seg button:last-child{ border-right: 0; }
+.seg button[aria-pressed="true"]{ background: var(--acento); color: var(--panel); }
+/* Las filas se REPARTEN la altura del panel en vez de tener un alto fijo.
+   Con alto fijo pasaba una de dos: seis categorías no cabían y salía barra de
+   desplazamiento, o cuatro redes cabían de sobra y quedaban amontonadas arriba
+   con un hueco debajo. Repartiendo, el bloque ocupa siempre el mismo sitio y el
+   aire entre filas se ajusta solo a cuántas haya. */
+.list{ display: grid; grid-auto-rows: 1fr; min-height: 100%; }
+.list > div{
+  display: grid; grid-template-columns: 1fr 40px 72px;
+  align-items: baseline; align-content: center; gap: 8px;
+  padding: 4px 0; border-bottom: 1px solid var(--rule-2);
+}
+.list > div:last-child{ border-bottom: 0; }
+.list .l{ font-size: 13.5px; }
+.list .d{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 11.5px; text-align: right; color: var(--ink-3); }
+.list .n{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 14px; text-align: right; }
+.list .track{ grid-column: 1 / -1; height: 4px; background: var(--rule-2); margin-top: 1px; }
+.list .fill{ display: block; height: 100%; background: var(--ink); }
+
+/* ---------- ficha de la monitoreada ----------
+   Se abre al pulsar su fila. El panel lateral la nombra y le pone una cifra;
+   la ficha responde a la pregunta siguiente, que es la que hace cualquiera:
+   «¿y a ella qué le están diciendo?». Por eso el cuerpo de la ficha es su
+   composición y no otro resumen del grupo.
+
+   El control NO se nombra, aquí tampoco: se publica la razón contra él. */
+.ficha-fondo{
+  position: fixed; inset: 0; z-index: 60;
+  background: rgba(24,10,32,.55);
+  display: grid; place-items: center; padding: 24px;
+  animation: fdIn .16s ease-out;
+}
+.ficha-fondo[hidden]{ display: none; }
+@keyframes fdIn{ from{ opacity: 0 } to{ opacity: 1 } }
+.ficha{
+  background: var(--panel); color: var(--ink);
+  width: min(960px, 100%); max-height: min(90vh, 860px);
+  overflow: auto; border: 1px solid var(--rule);
+  padding: 28px 32px 30px; position: relative;
+}
+.ficha__x{
+  position: absolute; top: 12px; right: 12px;
+  width: 30px; height: 30px; border: 1px solid var(--rule);
+  background: var(--panel-2); color: var(--ink-2);
+  font-size: 15px; line-height: 1; cursor: pointer;
+}
+.ficha__x:hover{ background: var(--rule); color: var(--ink); }
+/* El instrumento se escanea; la ficha se LEE. Por eso sigue la escala
+   tipográfica del sitio y no la comprimida del tablero: aquí el lector se
+   detiene en una persona concreta, y encogerle la letra para ganar píxeles
+   sería ahorrar donde no hace falta — la ficha flota sobre el panel y no
+   compite por su altura. */
+.ficha__cab{ display: flex; gap: 20px; align-items: center; padding-right: 34px; }
+.ficha .face{ width: 84px; height: 84px; font-size: 26px; border-width: 2px; }
+.ficha__cab .av{ flex: none }
+.ficha h3{ margin: 0 0 5px; font-size: 28px; font-weight: 700; letter-spacing: -.015em; }
+.ficha__rol{ margin: 0; font-size: 16.5px; line-height: 1.4; color: var(--ink-2); font-family: var(--prosa); }
+.ficha__part{
+  display: inline-block; margin-top: 9px; padding: 3px 10px;
+  font-family: var(--data); font-size: 12.5px; letter-spacing: .06em;
+  text-transform: uppercase; background: var(--panel-2);
+  border: 1px solid var(--rule); color: var(--ink-2);
+}
+.ficha__cifras{
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
+  margin: 0; background: var(--rule); border: 1px solid var(--rule);
+}
+.ficha__c{ background: var(--panel); padding: 14px 16px; }
+.ficha__c .rot{
+  margin: 0 0 5px; font-family: var(--data); font-size: 12px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3);
+}
+.ficha__c b{ font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ficha__c span{ display: block; margin-top: 5px; font-size: 14px;
+  line-height: 1.35; color: var(--ink-2); }
+/* Una palabra no es una cifra: «sin comparación» a 29 px pesa como un dato
+   que no existe. Los valores de texto bajan a tamaño de lectura. */
+.ficha__c b.txt{ font-size: 18px; font-weight: 700; line-height: 1.25; }
+.ficha h4{
+  margin: 18px 0 9px; font-family: var(--data); font-size: 12.5px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3);
+  font-weight: 500;
+}
+.ficha__nota{
+  margin: 20px 0 0; font-family: var(--prosa); font-size: 14.5px;
+  line-height: 1.6; color: var(--ink-2);
+  border-top: 1px solid var(--rule); padding-top: 12px;
+}
+.ficha__vacio{ font-family: var(--prosa); font-size: 15.5px; line-height: 1.55; color: var(--ink-2); margin: 4px 0 0; }
+/* Las barras de la ficha también suben: dentro son contenido de lectura,
+   no una lista que se recorre de un vistazo como en el panel. */
+.ficha .list .l{ font-size: 16px; }
+.ficha .list .n{ font-size: 17px; }
+.ficha .list .d{ font-size: 13px; }
+.ficha .list > div{ padding: 9px 0; }
+@media (max-width: 560px){
+  .ficha__cifras{ grid-template-columns: 1fr 1fr; }
+}
+
+/* Composición en dónut. La lista de barras ya vive en el panel grande; aquí
+   repetirla no añadía nada. El dónut responde a otra pregunta —qué PARTE del
+   total es cada tipo— y esa es la que se hace mirando a una persona concreta.
+   El agujero del centro lleva el número que importa: cuánto pesa el tipo
+   dominante. */
+/* Cabecera a todo el ancho —quién es— y el cuerpo en dos columnas.
+   Apilado medía 898 px y obligaba a desplazar la ficha por dentro justo para
+   llegar al gráfico. Repartir en dos columnas no sólo baja el alto: deja
+   sitio para que el dónut y la letra CREZCAN en vez de encogerse, que era el
+   precio que se estaba pagando por caber. */
+.ficha__cuerpo{ display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+@media (max-width: 820px){ .ficha__cuerpo{ grid-template-columns: 1fr; gap: 6px; } }
+.ficha__don{ display: flex; gap: 18px; align-items: center; margin-top: 2px; }
+.ficha__don svg{ flex: none; transform: rotate(-90deg); }
+.ficha__leyenda{ display: grid; gap: 7px; min-width: 0; flex: 1; }
+.ficha__leyenda div{
+  display: grid; grid-template-columns: 10px 1fr auto; gap: 8px;
+  align-items: center; font-size: 14px;
+}
+.ficha__leyenda i{ width: 11px; height: 11px; border-radius: 2px; display: block; }
+.ficha__leyenda span{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ficha__leyenda b{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.ficha__leyenda div[data-cero="si"]{ opacity: .38; }
+
+/* Insight: la frase que el lector se lleva. Va sobre fondo, no suelta, porque
+   es una conclusión y no una nota al pie. */
+.ficha__insight{
+  margin: 18px 0 0; padding: 15px 17px;
+  background: var(--panel-2); border-left: 3px solid var(--acento);
+  font-family: var(--prosa); font-size: 15.5px; line-height: 1.55; color: var(--ink);
+}
+.ficha__insight b{ font-weight: 700; }
+
+/* Quién la ataca. Mismo tratamiento que el panel de emisoras: identicono y
+   conducta medida, sin foto. */
+.ficha__cuentas{ display: grid; gap: 2px; }
+.ficha__cta{
+  display: grid; grid-template-columns: 28px 1fr auto; gap: 11px;
+  align-items: center; padding: 9px 0; border-bottom: 1px solid var(--rule-2);
+}
+.ficha__cta:last-child{ border-bottom: 0; }
+.ficha__cta .face--acct{ width: 30px; height: 30px; }
+.ficha__cta .h{ font-size: 14.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ficha__cta .n{
+  font-family: var(--data); font-variant-numeric: tabular-nums;
+  font-size: 14px; color: var(--ink-2); text-align: right;
+}
+.ficha__cta .n b{ color: var(--ink); font-size: 16px; }
+
+/* ---------- prosa ----------
+   Las lecturas automáticas y las explicaciones son los únicos textos del
+   tablero que se leen en frases, no de un vistazo. Van en Atkinson, que es la
+   cara de cuerpo del sitio y está diseñada para leerse; el resto del tablero
+   —etiquetas, cifras, ejes— se sigue escaneando y se queda en la grotesca. */
+.say, .say p{ font-family: var(--prosa); }
+.info p{ font-family: var(--prosa); }
+
+/* ---------- asimetría ---------- */
+/* Las cinco filas se REPARTEN la altura del panel, separadas por línea en vez
+   de por hueco. Con alto fijo y separación por `gap` no cabían y el panel salía
+   con barra de desplazamiento. */
+.asym{ display: grid; grid-auto-rows: 1fr; min-height: 100%; }
+.asym__r{ display: grid; gap: 5px; align-content: center;
+          padding: 5px 0; border-bottom: 1px solid var(--rule-2); }
+.asym__r:last-child{ border-bottom: 0; }
+.asym__r--tot{ border-bottom: 1px solid var(--ink-3); }
+.asym__r--tot .t span{ font-weight: 700; color: var(--ink); }
+.asym__r .t{ display: flex; justify-content: space-between; align-items: baseline;
+             gap: 10px; line-height: 1.35; }
+.asym__r .t span{ font-size: 13.5px; }
+.asym__r .t b{ font-family: var(--data); font-variant-numeric: tabular-nums;
+               font-size: 13.5px; font-weight: 600; white-space: nowrap; }
+.bars{ display: grid; gap: 3px; }
+.bars > div{ display: grid; grid-template-columns: 1fr 48px; align-items: center; gap: 10px; }
+/* `padding: 0` no es decorativo: la línea 106 define `.bar` para la barra
+   superior de la página con `padding: 9px 18px`, y como el nombre de clase
+   coincide, ese relleno caía aquí. Con `box-sizing: border-box` una altura de
+   8 px no puede quedar por debajo de su propio relleno, así que la barra se
+   dibujaba a 18 px por mucho que la declaración dijera 8. */
+.bars .bar{ display: block; height: 8px; padding: 0; }
+.bars .v{ font-family: var(--data); font-variant-numeric: tabular-nums;
+          font-size: 11.5px; line-height: 1.3; color: var(--ink-2); text-align: right; }
+.key{
+  flex: none; display: flex; gap: 16px; flex-wrap: wrap;
+  margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--rule-2);
+  font-size: 12.5px; color: var(--ink-2);
+}
+.key span{ display: inline-flex; align-items: center; gap: 7px; }
+.key i{ display: block; width: 13px; height: 10px; }
+
+/* Por debajo de esta altura, forzar una pantalla dejaría el sismógrafo
+   demasiado bajo para leerlo. Antes que apretarlo, se permite desplazar. */
+@media (max-height: 790px), (max-width: 1120px){
+  body{ overflow: auto; height: auto; }
+  .wrap{ grid-template-rows: none; }
+  .g3, .g4{ grid-column: span 6; }
+  .g5, .g6, .g7{ grid-column: span 12; }
+  .panel{ min-height: 250px; }
+  .panel--dk{ min-height: 360px; }
+}
+@media (max-width: 860px){
+  .g3, .g4, .g5, .g6, .g7{ grid-column: span 12; }
+  .wrap{ padding: 12px; }
+  .row{ grid-template-columns: 30px minmax(110px,1fr) 56px 84px; gap: 10px; }
+  .row canvas{ display: none; }
+  .levels > div{ grid-template-columns: 1fr; gap: 2px; }
+
+  /* En una columna hay que fijar el orden: la lectura, luego el gráfico y
+     al final la franja. Sin esto el auto-placement mete la franja en medio
+     y entierra el sismógrafo. */
+  .instr{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(230px, 1fr) auto;
+    gap: 14px; padding: 12px 14px 11px;
+  }
+  .readout{ grid-row: 1; overflow: visible; }
+  .recwrap{ grid-row: 2; }
+  .strip{ grid-row: 3; }
+  .panel--dk{ min-height: 540px; }
+  #sayNow{ margin-top: 12px; overflow: visible; }
+
+  .strip{ padding: 10px 14px 0; margin: 0 -14px; gap: 6px 16px; }
+
+  /* Leyenda en una sola línea */
+  .sides{ gap: 8px; }
+  .lg{ font-size: 9.5px; letter-spacing: .06em; gap: 5px; }
+  .sw--c, .sw--b{ margin-left: 7px; }
+  .lg .full{ display: none; }
+}
+/* Sólo cuando la franja ya no cabe en una línea legible pasa a rejilla:
+   6 datos en dos columnas ocupan la mitad que apilados en flujo libre. */
+@media (max-width: 620px){
+  .strip{
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 5px 14px; align-items: baseline;
+  }
+  .strip .lab{ grid-column: 1 / -1; }
+  .strip .f:last-child{ grid-column: 1 / -1; }
+}
+@media (max-width: 560px){
+  .brand p{ font-size: 15.5px; }
+  .bar{ gap: 12px; padding: 9px 12px; }
+  .mag{ font-size: 58px; }
+  .phead{ flex-wrap: wrap; row-gap: 6px; }
+  .phead .seg{ margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce){
+  .pulse{ animation: none; }
+  *{ transition-duration: .01ms !important; }
+}
+</style>
+
+<div class="demo" id="aviso">Maqueta de diseño · cifras <b>simuladas</b> · el tiempo corre <b>60× acelerado</b></div>
+
+<div class="wrap">
+
+  <!-- ===== EL INSTRUMENTO ===== -->
+  <section class="panel panel--dk g12">
+    <div class="phead">
+      <h2>Registro comparado</h2>
+      <button class="iq" type="button" aria-expanded="false" aria-controls="i-reg" title="Cómo leer el sismógrafo">i</button>
+      <span class="note" id="regNote">Últimas 6 horas</span>
+      <!-- Sólo aparece cuando el tablero va embebido en el sitio: cambia la
+           vista de la página madre sin recargar. Vivir aquí y no en una barra
+           propia es lo que le devuelve al tablero sus ~52 px de altura. -->
+      <a class="volver" id="volver" href="#ranking" hidden>← Ranking</a>
+      <div class="ranges" role="group" aria-label="Rango de tiempo">
+      <button type="button" data-r="1d" aria-pressed="false">1 día</button>
+      <button type="button" data-r="7d" aria-pressed="false">7 días</button>
+      <button type="button" data-r="15d" aria-pressed="true">15 días</button>
+      <button type="button" data-r="30d" aria-pressed="false" disabled>30 días</button>
+    </div>
+    </div>
+
+    <div class="instr">
+      <div class="readout">
+        <p class="eyebrow">Mujeres monitoreadas</p>
+        <p class="mag" id="magNum">5,4<small>/10</small></p>
+        <div class="bandrow">
+          <p class="bandname" id="magBand">Hostigamiento</p>
+          <p class="delta" id="magDelta">▲ 1,4</p>
+        </div>
+        <div class="vs"><span class="k">Control · hombres</span><span class="v" id="ctrlNum">2,7</span></div>
+        <p class="say say--dk" id="sayNow"></p>
+      </div>
+
+      <div class="recwrap">
+        <div class="sides">
+          <span class="lg">
+            <i class="sw sw--w"></i>Mujeres<span class="full">&nbsp;monitoreadas</span>
+            <i class="sw sw--c"></i>Control<span class="full">&nbsp;· hombres</span>
+            <i class="sw sw--b"></i>Brecha
+          </span>
+          <span>Magnitud 0–10</span>
+        </div>
+        <canvas id="reg" aria-label="Sismógrafo comparado en un solo eje de magnitud 0 a 10: la línea superior es la hostilidad hacia mujeres políticas, la inferior la del grupo de control masculino, y la banda sombreada entre ambas es la asimetría de género"></canvas>
+        <div class="sides"><span>Cero</span><span id="gapNote"></span></div>
+        <div class="tip" id="tip"></div>
+        <span class="pausehint" id="pauseHint" hidden>En pausa</span>
+        <div class="timeaxis" id="timeaxis"><span class="now">ahora</span></div>
+      </div>
+
+      <div class="strip" id="strip"></div>
+    </div>
+
+    <div class="info" id="i-reg" hidden>
+      <button class="x" type="button" aria-label="Cerrar">✕</button>
+      <h3>Cómo leer el sismógrafo</h3>
+      <p>Las dos curvas están en <b>un mismo eje</b>, con el mismo cero y la misma escala de 0 a 10. La de arriba es lo que reciben las candidatas que monitoreamos; la de abajo, lo que reciben candidatos con un volumen de menciones parecido, medidos igual y en el mismo momento. Salen de la misma consulta de escucha, con los mismos criterios aplicados a unas y a otros.</p>
+      <p>La <b>banda sombreada entre ambas</b> es lo que ella recibe de más: su grosor en cada instante es la <b>asimetría de género</b>. La zona gris de abajo es la hostilidad que recibe cualquiera en política — no es el hallazgo, es la línea base. Si la banda desapareciera, el ataque sería solo político.</p>
+      <p>Cuanto más alta la curva, más intenso el ataque, y el color sube con ella. Un solo eje evita el problema de comparar dos escalas: la distancia vertical entre las líneas se lee directamente, sin trucos.</p>
+
+      <h3>Los cinco niveles</h3>
+      <div class="levels">
+        <div><span class="rng">0,0 – 1,9</span><span class="nm"><i style="background:var(--b1)"></i>Calma</span><p>Hostilidad de fondo. El ruido normal de cualquier debate público.</p></div>
+        <div><span class="rng">2,0 – 3,4</span><span class="nm"><i style="background:var(--b2)"></i>Murmullo</span><p>Insultos sueltos, sin patrón ni coordinación detectable.</p></div>
+        <div><span class="rng">3,5 – 4,9</span><span class="nm"><i style="background:var(--b3)"></i>Tensión</span><p>Sube el volumen y aparece carga de género en el vocabulario.</p></div>
+        <div><span class="rng">5,0 – 6,9</span><span class="nm"><i style="background:var(--b4)"></i>Hostigamiento</span><p>Ataque concentrado en pocas horas, con cuentas que se replican entre sí.</p></div>
+        <div><span class="rng">7,0 – 10,0</span><span class="nm"><i style="background:var(--b5)"></i>Linchamiento</span><p>Acoso masivo coordinado o amenazas explícitas.</p></div>
+      </div>
+
+      <h3>El episodio marcado y las cuentas</h3>
+      <p>La marca sobre la línea señala el último salto brusco que se sostuvo y luego bajó. La <b>concentración</b> va de 0 a 1 y mide en cuántas manos está el volumen: cerca de 0, mucha gente diciendo poco; por encima de <b>0,60</b>, pocas cuentas produciendo casi todo — una campaña, no una reacción.</p>
+      <p>El <b>núcleo reincidente</b> son las cuentas que reaparecen en varios episodios contra distintas monitoreadas. Se clasifican por <b>comportamiento observable</b> — frecuencia, reincidencia, proporción hostil, coincidencia temporal — nunca por opinión. Todo lo que aparece aquí procede de <b>perfiles y publicaciones públicas</b>.</p>
+    </div>
+  </section>
+
+  <!-- ===== FILA B ===== -->
+  <section class="panel g6">
+    <div class="phead">
+      <h2 id="whoTitle">¿Quién lo recibe?</h2>
+      <button class="iq" type="button" aria-expanded="false" aria-controls="i-who" title="Cómo se leen estas dos listas">i</button>
+      <div class="seg" role="group" aria-label="Ver">
+        <button type="button" data-w="recibe" aria-pressed="true">Lo recibe</button>
+        <button type="button" data-w="emite" aria-pressed="false">Lo emite</button>
+      </div>
+    </div>
+    <div class="scroller" id="rows"></div>
+    <div class="pbody" style="flex:none;padding-top:10px;border-top:1px solid var(--rule-2)">
+      <p class="say" id="sayWho"></p>
+    </div>
+    <div class="info" id="i-who" hidden>
+      <button class="x" type="button" aria-label="Cerrar">✕</button>
+      <h3>Lo recibe · por qué la más citada no sale primera</h3>
+      <p>La magnitud es una <b>proporción</b>, no un conteo. Mide qué parte de todo lo que se dice sobre cada una es hostil. Sin esa corrección, la mujer más mencionada del país encabezaría siempre la lista solo por ser la más mencionada, y el tablero estaría midiendo fama en vez de agresión.</p>
+      <p>La marca <b>Amenaza</b> señala que en el periodo se detectó al menos un mensaje de gravedad máxima. Queda registrado como información consultable; el tablero no difunde ese contenido ni lo atribuye a nadie.</p>
+
+      <h3>Lo emite · qué mide el índice de reincidencia</h3>
+      <p>Cada cuenta que publica queda registrada con su patrón, y el índice 0–10 combina cuatro señales <b>observables</b>: en cuántos episodios aparece, contra cuántas monitoreadas distintas, qué proporción de sus mensajes es hostil, y con qué frecuencia publica dentro de la misma ventana que otras cuentas.</p>
+      <p>Las etiquetas describen <b>comportamiento, nunca identidad ni opinión</b>. <b>Reincidente</b>: aparece en más de la mitad de los episodios. <b>Coordinada</b>: publica en ventanas muy ajustadas junto a otras. <b>Solo hostil</b>: prácticamente todo lo que dice sobre ellas es agresión. <b>Alta frecuencia</b>: publica muy por encima de la mediana. Deliberadamente no se usan palabras como «troll» o «activista»: son juicios sobre la persona, no descripciones del dato.</p>
+      <p>Mientras una cuenta no tenga foto de perfil disponible se muestra una marca generada de su código: un patrón estable que permite reconocerla entre episodios.</p>
+    </div>
+  </section>
+
+  <!-- Un solo panel con dos vistas. Antes eran dos: «¿Qué reciben ellas?» y
+       «¿De qué está hecho?». Usaban la MISMA taxonomía con dos vocabularios
+       distintos y dos juegos de porcentajes, así que se leían como dos
+       clasificaciones rivales que se contradicen — y un lector que sospecha
+       que las cifras no cuadran deja de creerse el tablero entero. -->
+  <section class="panel g6">
+    <div class="phead">
+      <h2>Tipos de agresión</h2>
+      <button class="iq" type="button" aria-expanded="false" aria-controls="i-cats" title="Los seis tipos de agresión">i</button>
+      <div class="seg" role="group" aria-label="Ver por">
+        <button type="button" data-v="composicion" aria-pressed="true">Composición</button>
+        <button type="button" data-v="comparacion" aria-pressed="false">Comparación</button>
+      </div>
+    </div>
+    <div class="pbody">
+      <div class="scroller"><div class="list" id="mix"></div></div>
+      <div class="key" id="keyMix" hidden>
+        <span><i style="background:var(--ink)"></i>Ellas</span>
+        <span><i style="background:var(--control)"></i>Control · hombres</span>
+      </div>
+      <p class="say" id="sayMix" style="flex:none;margin-top:11px"></p>
+    </div>
+    <div class="info" id="i-cats" hidden>
+      <button class="x" type="button" aria-label="Cerrar">✕</button>
+      <h3>Los seis tipos de agresión</h3>
+      <p><b>Insulto y desprecio.</b> Insulto sin marca de género: es la línea base con la que se compara el resto.</p>
+      <p><b>Estereotipo de género.</b> Reducirla a un rol doméstico, llamarla histérica, dar por hecho que alguien la puso en el cargo.</p>
+      <p><b>Sexualización y cosificación.</b> Comentarios sobre su cuerpo o su apariencia, insinuaciones sexuales, imágenes manipuladas.</p>
+      <p><b>Desinformación de género.</b> Bulos sobre su vida privada, su pareja, sus hijos o su moralidad sexual.</p>
+      <p><b>Racismo y discriminación.</b> Racismo, clasismo, edad u origen sumados al género.</p>
+      <p><b>Amenaza y violencia explícita.</b> Amenazas de muerte, de violación o contra su familia.</p>
+      <h3>Las dos vistas</h3>
+      <p><b>Composición.</b> De qué está hecha su hostilidad: qué porcentaje del total es cada tipo. Suma 100 %.</p>
+      <p><b>Comparación.</b> El mismo tipo medido en ellas y en el grupo de control, sobre el total de menciones de cada grupo. Donde las dos barras se parecen, el ataque es <b>político</b>: le pasaría a cualquiera. Donde ella se dispara, es <b>de género</b>.</p>
+    </div>
+  </section>
+</div>
+
+<div class="ficha-fondo" id="fichaFondo" hidden>
+  <div class="ficha" role="dialog" aria-modal="true" aria-labelledby="fichaNom">
+    <button class="ficha__x" type="button" id="fichaX" aria-label="Cerrar ficha">✕</button>
+    <div class="ficha__cab" id="fichaCab"></div>
+    <div class="ficha__cuerpo">
+      <div>
+        <div class="ficha__cifras" id="fichaCifras"></div>
+        <p class="ficha__insight" id="fichaInsight"></p>
+      </div>
+      <div>
+        <div id="fichaComp"></div>
+        <div id="fichaCuentas"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+(function(){
+  var ESTADO = null;   // estado.json cargado; null = datos de maqueta
+  "use strict";
+
+  function rng(seed){
+    var s = seed >>> 0;
+    return function(){ s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+  }
+  /* null NO es cero. Toda cifra que puede faltar pasa por aquí, y lo que falta
+     se dibuja como raya, no como un valor en el suelo. */
+  function es(n, d){
+    return (n == null || (typeof n === "number" && isNaN(n)))
+      ? "—" : n.toFixed(d).replace(".", ",");
+  }
+  /* «4.200 min» obliga a dividir mentalmente para saber si son horas o días. */
+  /* Decir «0,3 veces más» cuando la cifra de ella es MENOR que la de él invierte
+     el sentido de la fila. Se nombra la dirección que toca. */
+  function razonAsim(ella, el){
+    if (!el) return ella > 0 ? "solo ella" : "sin registro";
+    if (!ella) return "solo él";
+    var r = ella / el;
+    if (r >= 1.05) return es(r,1) + " veces más";
+    if (r <= 0.95) return es(1/r,1) + " veces menos";
+    return "igual";
+  }
+  function dur(min){
+    if (min == null) return "—";
+    if (min < 120) return min + " min";
+    if (min < 2880) return (min / 60).toFixed(min % 60 ? 1 : 0).replace(".", ",") + " h";
+    return (min / 1440).toFixed(1).replace(".", ",") + " días";
+  }
+
+  var CSS = getComputedStyle(document.documentElement);
+  function tok(v){ return CSS.getPropertyValue(v).trim(); }
+
+  /* Los cortes tienen que ser LOS MISMOS que en indice.BANDAS. Estaban en 1,9 /
+     3,4 / 4,9 / 6,9 aquí y en 2,0 / 3,5 / 5,0 / 7,0 en Python: con magnitud 1,93
+     el número grande decía «Murmullo» y la frase de debajo «en banda Calma». */
+  var BANDS = [
+    { max:2.0,  name:"Calma",     c:tok("--b1") },
+    { max:3.5,  name:"Murmullo",  c:tok("--b2") },
+    { max:5.0,  name:"Tensión",   c:tok("--b3") },
+    { max:7.0,  name:"Hostigamiento",  c:tok("--b4") },
+    { max:10.1, name:"Linchamiento", c:tok("--b5") }
+  ];
+  var SIN_BANDA = { max:0, name:"Sin medición", c:tok("--dk-ink3") || "#8FA6B6" };
+  function band(m){
+    // NaN fallaba TODAS las comparaciones y caía en el último tramo: el globo
+    // anunciaba «Linchamiento» justo donde no había nada medido.
+    if (m == null || isNaN(m)) return SIN_BANDA;
+    for (var i = 0; i < BANDS.length; i++) if (m < BANDS[i].max) return BANDS[i];
+    return BANDS[4];
+  }
+  var INK = tok("--ink"), CTRL = tok("--control"), ALARM = tok("--alarm"), RULE = tok("--rule-2");
+  var DK = tok("--dk"), DKRULE = "rgba(220,231,238,.10)", DKINK3 = tok("--dk-ink3"), DKCTRL = tok("--dk-ctrl");
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ============================================================
+     ESTADO POR RANGO — cifras Y lecturas
+     ============================================================ */
+  var DATA = {
+    "1d": {
+      note:"Último día", mag:5.4, delta:1.4, ctrl:2.7, hours:24, peak:440,
+      epi:{ t:"02:14", mag:7.2, min:41, acc:"863", conc:"0,71", core:40, inN:6, ofN:9 },
+      emit:[9.1,8.4,7.9,7.2,6.5,5.8,4.9,3.6], emitEp:[8,7,6,6,5,4,3,2], epTot:9, coreShare:62,
+      cats:[38,21,16,13,8,4], catDelta:[2,5,3,-1,0,1],
+      plats:[6.4,4.7,3.9,3.0,2.2], platDelta:[0.9,1.3,0.2,-0.3,0.1],
+      asym:[[18.3,9.1],[6.4,0.7],[9.8,3.5],[4.1,0.9],[1.2,0.5]],
+      stations:[6.8,5.9,5.2,4.1,3.6,3.1,2.4,2.0], stDelta:[2.1,0.7,-0.4,1.3,0.1,-0.6,0.3,-0.2]
+    },
+    "15d": {
+      note:"Últimos 15 días", mag:4.1, delta:0.6, ctrl:2.4, hours:360, peak:300,
+      epi:{ t:"02:14", mag:7.2, min:41, acc:"1 940", conc:"0,66", core:52, inN:7, ofN:14 },
+      emit:[8.7,8.1,7.4,7.0,6.1,5.4,4.6,3.2], emitEp:[12,11,9,9,8,6,5,3], epTot:14, coreShare:54,
+      cats:[41,19,15,12,9,4], catDelta:[1,2,-1,2,1,0],
+      plats:[5.1,4.2,3.4,2.7,2.0], platDelta:[0.4,0.8,0.1,-0.2,0.0],
+      asym:[[15.7,8.4],[5.1,0.6],[8.9,3.3],[3.4,0.8],[0.9,0.4]],
+      stations:[5.4,4.8,4.4,3.5,3.1,2.7,2.1,1.8], stDelta:[1.2,0.5,-0.2,0.8,0.0,-0.3,0.2,-0.1]
+    },
+    "7d": {
+      note:"Últimos 7 días", mag:3.3, delta:-0.4, ctrl:2.1, hours:168, peak:1150,
+      epi:{ t:"mar 18:40", mag:7.6, min:62, acc:"5 210", conc:"0,58", core:96, inN:11, ofN:31 },
+      emit:[8.2,7.6,7.1,6.4,5.7,5.0,4.1,2.9], emitEp:[24,22,19,18,15,12,9,6], epTot:31, coreShare:47,
+      cats:[44,17,14,11,10,4], catDelta:[3,-2,-1,0,2,0],
+      plats:[4.3,3.6,3.1,2.4,1.8], platDelta:[-0.2,0.6,0.0,-0.1,-0.3],
+      asym:[[13.9,7.9],[4.4,0.6],[8.1,3.1],[2.9,0.7],[0.7,0.3]],
+      stations:[4.6,4.1,3.8,3.0,2.7,2.3,1.9,1.6], stDelta:[-0.5,0.3,-0.6,0.4,-0.2,-0.4,0.1,0.0]
+    },
+    "30d": {
+      note:"Últimos 30 días", mag:null, delta:0, ctrl:null, hours:720, peak:1150,
+      sinDatos:true, disponible:false,
+      motivo:"Aún sin histórico suficiente para este periodo.",
+      epi:{ t:"—", mag:null, min:0, acc:"—", conc:"—", core:0, inN:0, ofN:0 },
+      emit:[0,0,0,0,0,0,0,0], emitEp:[0,0,0,0,0,0,0,0], epTot:0, coreShare:0,
+      cats:[0,0,0,0,0,0], catDelta:[0,0,0,0,0,0],
+      plats:[0,0,0,0,0], platDelta:[0,0,0,0,0],
+      asym:[[0,0],[0,0],[0,0],[0,0],[0,0]],
+      stations:[null,null,null,null,null,null,null,null], stDelta:[0,0,0,0,0,0,0,0]
+    }
+  };
+
+  var CAT_NAMES = ["Insulto y desprecio","Estereotipo de género","Sexualización y cosificación",
+                   "Desinformación de género","Racismo y discriminación","Amenaza y violencia explícita"];
+  var PLAT_NAMES = ["X","TikTok","Facebook","YouTube","Instagram"];
+  var ASYM_NAMES = ["Menciones hostiles sobre el total","Ataque a la apariencia o al cuerpo",
+                    "Cuestionamiento de su capacidad","Bulos sobre la vida privada","Amenaza explícita"];
+  var PEOPLE = [
+    { n:"Luisa González",       r:"Liderazgo de oposición",          m:"3 940", warn:true,  s:11 },
+    { n:"María José Pinto",     r:"Vicepresidencia",                 m:"2 611", warn:true,  s:22 },
+    { n:"Diana Salazar",        r:"Ex Fiscal General",               m:"1 884", warn:false, s:33 },
+    { n:"Inés Manzano",         r:"Gabinete · Ambiente y Energía",   m:"1 205", warn:false, s:44 },
+    { n:"Gabriela Sommerfeld",  r:"Cancillería",                     m:"902",   warn:false, s:55 },
+    { n:"Paola Pabón",          r:"Prefectura de Pichincha",         m:"744",   warn:false, s:66 },
+    { n:"Giovanna Ubidia",      r:"Candidatura · Alcaldía de Quito", m:"431",   warn:false, s:77 },
+    { n:"Gabriela Rivadeneira", r:"Asamblea Nacional",               m:"318",   warn:false, s:88 }
+  ];
+
+  /* Cuentas emisoras. Se clasifican por COMPORTAMIENTO observable —
+     reincidencia, coordinación, proporción hostil, frecuencia — nunca con
+     etiquetas de identidad. El código es interno y estable: permite seguir
+     un patrón entre episodios sin exponer a nadie. */
+  var EMIT = [
+    { c:"EC-A7F2", p:"Reincidente",     msg:"412", host:"97 %", s:101 },
+    { c:"EC-3B90", p:"Coordinada",      msg:"388", host:"91 %", s:102 },
+    { c:"EC-D14C", p:"Solo hostil",     msg:"301", host:"99 %", s:103 },
+    { c:"EC-55E1", p:"Alta frecuencia", msg:"654", host:"62 %", s:104 },
+    { c:"EC-9AA8", p:"Reincidente",     msg:"245", host:"88 %", s:105 },
+    { c:"EC-2F31", p:"Coordinada",      msg:"198", host:"84 %", s:106 },
+    { c:"EC-C702", p:"Alta frecuencia", msg:"421", host:"51 %", s:107 },
+    { c:"EC-681D", p:"Ocasional",       msg:"96",  host:"73 %", s:108 }
+  ];
+
+  // Abre en 15 días: la misma ventana del ranking, para que «Quién lo
+  // recibe» aterrice en el mismo orden y con las mismas magnitudes.
+  var cur = "15d", mixView = "composicion", whoView = "recibe";
+  var PADRON_N = 7;   // lo repuebla estado.json
+
+  /* ---- RETRATOS ----
+     Un solo componente para las dos listas. Con foto real (data-URI: la CSP
+     no admite imágenes externas) la usa; sin ella cae a un respaldo:
+     iniciales para las monitoreadas, marca generada para las cuentas.
+     La marca es determinista a partir del código, así que una misma cuenta
+     se reconoce entre episodios aunque todavía no tenga imagen. */
+  function identicon(seed){
+    var g = rng(seed * 7919), r = "";
+    for (var y = 0; y < 5; y++){
+      for (var x = 0; x < 3; x++){
+        if (g() > .48){
+          r += '<rect x="' + (x*6+2) + '" y="' + (y*6+2) + '" width="6" height="6"/>';
+          if (x < 2) r += '<rect x="' + ((4-x)*6+2) + '" y="' + (y*6+2) + '" width="6" height="6"/>';
+        }
+      }
+    }
+    return '<svg viewBox="0 0 34 34" width="26" height="26" aria-hidden="true" fill="currentColor">' +
+      r + "</svg>";
+  }
+  function initials(name){
+    return name.split(" ").filter(function(w){ return w.length > 2; })
+               .slice(0, 2).map(function(w){ return w[0]; }).join("");
+  }
+  function avatar(o, color, acct){
+    var cls = "face" + (acct ? " face--acct" : "");
+    var st = color ? ' style="color:' + color + '"' : "";
+    var inner = o.img ? '<img src="' + o.img + '" alt="">'
+                      : (acct ? identicon(o.s) : initials(o.n));
+    return '<span class="' + cls + '"' + st + ">" + inner + "</span>";
+  }
+  function stamp(){
+    /* Con datos reales el sello fecha el CIERRE del lote, no el reloj
+       simulado: decir una hora que no corresponde al dato sería peor que
+       no poner sello. */
+    var t = hhmm(nowMin());
+    if (ESTADO && ESTADO.cierre){
+      var d = new Date(ESTADO.cierre);
+      t = String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+    }
+    return '<span class="stamp">Lectura automática · ' + t + "</span>";
+  }
+
+  /* El reloj de cabecera y los sellos de las lecturas salen del mismo
+     tiempo que el eje. Sólo se tocan cuando cambia el minuto. */
+  var lastMin = -1;
+  function tickClock(){
+    if (ESTADO) return;   // con datos reales manda el cierre, no el reloj simulado
+    var m = Math.floor(nowMin());
+    if (m === lastMin) return;
+    lastMin = m;
+    var t = hhmm(m);
+    document.getElementById("clock").textContent = t;
+    Array.prototype.forEach.call(document.querySelectorAll(".stamp"), function(el){
+      el.textContent = "Lectura automática · " + t;
+    });
+  }
+
+  function sayNow(d){
+    if (d.sinDatos || d.mag == null || !d.ctrl)
+      return "No hay mensajes suficientes clasificados en esta ventana para " +
+             "publicar una magnitud. No es calma: es ausencia de medición." + stamp();
+    // Sin periodo anterior medido no se afirma nada sobre el movimiento.
+    var mov = d.delta == null ? ""
+            : d.delta > .15 ? "Subió <b>" + es(Math.abs(d.delta),1) + " puntos</b>. "
+            : d.delta < -.15 ? "Bajó <b>" + es(Math.abs(d.delta),1) + " puntos</b>. "
+            : "<b>Estable</b> frente al periodo anterior. ";
+    var r = d.mag / d.ctrl;
+    var comp = r >= 1
+      ? "Reciben <b>" + es(r,1) + " veces</b> más hostilidad que el control."
+      : "Reciben <b>" + es(1/r,1) + " veces menos</b> hostilidad total que el control.";
+    return mov + comp + stamp();
+  }
+  function sayWho(d){
+    if (whoView === "emite"){
+      var rein = d.emitEp.filter(function(e){ return e > d.epTot / 2; }).length;
+      var nuc = d.epi ? d.epi.nucleo : 0;
+      return "<b>" + nuc + " cuentas</b> escribieron más de un mensaje hostil en el " +
+        "episodio marcado, sobre <b>" + d.epTot + "</b> cuentas emisoras en el periodo." + stamp();
+    }
+    var alta = d.stations.filter(function(v){ return v >= 5; }).length;
+    if (!alta) return "Ninguna está en sacudida ahora. La más alta es <b>" + PEOPLE[0].n +
+      "</b>, con " + es(d.stations[0],1) + "." + stamp();
+    return "<b>" + alta + " de las 8</b> están en sacudida o por encima. La más alta, <b>" +
+      PEOPLE[0].n + "</b>, con " + es(d.stations[0],1) + "." + stamp();
+  }
+  /* Antes decía «X es la que sube más rápido» sin que nada midiera subida
+     alguna: era texto de maqueta. Ahora dice el reparto que sí se mide. */
+  function lecturaRed(d){
+    var tot = d.plats.reduce(function(a, b){ return a + b; }, 0);
+    if (!tot) return "Todavía no hay interacción registrada sobre lo hostil." + stamp();
+    var pct = Math.round(100 * d.plats[0] / tot);
+    var t = "<b>" + PLAT_NAMES[0] + "</b> concentra el <b>" + pct +
+            " %</b> de la interacción sobre mensajes hostiles";
+    if (pct >= 97) t += ": fuera de ahí casi no hay actividad hostil que medir";
+    else if (PLAT_NAMES[1]) t += ", seguida de <b>" + PLAT_NAMES[1] + "</b>";
+    return t + "." + stamp();
+  }
+
+  function sayMix(d){
+    if (mixView === "red") return lecturaRed(d);
+    /* La comparación necesita su propia lectura. Con la de composición debajo,
+       el panel enseñaba dos barras por tipo y remataba con una frase sobre
+       porcentajes de otra vista: el lector tenía que adivinar cuál de las dos
+       cifras estaba leyendo. */
+    if (mixView === "comparacion"){
+      var iBrecha = -1, may = 1;
+      for (var k = 1; k < d.asym.length; k++){
+        var r = d.asym[k][1] > 0 ? d.asym[k][0] / d.asym[k][1] : 0;
+        if (r > may){ may = r; iBrecha = k; }
+      }
+      var tot = d.asym[0], rt = razonAsim(tot[0], tot[1]);
+      var t = "En total ella recibe <b>" + rt + "</b> que su control.";
+      if (iBrecha > -1) t += " La mayor diferencia está en <b>" +
+        ASYM_NAMES[iBrecha].toLowerCase() + "</b>: " + razonAsim(d.asym[iBrecha][0], d.asym[iBrecha][1]) + ".";
+      return t + stamp();
+    }
+    var iMax = 0, iSube = 0;
+    for (var i = 0; i < d.cats.length; i++){
+      if (d.cats[i] > d.cats[iMax]) iMax = i;
+      if (d.catDelta[i] > d.catDelta[iSube]) iSube = i;
+    }
+    var t = "El grueso es <b>" + CAT_NAMES[iMax].toLowerCase() + "</b>, con " + d.cats[iMax] + " %.";
+    if (d.catDelta[iSube] > 0) t += " Lo que más creció: <b>" + CAT_NAMES[iSube].toLowerCase() +
+      "</b>, " + d.catDelta[iSube] + " puntos más.";
+    return t + stamp();
+  }
+
+  /* ============================================================
+     EL SISMÓGRAFO
+     ============================================================ */
+  function build(seed, base, revert, quakes, noise){
+    var g = rng(seed), n = 2400, out = [], b = base;
+    var nz = noise === undefined ? 1.25 : noise;
+    for (var i = 0; i < n; i++){
+      b += (g() - .5) * .1;
+      b += (base - b) * revert;
+      var v = b + (g() - .5) * nz;
+      for (var q = 0; q < quakes.length; q++){
+        var d = i - quakes[q].at;
+        v += quakes[q].peak * Math.exp(-(d*d) / (2*quakes[q].w*quakes[q].w)) * (.72 + .28*g());
+      }
+      out.push(Math.max(.08, Math.min(9.8, v)));
+    }
+    return out;
+  }
+  var N = 2400;
+  var SERIES = {
+    "1d":  { w: build(20260813,2.9,.012,[{at:440,peak:7.6,w:95},{at:1120,peak:5.0,w:70},{at:1950,peak:4.2,w:58}]),
+             m: build(77120031,1.9,.02, [{at:520,peak:1.5,w:60},{at:1700,peak:1.1,w:44}], .55) },
+    "15d": { w: build(41007733,2.5,.014,[{at:300,peak:6.4,w:70},{at:900,peak:4.4,w:55},{at:1500,peak:5.6,w:64},{at:2100,peak:3.8,w:50}]),
+             m: build(58231190,1.7,.022,[{at:700,peak:1.3,w:52},{at:1800,peak:1.6,w:48}], .55) },
+    "7d":  { w: build(90554412,2.2,.016,[{at:200,peak:5.2,w:55},{at:700,peak:4.0,w:48},{at:1150,peak:6.1,w:52},{at:1650,peak:3.6,w:44},{at:2150,peak:4.8,w:50}]),
+             m: build(33447781,1.5,.024,[{at:400,peak:1.2,w:46},{at:1300,peak:1.4,w:42},{at:2000,peak:1.1,w:40}], .55) },
+    // Traza plana a la espera de histórico. El rango va desactivado, así que
+    // esto no se dibuja; existe para que `SERIES[cur]` nunca sea undefined.
+    "30d": { w: new Array(N).fill(0), m: new Array(N).fill(0) }
+  };
+
+  var cv = document.getElementById("reg"), ctx = cv.getContext("2d");
+  var tip = document.getElementById("tip");
+  var offset = 0, W = 0, H = 0, GUT = 104, narrow = false, reveal = reduce ? 1 : 0;
+  var hoverX = null;                    // señalar = inspeccionar: la traza se detiene
+
+  /* ---- UNA SOLA FUENTE DE TIEMPO ----
+     La traza se desplaza avanzando `offset`, así que el reloj tiene que
+     derivarse de `offset` y no de una hora fija. Si no, el eje dice una
+     hora mientras debajo hay otro dato. Todo —eje, tooltip, marca del
+     episodio— sale de aquí. */
+  var START_MIN = 14 * 60 + 22;   // maqueta; con dato real lo fija estado.json
+  function minPerSample(){ return DATA[cur].hours * 60 / (N - 1); }
+  function nowMin(){ return START_MIN + offset * minPerSample(); }
+
+  function hhmm(abs){
+    var t = ((Math.round(abs) % 1440) + 1440) % 1440;
+    var hh = Math.floor(t / 60), mm = t % 60;
+    return (hh < 10 ? "0" : "") + hh + ":" + (mm < 10 ? "0" : "") + mm;
+  }
+  function timeAt(frac, hours){
+    var nowAbs = nowMin(), abs = nowAbs - frac * hours * 60;
+    var back = Math.floor(nowAbs / 1440) - Math.floor(abs / 1440);
+    var dia = back === 0 ? "Hoy" : back === 1 ? "Ayer" : "Hace " + back + " días";
+    return dia + " · " + hhmm(abs);
+  }
+
+  function resize(){
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = cv.clientWidth; H = cv.clientHeight;
+    if (!W || !H) return;
+    /* En móvil la canaleta de etiquetas se comía casi una cuarta parte del
+       ancho útil. Se estrecha y sólo se rotulan los dos umbrales altos: el
+       nivel actual ya lo dice el número grande. */
+    narrow = W < 430;
+    /* 78 px no daban para «Hostigamiento» a 12 px monoespaciados: la etiqueta
+       se dibuja alineada a la derecha en GUT-11 y se salía del lienzo por la
+       izquierda, así que el eje decía «tigamiento» y «nchamiento». */
+    GUT = narrow ? 54 : 104;
+    cv.width = Math.round(W*dpr); cv.height = Math.round(H*dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  function at(arr, x){
+    var span = Math.max(1, W - GUT);
+    var f = ((x - GUT) / span) * (N - 1) + offset;
+    var i0 = Math.floor(f) % N; if (i0 < 0) i0 += N;
+    var i1 = (i0 + 1) % N, t = f - Math.floor(f);
+    if (isNaN(arr[i0]) || isNaN(arr[i1])) return NaN;
+    return arr[i0]*(1-t) + arr[i1]*t;
+  }
+  function xOf(idx){                                   // índice de la serie → píxel
+    var span = Math.max(1, W - GUT);
+    var f = ((idx - offset) % N + N) % N;
+    return GUT + (f / (N - 1)) * span;
+  }
+
+  function draw(){
+    if (!W || !H) return;
+    var s = SERIES[cur], d = DATA[cur];
+    // La curva dibujada se recompone cada fotograma con la fase actual.
+    if (s.wEnv) s.w = conTemblor(s.wEnv, s.wT);
+    if (s.mEnv) s.m = conTemblor(s.mEnv, s.mT);
+    ctx.clearRect(0, 0, W, H);
+    /* UN SOLO EJE. Las dos curvas comparten la misma escala 0–10 y el mismo
+       cero, así que la comparación es directa: no hay que reflejar nada
+       mentalmente y no cabe la duda de si las escalas coinciden.
+       La banda sombreada entre ambas ES la asimetría: su grosor en cada
+       instante es lo que ella recibe de más. */
+    var PAD_T = 16, PAD_B = 4;
+    var base = H - PAD_B, full = base - PAD_T, x, y;
+    function yOf(v){ return base - (Math.max(0, Math.min(10, v)) / 10) * full; }
+    var mid = base;                                   // el cero, para el gradiente
+
+    /* La rampa va atada a la ALTURA: el mismo gradiente para la línea
+       y para el relleno, así el color no puede contradecir la posición. */
+    var grad = ctx.createLinearGradient(0, PAD_T, 0, base);
+    grad.addColorStop(0,    BANDS[4].c);
+    grad.addColorStop(0.31, BANDS[4].c);
+    grad.addColorStop(0.32, BANDS[3].c);
+    grad.addColorStop(0.51, BANDS[3].c);
+    grad.addColorStop(0.52, BANDS[2].c);
+    grad.addColorStop(0.66, BANDS[2].c);
+    grad.addColorStop(0.67, BANDS[1].c);
+    grad.addColorStop(0.81, BANDS[1].c);
+    grad.addColorStop(0.82, BANDS[0].c);
+    grad.addColorStop(1,    BANDS[0].c);
+
+    // umbrales, cada uno en su color
+    ctx.font = (narrow ? "10px" : "12px") + ' ui-monospace, "Cascadia Mono", Consolas, monospace';
+    ctx.textBaseline = "middle"; ctx.textAlign = "right"; ctx.lineWidth = 1;
+    for (var b = 0; b < 4; b++){
+      var gy = yOf(BANDS[b].max);
+      ctx.strokeStyle = DKRULE;
+      ctx.beginPath(); ctx.moveTo(GUT, gy); ctx.lineTo(W, gy); ctx.stroke();
+      if (narrow && b < 2) continue;               // en estrecho, sólo Hostigamiento y Linchamiento
+      ctx.fillStyle = BANDS[b+1].c;
+      ctx.fillText(BANDS[b+1].name, GUT - (narrow ? 7 : 11), gy);
+    }
+
+    // el cero
+    ctx.strokeStyle = "rgba(220,231,238,.28)"; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(GUT, base); ctx.lineTo(W, base); ctx.stroke();
+
+    var STEP = .34, edge = GUT + (W - GUT) * reveal;
+
+    /* La traza se corta donde se acaba el DATO, no donde se acaba el lienzo.
+       Los huecos interiores se siguen puenteando —son minutos sueltos—, pero el
+       tramo final sin medir se deja en blanco: la clasificación va por detrás de
+       la recolección y ese hueco es real. Dibujarlo en plano decía «se mantuvo
+       en 1,9» sobre media tarde que nadie ha medido. */
+    /* Tramo dibujable de una serie: del primer dato al último.
+       Antes se recorría desde el borde izquierdo y se paraba en el primer
+       hueco. Bastaba que la serie empezara con tres franjas vacías —porque la
+       clasificación no ha llegado a las horas más viejas de la ventana— para
+       que la curva no se dibujara EN ABSOLUTO. Los huecos interiores los sigue
+       puenteando `remuestrear`; lo que aquí se busca son los extremos. */
+    function tramo(arr){
+      var ini = -1, fin = -1;
+      for (var xd = GUT; xd <= W; xd += 1){
+        if (!isNaN(at(arr, xd))){ if (ini < 0) ini = xd; fin = xd; }
+      }
+      return ini < 0 ? null : {ini: ini, fin: fin};
+    }
+    /* Cada línea se dibuja en SU tramo. Antes se cortaban las dos por la más
+       corta, y un retraso de clasificación en el control se comía media tarde
+       de la curva de ellas, que sí estaba medida. La banda intermedia sí
+       necesita las dos, y por eso usa la intersección. */
+    var tW = tramo(s.w), tM = tramo(s.m);
+    var iniW = tW ? tW.ini : GUT, bordeW = Math.min(edge, tW ? tW.fin : GUT);
+    var iniM = tM ? tM.ini : GUT, bordeM = Math.min(edge, tM ? tM.fin : GUT);
+    var iniAmbos = Math.max(iniW, iniM);
+    var bordeAmbos = Math.min(bordeW, bordeM);
+    edge = Math.max(bordeW, bordeM);
+
+    /* Zona baja, del cero a la línea de control: la hostilidad que recibe
+       cualquiera en política. Neutra a propósito — no es el hallazgo. */
+    ctx.beginPath();
+    ctx.moveTo(GUT, base);
+    /* El relleno arranca donde arranca la COMPARACIÓN, no donde arranca el
+       control. Si el control tiene dato antes que ellas —la clasificación no
+       ha llegado a las horas más viejas de la ventana—, pintar su zona ahí
+       dejaba un bloque de color sin banda encima: se leía como un hueco, como
+       si faltara algo, cuando lo que pasa es que ahí todavía no hay con qué
+       comparar. La línea del control sí se dibuja entera. */
+    ctx.moveTo(iniAmbos, base);
+    for (x = iniAmbos; x <= bordeM; x += 1) ctx.lineTo(x, yOf(at(s.m, x)));
+    ctx.lineTo(bordeM, base); ctx.closePath();
+    ctx.fillStyle = "rgba(110,134,155,.16)"; ctx.fill();
+
+    /* LA BANDA: de la línea de control a la de ellas. Su grosor es la
+       asimetría en cada instante. Aquí es donde vive el hallazgo. */
+    ctx.beginPath();
+    ctx.moveTo(iniAmbos, yOf(at(s.m, iniAmbos)));
+    for (x = iniAmbos; x <= bordeAmbos; x += 1) ctx.lineTo(x, yOf(at(s.w, x)));
+    for (x = bordeAmbos; x >= iniAmbos; x -= 1) ctx.lineTo(x, yOf(at(s.m, x)));
+    ctx.closePath();
+    ctx.globalAlpha = .22; ctx.fillStyle = grad; ctx.fill(); ctx.globalAlpha = 1;
+
+    // control: el borde inferior de la banda
+    ctx.strokeStyle = DKCTRL; ctx.lineWidth = 1.2;
+    ctx.beginPath();
+    for (x = iniM; x <= bordeM; x += STEP){
+      y = yOf(at(s.m, x));
+      if (x === iniM) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+
+    // ellas: el borde superior, con brillo
+    ctx.save();
+    ctx.shadowColor = BANDS[3].c; ctx.shadowBlur = 9;
+    ctx.strokeStyle = grad; ctx.lineWidth = 1.5; ctx.lineJoin = "round";
+    ctx.beginPath();
+    for (x = iniW; x <= bordeW; x += STEP){
+      y = yOf(at(s.w, x));
+      if (x === iniW) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+    ctx.restore();
+
+    // marca del episodio: el episodio es un punto del tiempo
+    /* La etiqueta se ancla ARRIBA y la guía baja hasta el pico: así nunca
+       se recorta contra el borde por muy alto que llegue la traza. */
+    var px = xOf(d.peak);
+    /* Se dibuja SIEMPRE que haya episodio; sólo la etiqueta se recoloca. Antes
+       se exigía que el pico estuviese a más de 34 px de cada borde, y en el
+       rango de 15 días el máximo cae en el primer punto de la serie: la marca
+       no se dibujaba y el pie anunciaba un episodio que no aparecía en ningún
+       sitio de la curva. */
+    if (d.epi && reveal >= 1){
+      /* La marca se sitúa en la MAGNITUD del episodio, no en el valor
+         instantáneo del temblor: así la etiqueta, la altura y la franja
+         de abajo dicen todas lo mismo. */
+      var pv = d.epi.mag, py = yOf(pv);
+      ctx.strokeStyle = "rgba(220,231,238,.26)";
+      ctx.setLineDash([2, 3]); ctx.lineWidth = 1;
+      var yEtq = 16;                    // separada de la leyenda de arriba
+      ctx.beginPath(); ctx.moveTo(px, yEtq + 13); ctx.lineTo(px, py - 6); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = band(pv).c;
+      ctx.beginPath(); ctx.arc(px, py, 3.2, 0, 6.284); ctx.fill();
+      ctx.font = '11px ui-monospace, "Cascadia Mono", Consolas, monospace';
+      ctx.textBaseline = "top";
+      var txt = d.epi.t + " · " + es(pv,1);
+      var mitad = ctx.measureText(txt).width / 2 + 10;
+      // La etiqueta se mete hacia dentro si el pico cae pegado a un borde.
+      var xEtq = Math.max(GUT + mitad, Math.min(W - mitad, px));
+      ctx.textAlign = "center";
+      ctx.fillStyle = tok("--dk-ink");
+      ctx.fillText(txt, xEtq, yEtq);
+    }
+
+    // borde vivo
+    if (reveal >= 1){
+      var cw = at(s.w, W-1);
+      ctx.save();
+      ctx.shadowColor = band(cw).c; ctx.shadowBlur = 10;
+      ctx.fillStyle = band(cw).c;
+      ctx.beginPath(); ctx.arc(W-2, yOf(cw), 3.2, 0, 6.284); ctx.fill();
+      ctx.restore();
+      ctx.fillStyle = DKCTRL;
+      ctx.beginPath(); ctx.arc(W-2, yOf(at(s.m, W-1)), 2.6, 0, 6.284); ctx.fill();
+    }
+
+    /* Guía vertical. Sólo aparece al señalar, y mientras está la traza no
+       avanza — si no, el dato se deslizaría bajo el cursor. */
+    if (hoverX !== null && hoverX >= GUT && hoverX <= W){
+      var hw = at(s.w, hoverX), hm = at(s.m, hoverX);
+      ctx.strokeStyle = "rgba(220,231,238,.38)";
+      ctx.setLineDash([3, 3]); ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(hoverX, PAD_T); ctx.lineTo(hoverX, base); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = DK;
+      ctx.beginPath(); ctx.arc(hoverX, yOf(hw), 4.6, 0, 6.284); ctx.fill();
+      ctx.beginPath(); ctx.arc(hoverX, yOf(hm), 4.2, 0, 6.284); ctx.fill();
+      ctx.fillStyle = band(hw).c;
+      ctx.beginPath(); ctx.arc(hoverX, yOf(hw), 3.4, 0, 6.284); ctx.fill();
+      ctx.fillStyle = DKCTRL;
+      ctx.beginPath(); ctx.arc(hoverX, yOf(hm), 3, 0, 6.284); ctx.fill();
+    }
+  }
+
+  /* La maqueta corre 60× el tiempo real: un minuto de datos por segundo.
+     El avance se calcula en tiempo simulado, no en fotogramas, para que
+     los tres rangos corran al mismo ritmo. En producción, TIME_SCALE = 1. */
+  var TIME_SCALE = 60;
+  function stepSamples(dtMs){
+    return (dtMs / 1000) * TIME_SCALE / 60 / minPerSample();
+  }
+
+  var last = 0;
+  function loop(ts){
+    if (!last) last = ts;
+    var dt = ts - last;
+    if (reveal < 1){
+      reveal = Math.min(1, reveal + .022); last = ts; draw();
+    } else if (hoverX !== null){
+      last = ts;                                  // en pausa: no acumular tiempo
+    } else if (dt > 33){          // ~30 fps: suficiente para que se lea vibración
+      /* Con datos reales la traza NO se desplaza sola. El simulador corría a
+         60× para que la maqueta se viera viva; manteniéndolo, la ventana se
+         deslizaba más allá del final de los datos y todo lo de la derecha se
+         quedaba clavado en el último valor —de ahí que la magnitud de ellas no
+         cambiara al mover el ratón y que el globo diera las 13:39 sobre el
+         borde de las 18:00—. Ahora avanza cuando llega dato nuevo, no antes. */
+      if (!ESTADO) offset += stepSamples(dt);
+      if (!reduce) fase += dt * 0.006;      // se respeta «reducir movimiento»
+      last = ts; draw(); paintAxis(); tickClock();
+    }
+    requestAnimationFrame(loop);
+  }
+
+  var pauseHint = document.getElementById("pauseHint");
+
+  function leave(){
+    hoverX = null; tip.style.opacity = "0"; pauseHint.hidden = true; draw();
+  }
+
+  cv.addEventListener("pointermove", function(e){
+    var box = cv.getBoundingClientRect(), x = e.clientX - box.left;
+    if (x < GUT){ leave(); return; }
+    hoverX = x;
+    pauseHint.hidden = reduce;
+    /* El globo informa de la MAGNITUD (la envolvente), no de la altura del
+       trazo: el temblor es textura de eventos y no es una cifra que publicar. */
+    var s = SERIES[cur];
+    var mw = at(s.wEnv || s.w, x), mm = at(s.mEnv || s.m, x), bd = band(mw);
+    var frac = (W - x) / (W - GUT);
+    /* El tooltip se centra en el cursor, así que hay que dejarle media
+       anchura a cada lado o se sale del panel en pantallas estrechas. */
+    var half = Math.min(96, W / 2 - 4);
+    tip.style.opacity = "1";
+    tip.style.left = Math.max(half, Math.min(W - half, x)) + "px";
+    tip.style.top = "16px";
+    /* Tres filas alineadas: cada número en la suya. La marca de color repite
+       la de la leyenda, y el texto va siempre en tinta. */
+    if (isNaN(mw) && isNaN(mm)){
+      tip.innerHTML = '<div class="tip__t">' + timeAt(frac, DATA[cur].hours) + "</div>" +
+        '<div class="tip__r"><span>Sin medición todavía</span></div>';
+      draw();
+      return;
+    }
+    tip.innerHTML =
+      '<div class="tip__t">' + timeAt(frac, DATA[cur].hours) + "</div>" +
+      '<div class="tip__r"><i style="background:' + bd.c + '"></i>' +
+        "<span>Mujeres</span><b>" + es(mw,1) + "<em>" + bd.name + "</em></b></div>" +
+      '<div class="tip__r"><i style="background:' + DKCTRL + '"></i>' +
+        "<span>Control</span><b>" + es(mm,1) + "</b></div>" +
+      '<div class="tip__r tip__r--gap"><i style="background:' + bd.c + '"></i>' +
+        "<span>Brecha</span><b>" + es(mw - mm,1) + "</b></div>";
+    draw();
+  });
+  cv.addEventListener("pointerleave", leave);
+  cv.addEventListener("pointercancel", leave);
+
+  /* ---- sparkline por persona ---- */
+  function drawSpark(cvs, p, mag){
+    var c = cvs.getContext("2d");
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var w = cvs.clientWidth, h = cvs.clientHeight;
+    if (!w || !h) return;
+    cvs.width = Math.round(w*dpr); cvs.height = Math.round(h*dpr);
+    c.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var g = rng(p.s), mid = h/2, amp = mid - 1.5;
+    var pk = .3 + (p.s % 7)*.08, lvl = mag*.45;
+    c.strokeStyle = RULE;
+    c.beginPath(); c.moveTo(0, mid); c.lineTo(w, mid); c.stroke();
+    c.strokeStyle = INK; c.lineWidth = 1;
+    c.beginPath();
+    for (var x = 0; x <= w; x += .5){
+      var t = x / w;
+      lvl += (g() - .5)*mag*.5;
+      lvl += (mag*.42 - lvl)*.06;
+      var v = Math.max(.05, Math.min(10, lvl + mag*.95*Math.exp(-Math.pow((t-pk)*9, 2))));
+      var y = mid - (v/10)*amp;
+      if (x === 0) c.moveTo(x, y); else c.lineTo(x, y);
+    }
+    c.stroke();
+  }
+  function drawAllSparks(){
+    var d = DATA[cur];
+    var src = whoView === "emite" ? EMIT : PEOPLE;
+    var vals = whoView === "emite" ? d.emit : d.stations;
+    Array.prototype.forEach.call(document.querySelectorAll(".row canvas"), function(cvs){
+      var i = +cvs.dataset.i;
+      drawSpark(cvs, src[i], vals[i]);
+    });
+  }
+
+  /* ============================================================
+     PINTADO
+     ============================================================ */
+  function barList(names, vals, unit, dec, deltas){
+    var max = Math.max.apply(null, vals);
+    return names.map(function(nm, i){
+      var dv = deltas ? deltas[i] : null;
+      var dt = dv === null ? "" : (dv > 0 ? "+" : dv < 0 ? "−" : "±") + es(Math.abs(dv), dec);
+      return "<div>" +
+        '<span class="l">' + nm + "</span>" +
+        '<span class="d">' + dt + "</span>" +
+        '<span class="n">' + es(vals[i], dec) + unit + "</span>" +
+        '<span class="track"><span class="fill" style="width:' + (vals[i]/max*100) + '%"></span></span>' +
+        "</div>";
+    }).join("");
+  }
+
+  function render(){
+    var d = DATA[cur];
+    // El padrón se repuebla con el del rango elegido: los conteos de cada fila
+    // tienen que ser de la misma ventana que la magnitud que va a su lado.
+    if (d.people && d.people.length){
+      PEOPLE.length = 0;
+      d.people.forEach(function(p){ PEOPLE.push(p); });
+    }
+    if (d.emitList) poblarEmit(d.emitList);
+    /* Sin medición NO es magnitud cero. Una ventana con cuatro mensajes leídos
+       no sostiene la palabra «calma»: el número se retira y se dice por qué,
+       en vez de publicar un 0,0 que se lee como tranquilidad. */
+    var nada = d.sinDatos || d.mag == null;
+    var bd = nada ? {name:"Sin medición", c:"#8FA6B6"} : band(d.mag);
+
+    var mn = document.getElementById("magNum");
+    mn.innerHTML = nada ? "—" : es(d.mag,1) + "<small>/10</small>";
+    mn.style.color = bd.c;
+    mn.style.textShadow = nada ? "none" : "0 0 22px " + bd.c + "55";
+    var bn = document.getElementById("magBand");
+    bn.textContent = bd.name; bn.style.color = bd.c;
+    document.getElementById("magDelta").textContent = (nada || d.delta == null) ? "" :
+      (d.delta > .15 ? "▲ " : d.delta < -.15 ? "▼ " : "▬ ") + es(Math.abs(d.delta),1);
+    document.getElementById("ctrlNum").textContent =
+      d.ctrl == null ? "—" : es(d.ctrl,1);
+    document.getElementById("regNote").textContent = d.note;
+    document.getElementById("gapNote").textContent = nada || d.ctrl == null
+      ? "Muestra insuficiente en esta ventana"
+      : (W && W < 560
+          ? "Brecha " + es(d.mag - d.ctrl, 1)
+          : "Banda = " + es(d.mag - d.ctrl, 1) + " puntos de diferencia ahora");
+
+    /* El episodio se calcula del pico real de la serie. Sin serie medida no hay
+       episodio y la franja se vacía: antes había aquí una hora, una magnitud y
+       un número de cuentas de relleno, que es lo peor que puede publicar un
+       panel cuyo trabajo es documentar hechos. */
+    var e = d.epi;
+    document.getElementById("strip").innerHTML = !e ? "" :
+      '<span class="lab">Episodio marcado · ' + e.t + "</span>" +
+      '<span class="f">Magnitud máxima <b class="hot">' + es(e.mag,1) + "</b></span>" +
+      '<span class="f">Elevado <b>' + dur(e.min) + "</b></span>" +
+      '<span class="f">Mensajes hostiles <b>' + e.mensajes + "</b></span>" +
+      '<span class="f">Cuentas implicadas <b>' + e.acc + "</b></span>" +
+      '<span class="f">Concentración <b>' + e.conc + "</b></span>" +
+      '<span class="f">Con más de un mensaje <b>' + e.nucleo + " cuentas</b></span>";
+
+    /* Las tres vistas escriben en el MISMO contenedor. Que compartan sitio no
+       es un detalle de implementación: es lo que impide volver a tener dos
+       listas de porcentajes a la vez, que es de donde salía la sensación de
+       que el tablero se contradecía. */
+    var keyMix = document.getElementById("keyMix");
+    var cont = document.getElementById("mix");
+    /* Cada vista necesita su propia rejilla: `.asym` reparte las filas a
+       alto igual para que las barras dobles quepan, `.list` apila
+       porcentajes. Sin cambiar la clase, la comparación se dibujaba sin
+       barras: los estilos colgaban del contenedor, no de la fila. */
+    cont.className = mixView === "comparacion" ? "asym" : "list";
+    if (mixView === "red"){
+      document.getElementById("mix").innerHTML = barList(
+        PLAT_NAMES,
+        PLAT_NAMES.map(function(_, i){ return (d.plats[i] || 0) / 1000; }),
+        " mil", 1, PLAT_NAMES.map(function(_, i){ return d.platDelta[i] || 0; }));
+      keyMix.hidden = true;
+    } else if (mixView === "comparacion"){
+      /* La escala se saca de LAS DOS series, no solo de la de ellas. Tomándola
+         de ella, en cuanto él tenía más —5,0 % frente a 0,8 %— su barra se
+         dibujaba al 625 % del ancho, desbordaba el panel y empujaba las
+         etiquetas fuera de la vista. El panel daba por hecho que ella siempre
+         recibe más. */
+      var MAXW = Math.max.apply(null,
+        d.asym.map(function(a){ return Math.max(a[0], a[1]); })) * 1.04 || 1;
+      document.getElementById("mix").innerHTML = d.asym.map(function(a, i){
+        function bar(v, col){
+          return '<div><span class="bar" style="width:' +
+            Math.min(100, Math.max(1.5, v / MAXW * 100)) +
+            "%;background:" + col + '"></span><span class="v">' + es(v,1) + " %</span></div>";
+        }
+        /* La primera fila es el total. Va separada por una regla porque no es
+           una categoría más: es la suma contra la que se leen las otras. */
+        var clase = i === 0 ? "asym__r asym__r--tot" : "asym__r";
+        return '<div class="' + clase + '"><div class="t"><span>' + ASYM_NAMES[i] +
+          "</span><b>" + razonAsim(a[0], a[1]) + "</b></div>" +
+          '<div class="bars">' + bar(a[0], INK) + bar(a[1], CTRL) + "</div></div>";
+      }).join("");
+      keyMix.hidden = false;
+    } else {
+      document.getElementById("mix").innerHTML =
+        barList(CAT_NAMES, d.cats, " %", 0, d.catDelta);
+      keyMix.hidden = true;
+    }
+
+    document.getElementById("whoTitle").textContent =
+      whoView === "emite" ? "¿Quién lo emite?" : "¿Quién lo recibe?";
+
+    if (whoView === "emite"){
+      document.getElementById("rows").innerHTML = EMIT.map(function(a, i){
+        var idx = d.emit[i], ep = d.emitEp[i];
+        var alto = ep > d.epTot / 2;
+        return '<button type="button" class="row">' +
+          avatar(a, null, true) +
+          "<span>" +
+            '<span class="name code">' + (a.user || a.c) +
+              (alto ? '<span class="tagr">Núcleo</span>' : "") + "</span>" +
+            '<span class="meta">' + (a.user ? a.c + " · " : "") +
+              a.p + " · " + a.msg + " mensajes · " + a.host + " hostiles</span>" +
+          "</span>" +
+          '<canvas data-i="' + i + '"></canvas>' +
+          /* Incidencias: mensajes hostiles de esta cuenta en el periodo. Es
+             el número por el que están ordenadas, así que tiene que verse. */
+          '<span class="mag2">' + idx + "</span>" +
+          '<span class="bnd">' + ep + " de " + PADRON_N +
+            '<span class="dl">monitoreadas</span></span>' +
+          "</button>";
+      }).join("");
+    } else {
+      /* Mismo orden que el ranking: por magnitud, de mayor a menor, y las que
+         no tienen medición al final. Antes iba en el orden del padrón, y dos
+         listas con las mismas nueve personas en órdenes distintos se leen
+         como si midieran cosas distintas. El índice original se conserva en
+         data-p y data-i: es lo que usan la ficha y las trazas. */
+      var orden = PEOPLE.map(function(_, i){ return i; }).sort(function(a, b){
+        var ma = d.stations[a], mb = d.stations[b];
+        if (ma == null && mb == null) return a - b;
+        if (ma == null) return 1;
+        if (mb == null) return -1;
+        return mb - ma;
+      });
+      document.getElementById("rows").innerHTML = orden.map(function(i){
+        var p = PEOPLE[i], mag = d.stations[i], dl = d.stDelta[i];
+        return '<button type="button" class="row" data-p="' + i + '">' +
+          avatar(p, band(mag).c, false) +
+          "<span>" +
+            '<span class="name">' + p.n + (p.warn ? '<span class="warn">Amenaza</span>' : "") + "</span>" +
+            '<span class="meta">' + p.r + " · " + p.m + " menciones · " +
+              (p.incidencias || 0) + " hostiles</span>" +
+          "</span>" +
+          '<canvas data-i="' + i + '"></canvas>' +
+          '<span class="mag2"' + (mag >= 7 ? ' style="color:' + ALARM + '"' : "") + ">" + es(mag,1) + "</span>" +
+          '<span class="bnd">' + band(mag).name + '<span class="dl">' +
+            (mag == null || dl == null ? "" :
+              (dl > .05 ? "▲ " : dl < -.05 ? "▼ " : "▬ ") + es(Math.abs(dl),1)) +
+            "</span></span>" +
+          "</button>";
+      }).join("");
+    }
+    drawAllSparks();
+
+    document.getElementById("sayNow").innerHTML = sayNow(d);
+    document.getElementById("sayWho").innerHTML = sayWho(d);
+    document.getElementById("sayMix").innerHTML = sayMix(d);
+
+    clearAxis(); paintAxis();
+  }
+
+  /* ---- EJE CARRUSEL ----
+     Cada marca está anclada a un instante concreto (una hora redonda), no a
+     una posición fija. Al avanzar el reloj su x baja, y las marcas nuevas
+     entran por la derecha. Los elementos se reutilizan: sólo se crea el que
+     entra y se destruye el que sale. */
+  var axisEl = document.getElementById("timeaxis");
+  var ticks = new Map();
+  var NICE = [5, 10, 15, 30, 60, 120, 180, 360, 720, 1440, 2880];
+
+  function tickStep(){
+    var hrs = DATA[cur].hours;
+    var pxPerMin = Math.max(1, W - GUT) / (hrs * 60);
+    var minGap = W < 520 ? 62 : 78;
+    /* En ventanas de más de dos días la hora sola no identifica la marca
+       ("00:00" se repetiría cada día), así que el paso mínimo es un día. */
+    var from = hrs > 48 ? NICE.indexOf(1440) : 0;
+    for (var i = from; i < NICE.length; i++) if (NICE[i] * pxPerMin >= minGap) return NICE[i];
+    return NICE[NICE.length - 1];
+  }
+  var MESES = ["ene","feb","mar","abr","may","jun",
+               "jul","ago","sep","oct","nov","dic"];
+  /* Traduce una marca del eje a fecha real. El borde derecho es el último
+     cierre, así que se cuenta hacia atrás desde ahí. */
+  function fechaDe(t, nowAbs){
+    /* `finSerie`, no `cierre`: la serie se corta en la hora en punto y el
+       cierre es el último mensaje clasificado. Anclar el eje al cierre movía
+       cada etiqueta hasta 59 minutos, y el globo decía las 17:01 sobre un
+       punto que era de las 18:00. */
+    var iso = ESTADO && (ESTADO.finSerie || ESTADO.cierre);
+    var base = iso ? new Date(iso) : new Date();
+    return new Date(base.getTime() - (nowAbs - t) * 60000);
+  }
+  function tickLabel(t, nowAbs, step){
+    if (step < 1440) return hhmm(t);
+    /* «−3 d» obliga a restar mentalmente para saber de qué día habla, y no
+       coincide con ninguna fecha que el lector pueda contrastar. */
+    var d = fechaDe(t, nowAbs);
+    return d.getDate() + " " + MESES[d.getMonth()];
+  }
+  function clearAxis(){
+    ticks.forEach(function(el){ el.remove(); });
+    ticks.clear();
+  }
+  function paintAxis(){
+    if (!W) return;
+    var d = DATA[cur], nowAbs = nowMin(), span = d.hours * 60;
+    var plot = Math.max(1, W - GUT), step = tickStep(), seen = {};
+    var first = Math.ceil((nowAbs - span) / step) * step;
+    for (var t = first; t <= nowAbs; t += step){
+      var x = GUT + (1 - (nowAbs - t) / span) * plot;
+      seen[t] = 1;
+      var el = ticks.get(t);
+      if (!el){
+        el = document.createElement("span");
+        el.textContent = tickLabel(t, nowAbs, step);
+        axisEl.appendChild(el);
+        ticks.set(t, el);
+      } else if (step >= 1440){
+        el.textContent = tickLabel(t, nowAbs, step);
+      }
+      el.style.transform = "translateX(" + x.toFixed(1) + "px) translateX(-50%)";
+    }
+    ticks.forEach(function(el, t){
+      if (!seen[t]){ el.remove(); ticks.delete(t); }
+    });
+  }
+
+
+  /* ---- DATOS REALES ----------------------------------------------------
+     El navegador NO consulta el API de Brandwatch: lee `estado.json`, que
+     genera el backend. Eso es lo que hace posible el "en vivo" sin reventar
+     el límite de peticiones, y permite servir el tablero como estático.
+
+     Si el archivo no está (o falla), se conservan los datos de la maqueta y
+     se marca el encabezado como demostración: es preferible un tablero que
+     admite ser una demo a uno que presenta números inventados como reales. */
+
+  /* Lleva la serie real (paso de 10-60 min) a las N muestras que dibuja el
+     canvas. Es resolución de DIBUJO, no dato inventado: interpola linealmente
+     entre mediciones y NO añade ruido sísmico. La traza sale más lisa que la
+     de la maqueta, y eso es lo correcto: los dientes de sierra de la maqueta
+     eran decoración, no señal.
+
+     Los `null` (ventanas sin ninguna mención clasificada) se saltan: se
+     interpola entre las mediciones que sí existen en vez de hundir la curva
+     a cero, que fingiría calma donde solo hay ausencia de dato. */
+  /* Amplitud del temblor, en puntos de magnitud. Pequeña a propósito y por dos
+     razones: la altura que se lee tiene que seguir siendo la magnitud, no el
+     pico de un mensaje suelto; y con el volumen actual una vibración amplia
+     exageraría visualmente unos pocos mensajes. */
+  var AMP_TEMBLOR = 0.30;
+
+  /* Devuelve el temblor remuestreado y CENTRADO, a la resolución del lienzo.
+     Se guarda aparte de la envolvente porque la vibración se recompone en cada
+     fotograma: la envolvente es la magnitud y no se mueve nunca; lo que vibra
+     es la aguja, y solo donde hay mensajes. */
+  function temblorEn(env, temblor){
+    if (!temblor || !temblor.length) return null;
+    var media = 0;
+    for (var k = 0; k < temblor.length; k++) media += temblor[k];
+    media /= temblor.length;
+
+    var n = env.length, L = temblor.length - 1, out = new Float32Array(n);
+    for (var i = 0; i < n; i++){
+      var f = (i / (n - 1)) * L, a = Math.floor(f), b = Math.min(L, a + 1);
+      var t = temblor[a] + (temblor[b] - temblor[a]) * (f - a);
+      out[i] = t - media;
+    }
+    return out;
+  }
+
+  /* Fase de la vibración. Avanza con el reloj real y NO desplaza el dato: la
+     envolvente —la magnitud, lo que se lee y lo que informa el globo— se queda
+     donde está; lo que tiembla es la aguja.
+     
+     Vibra TODA la curva, también donde no hay mensajes, igual que en la
+     maqueta: es lo que da la sensación de instrumento encendido. Encima de ese
+     piso, los tramos con actividad tiemblan más, porque ahí el temblor real
+     suma. */
+  var fase = 0;
+  var PISO_VIBRA = 0.60;   // vibración de fondo, en toda la traza
+  var VIBRA = 0.70;        // cuánto de la amplitud se pone a oscilar
+
+  function conTemblor(env, temb){
+    var n = env.length, out = new Array(n);
+    for (var i = 0; i < n; i++){
+      var base = temb ? temb[i] : 0;
+      // Tres senos de periodo distinto para que no se lea un patrón regular.
+      var osc = Math.sin(i * 0.9  + fase)        * 0.5
+              + Math.sin(i * 2.7  - fase * 1.7)  * 0.3
+              + Math.sin(i * 6.1  + fase * 0.6)  * 0.2;
+      var v = base + (PISO_VIBRA + Math.abs(base)) * osc * VIBRA;
+      out[i] = Math.max(0.05, env[i] + v * AMP_TEMBLOR);
+    }
+    return out;
+  }
+
+  function remuestrear(serie, n){
+    if (!serie || !serie.length) return null;
+    var pts = [];
+    for (var i = 0; i < serie.length; i++){
+      if (serie[i] !== null && serie[i] !== undefined) pts.push([i, serie[i]]);
+    }
+    if (!pts.length) return null;
+    var out = new Array(n), L = (serie.length - 1) || 1;
+    var pri = pts[0][0], ult = pts[pts.length - 1][0];
+    for (var k = 0; k < n; k++){
+      var f = (k / (n - 1)) * L, a = pts[0], b = pts[pts.length - 1];
+      /* Fuera del tramo medido NO se repite el último valor. La serie de ellas
+         terminaba a media tarde —la clasificación va por detrás de la
+         recolección— y el dibujo extendía ese valor en plano por el resto del
+         lienzo: se leía «se mantuvo en 1,9» donde no había nada medido. */
+      if (f < pri || f > ult){ out[k] = NaN; continue; }
+      for (var j = 0; j < pts.length; j++){
+        if (pts[j][0] <= f) a = pts[j];
+        if (pts[j][0] >= f){ b = pts[j]; break; }
+      }
+      /* Un hueco corto (≤ 6 pasos) se interpola; uno largo es ausencia de
+         medición y se deja en blanco, igual que el arranque. */
+      if (b[0] - a[0] > 6 && f !== a[0] && f !== b[0]){ out[k] = NaN; continue; }
+      out[k] = (b[0] === a[0]) ? a[1]
+             : a[1] + (b[1] - a[1]) * ((f - a[0]) / (b[0] - a[0]));
+    }
+    return out;
+  }
+
+  function codigo(semilla){
+    return "EC-" + String(semilla || "").slice(0, 4).toUpperCase();
+  }
+  function semillaNum(hex){
+    return (parseInt(String(hex || "0").slice(0, 6), 16) || 0) % 900 + 100;
+  }
+
+  function aplicarEstado(e){
+    ESTADO = e;
+
+    Object.keys(e.rangos).forEach(function(r){
+      if (!DATA[r]) return;
+      var b = e.rangos[r], d = DATA[r];
+      d.mag = b.mag; d.ctrl = b.ctrl; d.note = b.note;
+      d.cats = b.cats; d.catDelta = b.catDelta;
+      d.plats = b.plats; d.platDelta = b.platDelta;
+      d.asym = b.asym;
+      d.stations = b.stations; d.stDelta = b.stDelta;
+      /* Estos tres se quedaban sin copiar y el rango elegido heredaba los del
+         simulador: `sinDatos` en false hacía que un rango sin medición pintara
+         igual que uno medido, y `people` venía siempre de la ventana de 6 h, así
+         que las filas mostraban magnitudes de 7 d junto a conteos de 6 h. */
+      d.sinDatos = !!b.sinDatos;
+      d.disponible = b.disponible !== false;
+      d.motivo = b.motivo || "";
+      d.epi = b.epi || null;
+      /* La marca del pico se coloca donde ocurrió, traduciendo su índice en la
+         serie a la escala remuestreada del lienzo. Antes iba en un índice fijo
+         heredado del simulador: la etiqueta decía una hora y la marca señalaba
+         otro punto de la curva. */
+      if (d.epi && d.epi.nSerie > 1){
+        d.peak = Math.round((N - 1) * d.epi.idx / (d.epi.nSerie - 1));
+      }
+      d.people = b.people || [];
+      // null = sin periodo anterior medido; no es «igual» (0).
+      d.delta = (b.mag != null && b.magPrev != null)
+        ? Math.round((b.mag - b.magPrev) * 100) / 100 : null;
+      d.lectura = b.lectura || null;
+
+      var sr = e.series && e.series[r];
+      if (sr && SERIES[r]){
+        var w = remuestrear(sr.mujeres, N), m = remuestrear(sr.hombres, N);
+        /* El temblor del sismógrafo: cada mensaje hostil es un evento, con
+           amplitud según su severidad. La envolvente (ventana móvil) da la
+           magnitud; esto da el relieve fino. En la maqueta ese relieve salía de
+           un generador aleatorio — se veía igual, pero quien mirara un pico
+           estaría mirando un número inventado. Ahora un pico son mensajes que
+           existen, a la hora en que se escribieron. */
+        if (w){ SERIES[r].wEnv = w; SERIES[r].wT = temblorEn(w, sr.temblorM); }
+        if (m){ SERIES[r].mEnv = m; SERIES[r].mT = temblorEn(m, sr.temblorH); }
+      }
+
+      /* Las emisoras son las de ESTE rango, no las globales: el panel tiene
+         que cambiar al cambiar de periodo o no sirve para mirar un episodio. */
+      var bem = b.emit || e.emit || {};
+      var cu = bem.cuentas || [];
+      d.emitList = cu;
+      d.emit = cu.map(function(c){ return c.hostiles; });
+      d.emitEp = cu.map(function(c){ return c.objetivos; });
+      d.epTot = bem.totalEmisoras || 0;
+      d.coreShare = d.epTot
+        ? Math.round(100 * ((e.emit && e.emit.reincidentes) || 0) / d.epTot) : 0;
+    });
+
+    /* Los periodos se habilitan según lo que cubra la base, no a mano: si el
+       histórico no llega, «30 días» dibujaría media ventana con datos y media
+       vacía como si fueran lo mismo. El botón queda inerte y dice por qué. */
+    Array.prototype.forEach.call(document.querySelectorAll("[data-r]"), function(bt){
+      var bl = e.rangos[bt.dataset.r];
+      var ok = !!bl && bl.disponible !== false;
+      bt.disabled = !ok;
+      bt.title = ok ? "" : ((bl && bl.motivo) || "Sin histórico suficiente todavía.");
+    });
+    /* La ventana de arranque tampoco puede ser una que no midió nada. Con
+       `disponible` sola, el tablero abría en «1 día» —disponible, pero sin una
+       sola clasificación— y enseñaba siete «sin medición» seguidos: parecía
+       roto cuando lo que pasa es que la clasificación va por detrás de la
+       recolección. Se arranca en la ventana MÁS AMPLIA que sí tenga magnitud,
+       porque las estrechas dejan pares sin valor y una lectura de más días es
+       más estable. Las demás siguen a un clic y siguen diciendo la verdad. */
+    function utilizable(r){
+      var b = e.rangos[r];
+      return !!(DATA[r] && b && b.disponible !== false && b.sinDatos !== true);
+    }
+    if (!utilizable(cur)){
+      var conDato = Object.keys(e.rangos).filter(utilizable);
+      if (conDato.length){
+        cur = conDato[conDato.length - 1];
+      } else if (e.rangos[cur] && e.rangos[cur].disponible === false){
+        var alt = Object.keys(e.rangos).filter(function(r){
+          return DATA[r] && e.rangos[r].disponible !== false; })[0];
+        if (alt) cur = alt;
+      }
+    }
+    // Los botones tienen que reflejar la ventana elegida, no la del marcado.
+    Array.prototype.forEach.call(document.querySelectorAll("[data-r]"), function(bt){
+      bt.setAttribute("aria-pressed", String(bt.dataset.r === cur));
+    });
+
+    // Semilla inicial; `render()` la repuebla con la del rango elegido.
+    if (e.padron && e.padron.pares) PADRON_N = e.padron.pares.length;
+    var gente = (e.rangos[cur] && e.rangos[cur].people)
+             || (e.rangos["1d"] && e.rangos["1d"].people) || [];
+    PEOPLE.length = 0;
+    gente.forEach(function(p){ PEOPLE.push(p); });
+
+    poblarEmit((e.rangos[cur] && e.rangos[cur].emit
+                && e.rangos[cur].emit.cuentas) || (e.emit && e.emit.cuentas) || []);
+    /* Los nombres de red venían fijos en el JavaScript con TikTok y YouTube
+       dentro, y ninguna de las dos existe en el corpus: el panel pintaba dos
+       barras en cero eternas. La lista la manda el backend con lo que hay. */
+    if (e.platNames && e.platNames.length){
+      PLAT_NAMES.length = 0;
+      e.platNames.forEach(function(n){ PLAT_NAMES.push(n); });
+    }
+    if (e.catNames && e.catNames.length){
+      CAT_NAMES.length = 0;
+      e.catNames.forEach(function(n){ CAT_NAMES.push(n); });
+    }
+    /* Igual que catNames. Sin esto, el panel comparativo dibujaba las filas de
+       estado.json con los rótulos de la MAQUETA: cinco nombres del vocabulario
+       viejo y «undefined» en las dos filas que la maqueta no tenía. */
+    if (e.asymNames && e.asymNames.length){
+      ASYM_NAMES.length = 0;
+      e.asymNames.forEach(function(n){ ASYM_NAMES.push(n); });
+    }
+    /* La hora del borde derecho sale del DATO, no de la constante del
+       simulador. `START_MIN` estaba fijo en las 14:22 —la hora del primer
+       fotograma de la maqueta— y de ahí salían las etiquetas del eje y el globo
+       del ratón: la traza terminaba a las 18:00 y el tablero decía 14:22. */
+    var fin = new Date(e.finSerie || e.cierre || Date.now());
+    START_MIN = fin.getHours() * 60 + fin.getMinutes();
+    offset = 0;
+    restoEstado(e);
+  }
+
+  function poblarEmit(cuentas){
+    EMIT.length = 0;
+    cuentas.forEach(function(c){
+      EMIT.push({
+        // El handle real cuando viene; el seudónimo solo si faltara.
+        c: c.handle || codigo(c.semilla),
+        user: c.nombre || null,
+        p: (c.etiquetas && c.etiquetas[0]) || "Ocasional",
+        msg: String(c.mensajes),
+        host: c.mensajes ? Math.round(100 * c.hostiles / c.mensajes) + " %" : "—",
+        s: semillaNum(c.semilla),
+        // La foto que la propia cuenta publica. Si no se pudo recuperar, cae
+        // en el identicono derivado de la semilla, que no representa a nadie.
+        img: c.foto || null
+      });
+    });
+  }
+
+  function restoEstado(e){
+
+    /* Las lecturas ya vienen redactadas por plantilla desde el backend
+       (determinista y auditable), así que aquí solo se muestran. */
+    if (e.lecturas){
+      // Por rango si el backend la manda; si no, la única que haya.
+      sayNow = function(d){
+        var t = (d && d.lectura && d.lectura.registro) || e.lecturas.registro;
+        return t + stamp();
+      };
+      sayWho = function(d){
+        var l = (d && d.lectura) || {};
+        var rec = l.recibe || e.lecturas.recibe;
+        var emi = l.emite || e.lecturas.emite;
+        return (whoView === "emite" ? emi : rec) + stamp();
+      };
+      sayMix = function(d){
+        if (mixView === "red") return lecturaRed(d);
+        /* La comparación se redacta aquí y no en el backend porque sale de las
+           mismas cifras que ya viajan en `asym`: pedirle al backend una frase
+           más sería mandar dos veces el mismo dato. Si algún día la plantilla
+           existe (`lecturas.comparacion`), manda ella. */
+        if (mixView === "comparacion"){
+          var c2 = (d && d.lectura && d.lectura.comparacion) || e.lecturas.comparacion;
+          if (c2) return c2 + stamp();
+          if (!d || !d.asym || !d.asym.length) return "";
+          var iB = -1, may = 1;
+          for (var k = 1; k < d.asym.length; k++){
+            var r = d.asym[k][1] > 0 ? d.asym[k][0] / d.asym[k][1] : 0;
+            if (r > may){ may = r; iB = k; }
+          }
+          var t = "En total ella recibe <b>" + razonAsim(d.asym[0][0], d.asym[0][1]) +
+                  "</b> que su control.";
+          if (iB > -1) t += " La mayor diferencia está en <b>" +
+            ASYM_NAMES[iB].toLowerCase() + "</b>: " +
+            razonAsim(d.asym[iB][0], d.asym[iB][1]) + ".";
+          return t + stamp();
+        }
+        var c = (d && d.lectura && d.lectura.composicion) || e.lecturas.composicion;
+        return c + stamp();
+      };
+    }
+
+    /* El reloj deja de decir "ahora": el numerador llega por lotes, así que
+       lo honesto es fechar el último cierre. */
+    /* El aviso NO explica cómo está hecho el tablero: dice qué parte de lo que
+       se ve todavía no es dato. Desaparece solo en cuanto la traza y el
+       episodio se alimenten de `estado.series`, porque entonces no hay nada
+       que advertir. Es un plazo, no una nota metodológica. */
+    var av = document.getElementById("aviso");
+    if (av){
+      var falso = !(e.series && e.series[cur] && (e.series[cur].mujeres || []).some(function(v){
+        return v != null; }));
+      if (falso){
+        av.innerHTML = "La traza del sismógrafo y el episodio marcado son <b>ilustrativos</b>";
+      } else {
+        av.style.display = "none";
+      }
+    }
+
+    /* «En vivo» SOLO si el archivo es reciente.
+       El tablero anunciaba «En vivo · último cierre 12:44» sobre datos de
+       veintiuna horas antes: la máquina durmió y la publicación iba atada a la
+       clasificación, que no llegó a correr. Un panel que se congela sin decirlo
+       es peor que uno desactualizado, porque el lector no puede distinguir una
+       cosa de la otra. */
+    var c = document.getElementById("clock");
+    var live = document.getElementById("live");
+    var liveTxt = document.getElementById("liveTxt");
+    if (c && e.cierre){
+      var t = new Date(e.cierre);
+      var hoy = new Date();
+      var mismoDia = t.toDateString() === hoy.toDateString();
+      var hh = String(t.getHours()).padStart(2, "0") + ":" +
+               String(t.getMinutes()).padStart(2, "0");
+      /* La fecha se dice cuando NO es hoy. Sin ella, un cierre de ayer a las
+         21:00 se leía como si fuera de hace un rato. */
+      c.textContent = "último cierre · " +
+        (mismoDia ? hh : t.getDate() + " " + MESES[t.getMonth()] + " · " + hh);
+      c.title = "Recolección cada 5 min; clasificación por lotes. " + e.cierre;
+
+      if (live && liveTxt){
+        /* Se mira la antigüedad del DATO, no solo la del archivo. Mirando solo
+           `generado`, bastaba republicar para que el tablero volviera a decir
+           «En vivo» sobre un cierre de tres días antes: el publicador seguía
+           corriendo y el recolector no, y el archivo salía nuevo con datos
+           viejos dentro. Manda el más antiguo de los dos. */
+        var minsArchivo = e.generado
+          ? Math.round((Date.now() - new Date(e.generado).getTime()) / 60000) : 0;
+        var minsDato = Math.round((Date.now() - t.getTime()) / 60000);
+        var mins = Math.max(minsArchivo, minsDato);
+        var frio = mins > 45;
+        liveTxt.textContent = frio ? "Sin actualizar" : "En vivo";
+        live.classList.toggle("live--frio", frio);
+        live.title = frio
+          ? "Sin datos nuevos desde hace " +
+            (mins < 120 ? mins + " minutos"
+             : mins < 2880 ? Math.round(mins / 60) + " horas"
+             : Math.round(mins / 1440) + " días") + "."
+          : "";
+      }
+    }
+  }
+
+  function marcarDemo(){
+    var c = document.getElementById("clock");
+    if (c) { c.textContent = "datos de demostración"; c.title =
+      "No se pudo cargar estado.json; se muestran los datos de la maqueta."; }
+  }
+
+  function cargarEstado(){
+    return fetch("estado.json", { cache: "no-store" })
+      .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(e){ aplicarEstado(e); render(); draw(); })
+      .catch(function(){ marcarDemo(); });
+  }
+
+  resize(); render(); draw();
+  cargarEstado();
+  setInterval(cargarEstado, 60000);
+  if (!reduce) requestAnimationFrame(loop);
+  window.addEventListener("resize", function(){
+    resize(); render(); draw(); clearAxis(); paintAxis();
+  });
+
+  var rb = document.querySelectorAll(".ranges button");
+  Array.prototype.forEach.call(rb, function(b){
+    b.addEventListener("click", function(){
+      Array.prototype.forEach.call(rb, function(o){ o.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      cur = b.dataset.r; render(); draw();
+    });
+  });
+
+  function wireSeg(sel, apply){
+    var bs = document.querySelectorAll(sel);
+    Array.prototype.forEach.call(bs, function(b){
+      b.addEventListener("click", function(){
+        Array.prototype.forEach.call(bs, function(o){ o.setAttribute("aria-pressed","false"); });
+        b.setAttribute("aria-pressed","true");
+        apply(b); render();
+      });
+    });
+  }
+  wireSeg(".seg button[data-v]", function(b){ mixView = b.dataset.v; });
+
+  /* «← Ranking»: sólo embebido, y cambia el hash de la página madre. Mismo
+     origen, así que no hay recarga: la madre escucha hashchange. */
+  (function(){
+    var v = document.getElementById("volver");
+    if (!v || window.top === window) return;
+    v.hidden = false;
+    v.addEventListener("click", function(ev){
+      ev.preventDefault();
+      try { window.top.location.hash = "#ranking"; } catch (e) { window.top.location.href = "../odiometro.html#ranking"; }
+    });
+  })();
+
+  /* ---- FICHA DE LA MONITOREADA ----
+     El panel de estaciones da nombre y cifra; la ficha contesta lo que
+     cualquiera pregunta después: qué le están diciendo a ELLA. Se alimenta de
+     lo que ya viaja en `estado.json`, así que abrirla no cuesta una petición. */
+  var fichaAbierta = null;
+
+  function cerrarFicha(){
+    document.getElementById("fichaFondo").hidden = true;
+    if (fichaAbierta && fichaAbierta.focus) fichaAbierta.focus();
+    fichaAbierta = null;
+  }
+
+  function abrirFicha(i, origen){
+    var p = PEOPLE[i];
+    if (!p) return;
+    var d = DATA[cur], mag = d.stations[i], dl = d.stDelta[i], b = band(mag);
+
+    document.getElementById("fichaCab").innerHTML =
+      avatar(p, b.c, false) +
+      "<div><h3 id='fichaNom'>" + p.n + "</h3>" +
+      '<p class="ficha__rol">' + p.r + "</p>" +
+      (p.partido ? '<span class="ficha__part">' + p.partido + "</span>" : "") +
+      "</div>";
+
+    /* Rampa de la taxonomía: una sola familia de morado, ordenada. El color
+       dice QUÉ tipo es, no cuánto pesa —de eso ya se encarga el arco—, así que
+       una escala de un solo tono se lee mejor que seis colores sueltos. */
+    /* Paleta categórica VALIDADA (luminosidad, saturación, separación para
+       daltonismo entre vecinos, contraste 3:1). La rampa de un solo morado
+       confundía a los vecinos; los tonos alternan claro/oscuro. La misma que
+       usa la ficha del ranking, para que las dos digan lo mismo. */
+    var CAT_COL = ["#7a3d94", "#c8761f", "#0a83a0", "#6f8f2a", "#d46aa8", "#2f4f8f"];
+
+    function donut(vals){
+      var R = 54, gr = 15, C = 2 * Math.PI * R, off = 0, arcos = "";
+      var tot = vals.reduce(function(a, b){ return a + b; }, 0) || 1;
+      for (var k = 0; k < vals.length; k++){
+        var frac = vals[k] / tot;
+        if (frac > 0){
+          arcos += '<circle cx="70" cy="70" r="' + R + '" fill="none" stroke="' +
+            CAT_COL[k] + '" stroke-width="' + gr + '" stroke-dasharray="' +
+            Math.max(0, frac * C - 2) + " " + C + '" stroke-dashoffset="' + (-off * C) + '"></circle>';
+        }
+        off += frac;
+      }
+      var iMax = 0;
+      for (var j = 1; j < vals.length; j++) if (vals[j] > vals[iMax]) iMax = j;
+      return '<svg width="152" height="152" viewBox="0 0 140 140" role="img" ' +
+        'aria-label="Composición de la hostilidad por tipo">' + arcos +
+        '<text x="70" y="70" transform="rotate(90 70 70)" text-anchor="middle" ' +
+        'dominant-baseline="central" font-family="var(--ui)" font-size="27" ' +
+        'font-weight="700" fill="var(--ink)">' + Math.round(vals[iMax]) + '%</text>' +
+        "</svg>";
+    }
+
+    function celda(rot, val, pie, texto){
+      return '<div class="ficha__c"><p class="rot">' + rot + "</p>" +
+             "<b" + (texto ? ' class="txt"' : "") + ">" + val + "</b>" +
+             (pie ? "<span>" + pie + "</span>" : "") + "</div>";
+    }
+    var flecha = (mag == null || dl == null) ? "" :
+      (dl > .05 ? "▲ " : dl < -.05 ? "▼ " : "▬ ") + es(Math.abs(dl), 1);
+    /* La razón contra su control se dice en palabras y sin nombre: el tablero
+       no nombra a los hombres del grupo de control en ningún sitio. */
+    var razon = p.razonControl == null ? "sin comparación"
+      : p.razonControl >= 1.05 ? es(p.razonControl, 1) + "× más"
+      : p.razonControl <= .95 ? es(1 / p.razonControl, 1) + "× menos"
+      : "igual";
+    /* El porcentaje va primero y en grande. El volumen de menciones no dice
+       si la atacan: dice cuánto se habla de ella, que es otra cosa — y puesto
+       en grande se lee como si fuera el hallazgo. Pasa a ser el pie del
+       porcentaje, que es su papel real: el denominador. */
+    document.getElementById("fichaCifras").innerHTML =
+      celda("Hostilidad", p.tasa == null ? "—" : es(p.tasa, 1) + " %",
+            "de sus " + p.m + " menciones") +
+      celda("Magnitud", mag == null ? "—" : es(mag, 1),
+            mag == null ? "sin medición" : b.name) +
+      celda("Frente al control", razon, "misma ventana", p.razonControl == null) +
+      celda("Mensajes hostiles", (p.incidencias || 0), "en esta ventana") +
+      celda("Tendencia", flecha || "—", dl == null ? "sin periodo anterior medido" : "vs. periodo anterior") +
+      celda("A su cuenta", p.cuotaHandle == null ? "—" :
+            Math.round(p.cuotaHandle * 100) + " %", "el resto la nombran");
+
+    var tieneComp = p.cats && p.cats.some(function(x){ return x > 0; });
+    document.getElementById("fichaComp").innerHTML =
+      "<h4>De qué está hecha su hostilidad</h4>" +
+      (tieneComp
+        ? '<div class="ficha__don">' + donut(p.cats) +
+          '<div class="ficha__leyenda">' + CAT_NAMES.map(function(nm, k){
+              return '<div data-cero="' + (p.cats[k] ? "no" : "si") + '">' +
+                '<i style="background:' + CAT_COL[k] + '"></i>' +
+                "<span>" + nm + "</span><b>" + p.cats[k] + " %</b></div>";
+            }).join("") + "</div></div>"
+        : '<p class="ficha__vacio">Todavía no hay mensajes hostiles clasificados ' +
+          "para ella en esta ventana. No es cero: es que aún no hay con qué medirlo.</p>");
+
+    /* El insight se compone de cifras, no se redacta a mano: si mañana los
+       números cambian, la frase cambia con ellos y no queda un texto viejo
+       contradiciendo al panel que tiene encima. */
+    var frases = [];
+    if (tieneComp){
+      var iM = 0;
+      for (var q = 1; q < p.cats.length; q++) if (p.cats[q] > p.cats[iM]) iM = q;
+      frases.push("<b>" + CAT_NAMES[iM] + "</b> concentra el <b>" + p.cats[iM] +
+                  " %</b> de lo que recibe");
+    }
+    if (p.concentraTop != null && p.atacantes && p.atacantes.length){
+      frases.push("tres cuentas explican el <b>" + es(p.concentraTop, 1) +
+                  " %</b> de sus mensajes hostiles");
+    }
+    if (p.razonControl != null){
+      frases.push("y en total recibe <b>" + razon + "</b> que su control");
+    }
+    document.getElementById("fichaInsight").innerHTML =
+      frases.length ? frases.join(", ").replace(/, y /, " y ") + "."
+                    : "Todavía no hay suficiente muestra para decir nada sobre ella.";
+
+    document.getElementById("fichaCuentas").innerHTML =
+      (p.atacantes && p.atacantes.length)
+        ? "<h4>Quién la ataca más</h4>" + '<div class="ficha__cuentas">' +
+          p.atacantes.map(function(a){
+            return '<div class="ficha__cta">' + avatar({s: a.s}, null, true) +
+              '<span class="h">' + a.h + "</span>" +
+              '<span class="n"><b>' + a.hostiles + "</b> de " + a.mensajes + "</span></div>";
+          }).join("") + "</div>"
+        : "";
+
+    fichaAbierta = origen || null;
+    var f = document.getElementById("fichaFondo");
+    f.hidden = false;
+    document.getElementById("fichaX").focus();
+  }
+
+  document.getElementById("rows").addEventListener("click", function(ev){
+    var fila = ev.target.closest ? ev.target.closest(".row[data-p]") : null;
+    if (fila) abrirFicha(+fila.dataset.p, fila);
+  });
+  document.getElementById("fichaX").addEventListener("click", cerrarFicha);
+  document.getElementById("fichaFondo").addEventListener("click", function(ev){
+    if (ev.target === this) cerrarFicha();
+  });
+  document.addEventListener("keydown", function(ev){
+    if (ev.key === "Escape" && !document.getElementById("fichaFondo").hidden) cerrarFicha();
+  });
+
+  wireSeg(".seg button[data-w]", function(b){ whoView = b.dataset.w; });
+
+  Array.prototype.forEach.call(document.querySelectorAll(".iq"), function(btn){
+    var panel = document.getElementById(btn.getAttribute("aria-controls"));
+    function set(open){
+      btn.setAttribute("aria-expanded", String(open));
+      panel.hidden = !open;
+      if (!open) btn.focus();
+    }
+    btn.addEventListener("click", function(){ set(btn.getAttribute("aria-expanded") !== "true"); });
+    panel.querySelector(".x").addEventListener("click", function(){ set(false); });
+    panel.addEventListener("keydown", function(e){ if (e.key === "Escape") set(false); });
+  });
+})();
+</script>
+
+</div>
+
+</body>
+</html>

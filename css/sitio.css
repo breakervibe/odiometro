@@ -1,0 +1,236 @@
+/* ============================================================
+   ODIÓMETRO — estilos compartidos del sitio
+   Consume tokens.css. Estructura tomada de los wireframes
+   aprobados; piel tomada del pairing de color y tipografía.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body{
+  margin:0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--cuerpo);
+  font-size: var(--t-base);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img{ max-width:100%; display:block; }
+a{ color: var(--morado); text-decoration: none; }
+a:hover{ color: var(--morado-hover); }
+h1,h2,h3{ font-family: var(--display); margin:0; text-wrap: balance; }
+p{ margin:0; text-wrap: pretty; }
+:focus-visible{ outline: 3px solid var(--morado); outline-offset: 3px; }
+
+/* — utilidades — */
+.limite{ max-width: var(--ancho); margin-inline: auto; padding-inline: var(--margen); }
+.mono{
+  font-family: var(--mono); font-size: var(--t-mono);
+  font-weight:500; letter-spacing:.18em; text-transform: uppercase;
+}
+.cifra{ font-variant-numeric: tabular-nums; }
+
+/* ── Navegación ───────────────────────────────────────────── */
+.nav{
+  background: var(--morado); color: var(--blanco);
+  border-bottom: 1px solid var(--morado-regla);
+  position: sticky; top:0; z-index: 50;
+}
+.nav__caja{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:20px; height: var(--nav-alto);
+  max-width: var(--ancho); margin-inline:auto; padding-inline: var(--margen);
+}
+/* El logo va como imagen con transparencia, no como máscara CSS. La máscara
+   permitía recolorear desde la hoja, pero donde `mask` no se aplica el logo
+   no se degrada: desaparece entero. La cabecera es siempre morada, así que
+   basta la versión blanca. Las máscaras siguen en `img/marca/` para el pie y
+   para fondos claros, donde sí hace falta cambiarle el color. */
+.marca{ display:inline-flex; align-items:center; flex:none; }
+.marca__logo{
+  display:block; width:271px; height:64px;
+  object-fit: contain; object-position: left center;
+  transition: opacity .15s;
+}
+.marca:hover .marca__logo{ opacity:.82; }
+
+/* El logo encoge antes que chocar con los enlaces o comerse el aire de la
+   barra. Medido: a 900 px quedaban 20 px entre el lema y «Inicio», y en
+   móvil el bloque tocaba arriba y abajo. */
+@media (max-width: 1100px){
+  .marca__logo{ width:232px; height:55px; }
+}
+@media (max-width: 860px){
+  .marca__logo{ width:216px; height:51px; }
+}
+@media (max-width: 400px){
+  .marca__logo{ width:190px; height:45px; }
+}
+
+.nav__enlaces{
+  display:flex; align-items:center; gap:26px;
+  font-size: var(--t-nav); color: var(--sobre-morado-2);
+}
+.nav__enlaces a{ color: var(--sobre-morado-2); padding-block: 4px; }
+.nav__enlaces a:hover{ color: var(--blanco); }
+.nav__enlaces a[aria-current="page"]{
+  color: var(--blanco); font-weight:700;
+  border-bottom: 2px solid var(--durazno);
+}
+.pais{
+  font-family: var(--mono); font-size: var(--t-mono);
+  color: var(--sobre-morado-3); white-space:nowrap;
+}
+.nav__menu{ display:none; }
+
+@media (max-width: 860px){
+  .nav__enlaces{ display:none; }
+  .nav__menu{
+    display:inline-flex; align-items:center; gap:10px;
+    background:none; border:0; color: var(--blanco);
+    font: 500 20px/1 var(--mono); cursor:pointer; padding:6px;
+  }
+  .nav[data-abierto="si"] .nav__enlaces{
+    display:flex; position:absolute; inset-inline:0; top:100%;
+    flex-direction:column; align-items:flex-start; gap:0;
+    background: var(--morado); border-bottom:1px solid var(--morado-regla);
+    padding: 8px var(--margen) 18px;
+  }
+  .nav[data-abierto="si"] .nav__enlaces a{
+    width:100%; padding:12px 0; border-bottom:1px solid var(--morado-regla);
+  }
+}
+
+/* ── Botones ──────────────────────────────────────────────── */
+.btn{
+  display:inline-flex; align-items:center; gap:9px;
+  font-family: var(--cuerpo); font-size: var(--t-boton); font-weight:700;
+  padding:15px 26px; border:0; cursor:pointer; text-align:center;
+}
+.btn--acento{ background: var(--durazno); color: var(--morado-tinta); }
+.btn--acento:hover{ background: var(--durazno-claro); color: var(--morado-tinta); }
+.btn--fantasma{
+  padding:15px 0; color: var(--blanco);
+  border-bottom:2px solid var(--sobre-morado-linea); background:none;
+}
+.btn--fantasma:hover{ color: var(--durazno); border-bottom-color: var(--durazno); }
+.btn--tinta{
+  background: var(--morado); color: var(--blanco);
+}
+.btn--tinta:hover{ background: var(--morado-hover); color: var(--blanco); }
+
+/* ── Cabecera de página interior ──────────────────────────── */
+.encabezado{
+  background: var(--morado); color: var(--blanco);
+  padding: 64px 0 56px;
+}
+.encabezado h1{
+  font-weight:800; font-size: var(--t-h2); line-height:1.08;
+  letter-spacing:-.025em; margin-bottom:14px; max-width: 20ch;
+}
+.encabezado p{
+  font-size: var(--t-lead); line-height:1.6;
+  color: var(--sobre-morado); max-width: 62ch;
+}
+.encabezado .mono{ color: var(--durazno); margin-bottom:18px; }
+
+/* ── Pie ──────────────────────────────────────────────────── */
+.pie{
+  background: var(--morado); color: var(--sobre-morado-3);
+  border-top:1px solid var(--morado-regla);
+  font-family: var(--mono); font-size: var(--t-mono-2);
+  letter-spacing:.04em;
+}
+.pie__caja{
+  display:flex; flex-wrap:wrap; gap:14px 30px;
+  align-items:center; justify-content:space-between;
+  max-width: var(--ancho); margin-inline:auto;
+  padding: 26px var(--margen);
+}
+.pie a{ color: var(--sobre-morado-3); }
+.pie a:hover{ color: var(--durazno); }
+.pie__notas{ display:flex; flex-wrap:wrap; gap:8px 22px; }
+
+/* ── Aviso de estado (banda superior) ─────────────────────── */
+.aviso{
+  background: var(--durazno); color: var(--morado-tinta);
+  font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing:.04em;
+}
+.aviso__caja{
+  display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px;
+  max-width: var(--ancho); margin-inline:auto; padding:11px var(--margen);
+}
+.aviso b{ font-weight:600; }
+
+/* — salto al contenido — */
+.saltar{
+  position:absolute; left:-9999px; top:0; z-index:100;
+  background: var(--durazno); color: var(--morado-tinta);
+  padding:12px 20px; font-weight:700;
+}
+.saltar:focus{ left:0; }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:.01ms !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }
+}
+
+/* texto sólo para lectores de pantalla */
+.sr-solo{
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
+}
+
+/* — selector de país: existe de verdad, pero no promete países que no hay — */
+.pais{ position:relative; font-family: var(--mono); font-size: 15px; }
+.pais > summary{
+  list-style:none; cursor:pointer; color: var(--blanco);
+  white-space:nowrap; padding:6px 0; letter-spacing:.02em;
+}
+.pais > summary::-webkit-details-marker{ display:none; }
+.pais > summary:hover{ color: var(--blanco); }
+.pais[open] > summary{ color: var(--durazno); }
+.pais__lista{
+  position:absolute; right:0; top:calc(100% + 10px); z-index:60;
+  width: 268px; background: var(--blanco); color: var(--tinta);
+  border:1px solid var(--regla); padding:14px 16px;
+  box-shadow: 0 10px 30px rgba(16,32,43,.18);
+}
+.pais__act{
+  display:block; font-weight:600; color: var(--morado);
+  letter-spacing:.08em; text-transform:uppercase; font-size: var(--t-mono-3);
+  padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid var(--regla);
+}
+.pais__lista p{
+  font-family: var(--cuerpo); font-size: var(--t-pie); line-height:1.55;
+  color: var(--tinta-3); margin:0;
+}
+@media (max-width: 860px){
+  .pais__lista{ right:auto; left:0; }
+}
+
+/* ── Páginas de pantallas encadenadas ─────────────────────────
+   Las usan Inicio y «¿Quiénes somos?». El anclaje sólo se activa
+   cuando hay altura de sobra para que una pantalla quepa entera;
+   si no, la página vuelve a desplazarse de forma normal y nada
+   queda atrapado fuera de la vista. */
+/* Sin esto, al anclarse la pantalla se alinea con el borde superior del
+   viewport y la nav pegajosa la tapa: la sección acaba una altura de nav
+   antes del borde inferior y asoma una franja de la siguiente. */
+html{ scroll-padding-top: var(--nav-alto); }
+.pantalla{
+  min-height: calc(100vh - var(--nav-alto));
+  display:flex; align-items:center;
+  padding-block: 72px;
+  position: relative;
+}
+.pantalla__caja{
+  max-width: var(--ancho); margin-inline:auto; padding-inline: var(--margen);
+  width:100%;
+}
+/* El anclaje NO se declara aquí: `scroll-snap-type` en `html` afecta a toda
+   la página, y en Metodología y Odiómetro —que no tienen pantallas— el único
+   destino sería el pie, así que abrían desplazadas hasta el final. Cada página
+   de pantallas lo activa en su propia hoja. */
+@media (max-width: 860px){
+  .pantalla{ min-height:0; padding-block: 54px; }
+}

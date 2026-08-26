@@ -1,0 +1,61 @@
+/* ── Página del tablero ───────────────────────────────────────────────────
+   La página es NAV + TABLERO y nada más: sin pie y sin desplazamiento del
+   documento.
+
+   El motivo no es estético. Los paneles del tablero tienen sus propias barras
+   de desplazamiento; si además la página entera se desplaza, la rueda del
+   ratón mueve una cosa u otra según dónde esté el cursor, y el usuario no
+   sabe cuál va a ceder. Una sola superficie desplazable por región.
+
+   La altura se reparte con flex y no con `calc(100vh - var(--nav-alto))`
+   porque la barra mide 97 px reales —96 más su borde— y ese píxel de más
+   bastaba para encender la barra del documento. Con flex, el marco toma lo
+   que sobre, mida lo que mida la barra.
+   ───────────────────────────────────────────────────────────────────────── */
+.pagina-tablero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.pagina-tablero > main{
+  flex: 1;
+  min-height: 0;   /* sin esto, un hijo alto impide encoger al contenedor flex */
+}
+
+.tablero{
+  height: 100%;
+  background: var(--tinta);
+  position: relative;
+}
+.tablero iframe{
+  width: 100%; height: 100%; border: 0; display: block;
+}
+.tablero__cargando{
+  position: absolute; inset: 0; display: grid; place-content: center;
+  gap: 10px; text-align: center; pointer-events: none;
+  color: var(--tinta-6); background: var(--papel);
+  font-family: var(--mono); font-size: var(--t-mono);
+  letter-spacing: .18em; text-transform: uppercase;
+  transition: opacity .35s ease;
+}
+.tablero[data-listo="si"] .tablero__cargando{ opacity: 0; }
+
+/* Aviso móvil: el tablero es de escritorio por diseño. Aquí el documento SÍ
+   vuelve a desplazarse, porque lo que se enseña es un texto, no el
+   instrumento. */
+.solo-movil{ display: none; }
+@media (max-width: 900px){
+  .pagina-tablero{ height: auto; display: block; overflow: visible; }
+  .tablero{ display: none; }
+  .solo-movil{
+    display: block; background: var(--blanco);
+    border-bottom: 1px solid var(--regla); padding: 44px 0 48px;
+  }
+  .solo-movil .mono{ color: var(--morado); }
+  .solo-movil h2{
+    font-size: var(--t-h2); font-weight: 800; letter-spacing: -.025em;
+    line-height: 1.1; margin: 14px 0 12px;
+  }
+  .solo-movil p{ color: var(--tinta-3); font-size: var(--t-cuerpo); margin-bottom: 22px; }
+}

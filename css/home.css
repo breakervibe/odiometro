@@ -1,0 +1,178 @@
+/* ── Home · tres preguntas en scroll-snap ─────────────────── */
+
+/* — barra de avance — */
+.avance{
+  position: sticky; top: var(--nav-alto); z-index: 49;
+  height: 3px; background: rgba(255,255,255,.14);
+}
+.avance__barra{
+  height:100%; width:33.333%; background: var(--durazno);
+  transition: width .35s cubic-bezier(.4,0,.2,1);
+}
+
+.pregunta__caja{
+  display:grid; grid-template-columns: minmax(0,1fr) var(--lateral); gap: 56px;
+  align-items:start;
+}
+.pregunta__cuerpo{ display:flex; flex-direction:column; gap:24px; max-width: 760px; }
+.pregunta h2{
+  font-size: var(--t-hero); font-weight:800; line-height:.97;
+  letter-spacing:-.032em; max-width: 15ch;
+}
+.pregunta__texto{ font-size: 23px; line-height:1.55; max-width: 52ch; }
+.pregunta__pie{ font-size: 18px; line-height:1.6; }
+.pregunta__acciones{ display:flex; flex-wrap:wrap; align-items:center; gap:16px; margin-top:8px; }
+
+/* — pregunta uno: la portada, foto de fondo sobre morado — */
+/* El morado de marca es la base, no un respaldo decorativo: si la foto falta
+   o tarda, la portada se ve exactamente como antes de tener foto. */
+.pregunta--uno{
+  background: var(--morado); color: var(--blanco);
+  position: relative; overflow: hidden;
+}
+.pregunta--uno .portada__caja{ grid-template-columns: 1fr; }
+
+.portada__foto{
+  position:absolute; inset:0; z-index:0;
+  background-image: url('../img/portada.jpg');
+  background-size: cover; background-position: center 38%;
+  /* La foto es fondo, no asunto: se apaga un punto para que no compita
+     con la tipografía. */
+  filter: saturate(.92) contrast(1.02);
+}
+
+/* Velo de marca en dos capas: un tinte morado que integra la foto en la
+   identidad, y un degradado que oscurece por abajo, donde cae el texto,
+   sin apagar la imagen entera. */
+.portada__velo{
+  position:absolute; inset:0; z-index:1;
+  background:
+    linear-gradient(105deg,
+      rgba(var(--velo-1), .88) 0%,
+      rgba(var(--velo-2), .74) 42%,
+      rgba(var(--velo-3), .42) 100%),
+    linear-gradient(to top, rgba(var(--velo-pie), .55) 0%, rgba(var(--velo-pie), 0) 45%);
+}
+
+/* Sólo la caja necesita salir del flujo normal para montar sobre el velo.
+   A `.desliza` se le da capa sin tocarle la posición: ya es absoluta, y
+   volverla relativa la convertía en un segundo elemento de la fila flex,
+   descentrando la columna de texto. */
+.pregunta--uno .pregunta__caja{ position:relative; z-index:2; }
+.pregunta--uno .desliza{ z-index:2; }
+
+/* Sombras muy abiertas: no se ven como sombra, sólo sostienen el texto
+   si la foto trae una zona clara justo detrás. */
+.pregunta--uno h2{ text-shadow: 0 2px 24px rgba(20,8,28,.34); }
+.pregunta--uno .pregunta__texto{
+  color: rgba(255,255,255,.93);
+  text-shadow: 0 1px 16px rgba(20,8,28,.4);
+}
+.pregunta--uno .pregunta__pie{ color: rgba(255,255,255,.72); }
+.pregunta--uno .desliza{ color: rgba(255,255,255,.6); }
+
+/* Procedencia de la imagen: si la portada lleva personas reales, la fuente
+   se declara. No es decoración. */
+.portada__credito{
+  position:absolute; left: var(--margen); bottom:22px; z-index:2;
+  font-family: var(--mono); font-size: var(--t-mono-3);
+  letter-spacing:.1em; text-transform:uppercase; color: rgba(255,255,255,.5);
+}
+.pregunta--uno h2 em{ font-style:normal; color: var(--durazno); }
+
+/* ficha lateral de metadatos, como en el pairing */
+.ficha{
+  border-left:1px solid var(--morado-regla); padding: 6px 0 6px 26px;
+  display:flex; flex-direction:column; gap:22px;
+  font-family: var(--mono); font-size: var(--t-mono); letter-spacing:.04em;
+}
+.ficha div{ display:flex; flex-direction:column; gap:5px; }
+.ficha dt, .ficha__rot{
+  color: var(--sobre-morado-tenue); letter-spacing:.16em; text-transform:uppercase;
+}
+.ficha dd, .ficha__val{ margin:0; color: var(--blanco); font-size: var(--t-pie); }
+
+/* — pregunta dos: papel — */
+.pregunta--dos{ background: var(--papel); color: var(--tinta); }
+.pregunta--dos .pregunta__texto{ color: var(--tinta-2); }
+.pregunta--dos .pregunta__pie{ color: var(--tinta-4); }
+
+/* par monitoreada / control · columna estrecha, siempre apilado */
+.par{
+  border:1px solid var(--regla); background: var(--blanco); padding:24px 22px;
+  display:flex; flex-direction:column; gap:16px;
+}
+.par__lado{ display:flex; flex-direction:column; gap:6px; }
+.par__rot{
+  font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing:.18em;
+  text-transform:uppercase; color: var(--tinta-5);
+}
+.par__cifra{
+  font-family: var(--display); font-weight:800; font-size: var(--t-cifra);
+  line-height:1; letter-spacing:-.035em; color: var(--morado);
+}
+.par__cifra--control{ color: var(--tinta-6); }
+.par__pie{ font-size: var(--t-pie); line-height:1.45; color: var(--tinta-3); }
+.par__vs{
+  font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing:.18em;
+  text-transform:uppercase; color: var(--tinta-5);
+  border-top:1px solid var(--regla); padding-top:16px;
+}
+
+/* — pregunta tres: blanco — */
+.pregunta--tres{ background: var(--blanco); color: var(--tinta); }
+.pregunta--tres .pregunta__texto{ color: var(--tinta-2); }
+.pregunta--tres .pregunta__pie{ color: var(--tinta-4); }
+
+.bases{
+  border:1px solid var(--regla); background: var(--blanco);
+  display:flex; flex-direction:column;
+}
+.bases__rot{
+  font-family: var(--mono); font-size: var(--t-mono-3); font-weight:500;
+  letter-spacing:.18em; text-transform:uppercase; color: var(--tinta-5);
+  padding:18px 22px 12px;
+}
+.base{
+  display:flex; flex-direction:column; gap:3px;
+  padding:12px 22px; border-top:1px solid var(--regla);
+}
+.base b{
+  font-family: var(--display); font-weight:700; font-size: var(--t-menor);
+  color: var(--tinta);
+}
+.base span{
+  font-family: var(--mono); font-size: var(--t-mono-2); color: var(--tinta-5);
+}
+
+/* — pista de desliz — */
+.desliza{
+  position:absolute; left:50%; bottom:26px; transform:translateX(-50%);
+  font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing:.18em;
+  text-transform:uppercase; color: var(--sobre-morado-tenue);
+  display:flex; align-items:center; gap:9px;
+}
+.desliza span{ animation: baja 2.2s ease-in-out infinite; }
+@keyframes baja{ 0%,100%{ transform:translateY(0) } 50%{ transform:translateY(4px) } }
+
+@media (max-width: 980px){
+  .pregunta__caja{ grid-template-columns: 1fr; gap:34px; }
+  .ficha{ border-left:0; border-top:1px solid var(--morado-regla); padding:22px 0 0; }
+  .pregunta--dos .ficha, .pregunta--tres .ficha{ border-top-color: var(--regla); }
+}
+@media (max-width: 860px){
+  .desliza{ display:none; }
+}
+
+/* ── Anclaje de pantalla ──────────────────────────────────────
+   Sólo en esta página: `scroll-snap-type` va en `html` y afecta a
+   todo el documento. Se activa cuando hay altura de sobra para que
+   una pantalla quepa entera; si no, la página se desplaza normal y
+   nada queda atrapado fuera de la vista. */
+@media (min-width: 861px) and (min-height: 660px){
+  html{ scroll-snap-type: y mandatory; }
+  .pantalla{ scroll-snap-align: start; scroll-snap-stop: always; }
+  /* El pie tiene que ser punto de anclaje o el desplazamiento rebota
+     siempre a la última pantalla y nunca se llega a leerlo. */
+  .pie{ scroll-snap-align: end; }
+}

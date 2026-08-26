@@ -1,0 +1,152 @@
+/* ── Ranking del Odiómetro y ficha por candidata ─────────────────────────
+   Extraído del mockup aprobado (sitio/mockup-ranking.html). Sólo tokens del
+   sitio: ningún hex nuevo salvo la paleta categórica validada del dónut, que
+   vive en js/ranking.js junto al dibujo. */
+
+.rk{ max-width: var(--ancho); margin: 0 auto; padding: 30px var(--margen) 26px; }
+.rk__cab{ display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; flex-wrap: wrap; margin-bottom: 0; }
+.vistas{ margin-top: 6px; }
+.rk__eyebrow{ font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing: .16em; text-transform: uppercase; color: var(--morado); margin: 0 0 8px; }
+.rk h1{ font-family: var(--display); font-size: 42px; font-weight: 800; letter-spacing: -.03em; line-height: 1.02; margin: 0 0 10px; }
+.rk__lead{ font-family: var(--cuerpo); font-size: var(--t-lead); color: var(--tinta-3); max-width: 64ch; margin: 0; line-height: 1.45; }
+.rk__lead b{ color: var(--tinta); font-weight: 600; }
+.vistas{ display: flex; border: 1.5px solid var(--morado); border-radius: 6px; overflow: hidden; flex: none; }
+.vistas a{ font-family: var(--cuerpo); font-size: var(--t-boton); font-weight: 600; padding: 11px 20px; color: var(--morado); text-decoration: none; }
+.vistas a[aria-current]{ background: var(--morado); color: #fff; }
+.vistas a:hover:not([aria-current]){ background: #f1e9f4; }
+
+/* El eje se queda fijo bajo la barra de navegación mientras se recorre la lista:
+   sin él, a la fila 7 ya nadie recuerda dónde cae el 5. */
+.escala{ display: grid; grid-template-columns: 34px 84px minmax(240px,1fr) minmax(240px,1fr) 90px 290px; gap: 0 28px; align-items: end; font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-3); padding: 4px 0 10px; border-bottom: 1.5px solid var(--tinta);
+       }
+/* Leyenda y eje van juntos en un bloque que se queda fijo bajo la barra de
+   navegación. Se separa del texto con aire y una regla fina: leídos seguidos,
+   la leyenda parecía la última línea del párrafo. */
+.fijo{ position: sticky; top: var(--nav-alto); background: var(--papel); z-index: 3;
+       margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--regla); }
+.escala__eje i{ font-weight: 600; color: var(--tinta-2); }
+.leyenda{ display: flex; gap: 22px; flex-wrap: wrap; font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-4); margin: 0 0 12px; }
+.leyenda i{ display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.escala__eje{ position: relative; height: 16px; margin-bottom: 4px; }
+.escala__eje i{ position: absolute; bottom: 0; transform: translateX(-50%); font-style: normal; width: auto; height: auto; border-radius: 0; margin: 0; background: none !important; }
+.escala__eje i::after{ display: none; }
+.escala__bandas{ display: flex; gap: 16px; flex-wrap: wrap; font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-5); }
+.escala__bandas i{ display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.rk__pie.rk__pie--nota{ margin-top: 6px; display: block; line-height: 1.5; }
+.escala i{ display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+/* Dos columnas que se LEEN por columna: 1–5 izquierda, 6–9 derecha. Un ranking
+   en zigzag (1 2 / 3 4) pelea con la intuición de lista. */
+.lista{ list-style: none; margin: 0; padding: 0; }
+/* Una columna: la barra en medio, la cifra a su derecha y la lectura al final.
+   Foto grande —72 px— porque en una portada las caras son parte del mensaje:
+   son personas concretas, no puntos de una serie. */
+.fila{ display: grid; grid-template-columns: 34px 84px minmax(240px,1fr) minmax(240px,1fr) 90px 290px;
+       grid-template-areas: "pos foto quien barra mag leer";
+       gap: 0 28px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--regla); cursor: pointer; }
+.fila:hover{ background: #fff; }
+/* La posición en la misma familia que la magnitud: son los dos números de la
+   fila y deben hablar el mismo idioma. Más pequeña y apagada que la
+   magnitud, que es la protagonista. */
+.fila__pos{ grid-area: pos; font-family: var(--display); font-size: 24px; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--tinta-5); text-align: right; line-height: 1; }
+.fila__foto{ grid-area: foto; width: 84px; height: 84px; border-radius: 50%; overflow: hidden; border: 3px solid var(--b, var(--regla-2)); background: var(--regla); }
+.fila__foto img{ width: 100%; height: 100%; object-fit: cover; display: block; }
+.fila__quien{ grid-area: quien; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.fila__quien b{ font-family: var(--display); font-size: 21px; font-weight: 700; letter-spacing: -.01em; }
+.fila__quien span{ font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-4); line-height: 1.3; }
+.fila__corta{ font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-5); font-style: normal; }
+.fila__mag{ grid-area: mag; font-family: var(--display); font-size: 34px; font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; text-align: right; line-height: 1; }
+.fila__barra{ grid-area: barra; position: relative; height: 20px; background: #ecebeb; border-radius: 3px; overflow: hidden; }
+/* marcas de banda dentro de la barra: 2 · 3,5 · 5 · 7. Mismo eje en las nueve. */
+.fila__barra::before{ content: ""; position: absolute; inset: 0; pointer-events: none;
+  background:
+    linear-gradient(to right, transparent calc(20% - 1px), rgba(38,36,39,.16) calc(20% - 1px) 20%, transparent 20%),
+    linear-gradient(to right, transparent calc(35% - 1px), rgba(38,36,39,.16) calc(35% - 1px) 35%, transparent 35%),
+    linear-gradient(to right, transparent calc(50% - 1px), rgba(38,36,39,.16) calc(50% - 1px) 50%, transparent 50%),
+    linear-gradient(to right, transparent calc(70% - 1px), rgba(38,36,39,.16) calc(70% - 1px) 70%, transparent 70%); }
+.fila__barra i{ display: block; height: 100%; border-radius: 3px 0 0 3px; }
+.fila__leer{ grid-area: leer; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.fila__leer b{ font-family: var(--cuerpo); font-size: var(--t-base); font-weight: 700; white-space: nowrap; }
+.fila__leer b small{ font-family: var(--mono); font-size: var(--t-mono); font-weight: 600; color: var(--tinta-2); margin-left: 8px; padding: 2px 7px; border-radius: 3px; background: #ecebeb; }
+.fila__leer b small[data-t="sube"]{ color: #8a2a00; background: #fde6d9; }
+.fila__leer b small[data-t="baja"]{ color: #0d5c46; background: #dcf3ea; }
+.fila__que{ font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-3); white-space: normal; line-height: 1.3; }
+.fila__que i{ font-style: normal; color: var(--tinta); }
+.fila__que b{ color: var(--morado); font-weight: 600; font-size: 1em; }
+.fila__que sup, .escala sup{ font-size: 1.05em; line-height: 0; vertical-align: .15em; font-weight: 800; color: var(--morado); margin-left: 2px; }
+.rk__pie sup{ font-size: 1.05em; line-height: 0; vertical-align: .15em; font-weight: 800; color: var(--morado); margin-right: 4px; }
+.fila__que--gris{ color: var(--tinta-5); }
+/* Tres grados de lectura para la columna derecha. El primero es un dato
+   (tipo y proporción); el segundo, una pastilla —un matiz junto a una banda
+   real—; el tercero ocupa el lugar de la banda, porque es el estado de la
+   fila entera. Se ven distintos antes de leerse. */
+.grado{ display: inline-block; font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing: .06em; text-transform: uppercase; font-style: normal; color: var(--tinta-3); background: #ecebeb; padding: 3px 8px; border-radius: 3px; }
+.grados{ display: flex; gap: 6px 26px; flex-wrap: wrap; font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-4); margin: 0 0 12px; }
+.grados b{ font-weight: 700; color: var(--tinta-2); }
+.grados .grado{ margin-right: 6px; }
+.fila--sin, .fila--irrel{ cursor: default; }
+.fila--sin .fila__barra, .fila--irrel .fila__barra{ background: transparent; border: 1px dashed var(--regla-2); }
+.fila--sin .fila__barra::before, .fila--irrel .fila__barra::before{ display: none; }
+.fila--sin .fila__mag, .fila--irrel .fila__mag{ color: var(--tinta-6); }
+.fila--irrel .fila__leer b{ color: var(--tinta-3); }
+.fila--irrel .fila__leer span{ font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-5); }
+
+.rk__pie{ display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-top: 14px; font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-4); }
+.rk__pie a{ color: var(--morado); }
+
+/* ── Ficha: la misma del tablero, con la piel del sitio y sin volúmenes ── */
+.ficha-fondo{ position: fixed; inset: 0; z-index: 80; background: rgba(38,16,50,.55); display: grid; place-items: center; padding: 24px; }
+.ficha-fondo[hidden]{ display: none; }
+.ficha{ background: var(--blanco); color: var(--tinta); width: min(960px,100%); max-height: min(90vh,860px); overflow: auto; border-top: 5px solid var(--morado); padding: 28px 32px 30px; position: relative; box-shadow: 0 30px 80px rgba(38,16,50,.35); }
+.ficha__x{ position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border: 1px solid var(--regla); background: var(--papel); color: var(--tinta-3); font-size: 16px; cursor: pointer; }
+.ficha__cab{ display: flex; gap: 20px; align-items: center; padding-right: 40px; margin-bottom: 22px; }
+.ficha__cab .fila__foto{ width: 84px; height: 84px; flex: none; }
+.ficha h3{ font-family: var(--display); font-size: 28px; font-weight: 800; letter-spacing: -.02em; margin: 0 0 4px; }
+.ficha__rol{ margin: 0; font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-3); }
+.ficha__cuerpo{ display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+.ficha__cifras{ display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--regla); border: 1px solid var(--regla); }
+.ficha__c{ background: var(--blanco); padding: 14px 16px; }
+.ficha__c .rot{ margin: 0 0 5px; font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-5); }
+.ficha__c b{ font-family: var(--display); font-size: 28px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.ficha__c b.txt{ font-size: 17px; line-height: 1.25; }
+.ficha__c span{ display: block; margin-top: 4px; font-family: var(--cuerpo); font-size: var(--t-menor); color: var(--tinta-4); }
+.ficha h4{ margin: 0 0 10px; font-family: var(--mono); font-size: var(--t-mono-3); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-5); font-weight: 500; }
+.ficha__don{ display: flex; gap: 18px; align-items: center; margin-bottom: 20px; }
+.ficha__don svg{ flex: none; transform: rotate(-90deg); }
+.ficha__ley{ display: grid; gap: 6px; flex: 1; min-width: 0; }
+.ficha__ley div{ display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; font-family: var(--cuerpo); font-size: var(--t-menor); }
+.ficha__ley i{ width: 10px; height: 10px; border-radius: 2px; display: block; }
+.ficha__ley b{ font-family: var(--mono); font-size: var(--t-mono-2); }
+.ficha__ley div[data-cero="si"]{ opacity: .38; }
+.ficha__insight{ margin: 18px 0 0; padding: 15px 17px; background: var(--papel); border-left: 3px solid var(--durazno); font-family: var(--cuerpo); font-size: var(--t-menor); line-height: 1.55; }
+.ficha__insight b{ font-weight: 700; }
+.ficha__cta{ display: grid; grid-template-columns: 30px 1fr auto; gap: 11px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--regla); font-family: var(--cuerpo); font-size: var(--t-menor); }
+.ficha__cta:last-child{ border-bottom: 0; }
+.ficha__cta i{ width: 30px; height: 30px; border-radius: 50%; display: block; background: var(--regla); }
+.ficha__cta .n{ font-family: var(--mono); font-size: var(--t-mono-2); color: var(--tinta-3); text-align: right; }
+.ficha__cta .n b{ color: var(--tinta); }
+@media (max-width: 820px){ .ficha__cuerpo{ grid-template-columns: 1fr; } }
+
+@media (max-width: 900px){
+  .rk{ padding: 26px 20px; }
+  .rk h1{ font-size: 34px; }
+  .escala{ display: none; }
+  .fila{ grid-template-columns: 22px 56px 1fr 64px; grid-template-areas: "pos foto quien mag" "pos barra barra barra" "pos leer leer leer"; gap: 6px 12px; }
+  .fila__foto{ width: 56px; height: 56px; } .fila__mag{ font-size: 28px; } .fila__barra{ height: 14px; }
+}
+
+/* ── Las dos vistas ───────────────────────────────────────────────────── */
+/* Ranking: el documento SÍ se desplaza (no hay scrolls internos que peleen). */
+.pagina-tablero.vista-ranking{ height: auto; display: block; overflow: visible; background: var(--papel); }
+.vista-ranking #tablero{ display: none; }
+/* Tablero: una pantalla, sin scroll de documento; la barra de vistas arriba. */
+.vista-tablero #ranking{ display: none; }
+.vista-tablero > main{ display: flex; flex-direction: column; }
+.vista-tablero .tv{ display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.vista-tablero .tablero{ flex: 1; min-height: 0; height: auto; }
+.rk__cargando, .rk__error{ list-style: none; padding: 40px 0; text-align: center; font-family: var(--mono); font-size: var(--t-mono-2); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-5); }
+.rk__error{ color: var(--morado); }
+@media (max-width: 900px){
+  .vista-tablero .tablero{ display: none; }
+  .vista-tablero .tv{ display: block; }
+}
