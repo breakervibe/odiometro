@@ -102,6 +102,14 @@
       '<text x="70" y="70" transform="rotate(90 70 70)" text-anchor="middle" dominant-baseline="central" font-family="Schibsted Grotesk, system-ui" font-size="27" font-weight="800" fill="#262427">' + Math.round(v[iM]) + "%</text></svg>";
   }
   function identicon(seed) { var h = ((seed || 100) * 2654435761) % 360; return '<i style="background:hsl(' + h + ',35%,78%)"></i>'; }
+  /* Cara de una cuenta emisora: su foto de perfil si se pudo recuperar, y si
+     no el identicono de siempre. La foto viaja incrustada en estado.json, así
+     que abrir la ficha no le pide nada a X. */
+  function caraCuenta(a) {
+    return a.foto
+      ? '<i class="ficha__cara" style="background-image:url(' + a.foto + ')"></i>'
+      : identicon(a.s);
+  }
 
   var origenFoco = null;
   function abrir(nombre, origen) {
@@ -133,7 +141,7 @@
     $("fichaCuentas").innerHTML = p.atacantes.length
       ? "<h4>Quién la ataca más</h4>" + p.atacantes.map(function (a) {
           var parte = p.hostiles ? Math.round(100 * a.hostiles / p.hostiles) : 0;
-          return '<div class="ficha__cta">' + identicon(a.s) + "<span>" + esc(a.h) + '</span><span class="n"><b>' + parte + " %</b> de lo hostil que recibe</span></div>";
+          return '<div class="ficha__cta">' + caraCuenta(a) + "<span>" + esc(a.h) + '</span><span class="n"><b>' + parte + " %</b> de lo hostil que recibe</span></div>";
         }).join("")
       : "";
     origenFoco = origen || null;

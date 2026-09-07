@@ -123,6 +123,9 @@
 .ficha__cta{ display: grid; grid-template-columns: 30px 1fr auto; gap: 11px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--regla); font-family: var(--cuerpo); font-size: var(--t-menor); }
 .ficha__cta:last-child{ border-bottom: 0; }
 .ficha__cta i{ width: 30px; height: 30px; border-radius: 50%; display: block; background: var(--regla); }
+/* Foto de perfil de la cuenta emisora. `cover` porque X sirve cuadradas de
+   400 px y aquí se ven a 30: sin él, una foto no cuadrada saldría deformada. */
+.ficha__cta i.ficha__cara{ background-size: cover; background-position: center; }
 .ficha__cta .n{ font-family: var(--mono); font-size: var(--t-mono-2); color: var(--tinta-3); text-align: right; }
 .ficha__cta .n b{ color: var(--tinta); }
 @media (max-width: 820px){ .ficha__cuerpo{ grid-template-columns: 1fr; } }

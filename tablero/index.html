@@ -587,9 +587,21 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
    sitio para que el dónut y la letra CREZCAN en vez de encogerse, que era el
    precio que se estaba pagando por caber. */
 .ficha__cuerpo{ display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+/* Cuando la columna derecha no tiene nada que contar —una cuenta sin categorías
+   ni objetivos, o un estado.json anterior a estos campos— la ficha se queda a
+   una columna y se estrecha. Con dos columnas fijas, el hueco vacío de la
+   derecha se lee como un fallo de carga. */
+.ficha--simple{ width: min(560px, 100%); }
+.ficha--simple .ficha__cuerpo{ grid-template-columns: 1fr; gap: 6px; }
 @media (max-width: 820px){ .ficha__cuerpo{ grid-template-columns: 1fr; gap: 6px; } }
 .ficha__don{ display: flex; gap: 18px; align-items: center; margin-top: 2px; }
 .ficha__don svg{ flex: none; transform: rotate(-90deg); }
+#fichaTraza{ margin-top: 14px; }
+#fichaTraza h4{ margin: 0 0 6px; }
+/* Pie de la traza: dice qué patrón se está viendo, porque un gráfico de barras
+   sin lectura deja al lector adivinando si eso es mucho o poco. */
+.ficha__pie{ margin: 6px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--ink-2); }
+.ficha__pie b{ color: var(--ink); }
 .ficha__leyenda{ display: grid; gap: 7px; min-width: 0; flex: 1; }
 .ficha__leyenda div{
   display: grid; grid-template-columns: 10px 1fr auto; gap: 8px;
@@ -616,6 +628,9 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   display: grid; grid-template-columns: 28px 1fr auto; gap: 11px;
   align-items: center; padding: 9px 0; border-bottom: 1px solid var(--rule-2);
 }
+/* Las filas de «a quién ataca» nombran a candidatas, no a cuentas, así que no
+   llevan cara: sin esto el nombre caía en la columna de 28 px y se leía «Fi…». */
+.ficha__cta--sincara{ grid-template-columns: 1fr auto; }
 .ficha__cta:last-child{ border-bottom: 0; }
 .ficha__cta .face--acct{ width: 30px; height: 30px; }
 .ficha__cta .h{ font-size: 14.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -875,6 +890,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     <div class="ficha__cuerpo">
       <div>
         <div class="ficha__cifras" id="fichaCifras"></div>
+        <div id="fichaTraza"></div>
         <p class="ficha__insight" id="fichaInsight"></p>
       </div>
       <div>
@@ -1642,7 +1658,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       document.getElementById("rows").innerHTML = EMIT.map(function(a, i){
         var idx = d.emit[i], ep = d.emitEp[i];
         var alto = ep > d.epTot / 2;
-        return '<button type="button" class="row">' +
+        return '<button type="button" class="row" data-e="' + i + '">' +
           avatar(a, null, true) +
           "<span>" +
             '<span class="name code">' + (a.user || a.c) +
@@ -2013,7 +2029,19 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
         s: semillaNum(c.semilla),
         // La foto que la propia cuenta publica. Si no se pudo recuperar, cae
         // en el identicono derivado de la semilla, que no representa a nadie.
-        img: c.foto || null
+        img: c.foto || null,
+        // Para su ficha: contra quién va y de qué está hecho lo que emite.
+        objetivos: c.objetivosLista || [],
+        // El CONTEO de objetivos viene aparte desde siempre; la lista con
+        // nombres es nueva. Con un estado.json anterior hay conteo y no lista,
+        // y la ficha no puede decir «ninguna» mientras la fila dice «2 de 9».
+        nObjetivos: c.objetivos || 0,
+        serie: c.serie || null,
+        sev: c.severidad != null ? c.severidad : null,
+        cats: c.cats || [0, 0, 0, 0, 0, 0],
+        etiquetas: c.etiquetas || [],
+        nHost: c.hostiles || 0,
+        nMsg: c.mensajes || 0
       });
     });
   }
@@ -2188,6 +2216,187 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     fichaAbierta = null;
   }
 
+  /* Paleta categórica VALIDADA (luminosidad, saturación, separación para
+     daltonismo entre vecinos, contraste 3:1). La rampa de un solo morado
+     confundía a los vecinos; los tonos alternan claro/oscuro. La misma que
+     usa la ficha del ranking, para que las dos digan lo mismo.
+     Vive aquí fuera porque la comparten la ficha de una candidata y la de una
+     cuenta emisora: la misma categoría tiene que ser el mismo color en las dos
+     o el lector cree que son taxonomías distintas. */
+  var CAT_COL = ["#7a3d94", "#c8761f", "#0a83a0", "#6f8f2a", "#d46aa8", "#2f4f8f"];
+  /* La severidad es 1-5 del clasificador. Un número solo no dice nada al
+     lector: la media global ronda 2, así que 2 es «lo normal» y no «poco». */
+  function DUREZA(v){
+    return v >= 3.5 ? "muy por encima de la media" :
+           v >= 2.6 ? "por encima de la media" :
+           v >= 1.8 ? "en la media del corpus" : "por debajo de la media";
+  }
+
+  function donut(vals){
+    var R = 54, gr = 15, C = 2 * Math.PI * R, off = 0, arcos = "";
+    var tot = vals.reduce(function(a, b){ return a + b; }, 0) || 1;
+    for (var k = 0; k < vals.length; k++){
+      var frac = vals[k] / tot;
+      if (frac > 0){
+        arcos += '<circle cx="70" cy="70" r="' + R + '" fill="none" stroke="' +
+          CAT_COL[k] + '" stroke-width="' + gr + '" stroke-dasharray="' +
+          Math.max(0, frac * C - 2) + " " + C + '" stroke-dashoffset="' + (-off * C) + '"></circle>';
+      }
+      off += frac;
+    }
+    var iMax = 0;
+    for (var j = 1; j < vals.length; j++) if (vals[j] > vals[iMax]) iMax = j;
+    return '<svg width="152" height="152" viewBox="0 0 140 140" role="img" ' +
+      'aria-label="Composición de la hostilidad por tipo">' + arcos +
+      '<text x="70" y="70" transform="rotate(90 70 70)" text-anchor="middle" ' +
+      'dominant-baseline="central" font-family="var(--ui)" font-size="27" ' +
+      /* El dónut recibe CONTEOS, no porcentajes: la ficha de una candidata le
+         pasa porcentajes y la de una cuenta emisora mensajes. Se normaliza
+         aquí, o el centro anuncia «582 %». */
+      'font-weight="700" fill="var(--ink)">' +
+      Math.round(100 * vals[iMax] / tot) + '%</text>' +
+      "</svg>";
+  }
+
+  /* Cuándo publicó sus mensajes hostiles, repartido en tramos iguales de la
+     ventana. Es lo que separa una campaña de un día del hostigamiento
+     sostenido, y ningún total lo enseña: dos cuentas con 582 mensajes pueden
+     ser una tarde de linchamiento o dos semanas de goteo. */
+  function barras(serie, ancho, alto){
+    ancho = ancho || 300; alto = alto || 58;
+    var max = Math.max.apply(null, serie) || 1;
+    var w = ancho / serie.length, hueco = Math.min(2, w * 0.25);
+    var b = serie.map(function(v, i){
+      var h = v ? Math.max(2, (v / max) * (alto - 4)) : 0;
+      if (!h) return "";
+      return '<rect x="' + (i * w).toFixed(1) + '" y="' + (alto - h).toFixed(1) +
+             '" width="' + Math.max(1, w - hueco).toFixed(1) + '" height="' + h.toFixed(1) +
+             '" rx="1" fill="var(--acento)"></rect>';
+    }).join("");
+    /* Línea de base a lo ancho: sin ella, una cuenta que sólo actuó dos días
+       deja el gráfico casi vacío y se lee como un fallo de dibujo en vez de
+       como lo que es: silencio el resto del periodo. */
+    var suelo = '<rect x="0" y="' + (alto - 1) + '" width="' + ancho +
+                '" height="1" fill="var(--rule-2)"></rect>';
+    return '<svg viewBox="0 0 ' + ancho + " " + alto + '" width="100%" height="' + alto +
+      '" preserveAspectRatio="none" role="img" aria-label="Actividad hostil a lo largo del periodo">' +
+      suelo + b + "</svg>";
+  }
+
+  function celda(rot, val, pie, texto){
+    return '<div class="ficha__c"><p class="rot">' + rot + "</p>" +
+           "<b" + (texto ? ' class="txt"' : "") + ">" + val + "</b>" +
+           (pie ? "<span>" + pie + "</span>" : "") + "</div>";
+  }
+
+  /* Ficha de una cuenta emisora.
+     El panel ordena por mensajes hostiles, y ese número solo no distingue al
+     exaltado que insulta cuarenta veces a una persona de la cuenta que reparte
+     campaña entre varias. Aquí se ve contra quién va, de qué está hecho lo que
+     escribe y qué parte de su actividad es hostil.
+     Los objetivos que se nombran son SOLO las candidatas monitoreadas: el
+     grupo de control no se nombra en ninguna parte del tablero (§9.1), así que
+     lo que va contra ellos se cuenta sin decir a quién. */
+  /* La columna derecha (composición y objetivos) puede quedar vacía. Se mira
+     lo que de verdad se pintó, no lo que se esperaba pintar. */
+  function ajustarAncho(){
+    var vacia = !document.getElementById("fichaComp").innerHTML.trim()
+             && !document.getElementById("fichaCuentas").innerHTML.trim();
+    document.querySelector(".ficha").classList.toggle("ficha--simple", vacia);
+  }
+
+  function abrirFichaCuenta(i, origen){
+    var a = EMIT[i];
+    if (!a) return;
+    /* Un estado.json anterior a esta ficha —o los datos de maqueta— no traen
+       el detalle. Mejor una ficha escueta que un error al pulsar. */
+    var objetivos = a.objetivos || [], cats = a.cats || [0, 0, 0, 0, 0, 0];
+    var etiquetas = a.etiquetas || [];
+    var nHost = a.nHost != null ? a.nHost : 0, nMsg = a.nMsg != null ? a.nMsg : 0;
+    var serie = a.serie || null, sev = a.sev;
+
+    document.getElementById("fichaCab").innerHTML =
+      avatar(a, null, true) +
+      "<div><h3 id='fichaNom' class='code'>" + (a.user || a.c) + "</h3>" +
+      '<p class="ficha__rol">' + (a.user ? a.c + " · " : "") + "cuenta emisora</p>" +
+      (etiquetas.length
+        ? '<span class="ficha__part">' + etiquetas.join(" · ") + "</span>" : "") +
+      "</div>";
+
+    var contra = objetivos.reduce(function(t, o){ return t + o.hostiles; }, 0);
+    var pctHost = nMsg ? Math.round(100 * nHost / nMsg) : 0;
+    document.getElementById("fichaCifras").innerHTML =
+      celda("Mensajes hostiles", nHost, "en esta ventana") +
+      celda("De su actividad", pctHost + " %", "de sus " + nMsg + " mensajes") +
+      celda("Candidatas atacadas", (objetivos.length || a.nObjetivos) || "—",
+            (objetivos.length || a.nObjetivos) ? "de las " + PADRON_N + " monitoreadas"
+                                               : "ninguna en esta ventana") +
+      celda("Dureza media", sev != null ? es(sev, 1) + " / 5" : "—",
+            sev != null ? DUREZA(sev) : "sin medir");
+
+    var frase = [];
+    if (objetivos.length === 1)
+      frase.push("Concentra su hostilidad en <b>" + objetivos[0].n + "</b>");
+    else if (objetivos.length > 1)
+      frase.push("Reparte su hostilidad entre <b>" + objetivos.length + " candidatas</b>, " +
+                 "sobre todo <b>" + objetivos[0].n + "</b>");
+    var iM = 0, tot = 0;
+    for (var k = 0; k < cats.length; k++){ tot += cats[k]; if (cats[k] > cats[iM]) iM = k; }
+    if (tot) frase.push("y lo que más publica es <b>" + CAT_NAMES[iM].toLowerCase() + "</b> (" +
+                        Math.round(100 * cats[iM] / tot) + " %)");
+    /* Va como oración aparte, no encadenada con coma: es una observación
+       sobre la cuenta entera, no otro rasgo del mismo enunciado. */
+    var remate = pctHost >= 80 ? " Casi todo lo que escribe sobre el padrón es hostil." : "";
+    var conc = 0;
+    if (serie && nHost){
+      var mx = Math.max.apply(null, serie);
+      conc = Math.round(100 * mx / serie.reduce(function(t, x){ return t + x; }, 0));
+    }
+    document.getElementById("fichaTraza").innerHTML = serie
+      ? "<h4>Cuándo ataca</h4>" + barras(serie) +
+        '<p class="ficha__pie">' +
+        (conc >= 50 ? "Concentra el <b>" + conc + " %</b> en un solo tramo del periodo: episodio, no goteo."
+                    : conc >= 25 ? "Su actividad tiene picos, pero vuelve a lo largo del periodo."
+                    : "Reparte su actividad por todo el periodo: hostigamiento sostenido.") +
+        "</p>"
+      : "";
+    var ins = document.getElementById("fichaInsight");
+    ins.innerHTML = frase.length
+      ? frase.join(", ").replace(/, y /, " y ") + "." + remate
+      : remate.trim();
+    // El párrafo lleva filete a la izquierda: vacío se ve como una barra suelta.
+    ins.hidden = !(frase.length || remate);
+
+    document.getElementById("fichaComp").innerHTML = tot
+      ? "<h4>De qué está hecho lo que emite</h4>" +
+        '<div class="ficha__don">' + donut(cats) + '<div class="ficha__leyenda">' +
+        CAT_NAMES.map(function(c, k){
+          return '<div><i style="background:' + CAT_COL[k] + '"></i><span>' + c +
+                 "</span><b>" + Math.round(100 * cats[k] / tot) + " %</b></div>";
+        }).join("") + "</div></div>"
+      : "";
+
+    document.getElementById("fichaCuentas").innerHTML = objetivos.length
+      ? "<h4>A quién ataca</h4>" + '<div class="ficha__cuentas">' +
+        objetivos.map(function(o){
+          return '<div class="ficha__cta ficha__cta--sincara"><span class="h">' + o.n + "</span>" +
+            '<span class="n"><b>' + o.hostiles + "</b> hostiles</span></div>";
+        }).join("") + "</div>" +
+        /* El grupo de control no se nombra en ninguna parte del tablero (§9.1),
+           pero callar lo que va contra él haría creer que toda su hostilidad
+           apunta a las candidatas. */
+        (nHost > contra
+          ? '<p class="ficha__pie">Otros <b>' + (nHost - contra) +
+            "</b> mensajes hostiles suyos van contra el grupo de control, que no se nombra.</p>"
+          : "")
+      : "";
+
+    ajustarAncho();
+    fichaAbierta = origen || null;
+    document.getElementById("fichaFondo").hidden = false;
+    document.getElementById("fichaX").focus();
+  }
+
   function abrirFicha(i, origen){
     var p = PEOPLE[i];
     if (!p) return;
@@ -2200,42 +2409,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       (p.partido ? '<span class="ficha__part">' + p.partido + "</span>" : "") +
       "</div>";
 
-    /* Rampa de la taxonomía: una sola familia de morado, ordenada. El color
-       dice QUÉ tipo es, no cuánto pesa —de eso ya se encarga el arco—, así que
-       una escala de un solo tono se lee mejor que seis colores sueltos. */
-    /* Paleta categórica VALIDADA (luminosidad, saturación, separación para
-       daltonismo entre vecinos, contraste 3:1). La rampa de un solo morado
-       confundía a los vecinos; los tonos alternan claro/oscuro. La misma que
-       usa la ficha del ranking, para que las dos digan lo mismo. */
-    var CAT_COL = ["#7a3d94", "#c8761f", "#0a83a0", "#6f8f2a", "#d46aa8", "#2f4f8f"];
-
-    function donut(vals){
-      var R = 54, gr = 15, C = 2 * Math.PI * R, off = 0, arcos = "";
-      var tot = vals.reduce(function(a, b){ return a + b; }, 0) || 1;
-      for (var k = 0; k < vals.length; k++){
-        var frac = vals[k] / tot;
-        if (frac > 0){
-          arcos += '<circle cx="70" cy="70" r="' + R + '" fill="none" stroke="' +
-            CAT_COL[k] + '" stroke-width="' + gr + '" stroke-dasharray="' +
-            Math.max(0, frac * C - 2) + " " + C + '" stroke-dashoffset="' + (-off * C) + '"></circle>';
-        }
-        off += frac;
-      }
-      var iMax = 0;
-      for (var j = 1; j < vals.length; j++) if (vals[j] > vals[iMax]) iMax = j;
-      return '<svg width="152" height="152" viewBox="0 0 140 140" role="img" ' +
-        'aria-label="Composición de la hostilidad por tipo">' + arcos +
-        '<text x="70" y="70" transform="rotate(90 70 70)" text-anchor="middle" ' +
-        'dominant-baseline="central" font-family="var(--ui)" font-size="27" ' +
-        'font-weight="700" fill="var(--ink)">' + Math.round(vals[iMax]) + '%</text>' +
-        "</svg>";
-    }
-
-    function celda(rot, val, pie, texto){
-      return '<div class="ficha__c"><p class="rot">' + rot + "</p>" +
-             "<b" + (texto ? ' class="txt"' : "") + ">" + val + "</b>" +
-             (pie ? "<span>" + pie + "</span>" : "") + "</div>";
-    }
     var flecha = (mag == null || dl == null) ? "" :
       (dl > .05 ? "▲ " : dl < -.05 ? "▼ " : "▬ ") + es(Math.abs(dl), 1);
     /* La razón contra su control se dice en palabras y sin nombre: el tablero
@@ -2289,6 +2462,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     if (p.razonControl != null){
       frases.push("y en total recibe <b>" + razon + "</b> que su control");
     }
+    document.getElementById("fichaTraza").innerHTML = "";
+    document.getElementById("fichaInsight").hidden = false;
     document.getElementById("fichaInsight").innerHTML =
       frases.length ? frases.join(", ").replace(/, y /, " y ") + "."
                     : "Todavía no hay suficiente muestra para decir nada sobre ella.";
@@ -2297,12 +2472,13 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       (p.atacantes && p.atacantes.length)
         ? "<h4>Quién la ataca más</h4>" + '<div class="ficha__cuentas">' +
           p.atacantes.map(function(a){
-            return '<div class="ficha__cta">' + avatar({s: a.s}, null, true) +
+            return '<div class="ficha__cta">' + avatar({s: a.s, img: a.foto}, null, true) +
               '<span class="h">' + a.h + "</span>" +
               '<span class="n"><b>' + a.hostiles + "</b> de " + a.mensajes + "</span></div>";
           }).join("") + "</div>"
         : "";
 
+    ajustarAncho();
     fichaAbierta = origen || null;
     var f = document.getElementById("fichaFondo");
     f.hidden = false;
@@ -2310,8 +2486,14 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   }
 
   document.getElementById("rows").addEventListener("click", function(ev){
-    var fila = ev.target.closest ? ev.target.closest(".row[data-p]") : null;
-    if (fila) abrirFicha(+fila.dataset.p, fila);
+    if (!ev.target.closest) return;
+    var fila = ev.target.closest(".row[data-p]");
+    if (fila) return abrirFicha(+fila.dataset.p, fila);
+    // Las cuentas emisoras también tienen ficha: sin ella el panel dice
+    // «40 hostiles» y no hay forma de saber si son cuarenta insultos a una
+    // sola persona o una campaña repartida.
+    var cta = ev.target.closest(".row[data-e]");
+    if (cta) abrirFichaCuenta(+cta.dataset.e, cta);
   });
   document.getElementById("fichaX").addEventListener("click", cerrarFicha);
   document.getElementById("fichaFondo").addEventListener("click", function(ev){
