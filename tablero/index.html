@@ -302,9 +302,14 @@ button:focus-visible{ outline: 2px solid var(--acento); outline-offset: 2px; }
 }
 .lg{ display: inline-flex; align-items: center; gap: 7px; flex-wrap: wrap; }
 .sw{ display: inline-block; width: 13px; height: 3px; border-radius: 1px; }
-.sw--w{ background: linear-gradient(90deg, var(--b3), var(--b5)); }
+/* La muestra de «mujeres» es larga y recorre las cinco bandas, porque eso es
+   literalmente lo que hace la línea: su color depende de la altura. La muestra
+   corta anterior iba de Tensión a Linchamiento y prometía un tramo del espectro
+   que la curva casi nunca visita —vive sobre todo en Murmullo—, así que no se
+   parecía a lo que había en pantalla y no servía para identificarla. */
+.sw--w{ width: 52px; background: linear-gradient(90deg,
+        var(--b1), var(--b2) 28%, var(--b3) 55%, var(--b4) 78%, var(--b5)); }
 .sw--c{ background: var(--dk-ctrl); margin-left: 12px; }
-.sw--b{ height: 9px; background: rgba(255,138,61,.30); margin-left: 12px; }
 canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: crosshair; }
 /* Carrusel: cada marca está anclada a un instante y viaja con la traza.
    El recorte de los bordes es lo que hace que entren y salgan limpias. */
@@ -730,7 +735,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   /* Leyenda en una sola línea */
   .sides{ gap: 8px; }
   .lg{ font-size: 9.5px; letter-spacing: .06em; gap: 5px; }
-  .sw--c, .sw--b{ margin-left: 7px; }
+  .sw--c{ margin-left: 7px; }
   .lg .full{ display: none; }
 }
 /* Sólo cuando la franja ya no cabe en una línea legible pasa a rejilla:
@@ -795,7 +800,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
           <span class="lg">
             <i class="sw sw--w"></i>Mujeres<span class="full">&nbsp;monitoreadas</span>
             <i class="sw sw--c"></i>Control<span class="full">&nbsp;· hombres</span>
-            <i class="sw sw--b"></i>Brecha
+
           </span>
           <span>Magnitud 0–10</span>
         </div>
