@@ -601,6 +601,19 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
 /* Pie de la traza: dice qué patrón se está viendo, porque un gráfico de barras
    sin lectura deja al lector adivinando si eso es mucho o poco. */
 .ficha__pie{ margin: 6px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--ink-2); }
+.traza{ position: relative; padding-top: 17px; }
+/* El valor del pico va en HTML sobre su barra: dentro del SVG se deformaría,
+   porque el dibujo se estira a lo ancho del contenedor. */
+.traza__pico{
+  position: absolute; top: 0; white-space: nowrap;
+  font-family: var(--data); font-variant-numeric: tabular-nums;
+  font-size: 11.5px; color: var(--ink-2);
+}
+.traza__svg{ display: block; }
+.traza__eje{
+  display: flex; justify-content: space-between; margin-top: 4px;
+  font-family: var(--data); font-size: 11px; color: var(--ink-3);
+}
 .ficha__pie b{ color: var(--ink); }
 .ficha__leyenda{ display: grid; gap: 7px; min-width: 0; flex: 1; }
 .ficha__leyenda div{
@@ -2037,7 +2050,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
         // y la ficha no puede decir «ninguna» mientras la fila dice «2 de 9».
         nObjetivos: c.objetivos || 0,
         serie: c.serie || null,
-        sev: c.severidad != null ? c.severidad : null,
+        serieEtiquetas: c.serieEtiquetas || null,
+        graves: c.graves != null ? c.graves : null,
         cats: c.cats || [0, 0, 0, 0, 0, 0],
         etiquetas: c.etiquetas || [],
         nHost: c.hostiles || 0,
@@ -2224,14 +2238,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
      cuenta emisora: la misma categoría tiene que ser el mismo color en las dos
      o el lector cree que son taxonomías distintas. */
   var CAT_COL = ["#7a3d94", "#c8761f", "#0a83a0", "#6f8f2a", "#d46aa8", "#2f4f8f"];
-  /* La severidad es 1-5 del clasificador. Un número solo no dice nada al
-     lector: la media global ronda 2, así que 2 es «lo normal» y no «poco». */
-  function DUREZA(v){
-    return v >= 3.5 ? "muy por encima de la media" :
-           v >= 2.6 ? "por encima de la media" :
-           v >= 1.8 ? "en la media del corpus" : "por debajo de la media";
-  }
-
   function donut(vals){
     var R = 54, gr = 15, C = 2 * Math.PI * R, off = 0, arcos = "";
     var tot = vals.reduce(function(a, b){ return a + b; }, 0) || 1;
@@ -2258,29 +2264,53 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       "</svg>";
   }
 
-  /* Cuándo publicó sus mensajes hostiles, repartido en tramos iguales de la
-     ventana. Es lo que separa una campaña de un día del hostigamiento
+  /* Cuándo publicó sus mensajes hostiles, una barra por día (o por hora en
+     ventanas cortas). Es lo que separa una campaña de un día del hostigamiento
      sostenido, y ningún total lo enseña: dos cuentas con 582 mensajes pueden
-     ser una tarde de linchamiento o dos semanas de goteo. */
-  function barras(serie, ancho, alto){
-    ancho = ancho || 300; alto = alto || 58;
-    var max = Math.max.apply(null, serie) || 1;
-    var w = ancho / serie.length, hueco = Math.min(2, w * 0.25);
+     ser una tarde de linchamiento o dos semanas de goteo.
+
+     Las etiquetas van en HTML y no dentro del SVG porque el dibujo se estira a
+     lo ancho del contenedor (`preserveAspectRatio="none"`) y eso deformaría
+     cualquier texto que viviera dentro. */
+  function barras(serie, etiquetas, alto){
+    alto = alto || 54;
+    var ancho = 300, max = Math.max.apply(null, serie) || 1;
+    var iPico = serie.indexOf(max);
+    var w = ancho / serie.length, hueco = Math.min(2, w * 0.3);
+
     var b = serie.map(function(v, i){
-      var h = v ? Math.max(2, (v / max) * (alto - 4)) : 0;
-      if (!h) return "";
+      if (!v) return "";
+      var h = Math.max(2, (v / max) * (alto - 4));
       return '<rect x="' + (i * w).toFixed(1) + '" y="' + (alto - h).toFixed(1) +
              '" width="' + Math.max(1, w - hueco).toFixed(1) + '" height="' + h.toFixed(1) +
-             '" rx="1" fill="var(--acento)"></rect>';
+             '" rx="1" fill="var(--acento)" fill-opacity="' +
+             (i === iPico ? "1" : "0.72") + '"></rect>';
     }).join("");
     /* Línea de base a lo ancho: sin ella, una cuenta que sólo actuó dos días
        deja el gráfico casi vacío y se lee como un fallo de dibujo en vez de
        como lo que es: silencio el resto del periodo. */
     var suelo = '<rect x="0" y="' + (alto - 1) + '" width="' + ancho +
                 '" height="1" fill="var(--rule-2)"></rect>';
-    return '<svg viewBox="0 0 ' + ancho + " " + alto + '" width="100%" height="' + alto +
-      '" preserveAspectRatio="none" role="img" aria-label="Actividad hostil a lo largo del periodo">' +
-      suelo + b + "</svg>";
+
+    /* Sólo se etiqueta el pico: una cifra sobre cada barra las volvería
+       ilegibles, y es el único número que hace falta para dar escala. */
+    var pos = 100 * (iPico + 0.5) / serie.length;
+    var estilo = pos < 14 ? "left:0"
+               : pos > 86 ? "right:0"
+               : "left:" + pos.toFixed(1) + "%;transform:translateX(-50%)";
+    var pico = '<span class="traza__pico" style="' + estilo + '">' + max +
+               (etiquetas && etiquetas[iPico] ? " · " + etiquetas[iPico] : "") + "</span>";
+
+    var eje = etiquetas && etiquetas.length
+      ? '<div class="traza__eje"><span>' + etiquetas[0] + "</span><span>" +
+        etiquetas[etiquetas.length - 1] + "</span></div>"
+      : "";
+
+    return '<div class="traza">' + pico +
+      '<svg class="traza__svg" viewBox="0 0 ' + ancho + " " + alto + '" width="100%" height="' +
+      alto + '" preserveAspectRatio="none" role="img" ' +
+      'aria-label="Mensajes hostiles por día; máximo ' + max + '">' +
+      suelo + b + "</svg>" + eje + "</div>";
   }
 
   function celda(rot, val, pie, texto){
@@ -2313,12 +2343,18 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     var objetivos = a.objetivos || [], cats = a.cats || [0, 0, 0, 0, 0, 0];
     var etiquetas = a.etiquetas || [];
     var nHost = a.nHost != null ? a.nHost : 0, nMsg = a.nMsg != null ? a.nMsg : 0;
-    var serie = a.serie || null, sev = a.sev;
+    // OJO: `etiquetas` ya existe para las de comportamiento («reincidente»…).
+    // Llamar igual a las del gráfico las pisaba y la cabecera acababa
+    // enseñando la lista de fechas.
+    var serie = a.serie || null, etiqSerie = a.serieEtiquetas || null;
+    var graves = a.graves != null ? a.graves : null;
 
     document.getElementById("fichaCab").innerHTML =
       avatar(a, null, true) +
       "<div><h3 id='fichaNom' class='code'>" + (a.user || a.c) + "</h3>" +
-      '<p class="ficha__rol">' + (a.user ? a.c + " · " : "") + "cuenta emisora</p>" +
+      /* El handle sólo cuando el título es el nombre que muestra la cuenta:
+         repetirlo debajo de sí mismo no informa de nada. */
+      (a.user ? '<p class="ficha__rol">' + a.c + "</p>" : "") +
       (etiquetas.length
         ? '<span class="ficha__part">' + etiquetas.join(" · ") + "</span>" : "") +
       "</div>";
@@ -2331,8 +2367,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       celda("Candidatas atacadas", (objetivos.length || a.nObjetivos) || "—",
             (objetivos.length || a.nObjetivos) ? "de las " + PADRON_N + " monitoreadas"
                                                : "ninguna en esta ventana") +
-      celda("Dureza media", sev != null ? es(sev, 1) + " / 5" : "—",
-            sev != null ? DUREZA(sev) : "sin medir");
+      celda("Mensajes graves", graves != null ? graves : "—",
+            "deshumanización o amenaza · nivel 4-5 de 5");
 
     var frase = [];
     if (objetivos.length === 1)
@@ -2353,7 +2389,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       conc = Math.round(100 * mx / serie.reduce(function(t, x){ return t + x; }, 0));
     }
     document.getElementById("fichaTraza").innerHTML = serie
-      ? "<h4>Cuándo ataca</h4>" + barras(serie) +
+      ? "<h4>Cuándo ataca</h4>" + barras(serie, etiqSerie) +
         '<p class="ficha__pie">' +
         (conc >= 50 ? "Concentra el <b>" + conc + " %</b> en un solo tramo del periodo: episodio, no goteo."
                     : conc >= 25 ? "Su actividad tiene picos, pero vuelve a lo largo del periodo."
