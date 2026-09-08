@@ -1756,10 +1756,11 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   /* Traduce una marca del eje a fecha real. El borde derecho es el último
      cierre, así que se cuenta hacia atrás desde ahí. */
   function fechaDe(t, nowAbs){
-    /* `finSerie`, no `cierre`: la serie se corta en la hora en punto y el
-       cierre es el último mensaje clasificado. Anclar el eje al cierre movía
-       cada etiqueta hasta 59 minutos, y el globo decía las 17:01 sobre un
-       punto que era de las 18:00. */
+    /* `finSerie`, no `cierre`: `finSerie` es el último punto MEDIDO de la
+       traza —donde termina la curva— y el cierre es el último mensaje
+       clasificado, que casi nunca cae en el mismo instante. Anclar el eje al
+       cierre movía cada etiqueta hasta medio paso, y el globo decía las 17:01
+       sobre un punto que era de las 18:00. */
     var iso = ESTADO && (ESTADO.finSerie || ESTADO.cierre);
     var base = iso ? new Date(iso) : new Date();
     return new Date(base.getTime() - (nowAbs - t) * 60000);
