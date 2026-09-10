@@ -84,7 +84,7 @@
       </table>
       <h3>Proporción, no volumen</h3>
       <p>Lo que se publica es qué proporción de las menciones recibidas es hostil, no cuántos mensajes hostiles hay. Contar en bruto produciría un ranking de visibilidad: la persona más mencionada saldría siempre primera, sin que eso diga nada sobre la hostilidad que enfrenta.</p>
-      <p class="nota">Por lo mismo, el tablero lista a las siete monitoreadas en orden alfabético y no por magnitud: no publica un ranking de mujeres más atacadas.</p>
+      <p class="nota">Por lo mismo, lo que se compara entre las nueve monitoreadas es esa proporción, no el volumen: quien recibe más menciones no aparece por eso más arriba.</p>
     </section>
 
     <!-- ── 02 ─────────────────────────────────────────────── -->
@@ -104,7 +104,7 @@
     <section class="sec" id="s03">
       <h2><span class="sec__num">03</span>Fuentes y universo</h2>
       <div class="fichas fichas--marco">
-        <div><p class="rot">Denominador</p><h4>Menciones, ponderadas por tipo</h4><p>Todas las menciones públicas del periodo, hostiles o no. Las que van dirigidas a su cuenta pesan más que las que sólo la nombran, porque son unas cuatro veces más hostiles (medido sobre este corpus: 17,6 % frente a 4,4 %): sin esa corrección, quien recibe sobre todo respuestas parecería más atacada que quien recibe sobre todo noticia, aunque les llegara lo mismo.</p></div>
+        <div><p class="rot">Denominador</p><h4>Menciones, ponderadas por tipo</h4><p>Todas las menciones públicas del periodo, hostiles o no. Las que van dirigidas a su cuenta pesan más que las que sólo la nombran, porque son unas cuatro veces más hostiles (medido sobre este corpus: 17,6 % frente a 4,4 %): sin esa corrección, quien recibe sobre todo respuestas parecería más atacada que quien recibe sobre todo noticia, aunque les llegara lo mismo. Los mensajes que publica la propia persona no cuentan.</p></div>
         <div><p class="rot">Numerador</p><h4>Menciones hostiles</h4><p>Las que superan los dos filtros de clasificación y reciben un veredicto cerrado. Los casos dudosos no entran.</p></div>
       </div>
       <h3>De qué plataformas</h3>
@@ -116,7 +116,7 @@
       <p class="nota">Volumen sin clasificar no es magnitud cero: es ausencia de medición. Un periodo sin lecturas válidas se muestra como «—», nunca como 0,0.</p>
 
       <h3>Sin consultas en vivo</h3>
-      <p>El navegador lee un solo archivo de datos ya calculado. Mientras se mira el tablero no hay ninguna petición a la fuente de origen: por eso el «en vivo» no depende de que ese servicio esté disponible, ni gasta su cuota, y por eso el tablero puede servirse como una página estática.</p>
+      <p>El navegador lee un archivo de datos ya calculado, y las imágenes desde este mismo sitio. Mientras se mira el tablero no hay ninguna petición a la fuente de origen: por eso el «en vivo» no depende de que ese servicio esté disponible, ni gasta su cuota, y por eso el tablero puede servirse como una página estática.</p>
     </section>
 
     <!-- ── 04 ─────────────────────────────────────────────── -->
@@ -140,7 +140,7 @@
       <p class="nota">Marcar no es clasificar. Sin mayoría el mensaje queda como dudoso, y el dudoso no suma al índice.</p>
 
       <h3>Se lee todo</h3>
-      <p>Todas las menciones con texto pasan a lectura, sin filtro previo. Al principio un diccionario decidía qué merecía lectura, y se midió lo que se perdía: el diccionario encontraba insulto —que lleva palabras— pero se le escapaba el estereotipo de género, que no las necesita: «la manda el marido» no contiene ningún término de una lista. En la muestra de control, el estereotipo pesaba el doble de lo que el diccionario veía. Desde el 26-ago-2026 se lee el corpus completo; el diccionario sigue en uso para marcar urgencias, no para decidir qué se lee.</p>
+      <p>Todas las menciones con texto pasan a lectura, sin filtro previo. Al principio un diccionario decidía qué merecía lectura, y se midió lo que se perdía: el diccionario encontraba insulto —que lleva palabras— pero se le escapaba el estereotipo de género, que no las necesita: «la manda el marido» no contiene ningún término de una lista. En la muestra de control, el estereotipo pesaba el doble de lo que el diccionario veía. Desde el 7-sep-2026 se lee el corpus completo; el diccionario sigue en uso para marcar urgencias, no para decidir qué se lee.</p>
 
       <h3>Doble lectura</h3>
       <p>Cada mención la leen dos modelos de forma independiente. Si coinciden, el veredicto queda cerrado. Si no, una tercera lectura desempata. Si tampoco hay mayoría, el mensaje se marca como dudoso y queda fuera del índice.</p>
@@ -152,7 +152,7 @@
     <!-- ── 05 ─────────────────────────────────────────────── -->
     <section class="sec" id="s05">
       <h2><span class="sec__num">05</span>Tipos de agresión</h2>
-      <p class="entradilla">Los ejemplos que ilustran cada categoría son construidos. Nunca se publican mensajes reales ni se identifica a quien los escribe.</p>
+      <p class="entradilla">Los ejemplos que ilustran cada categoría son construidos. Nunca se publican mensajes reales. De las cuentas que emiten hostilidad se muestra su conducta pública: cuántos mensajes publican, cuántos son hostiles y contra quién.</p>
       <table class="tabla">
         <thead><tr><th>#</th><th>Categoría</th><th>¿Qué recoge?</th><th>Gravedad</th></tr></thead>
         <tbody>
@@ -210,7 +210,7 @@
         <div><h4>Precisión</h4><p>De lo que el sistema marcó como hostil, qué proporción lo era de verdad.</p></div>
         <div><h4>Exhaustividad</h4><p>De lo que era hostil de verdad, qué proporción detectó el sistema.</p></div>
       </div>
-      <p class="nota">Ambos indicadores se publican junto a los resultados.</p>
+      <p class="nota">Ambos indicadores se publicarán junto a los resultados.</p>
       <p class="pendiente">PENDIENTE · enlace «Ver últimos valores» con precisión y exhaustividad del último corte, cuando exista la auditoría manual</p>
     </section>
 
