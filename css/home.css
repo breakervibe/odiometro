@@ -72,7 +72,10 @@
 .pregunta--uno .desliza{ color: rgba(255,255,255,.6); }
 
 /* Procedencia de la imagen: si la portada lleva personas reales, la fuente
-   se declara. No es decoración. */
+   se declara. No es decoración.
+   Sin usar desde el 11-sep-2026: la portada actual es una imagen generada, no
+   retrata a nadie, y el crédito se retiró por decisión del proyecto. La regla
+   sigue escrita porque su condición puede volver a cumplirse. */
 .portada__credito{
   position:absolute; left: var(--margen); bottom:22px; z-index:2;
   font-family: var(--mono); font-size: var(--t-mono-3);
