@@ -841,7 +841,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     <div class="phead">
       <h2 id="whoTitle">¿Quién lo recibe?</h2>
       <button class="iq" type="button" aria-expanded="false" aria-controls="i-who" title="Cómo se leen estas dos listas">i</button>
-      <div class="seg" role="group" aria-label="Ver" hidden style="display:none">
+      <div class="seg" role="group" aria-label="Ver">
         <button type="button" data-w="recibe" aria-pressed="true">Lo recibe</button>
         <button type="button" data-w="emite" aria-pressed="false">Lo emite</button>
       </div>
@@ -857,8 +857,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       <p>La marca <b>Amenaza</b> señala que en el periodo se detectó al menos un mensaje de gravedad máxima. Queda registrado como información consultable; el tablero no difunde ese contenido ni lo atribuye a nadie.</p>
 
       <h3>Lo emite · qué mide el índice de reincidencia</h3>
-      <p>Cada cuenta que publica queda registrada con su patrón, y el índice 0–10 combina cuatro señales <b>observables</b>: en cuántos episodios aparece, contra cuántas monitoreadas distintas, qué proporción de sus mensajes es hostil, y con qué frecuencia publica dentro de la misma ventana que otras cuentas.</p>
-      <p>Las etiquetas describen <b>comportamiento, nunca identidad ni opinión</b>. <b>Reincidente</b>: aparece en más de la mitad de los episodios. <b>Coordinada</b>: publica en ventanas muy ajustadas junto a otras. <b>Solo hostil</b>: prácticamente todo lo que dice sobre ellas es agresión. <b>Alta frecuencia</b>: publica muy por encima de la mediana. Deliberadamente no se usan palabras como «troll» o «activista»: son juicios sobre la persona, no descripciones del dato.</p>
+      <p>Cada cuenta que publica queda registrada con su patrón, y el índice 0–10 combina tres señales <b>observables</b>: en cuántos episodios aparece, contra cuántas monitoreadas distintas y con qué frecuencia publica dentro de la misma ventana que otras cuentas.</p>
+      <p>Las etiquetas describen <b>comportamiento, nunca identidad ni opinión</b>. <b>Reincidente</b>: aparece en más de la mitad de los episodios. <b>Coordinada</b>: publica en ventanas muy ajustadas junto a otras. <b>Alta frecuencia</b>: publica muy por encima de la mediana. Deliberadamente no se usan palabras como «troll» o «activista»: son juicios sobre la persona, no descripciones del dato.</p>
       <p>Mientras una cuenta no tenga foto de perfil disponible se muestra una marca generada de su código: un patrón estable que permite reconocerla entre episodios.</p>
     </div>
   </section>
@@ -1682,7 +1682,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
             '<span class="name code">' + (a.user || a.c) +
               (alto ? '<span class="tagr">Núcleo</span>' : "") + "</span>" +
             '<span class="meta">' + (a.user ? a.c + " · " : "") +
-              a.p + " · " + a.msg + " mensajes · " + a.host + " hostiles</span>" +
+              a.p + "</span>" +
           "</span>" +
           '<canvas data-i="' + i + '"></canvas>' +
           /* Incidencias: mensajes hostiles de esta cuenta en el periodo. Es
@@ -2366,10 +2366,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
       "</div>";
 
     var contra = objetivos.reduce(function(t, o){ return t + o.hostiles; }, 0);
-    var pctHost = nMsg ? Math.round(100 * nHost / nMsg) : 0;
     document.getElementById("fichaCifras").innerHTML =
       celda("Mensajes hostiles", nHost, "en esta ventana") +
-      celda("De su actividad", pctHost + " %", "de sus " + nMsg + " mensajes") +
       celda("Candidatas atacadas", (objetivos.length || a.nObjetivos) || "—",
             (objetivos.length || a.nObjetivos) ? "de las " + PADRON_N + " monitoreadas"
                                                : "ninguna en esta ventana") +
@@ -2516,7 +2514,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
           p.atacantes.map(function(a){
             return '<div class="ficha__cta">' + avatar({s: a.s, img: a.foto}, null, true) +
               '<span class="h">' + a.h + "</span>" +
-              '<span class="n"><b>' + a.hostiles + "</b> de " + a.mensajes + "</span></div>";
+              '<span class="n"><b>' + a.hostiles + "</b> hostiles</span></div>";
           }).join("") + "</div>"
         : "";
 
