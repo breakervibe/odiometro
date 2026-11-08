@@ -112,8 +112,12 @@
       <p class="nota">Es una limitación real y conviene tenerla presente al leer cualquier cifra: lo que el tablero mide es la conversación pública en X, no toda la conversación digital.</p>
 
       <h3>Ventanas de lectura</h3>
-      <p>El tablero se puede leer a 1 día, 7 días, 15 días o 30 días. La serie es continua: no se reconstruye hacia atrás ni se rellenan huecos.</p>
+      <p>El tablero se puede leer a 1 día, 7 días, 15 días o 30 días. La serie es continua y no se rellenan huecos con estimaciones.</p>
       <p class="nota">Volumen sin clasificar no es magnitud cero: es ausencia de medición. Un periodo sin lecturas válidas se muestra como «—», nunca como 0,0.</p>
+
+      <h3>Lectura por muestra</h3>
+      <p>En algunos periodos se leyó una muestra en lugar del corpus completo. Por persona y día se leyeron todos los textos repetidos, los 30 con más interacción y, del resto, una muestra al azar hasta 100. Cada mensaje de la muestra representa a los que no se leyeron de su mismo día. Probado sobre semanas leídas completas, este procedimiento reprodujo la diferencia entre mujeres y hombres.</p>
+      <p class="nota">Lo que su autor borró, o lo que quedó en una cuenta suspendida o protegida antes de ser recogido, no se puede leer ni contar. Menos del 1 % de los mensajes recogidos llega sin texto disponible.</p>
 
       <h3>Sin consultas en vivo</h3>
       <p>El navegador lee un archivo de datos ya calculado, y las imágenes desde este mismo sitio. Mientras se mira el tablero no hay ninguna petición a la fuente de origen: por eso el «en vivo» no depende de que ese servicio esté disponible, ni gasta su cuota, y por eso el tablero puede servirse como una página estática.</p>
@@ -140,7 +144,7 @@
       <p class="nota">Marcar no es clasificar. Sin mayoría el mensaje queda como dudoso, y el dudoso no suma al índice.</p>
 
       <h3>Se lee todo</h3>
-      <p>Todas las menciones con texto pasan a lectura, sin filtro previo. Al principio un diccionario decidía qué merecía lectura, y se midió lo que se perdía: el diccionario encontraba insulto —que lleva palabras— pero se le escapaba el estereotipo de género, que no las necesita: «la manda el marido» no contiene ningún término de una lista. En la muestra de control, el estereotipo pesaba el doble de lo que el diccionario veía. Desde el 7-sep-2026 se lee el corpus completo; el diccionario sigue en uso para marcar urgencias, no para decidir qué se lee.</p>
+      <p>Todas las menciones con texto pasan a lectura, sin filtro previo. Al principio un diccionario decidía qué merecía lectura, y se midió lo que se perdía: el diccionario encontraba insulto —que lleva palabras— pero se le escapaba el estereotipo de género, que no las necesita: «la manda el marido» no contiene ningún término de una lista. En la muestra de control, el estereotipo pesaba el doble de lo que el diccionario veía. Desde el 7-sep-2026 se lee el corpus completo —salvo en algunos periodos, donde se leyó una muestra (ver «Lectura por muestra»)—; el diccionario sigue en uso para marcar urgencias, no para decidir qué se lee.</p>
 
       <h3>Doble lectura</h3>
       <p>Cada mención la leen dos modelos de forma independiente. Si coinciden, el veredicto queda cerrado. Si no, una tercera lectura desempata. Si tampoco hay mayoría, el mensaje se marca como dudoso y queda fuera del índice.</p>
