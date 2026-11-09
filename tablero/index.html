@@ -2384,9 +2384,9 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     for (var k = 0; k < cats.length; k++){ tot += cats[k]; if (cats[k] > cats[iM]) iM = k; }
     if (tot) frase.push("y lo que más publica es <b>" + CAT_NAMES[iM].toLowerCase() + "</b> (" +
                         Math.round(100 * cats[iM] / tot) + " %)");
-    /* Va como oración aparte, no encadenada con coma: es una observación
-       sobre la cuenta entera, no otro rasgo del mismo enunciado. */
-    var remate = pctHost >= 80 ? " Casi todo lo que escribe sobre el padrón es hostil." : "";
+    /* Sin remate sobre «su actividad»: el back solo trae el autor de los
+       mensajes hostiles, así que no hay proporción que dar (§9.27). */
+    var remate = "";
     var conc = 0;
     if (serie && nHost){
       var mx = Math.max.apply(null, serie);
