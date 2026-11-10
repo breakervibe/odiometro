@@ -444,7 +444,7 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
 .face--acct svg{ display: block; }
 
 .row{
-  display: grid; grid-template-columns: 30px minmax(110px,1fr) 96px 60px 88px;
+  display: grid; grid-template-columns: 30px minmax(110px,1fr) 60px 88px;
   align-items: center; gap: 12px;
   padding: 8px 14px; border-bottom: 1px solid var(--rule-2);
   width: 100%; text-align: left;
@@ -468,7 +468,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   border: 1px solid var(--rule); border-radius: 2px; padding: 0 5px;
 }
 .row .meta{ display: block; font-size: 12.5px; color: var(--ink-3); margin-top: 1px; }
-.row canvas{ display: block; width: 100%; height: 26px; }
 .row .mag2{ font-family: var(--data); font-variant-numeric: tabular-nums; font-size: 21px; font-weight: 600; text-align: right; letter-spacing: -.03em; }
 .row .bnd{ font-size: 12.5px; text-align: right; }
 .row .bnd .dl{ display: block; font-family: var(--data); font-size: 11px; color: var(--ink-3); }
@@ -713,7 +712,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   .g3, .g4, .g5, .g6, .g7{ grid-column: span 12; }
   .wrap{ padding: 12px; }
   .row{ grid-template-columns: 30px minmax(110px,1fr) 56px 84px; gap: 10px; }
-  .row canvas{ display: none; }
   .levels > div{ grid-template-columns: 1fr; gap: 2px; }
 
   /* En una columna hay que fijar el orden: la lectura, luego el gráfico y
@@ -1527,39 +1525,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   cv.addEventListener("pointerleave", leave);
   cv.addEventListener("pointercancel", leave);
 
-  /* ---- sparkline por persona ---- */
-  function drawSpark(cvs, p, mag){
-    var c = cvs.getContext("2d");
-    var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var w = cvs.clientWidth, h = cvs.clientHeight;
-    if (!w || !h) return;
-    cvs.width = Math.round(w*dpr); cvs.height = Math.round(h*dpr);
-    c.setTransform(dpr, 0, 0, dpr, 0, 0);
-    var g = rng(p.s), mid = h/2, amp = mid - 1.5;
-    var pk = .3 + (p.s % 7)*.08, lvl = mag*.45;
-    c.strokeStyle = RULE;
-    c.beginPath(); c.moveTo(0, mid); c.lineTo(w, mid); c.stroke();
-    c.strokeStyle = INK; c.lineWidth = 1;
-    c.beginPath();
-    for (var x = 0; x <= w; x += .5){
-      var t = x / w;
-      lvl += (g() - .5)*mag*.5;
-      lvl += (mag*.42 - lvl)*.06;
-      var v = Math.max(.05, Math.min(10, lvl + mag*.95*Math.exp(-Math.pow((t-pk)*9, 2))));
-      var y = mid - (v/10)*amp;
-      if (x === 0) c.moveTo(x, y); else c.lineTo(x, y);
-    }
-    c.stroke();
-  }
-  function drawAllSparks(){
-    var d = DATA[cur];
-    var src = whoView === "emite" ? EMIT : PEOPLE;
-    var vals = whoView === "emite" ? d.emit : d.stations;
-    Array.prototype.forEach.call(document.querySelectorAll(".row canvas"), function(cvs){
-      var i = +cvs.dataset.i;
-      drawSpark(cvs, src[i], vals[i]);
-    });
-  }
+  /* Sin mini-líneas por fila: no hay una serie por persona en estado.json
+     y las que se dibujaban eran aleatorias. */
 
   /* ============================================================
      PINTADO
@@ -1684,7 +1651,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
             '<span class="meta">' + (a.user ? a.c + " · " : "") +
               a.p + "</span>" +
           "</span>" +
-          '<canvas data-i="' + i + '"></canvas>' +
           /* Incidencias: mensajes hostiles de esta cuenta en el periodo. Es
              el número por el que están ordenadas, así que tiene que verse. */
           '<span class="mag2">' + idx + "</span>" +
@@ -1714,7 +1680,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
             '<span class="meta">' + p.r + " · " + p.m + " menciones · " +
               (p.incidencias || 0) + " hostiles</span>" +
           "</span>" +
-          '<canvas data-i="' + i + '"></canvas>' +
           '<span class="mag2"' + (mag >= 7 ? ' style="color:' + ALARM + '"' : "") + ">" + es(mag,1) + "</span>" +
           '<span class="bnd">' + band(mag).name + '<span class="dl">' +
             (mag == null || dl == null ? "" :
@@ -1723,7 +1688,6 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
           "</button>";
       }).join("");
     }
-    drawAllSparks();
 
     document.getElementById("sayNow").innerHTML = sayNow(d);
     document.getElementById("sayWho").innerHTML = sayWho(d);
