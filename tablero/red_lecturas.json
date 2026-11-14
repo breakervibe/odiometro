@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T17:53-05:00",
+ "generado": "2026-11-14T18:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -77,14 +77,14 @@
     "texto": "La narrativa presenta a la candidata como parte de un grupo político corrupto y delictivo vinculado a la Revolución Ciudadana y a Rafael Correa. La atacan con descalificaciones colectivas, la acusan de encubrir a figuras prófugas y desestiman sus denuncias de persecución política."
    },
    "1": {
-    "palabras": "guayaquil, campaña, dinero, anda, guayas, calladita",
-    "firma": "e47301223622",
-    "texto": null
+    "palabras": "guayaquil, campaña, dinero, anda, guayas, asustada",
+    "firma": "975faa102fdc",
+    "texto": "Los mensajes la vinculan al correísmo y le atribuyen corrupción, sosteniendo que su esposo canalizaba dinero en efectivo hacia su campaña y que por ello guarda silencio; además, cuestionan su experiencia administrativa y su capacidad para gobernar Guayaquil."
    },
    "2": {
-    "palabras": "david, esposo, ordóñez, asustada",
-    "firma": "7d6e32462dee",
-    "texto": null
+    "palabras": "david, esposo, ordóñez, efectivo",
+    "firma": "f1b96d998bb1",
+    "texto": "Los mensajes vinculan a la candidata con un presunto manejo irregular de dinero en efectivo a través de su esposo, a quien atribuyen la recepción y distribución de fondos destinados en parte a su campaña. Además, ridiculizan a su esposo con alusiones a una supuesta infidelidad."
    }
   },
   "Yadira Bayas": {},
