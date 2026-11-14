@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T17:34-05:00",
+ "generado": "2026-11-14T17:53-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -7,17 +7,17 @@
    "0": {
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
-    "texto": "Los mensajes cosifican a la candidata mediante alusiones de doble sentido sexual y le atribuyen difundir videos con contenido humorístico y sugerente, presentando su campaña a la Prefectura de Pichincha como una búsqueda de votos basada en la provocación antes que en propuestas."
+    "texto": "Los mensajes la reducen a su apariencia física mediante una cosificación sexual y presentan sus videos de campaña como contenido de doble sentido, insinuando que recurre a la provocación en lugar de propuestas para captar votos en Pichincha."
    },
    "1": {
     "palabras": "moza, vergüenza, ricaurte, tipa",
     "firma": "e85b87bd8d9d",
-    "texto": "Los mensajes la presentan como amante de un político, Ricaurte, y atribuyen su trayectoria y sus apoyos a esa relación. Además, la acusan de mentir y de engañar al electorado, y cuestionan su legitimidad para aspirar a un cargo de elección popular."
+    "texto": "La narrativa reduce la trayectoria de la candidata a una supuesta relación sentimental con un político, a la que atribuyen su cargo de concejal, y la presenta como mentirosa y tramposa, acusándola de engañar al electorado de Pichincha y de recurrir a cuentas pagadas."
    },
    "2": {
     "palabras": "pabón, piraña, gárgola",
     "firma": "f77180221568",
-    "texto": "Los mensajes se dirigen a Pabón, prefecta de Pichincha, más que a la candidata: le atribuyen corrupción, apropiación de fondos provinciales y ostentación, la vinculan al correísmo y piden su encarcelamiento, con apodos que degradan su apariencia física."
+    "texto": "Los mensajes no aluden a Carla Cevallos sino a Paola Pabón, prefecta de Pichincha: la presentan como corrupta y vinculada al correísmo, le atribuyen enriquecimiento con fondos de la prefectura y piden su encarcelamiento, con apodos que la animalizan y descalifican su aspecto."
    }
   },
   "Carla Larrea": {},
@@ -25,66 +25,66 @@
    "0": {
     "palabras": "guayaquil, colorada, problema, cuenta, metan, merece",
     "firma": "625251b79095",
-    "texto": "Los mensajes cuestionan su salud mental y física, le atribuyen consumo de fármacos o sustancias y la presentan como no apta para la alcaldía de Guayaquil; de forma secundaria, ponen en duda su gestión pasada ante emergencias en la ciudad."
+    "texto": "Los mensajes cuestionan su estado de salud mental y física, le atribuyen consumo de fármacos o sustancias por su forma de hablar y la presentan como no apta para volver a la alcaldía de Guayaquil; algunos además cuestionan su gestión durante las inundaciones."
    },
    "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
-    "texto": "Los mensajes cuestionan su gestión previa en la alcaldía de Guayaquil, le atribuyen incumplir ofertas y la presentan como subordinada a su nueva organización política, con alusiones al consumo de drogas y descalificaciones sobre su apariencia y condición de mujer."
+    "texto": "Los mensajes cuestionan su alianza con ADN y la presentan como una figura subordinada al Gobierno, con alusiones sexistas, consumo de drogas e incumplimiento de promesas, y descalifican su gestión anterior como alcaldesa de Guayaquil para disuadir a los votantes."
    },
    "2": {
     "palabras": "ayuda, mal, urgente, drogadicto, video, drogas",
     "firma": "ddc07a0717ce",
-    "texto": "Los mensajes le atribuyen consumo de drogas y deterioro de salud mental, y presentan supuestos gestos involuntarios en entrevistas y videos como prueba. Bajo un tono de aparente preocupación, insisten en que necesita ayuda urgente para descalificarla como apta para el cargo."
+    "texto": "Le atribuyen consumo de drogas y adicción a partir de sus gestos y su forma de hablar en entrevistas y videos, y la presentan como una persona enferma que necesita ayuda profesional urgente; algunos mensajes suman acusaciones de corrupción en su gestión municipal."
    },
    "3": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
-    "texto": "Los mensajes ridiculizan su aspecto físico durante el inicio de su campaña, comparando su sudoración con la de una persona adicta en abstinencia, e insinúan consumo de sustancias o estado de intoxicación para cuestionar su condición personal y su aptitud."
+    "texto": "Los mensajes ridiculizan su aspecto físico durante el inicio de su campaña, asociando su sudoración con un supuesto estado de abstinencia, y le insinúan consumo de drogas o alcohol para presentarla como una persona no apta ni en control de sí misma."
    },
    "4": {
     "palabras": "drogada, pena, drogadicta",
     "firma": "1306325a14d2",
-    "texto": "Los mensajes le atribuyen consumo de drogas a partir de su aspecto y sus apariciones públicas, y la presentan como una figura deteriorada respecto de su imagen anterior, combinando lástima con descalificación para cuestionar su aptitud como candidata y desalentar el voto por ella."
+    "texto": "Los mensajes le atribuyen consumo de drogas y un supuesto deterioro físico y mental a partir de su apariencia en público, con un tono de lástima que contrasta su imagen actual con una respetabilidad anterior. Así la presentan como no apta para el cargo y descalifican también a quienes la apoyan."
    }
   },
   "Fiorella Ycaza": {
    "0": {
     "palabras": "continuar, ideas, gestión, modelo, colmo, cuesta",
     "firma": "99671a88744b",
-    "texto": "La narrativa la presenta como una candidata sin preparación, con dificultad para articular ideas y responder sobre sus propuestas, y como continuadora de un modelo de gestión anterior al que le atribuyen corrupción, además de cuestionar su idoneidad aludiendo a procesos judiciales."
+    "texto": "Los mensajes cuestionan su capacidad para articular ideas y responder sobre sus propuestas, y la presentan como continuadora de una gestión que califican de corrupta, atribuyéndole además procesos judiciales que, según sostienen, le impedirían ejercer la Alcaldía de Guayaquil."
    },
    "1": {
     "palabras": "guayaquil, municipio, tráfico, agua, peor, esposa",
     "firma": "249a52c203c7",
-    "texto": "La narrativa la presenta como extensión de su esposo, exalcalde procesado, atribuyéndole complicidad en presuntos delitos y en la gestión del Municipio de Guayaquil; niegan su capacidad propia para gobernar y la remiten al ámbito doméstico y al cuidado de sus hijos."
+    "texto": "La narrativa la presenta como extensión de su esposo, exalcalde, a quien le atribuyen corrupción y gestión deficiente en el Municipio de Guayaquil, y la acusa de complicidad. Niegan su capacidad propia para gobernar, la asocian al correísmo y la remiten al ámbito doméstico y al cuidado de sus hijos."
    },
    "2": {
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
-    "texto": "Los mensajes la presentan como una candidata sin preparación ni conocimiento de la administración pública, incapaz de articular ideas o responder con claridad en entrevistas. La infantilizan con diminutivos y la describen como dependiente de sus asesores."
+    "texto": "Los mensajes la presentan como incapaz de articular ideas y desorientada en entrevistas, le atribuyen evadir las preguntas y desconocer la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
    "3": {
     "palabras": "esposo, hizo, dieb, navila, vengarse, correista",
     "firma": "12f7d53389f6",
-    "texto": "Atribuyen su candidatura a una supuesta venganza personal contra su esposo por una presunta infidelidad, lo que reduce su motivación política a un conflicto conyugal. Además, la vinculan con el correísmo y con presuntos casos de corrupción a través de su esposo."
+    "texto": "Presentan su candidatura como una venganza personal contra su esposo por una supuesta infidelidad con una exreina de belleza, reduciendo su aspiración política a un conflicto conyugal. Además, le atribuyen corrupción y militancia correísta, vinculándola con el caso Laberinto."
    }
   },
   "Sofía Espín": {
    "0": {
     "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, seguir",
     "firma": "3b80b3b43317",
-    "texto": "La narrativa la presenta como parte de una organización política corrupta y criminal, vinculada a un líder prófugo, y la descalifica de forma colectiva con su partido mediante acusaciones de delincuencia y robo de fondos públicos, rechazando su retorno al poder y sus denuncias de persecución política."
+    "texto": "La narrativa presenta a la candidata como parte de un grupo político corrupto y delictivo vinculado a la Revolución Ciudadana y a Rafael Correa. La atacan con descalificaciones colectivas, la acusan de encubrir a figuras prófugas y desestiman sus denuncias de persecución política."
    },
    "1": {
     "palabras": "guayaquil, campaña, dinero, anda, guayas, calladita",
     "firma": "e47301223622",
-    "texto": "Los mensajes le atribuyen financiamiento irregular de campaña y propósitos de apropiarse de recursos públicos de Guayaquil, la vinculan al correísmo como grupo deshonesto y cuestionan su capacidad administrativa, presentándola además como silenciosa ante las acusaciones que involucran a su entorno familiar."
+    "texto": null
    },
    "2": {
     "palabras": "david, esposo, ordóñez, asustada",
     "firma": "7d6e32462dee",
-    "texto": "Los mensajes vinculan a la candidata con supuestos manejos irregulares de dinero a través de su esposo, a quien señalan como receptor de fondos para su campaña. La presentan como atemorizada y silenciada, y recurren a burlas sobre su vida conyugal para ridiculizarla."
+    "texto": null
    }
   },
   "Yadira Bayas": {},
@@ -92,17 +92,17 @@
    "0": {
     "palabras": "adn, miserable, credibilidad, pueblo",
     "firma": "4d9afa04b12c",
-    "texto": "Los mensajes la vinculan con ADN y el gobierno de Noboa para presentarla como parte de una red corrupta o mafiosa, le atribuyen extorsión a gobiernos locales y exigen investigarla. Además, le reprochan haber abandonado a la población de Esmeraldas ante derrames y desbordamientos."
+    "texto": "Los mensajes la vinculan con ADN y con Daniel Noboa como parte de una supuesta red mafiosa que extorsiona a los GAD y goza de impunidad. También le atribuyen abandono del pueblo de Esmeraldas ante el derrame de petróleo y el desbordamiento del río."
    },
    "1": {
     "palabras": "esmeraldas, corrupta, gobierno, morillo",
     "firma": "4b3f858e4ca1",
-    "texto": "Los mensajes presentan a Roberta Zambrano como candidata corrupta del oficialismo en Esmeraldas, le atribuyen gestiones irregulares de fondos junto a la ministra Nataly Morillo y piden su rechazo electoral o su procesamiento. Algunos añaden descalificaciones sexualizadas por su condición de mujer."
+    "texto": "La presentan como candidata corrupta vinculada al gobierno y le atribuyen gestiones para obtener fondos públicos junto a la ministra Nathaly Morillo, cuestionando su idoneidad para gobernar Esmeraldas y anticipando su procesamiento judicial, con descalificaciones que aluden a su condición de mujer."
    },
    "2": {
     "palabras": "noboa, daniel, mafia",
     "firma": "ab96ed170654",
-    "texto": "Vinculan a la candidata con Daniel Noboa y su partido, presentados como una estructura mafiosa ligada al narcotráfico y la extorsión. Le atribuyen participación en esas redes y la reducen a una supuesta relación sentimental con el presidente, con descalificaciones de carácter sexual."
+    "texto": "La narrativa vincula a la candidata con Daniel Noboa y ADN, a quienes presentan como una estructura mafiosa ligada al narcotráfico y la extorsión. Además, la descalifican con insinuaciones sexuales que la presentan como amante del presidente y le atribuyen conductas inmorales."
    }
   },
   "Marciana Valdivieso": {}
