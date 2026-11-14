@@ -7,6 +7,7 @@
 <style>*{margin:0;padding:0}</style>
 </head>
 <body>
+<div id="sinDatos" class="sin-datos" role="status">Cargando datos…</div>
 <title>Odiómetro Ecuador</title>
 <style>
 /* ============================================================
@@ -167,6 +168,10 @@ body{
   text-align: center; padding: 5px 16px;
 }
 .demo b{ color: #F0A9AE; font-weight: 400; }
+.sin-datos{ position: fixed; inset: 0; z-index: 50; display: flex; align-items: center;
+  justify-content: center; padding: 24px; text-align: center; background: var(--panel, #fff);
+  color: var(--ink, #111); font-family: var(--data, sans-serif); font-size: 14px; }
+.sin-datos[hidden]{ display: none; }
 
 /* Sin marca propia: el tablero vive embebido bajo la cabecera del sitio,
    que ya lleva el logo. Repetirlo era decir dos veces lo mismo y costaba
@@ -1023,15 +1028,17 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
   var PLAT_NAMES = ["X","TikTok","Facebook","YouTube","Instagram"];
   var ASYM_NAMES = ["Menciones hostiles sobre el total","Ataque a la apariencia o al cuerpo",
                     "Cuestionamiento de su capacidad","Bulos sobre la vida privada","Amenaza explícita"];
+  /* Sin nombres reales: si estado.json no carga, el tablero no debe enseñar
+     a nadie con cifras inventadas (orden del 13-nov-2026, 5d). */
   var PEOPLE = [
-    { n:"Luisa González",       r:"Liderazgo de oposición",          m:"3 940", warn:true,  s:11 },
-    { n:"María José Pinto",     r:"Vicepresidencia",                 m:"2 611", warn:true,  s:22 },
-    { n:"Diana Salazar",        r:"Ex Fiscal General",               m:"1 884", warn:false, s:33 },
-    { n:"Inés Manzano",         r:"Gabinete · Ambiente y Energía",   m:"1 205", warn:false, s:44 },
-    { n:"Gabriela Sommerfeld",  r:"Cancillería",                     m:"902",   warn:false, s:55 },
-    { n:"Paola Pabón",          r:"Prefectura de Pichincha",         m:"744",   warn:false, s:66 },
-    { n:"Giovanna Ubidia",      r:"Candidatura · Alcaldía de Quito", m:"431",   warn:false, s:77 },
-    { n:"Gabriela Rivadeneira", r:"Asamblea Nacional",               m:"318",   warn:false, s:88 }
+    { n:"—", r:"—", m:"—", warn:false, s:11 },
+    { n:"—", r:"—", m:"—", warn:false, s:22 },
+    { n:"—", r:"—", m:"—", warn:false, s:33 },
+    { n:"—", r:"—", m:"—", warn:false, s:44 },
+    { n:"—", r:"—", m:"—", warn:false, s:55 },
+    { n:"—", r:"—", m:"—", warn:false, s:66 },
+    { n:"—", r:"—", m:"—", warn:false, s:77 },
+    { n:"—", r:"—", m:"—", warn:false, s:88 }
   ];
 
   /* Cuentas emisoras. Se clasifican por COMPORTAMIENTO observable —
@@ -1872,6 +1879,8 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
 
   function aplicarEstado(e){
     ESTADO = e;
+    var velo = document.getElementById("sinDatos");
+    if (velo) velo.hidden = true;
 
     Object.keys(e.rangos).forEach(function(r){
       if (!DATA[r]) return;
@@ -2134,10 +2143,14 @@ canvas#reg{ display: block; width: 100%; flex: 1 1 auto; min-height: 0; cursor: 
     }
   }
 
+  /* Si estado.json no carga y nunca cargó, un aviso sin datos: nada de maqueta.
+     Si ya había cargado, se conservan las cifras reales y el «Sin actualizar»
+     del encabezado avisa de que son viejas. */
   function marcarDemo(){
-    var c = document.getElementById("clock");
-    if (c) { c.textContent = "datos de demostración"; c.title =
-      "No se pudo cargar estado.json; se muestran los datos de la maqueta."; }
+    if (ESTADO) return;
+    var velo = document.getElementById("sinDatos");
+    if (velo) { velo.hidden = false;
+      velo.textContent = "No se pudieron cargar los datos del tablero. Vuelve a intentarlo en unos minutos."; }
   }
 
   function cargarEstado(){
