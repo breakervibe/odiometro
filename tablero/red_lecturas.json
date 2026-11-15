@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T20:46-05:00",
+ "generado": "2026-11-14T20:58-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -56,11 +56,11 @@
    },
    "2": {
     "palabras": "guayaquil, municipio, tráfico, agua, combustible, cachuda",
-    "firma": "c571ae35b625",
+    "firma": "301736f9bf9a",
     "texto": null
    },
    "3": {
-    "palabras": "esposo, esposa, delincuente, marido, peor, hizo",
+    "palabras": "esposo, esposa, marido, delincuente, peor, correista",
     "firma": "a11c4d46348e",
     "texto": null
    }
