@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T10:33-05:00",
+ "generado": "2026-11-15T10:45-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -77,18 +77,13 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "campaña, dinero, anda, guayas, esposo, asustada",
-    "firma": "82821cd28a5b",
-    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo habría recibido dinero de un tercero para efectuar pagos en efectivo y reservar una parte para financiar su campaña, vinculándola a un manejo irregular de fondos."
+    "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, seguir",
+    "firma": "3b80b3b43317",
+    "texto": "La narrativa presenta a la candidata como parte de un grupo político corrupto y delictivo vinculado a la Revolución Ciudadana y a Rafael Correa. La atacan con descalificaciones colectivas, la acusan de encubrir a figuras prófugas y desestiman sus denuncias de persecución política."
    },
    "1": {
-    "palabras": "delincuentes, ratas, sinvergüenzas, vagos, seguir, ecuador",
-    "firma": "7e08df401493",
-    "texto": null
-   },
-   "2": {
-    "palabras": "guayaquil, delincuente, corruptos, gdo, prófugo, puro",
-    "firma": "8ca95edb874c",
+    "palabras": "guayaquil, campaña, dinero, anda, guayas, esposo",
+    "firma": "4e3d3875c0bb",
     "texto": null
    }
   },
