@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T07:51-05:00",
+ "generado": "2026-11-15T08:04-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -65,14 +65,9 @@
     "texto": "Los mensajes la vinculan a la gestión municipal de Guayaquil y a acusaciones de contrabando de combustible, presentándola como cómplice de su esposo en ocultar dinero, y la descalifican para la alcaldía con insinuaciones degradantes sobre su vida conyugal y su afinidad con el correísmo."
    },
    "3": {
-    "palabras": "esposa, marido, delincuente, peor, correista, rrupt",
-    "firma": "6293e2481a5d",
-    "texto": "Los mensajes la descalifican por su condición de esposa de un exalcalde condenado y preso, y le atribuyen por extensión la misma conducta corrupta. Le niegan criterio propio, la vinculan al correísmo y sostienen que busca la candidatura para obtener inmunidad."
-   },
-   "4": {
-    "palabras": "esposo, hizo, vengarse, venganza, cachos",
-    "firma": "f2716167835e",
-    "texto": "Los mensajes atribuyen su candidatura a la alcaldía a un deseo de venganza personal contra su esposo por una supuesta infidelidad, y la acusan de buscar el cargo para proteger bienes que habría obtenido gracias a él, negándole motivaciones políticas propias."
+    "palabras": "esposo, esposa, marido, delincuente, peor, correista",
+    "firma": "a11c4d46348e",
+    "texto": null
    }
   },
   "Sofía Espín": {
@@ -82,7 +77,7 @@
     "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo habría recibido dinero de un tercero para efectuar pagos en efectivo y reservar una parte para financiar su campaña, vinculándola a un manejo irregular de fondos."
    },
    "1": {
-    "palabras": "delincuentes, ratas, sinvergüenzas, vagos, seguir, deben",
+    "palabras": "delincuentes, ratas, sinvergüenzas, vagos, seguir, ecuador",
     "firma": "ccfb2ff5efa5",
     "texto": "Los mensajes la presentan como parte de un grupo político al que atribuyen corrupción y enriquecimiento ilícito, rechazan que denuncie persecución política y sostienen que debería estar encarcelada en lugar de figurar como candidata, mediante descalificaciones colectivas asociadas al correísmo."
    },
