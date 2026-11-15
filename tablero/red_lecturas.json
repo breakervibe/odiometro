@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T15:03-05:00",
+ "generado": "2026-11-15T15:17-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -28,7 +28,7 @@
     "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
    },
    "2": {
-    "palabras": "urgente, drogada, pena, drogas, covid, drogadicta",
+    "palabras": "urgente, drogada, pena, drogas, drogadicta, covid",
     "firma": "8f1b3bfca835",
     "texto": "Los mensajes le atribuyen consumo de drogas y un deterioro físico y mental, y bajo un tono de falsa compasión la presentan como enferma y necesitada de ayuda urgente para concluir que no está en condiciones de gobernar."
    },
@@ -58,11 +58,6 @@
     "palabras": "guayaquil, municipio, tráfico, agua, combustible, delincuentes",
     "firma": "301736f9bf9a",
     "texto": "Le atribuyen complicidad con su esposo en contrabando de combustible y en el manejo del dinero, critican la gestión del municipio de Guayaquil y la descalifican con alusiones sexistas a una supuesta infidelidad conyugal, vinculándola además al correísmo para negarle aptitud para la alcaldía."
-   },
-   "4": {
-    "palabras": "esposo, hizo, vengarse, venganza, cachos",
-    "firma": "f2716167835e",
-    "texto": "Atribuyen su candidatura a la Alcaldía a un deseo de venganza personal contra su esposo por una supuesta infidelidad, y la presentan como interesada en proteger bienes que vinculan a presuntos ilícitos de él, reduciendo su aspiración política a motivos conyugales y patrimoniales."
    }
   },
   "Sofía Espín": {
@@ -72,9 +67,9 @@
     "texto": "La presentan como parte de un grupo político vinculado a Revolución Ciudadana y a Rafael Correa, al que atribuyen corrupción y criminalidad. Le reprochan defender a un dirigente prófugo y descalifican como estrategia las denuncias de persecución política del movimiento."
    },
    "1": {
-    "palabras": "guayaquil, campaña, dinero, anda, guayas, esposo",
-    "firma": "4e3d3875c0bb",
-    "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
+    "palabras": "campaña, dinero, anda, guayas, esposo, asustada",
+    "firma": "82821cd28a5b",
+    "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
    }
   },
   "Yadira Bayas": {},
