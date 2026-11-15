@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T10:20-05:00",
+ "generado": "2026-11-15T10:33-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -83,13 +83,13 @@
    },
    "1": {
     "palabras": "delincuentes, ratas, sinvergüenzas, vagos, seguir, ecuador",
-    "firma": "ccfb2ff5efa5",
-    "texto": "Los mensajes la presentan como parte de un grupo político al que atribuyen corrupción y enriquecimiento ilícito, rechazan que denuncie persecución política y sostienen que debería estar encarcelada en lugar de figurar como candidata, mediante descalificaciones colectivas asociadas al correísmo."
+    "firma": "7e08df401493",
+    "texto": null
    },
    "2": {
     "palabras": "guayaquil, delincuente, corruptos, gdo, prófugo, puro",
-    "firma": "bf235fbb5b22",
-    "texto": "Los mensajes la presentan como subordinada del expresidente Rafael Correa, a quien describen como prófugo, y la vinculan con un supuesto grupo delictivo organizado atribuido a la Revolución Ciudadana. Le niegan criterio y ética propios y le atribuyen complicidad con la corrupción."
+    "firma": "8ca95edb874c",
+    "texto": null
    }
   },
   "Yadira Bayas": {},
