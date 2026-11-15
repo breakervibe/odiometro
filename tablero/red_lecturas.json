@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T11:35-05:00",
+ "generado": "2026-11-15T11:48-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -70,7 +70,23 @@
     "texto": "Atribuyen su candidatura a la Alcaldía a un deseo de venganza personal contra su esposo por una supuesta infidelidad, y la presentan como interesada en proteger bienes que vinculan a presuntos ilícitos de él, reduciendo su aspiración política a motivos conyugales y patrimoniales."
    }
   },
-  "Sofía Espín": {},
+  "Sofía Espín": {
+   "0": {
+    "palabras": "campaña, dinero, anda, guayas, esposo, asustada",
+    "firma": "82821cd28a5b",
+    "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
+   },
+   "1": {
+    "palabras": "delincuentes, ratas, sinvergüenzas, vagos, seguir, ecuador",
+    "firma": "eb0266a5f980",
+    "texto": "La presentan, junto con su agrupación política vinculada al correísmo, como parte de un grupo de delincuentes enriquecidos con dinero público, rechazan que sufra persecución política y sostienen que debería estar en la cárcel y no habilitada como candidata."
+   },
+   "2": {
+    "palabras": "guayaquil, delincuente, corruptos, gdo, prófugo, puro",
+    "firma": "8ca95edb874c",
+    "texto": "La presentan como subordinada de Rafael Correa, a quien describen como prófugo, y del correísmo, al que asocian con corrupción, crimen organizado y el saqueo del IESS. Cuestionan su ética y autonomía, sosteniendo que actúa en nombre de él y no por convicción propia."
+   }
+  },
   "Yadira Bayas": {},
   "Roberta Zambrano": {
    "0": {
