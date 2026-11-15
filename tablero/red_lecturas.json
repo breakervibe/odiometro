@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T20:09-05:00",
+ "generado": "2026-11-14T20:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -23,9 +23,9 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "guayaquil, colorada, problema, cuenta, metan, merece",
-    "firma": "625251b79095",
-    "texto": "Los mensajes cuestionan su estado de salud mental y física, le atribuyen consumo de fármacos o sustancias por su forma de hablar y la presentan como no apta para volver a la alcaldía de Guayaquil; algunos además cuestionan su gestión durante las inundaciones."
+    "palabras": "guayaquil, ayuda, mal, colorada, drogadicto, video",
+    "firma": "19e00e1dc8f3",
+    "texto": null
    },
    "1": {
     "palabras": "pasó, adn, parece",
@@ -33,19 +33,14 @@
     "texto": "Los mensajes cuestionan su alianza con ADN y la presentan como una figura subordinada al Gobierno, con alusiones sexistas, consumo de drogas e incumplimiento de promesas, y descalifican su gestión anterior como alcaldesa de Guayaquil para disuadir a los votantes."
    },
    "2": {
-    "palabras": "ayuda, mal, urgente, drogadicto, video, drogas",
-    "firma": "ddc07a0717ce",
-    "texto": "Le atribuyen consumo de drogas y adicción a partir de sus gestos y su forma de hablar en entrevistas y videos, y la presentan como una persona enferma que necesita ayuda profesional urgente; algunos mensajes suman acusaciones de corrupción en su gestión municipal."
+    "palabras": "urgente, drogada, pena, drogas, drogadicta",
+    "firma": "792662ea02a1",
+    "texto": null
    },
    "3": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes ridiculizan su aspecto físico durante el inicio de su campaña, asociando su sudoración con un supuesto estado de abstinencia, y le insinúan consumo de drogas o alcohol para presentarla como una persona no apta ni en control de sí misma."
-   },
-   "4": {
-    "palabras": "drogada, pena, drogadicta",
-    "firma": "1306325a14d2",
-    "texto": "Los mensajes le atribuyen consumo de drogas y un supuesto deterioro físico y mental a partir de su apariencia en público, con un tono de lástima que contrasta su imagen actual con una respetabilidad anterior. Así la presentan como no apta para el cargo y descalifican también a quienes la apoyan."
    }
   },
   "Fiorella Ycaza": {
@@ -55,19 +50,19 @@
     "texto": "Los mensajes cuestionan su capacidad para articular ideas y responder sobre sus propuestas, y la presentan como continuadora de una gestión que califican de corrupta, atribuyéndole además procesos judiciales que, según sostienen, le impedirían ejercer la Alcaldía de Guayaquil."
    },
    "1": {
-    "palabras": "guayaquil, municipio, tráfico, agua, peor, esposa",
-    "firma": "249a52c203c7",
-    "texto": "La narrativa la presenta como extensión de su esposo, exalcalde, a quien le atribuyen corrupción y gestión deficiente en el Municipio de Guayaquil, y la acusa de complicidad. Niegan su capacidad propia para gobernar, la asocian al correísmo y la remiten al ámbito doméstico y al cuidado de sus hijos."
-   },
-   "2": {
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes la presentan como incapaz de articular ideas y desorientada en entrevistas, le atribuyen evadir las preguntas y desconocer la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
+   "2": {
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, cachuda",
+    "firma": "c571ae35b625",
+    "texto": null
+   },
    "3": {
-    "palabras": "esposo, hizo, vengarse, correista, venganza, cachos",
-    "firma": "828b835b3736",
-    "texto": "Los mensajes atribuyen su candidatura a un deseo de venganza contra su esposo por una supuesta infidelidad, reduciendo su aspiración política a un conflicto conyugal; además la vinculan al correísmo y le atribuyen corrupción, sugiriendo su implicación en un caso judicial asociado a Luisa González."
+    "palabras": "esposo, esposa, delincuente, marido, peor, hizo",
+    "firma": "a11c4d46348e",
+    "texto": null
    }
   },
   "Sofía Espín": {
