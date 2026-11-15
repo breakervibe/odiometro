@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T10:58-05:00",
+ "generado": "2026-11-15T11:11-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -33,9 +33,9 @@
     "texto": "Los mensajes cuestionan su alianza con ADN y la presentan como una figura subordinada al Gobierno, con alusiones sexistas, consumo de drogas e incumplimiento de promesas, y descalifican su gestión anterior como alcaldesa de Guayaquil para disuadir a los votantes."
    },
    "2": {
-    "palabras": "urgente, drogada, pena, drogas, drogadicta",
-    "firma": "792662ea02a1",
-    "texto": "Los mensajes le atribuyen consumo de drogas y la presentan como una persona deteriorada que necesita ayuda urgente, con un tono de falsa compasión que busca descalificarla y sostener que no está en condiciones de gobernar ni de ganar votos."
+    "palabras": "urgente, drogada, pena, drogas, covid, drogadicta",
+    "firma": "8f1b3bfca835",
+    "texto": null
    },
    "3": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
@@ -77,7 +77,7 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, seguir",
+    "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, corruptos",
     "firma": "3b80b3b43317",
     "texto": "La narrativa presenta a la candidata como parte de un grupo político corrupto y delictivo vinculado a la Revolución Ciudadana y a Rafael Correa. La atacan con descalificaciones colectivas, la acusan de encubrir a figuras prófugas y desestiman sus denuncias de persecución política."
    },
