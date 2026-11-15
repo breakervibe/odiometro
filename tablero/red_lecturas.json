@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T14:06-05:00",
+ "generado": "2026-11-15T14:19-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -55,12 +55,22 @@
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
    "2": {
-    "palabras": "guayaquil, municipio, tráfico, agua, combustible, cachuda",
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, delincuentes",
     "firma": "301736f9bf9a",
     "texto": "Le atribuyen complicidad con su esposo en contrabando de combustible y en el manejo del dinero, critican la gestión del municipio de Guayaquil y la descalifican con alusiones sexistas a una supuesta infidelidad conyugal, vinculándola además al correísmo para negarle aptitud para la alcaldía."
+   },
+   "4": {
+    "palabras": "esposo, hizo, vengarse, venganza, cachos",
+    "firma": "f2716167835e",
+    "texto": "Atribuyen su candidatura a la Alcaldía a un deseo de venganza personal contra su esposo por una supuesta infidelidad, y la presentan como interesada en proteger bienes que vinculan a presuntos ilícitos de él, reduciendo su aspiración política a motivos conyugales y patrimoniales."
    }
   },
   "Sofía Espín": {
+   "0": {
+    "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, corruptos",
+    "firma": "3b80b3b43317",
+    "texto": "La presentan como parte de un grupo político vinculado a Revolución Ciudadana y a Rafael Correa, al que atribuyen corrupción y criminalidad. Le reprochan defender a un dirigente prófugo y descalifican como estrategia las denuncias de persecución política del movimiento."
+   },
    "1": {
     "palabras": "campaña, dinero, anda, guayas, esposo, asustada",
     "firma": "82821cd28a5b",
