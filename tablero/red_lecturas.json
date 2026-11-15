@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T18:05-05:00",
+ "generado": "2026-11-14T19:33-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -65,26 +65,21 @@
     "texto": "Los mensajes la presentan como incapaz de articular ideas y desorientada en entrevistas, le atribuyen evadir las preguntas y desconocer la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
    "3": {
-    "palabras": "esposo, hizo, dieb, navila, vengarse, correista",
-    "firma": "12f7d53389f6",
-    "texto": "Presentan su candidatura como una venganza personal contra su esposo por una supuesta infidelidad con una exreina de belleza, reduciendo su aspiración política a un conflicto conyugal. Además, le atribuyen corrupción y militancia correísta, vinculándola con el caso Laberinto."
+    "palabras": "esposo, hizo, vengarse, correista, venganza, cachos",
+    "firma": "828b835b3736",
+    "texto": "Los mensajes atribuyen su candidatura a un deseo de venganza contra su esposo por una supuesta infidelidad, reduciendo su aspiración política a un conflicto conyugal; además la vinculan al correísmo y le atribuyen corrupción, sugiriendo su implicación en un caso judicial asociado a Luisa González."
    }
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, ratas, delincuente, sinvergüenzas, vagos, seguir",
-    "firma": "3b80b3b43317",
-    "texto": "La narrativa presenta a la candidata como parte de un grupo político corrupto y delictivo vinculado a la Revolución Ciudadana y a Rafael Correa. La atacan con descalificaciones colectivas, la acusan de encubrir a figuras prófugas y desestiman sus denuncias de persecución política."
+    "palabras": "delincuentes, guayaquil, ratas, delincuente, sinvergüenzas, vagos",
+    "firma": "b052511a76fd",
+    "texto": "Los mensajes la presentan como parte de un grupo político asociado al correísmo y a Rafael Correa, al que califican colectivamente de delincuente y corrupto. Cuestionan su defensa de dirigentes procesados y descalifican como excusa las denuncias de persecución política."
    },
    "1": {
-    "palabras": "guayaquil, campaña, dinero, anda, guayas, asustada",
-    "firma": "975faa102fdc",
-    "texto": "Los mensajes la vinculan al correísmo y le atribuyen corrupción, sosteniendo que su esposo canalizaba dinero en efectivo hacia su campaña y que por ello guarda silencio; además, cuestionan su experiencia administrativa y su capacidad para gobernar Guayaquil."
-   },
-   "2": {
-    "palabras": "david, esposo, ordóñez, efectivo",
-    "firma": "f1b96d998bb1",
-    "texto": "Los mensajes vinculan a la candidata con un presunto manejo irregular de dinero en efectivo a través de su esposo, a quien atribuyen la recepción y distribución de fondos destinados en parte a su campaña. Además, ridiculizan a su esposo con alusiones a una supuesta infidelidad."
+    "palabras": "campaña, dinero, anda, guayas, esposo, asustada",
+    "firma": "82821cd28a5b",
+    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo habría recibido dinero de un tercero para efectuar pagos en efectivo y reservar una parte para financiar su campaña, vinculándola a un manejo irregular de fondos."
    }
   },
   "Yadira Bayas": {},
