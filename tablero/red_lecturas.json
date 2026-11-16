@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T11:52-05:00",
+ "generado": "2026-11-16T12:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -21,6 +21,11 @@
     "palabras": "guayaquil, ayuda, urgente, mal, colorada, video",
     "firma": "36b01bf84908",
     "texto": "Cuestionan su salud mental y su estabilidad, le atribuyen insinuaciones de consumo de drogas y sostienen que necesita atención especializada en lugar de volver a la Alcaldía de Guayaquil, apoyándose en declaraciones de Jaime Nebot y en críticas a su gestión anterior."
+   },
+   "1": {
+    "palabras": "pasó, adn, parece, campaña, guayaquileños, dejó",
+    "firma": "9e81e44b93e8",
+    "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
    "2": {
     "palabras": "drogada, pena, covid, drogadicta",
@@ -48,6 +53,16 @@
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
+   },
+   "2": {
+    "palabras": "esposo, esposa, delincuente, marido, peor, delincuentes",
+    "firma": "61b63b1b9e70",
+    "texto": "La narrativa la define por su condición de esposa de un exalcalde preso, cuya condena por corrupción le trasladan como complicidad y continuidad delictiva; la vinculan al correísmo, cuestionan obras de esa gestión y la instan a volver al hogar y al cuidado de sus hijos."
+   },
+   "3": {
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, cachuda",
+    "firma": "aa32a97d01c3",
+    "texto": "La presentan como improvisada e incapaz de gobernar Guayaquil, alegando que desconoce las competencias municipales en servicios como el agua. Le atribuyen complicidad en la corrupción que imputan a su esposo y la descalifican con insultos sexuales y homofóbicos sobre su matrimonio."
    }
   },
   "Sofía Espín": {
@@ -55,6 +70,16 @@
     "palabras": "campaña, dinero, guayas, anda, esposo, asustada",
     "firma": "82821cd28a5b",
     "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
+   },
+   "1": {
+    "palabras": "delincuentes, ratas, falta, sinvergüenzas, vagos, seguir",
+    "firma": "f5f998f184a4",
+    "texto": "La presentan junto con su grupo político como delincuentes que deberían estar en prisión y no en las papeletas, rechazan que sean víctimas de persecución política y les atribuyen enriquecimiento ilícito a costa del país."
+   },
+   "2": {
+    "palabras": "guayaquil, delincuente, gobierno, corruptos, gdo, mierda",
+    "firma": "79fd30c7924d",
+    "texto": "La presentan como una delincuente que buscaría gobernar Guayaquil para encubrir supuestos delitos, y la descalifican por su vínculo con el correísmo y Rafael Correa, a quien atribuyen subordinación; cuestionan su ética y llaman a no votar por ella ni por su movimiento."
    }
   },
   "Yadira Bayas": {},
@@ -91,6 +116,11 @@
     "palabras": "discapacidad, carnet, discapacitada",
     "firma": "11f8bada7d5d",
     "texto": "Los mensajes le atribuyen haber obtenido de forma irregular un carnet de discapacidad sin tener tal condición y exigen que lo devuelva. Vinculan esa acusación con su supuesto pasado judicial durante el correísmo y con su apoyo a una candidata de ese movimiento."
+   },
+   "3": {
+    "palabras": "igual, vas, mal",
+    "firma": "a199b37f58ce",
+    "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
    },
    "4": {
     "palabras": "menos, vea, alguien",
