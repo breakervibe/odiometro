@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T07:18-05:00",
+ "generado": "2026-11-16T07:32-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -62,14 +62,9 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, ratas, delincuente, gobierno, sinvergüenzas, vagos",
-    "firma": "03ad6858d571",
-    "texto": "La presentan, junto con Revolución Ciudadana, como parte de un grupo corrupto y delictivo que se apropia de fondos públicos y defiende a Rafael Correa, a quien llaman prófugo; descalifican sus denuncias de persecución política y celebran la caída del correísmo."
-   },
-   "1": {
-    "palabras": "guayaquil, campaña, dinero, guayas, anda, esposo",
-    "firma": "4e3d3875c0bb",
-    "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
+    "palabras": "campaña, dinero, guayas, anda, esposo, asustada",
+    "firma": "82821cd28a5b",
+    "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
    }
   },
   "Yadira Bayas": {},
