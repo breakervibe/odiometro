@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T17:53-05:00",
+ "generado": "2026-11-16T18:06-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -32,6 +32,11 @@
     "firma": "0cbe87c156fc",
     "texto": "Le atribuyen consumo de drogas a partir de su apariencia y sus intervenciones públicas, y la presentan como una persona en deterioro e incapaz para el cargo; algunos mensajes le añaden señalamientos de gasto excesivo en obras y de beneficio económico durante la pandemia."
    },
+   "3": {
+    "palabras": "momento, ciudad, vaga, traficante",
+    "firma": "61166768f133",
+    "texto": "Los mensajes la presentan como una figura inútil que ya perjudicó a Guayaquil y al PSC con la venia de Jaime Nebot, y la sitúan en una disputa con la administración municipal saliente, a cuyo titular le atribuyen tráfico de combustible."
+   },
    "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
@@ -49,6 +54,11 @@
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
+   "2": {
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, delincuentes",
+    "firma": "650844c7f969",
+    "texto": "La vinculan con la actual administración municipal de Guayaquil, a la que acusan de saqueo, contrabando de combustible y deterioro urbano, y la presentan como cómplice de su esposo y de su grupo político, cuya continuidad en la alcaldía rechazan."
+   },
    "3": {
     "palabras": "esposa, esposo, delincuente, marido, correista, peor",
     "firma": "a11c4d46348e",
@@ -56,6 +66,11 @@
    }
   },
   "Sofía Espín": {
+   "0": {
+    "palabras": "delincuentes, ratas, delincuente, gobierno, falta, sinvergüenzas",
+    "firma": "757a90961d50",
+    "texto": "Los mensajes presentan a la candidata como integrante de un grupo político delictivo vinculado al correísmo y a Rafael Correa, le atribuyen corrupción y apropiación de fondos públicos, la acusan de encubrir a un prófugo y reclaman su encarcelamiento y su desaparición política."
+   },
    "1": {
     "palabras": "campaña, dinero, guayas, anda, esposo, asustada",
     "firma": "82821cd28a5b",
@@ -86,6 +101,16 @@
     "palabras": "guayaquil, gobierno, mierda, chimbadora, dinero, gracias",
     "firma": "f145d4e26750",
     "texto": "La presentan como una figura alineada con el Gobierno nacional, al que responsabilizan del deterioro de Guayaquil, y le atribuyen beneficio personal por esa cercanía; descalifican sus críticas a la administración municipal, cuestionan su ejercicio profesional y su capacidad para el cargo."
+   },
+   "1": {
+    "palabras": "discapacidad, carnet, discapacitada, bailar",
+    "firma": "b525d520a006",
+    "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
+   },
+   "2": {
+    "palabras": "correísta, mujer, asco, noboa, corrupción",
+    "firma": "a823b4730abe",
+    "texto": "La presentan como correísta y la acusan de defender la corrupción atribuida a Luisa González y de encubrir delitos. Combinan esta acusación con descalificaciones por su condición de mujer, de contenido sexual y de repulsión moral, y le reprochan no criticar a Noboa."
    },
    "3": {
     "palabras": "igual, vas, mal",
