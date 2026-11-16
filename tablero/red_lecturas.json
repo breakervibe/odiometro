@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T10:00-05:00",
+ "generado": "2026-11-16T10:15-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -48,11 +48,6 @@
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
-   },
-   "3": {
-    "palabras": "esposo, esposa, delincuente, marido, peor, correista",
-    "firma": "a11c4d46348e",
-    "texto": "Los mensajes la presentan como prolongación de su esposo, a quien califican de delincuente condenado por corrupción, y le atribuyen la misma conducta por su afiliación correísta; además cuestionan la gestión de él y la instan a dedicarse al cuidado de sus hijos."
    }
   },
   "Sofía Espín": {
@@ -83,7 +78,7 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "guayaquil, gobierno, mierda, chimbadora, dinero, habla",
+    "palabras": "guayaquil, gobierno, mierda, chimbadora, dinero, gracias",
     "firma": "f145d4e26750",
     "texto": "La presentan como una figura alineada con el Gobierno nacional, al que responsabilizan del deterioro de Guayaquil, y le atribuyen beneficio personal por esa cercanía; descalifican sus críticas a la administración municipal, cuestionan su ejercicio profesional y su capacidad para el cargo."
    },
