@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T22:23-05:00",
+ "generado": "2026-11-15T22:36-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -21,6 +21,11 @@
     "palabras": "guayaquil, ayuda, mal, colorada, drogadicto, video",
     "firma": "19e00e1dc8f3",
     "texto": "Los mensajes cuestionan su estabilidad mental y le atribuyen, mediante insinuaciones sobre su conducta en entrevistas, un consumo de drogas que la haría no apta para volver a la alcaldía de Guayaquil; además, sostienen que en su gestión las decisiones las tomaba su esposo."
+   },
+   "1": {
+    "palabras": "pasó, adn, parece, guayaquileños, dejó",
+    "firma": "b1730993c447",
+    "texto": "Cuestionan su incorporación a ADN como un reciclaje político tras su gestión en Guayaquil, a la que atribuyen corrupción, incumplimientos y contratos para familiares. Le recuerdan el episodio del avión durante la pandemia y la atacan con alusiones sexualizadas y referencias a su edad y apariencia."
    },
    "2": {
     "palabras": "urgente, drogada, pena, drogas, covid, drogadicta",
