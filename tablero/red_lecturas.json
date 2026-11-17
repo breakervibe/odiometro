@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T15:28-05:00",
+ "generado": "2026-11-17T15:42-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -49,15 +49,10 @@
     "firma": "c60e81321163",
     "texto": "Cuestionan su capacidad para articular ideas y responder sobre sus propuestas a partir de un video difundido, y la presentan como continuadora de un modelo de gestión que asocian con corrupción, señalando además procesos judiciales que, según sostienen, le impedirían ejercer el cargo."
    },
-   "1": {
+   "2": {
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
-   },
-   "2": {
-    "palabras": "esposa, marido, delincuente, correista, esposo, peor",
-    "firma": "61b63b1b9e70",
-    "texto": "La narrativa la define por su condición de esposa de un exalcalde preso, cuya condena por corrupción le trasladan como complicidad y continuidad delictiva; la vinculan al correísmo, cuestionan obras de esa gestión y la instan a volver al hogar y al cuidado de sus hijos."
    }
   },
   "Sofía Espín": {
@@ -108,11 +103,6 @@
     "texto": "La presentan como correísta y la acusan de defender la corrupción atribuida a Luisa González y de encubrir delitos. Combinan esta acusación con descalificaciones por su condición de mujer, de contenido sexual y de repulsión moral, y le reprochan no criticar a Noboa."
    },
    "3": {
-    "palabras": "gobierno, chimbadora, dinero, habla",
-    "firma": "1d0458350db7",
-    "texto": null
-   },
-   "4": {
     "palabras": "igual, vas, mal",
     "firma": "a199b37f58ce",
     "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
