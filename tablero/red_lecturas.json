@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T21:43-05:00",
+ "generado": "2026-11-16T21:58-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -55,7 +55,7 @@
     "texto": "La vinculan con la actual administración municipal de Guayaquil, a la que acusan de saqueo, contrabando de combustible y deterioro urbano, y la presentan como cómplice de su esposo y de su grupo político, cuya continuidad en la alcaldía rechazan."
    },
    "3": {
-    "palabras": "esposa, delincuente, esposo, marido, correista, peor",
+    "palabras": "esposa, delincuente, esposo, correista, marido, peor",
     "firma": "a11c4d46348e",
     "texto": "Los mensajes la presentan como prolongación de su esposo, a quien califican de delincuente condenado por corrupción, y le atribuyen la misma conducta por su afiliación correísta; además cuestionan la gestión de él y la instan a dedicarse al cuidado de sus hijos."
    }
@@ -87,7 +87,7 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "0": {
+   "1": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
