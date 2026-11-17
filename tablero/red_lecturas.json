@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T12:34-05:00",
+ "generado": "2026-11-17T12:52-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -55,14 +55,14 @@
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
    "2": {
-    "palabras": "esposa, marido, correista, delincuente, esposo, peor",
-    "firma": "61b63b1b9e70",
-    "texto": "La narrativa la define por su condición de esposa de un exalcalde preso, cuya condena por corrupción le trasladan como complicidad y continuidad delictiva; la vinculan al correísmo, cuestionan obras de esa gestión y la instan a volver al hogar y al cuidado de sus hijos."
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, delincuentes",
+    "firma": "650844c7f969",
+    "texto": "La vinculan con la actual administración municipal de Guayaquil, a la que acusan de saqueo, contrabando de combustible y deterioro urbano, y la presentan como cómplice de su esposo y de su grupo político, cuya continuidad en la alcaldía rechazan."
    },
    "3": {
-    "palabras": "guayaquil, municipio, tráfico, agua, combustible, ratas",
-    "firma": "b75e0077d5ee",
-    "texto": null
+    "palabras": "esposa, marido, delincuente, correista, esposo, peor",
+    "firma": "a11c4d46348e",
+    "texto": "Los mensajes la presentan como prolongación de su esposo, a quien califican de delincuente condenado por corrupción, y le atribuyen la misma conducta por su afiliación correísta; además cuestionan la gestión de él y la instan a dedicarse al cuidado de sus hijos."
    }
   },
   "Sofía Espín": {
