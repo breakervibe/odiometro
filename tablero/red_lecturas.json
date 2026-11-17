@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T10:26-05:00",
+ "generado": "2026-11-17T10:42-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -55,14 +55,9 @@
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    },
    "2": {
-    "palabras": "guayaquil, municipio, tráfico, agua, combustible, delincuentes",
-    "firma": "650844c7f969",
-    "texto": "La vinculan con la actual administración municipal de Guayaquil, a la que acusan de saqueo, contrabando de combustible y deterioro urbano, y la presentan como cómplice de su esposo y de su grupo político, cuya continuidad en la alcaldía rechazan."
-   },
-   "3": {
-    "palabras": "esposa, delincuente, correista, esposo, marido, peor",
-    "firma": "a11c4d46348e",
-    "texto": "Los mensajes la presentan como prolongación de su esposo, a quien califican de delincuente condenado por corrupción, y le atribuyen la misma conducta por su afiliación correísta; además cuestionan la gestión de él y la instan a dedicarse al cuidado de sus hijos."
+    "palabras": "esposa, marido, correista, delincuente, esposo, peor",
+    "firma": "61b63b1b9e70",
+    "texto": "La narrativa la define por su condición de esposa de un exalcalde preso, cuya condena por corrupción le trasladan como complicidad y continuidad delictiva; la vinculan al correísmo, cuestionan obras de esa gestión y la instan a volver al hogar y al cuidado de sus hijos."
    }
   },
   "Sofía Espín": {
@@ -93,14 +88,14 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "guayaquil, narcos, abogada, mierda, gracias",
-    "firma": "cc3b8a7ae33b",
-    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales, le atribuyen cercanía con el correísmo y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados; además, la responsabilizan del deterioro de la ciudad y cuestionan su idoneidad para la alcaldía."
-   },
-   "1": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
+   },
+   "1": {
+    "palabras": "guayaquil, narcos, abogada, mierda, gracias",
+    "firma": "cc3b8a7ae33b",
+    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales, le atribuyen cercanía con el correísmo y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados; además, la responsabilizan del deterioro de la ciudad y cuestionan su idoneidad para la alcaldía."
    },
    "2": {
     "palabras": "correísta, asco, mujer, noboa, corrupción",
