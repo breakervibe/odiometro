@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T11:51-05:00",
+ "generado": "2026-11-17T12:07-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -58,6 +58,11 @@
     "palabras": "esposa, marido, correista, delincuente, esposo, peor",
     "firma": "61b63b1b9e70",
     "texto": "La narrativa la define por su condición de esposa de un exalcalde preso, cuya condena por corrupción le trasladan como complicidad y continuidad delictiva; la vinculan al correísmo, cuestionan obras de esa gestión y la instan a volver al hogar y al cuidado de sus hijos."
+   },
+   "3": {
+    "palabras": "guayaquil, municipio, tráfico, agua, combustible, ratas",
+    "firma": "b75e0077d5ee",
+    "texto": null
    }
   },
   "Sofía Espín": {
@@ -65,6 +70,11 @@
     "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, gobierno",
     "firma": "ae5e08f82a71",
     "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
+   },
+   "1": {
+    "palabras": "guayaquil, anda, campaña, dinero, guayas, esposo",
+    "firma": "9943e72a98c9",
+    "texto": "Los mensajes le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo, y la presentan como una figura correísta, sin experiencia administrativa, que busca el poder en Guayaquil para enriquecerse."
    }
   },
   "Yadira Bayas": {},
