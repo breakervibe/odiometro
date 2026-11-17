@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T19:42-05:00",
+ "generado": "2026-11-16T20:10-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -44,11 +44,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "continuar, ideas, modelo, gestión, pretende, colmo",
-    "firma": "99671a88744b",
-    "texto": "Los mensajes cuestionan su capacidad para articular ideas y responder sobre sus propuestas de gestión, y la presentan como continuadora de un modelo político que califican de corrupto, invocando procesos judiciales que, según sostienen, le impedirían ejercer la Alcaldía de Guayaquil."
-   },
    "1": {
     "palabras": "parada, mal, idea, chica, preguntan, articular",
     "firma": "8a4ec8a03312",
@@ -66,13 +61,8 @@
    }
   },
   "Sofía Espín": {
-   "0": {
-    "palabras": "delincuentes, ratas, delincuente, gobierno, falta, sinvergüenzas",
-    "firma": "757a90961d50",
-    "texto": "Los mensajes presentan a la candidata como integrante de un grupo político delictivo vinculado al correísmo y a Rafael Correa, le atribuyen corrupción y apropiación de fondos públicos, la acusan de encubrir a un prófugo y reclaman su encarcelamiento y su desaparición política."
-   },
    "1": {
-    "palabras": "campaña, dinero, guayas, anda, esposo, asustada",
+    "palabras": "campaña, anda, dinero, guayas, esposo, asustada",
     "firma": "82821cd28a5b",
     "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
    }
@@ -85,7 +75,7 @@
     "texto": "Los mensajes la presentan como integrante corrupta de ADN, vinculada a prácticas mafiosas y extorsión a gobiernos locales junto a Daniel Noboa, y cuestionan su gestión como prefecta acusándola de abandonar a la población afectada por derrames petroleros e inundaciones."
    },
    "1": {
-    "palabras": "esmeraldas, corrupta, gobierno, morillo",
+    "palabras": "esmeraldas, gobierno, corrupta, morillo",
     "firma": "4b3f858e4ca1",
     "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
    },
@@ -97,11 +87,6 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "0": {
-    "palabras": "guayaquil, gobierno, mierda, chimbadora, dinero, gracias",
-    "firma": "f145d4e26750",
-    "texto": "La presentan como una figura alineada con el Gobierno nacional, al que responsabilizan del deterioro de Guayaquil, y le atribuyen beneficio personal por esa cercanía; descalifican sus críticas a la administración municipal, cuestionan su ejercicio profesional y su capacidad para el cargo."
-   },
    "1": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
@@ -112,15 +97,10 @@
     "firma": "a823b4730abe",
     "texto": "La presentan como correísta y la acusan de defender la corrupción atribuida a Luisa González y de encubrir delitos. Combinan esta acusación con descalificaciones por su condición de mujer, de contenido sexual y de repulsión moral, y le reprochan no criticar a Noboa."
    },
-   "3": {
+   "4": {
     "palabras": "igual, vas, mal",
     "firma": "a199b37f58ce",
     "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
-   },
-   "4": {
-    "palabras": "menos, vea, alguien",
-    "firma": "9c4bdc1c10c7",
-    "texto": "Los mensajes no comparten una idea clara: mezclan burlas sobre su apariencia, la descalifican como improvisada y activista que desconoce la ciudad, aluden despectivamente a su situación conyugal e incluyen ataques a la gestión de la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
