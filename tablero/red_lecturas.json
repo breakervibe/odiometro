@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T20:23-05:00",
+ "generado": "2026-11-16T20:38-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -33,7 +33,7 @@
     "texto": "Le atribuyen consumo de drogas a partir de su apariencia y sus intervenciones públicas, y la presentan como una persona en deterioro e incapaz para el cargo; algunos mensajes le añaden señalamientos de gasto excesivo en obras y de beneficio económico durante la pandemia."
    },
    "3": {
-    "palabras": "momento, ciudad, vaga, traficante",
+    "palabras": "ciudad, momento, vaga, traficante",
     "firma": "61166768f133",
     "texto": "Los mensajes la presentan como una figura inútil que ya perjudicó a Guayaquil y al PSC con la venia de Jaime Nebot, y la sitúan en una disputa con la administración municipal saliente, a cuyo titular le atribuyen tráfico de combustible."
    },
@@ -55,12 +55,17 @@
     "texto": "La vinculan con la actual administración municipal de Guayaquil, a la que acusan de saqueo, contrabando de combustible y deterioro urbano, y la presentan como cómplice de su esposo y de su grupo político, cuya continuidad en la alcaldía rechazan."
    },
    "3": {
-    "palabras": "esposa, esposo, delincuente, marido, correista, peor",
+    "palabras": "esposa, delincuente, esposo, marido, correista, peor",
     "firma": "a11c4d46348e",
     "texto": "Los mensajes la presentan como prolongación de su esposo, a quien califican de delincuente condenado por corrupción, y le atribuyen la misma conducta por su afiliación correísta; además cuestionan la gestión de él y la instan a dedicarse al cuidado de sus hijos."
    }
   },
   "Sofía Espín": {
+   "0": {
+    "palabras": "delincuentes, ratas, cárcel, falta, sinvergüenzas, vagos",
+    "firma": "f5f998f184a4",
+    "texto": "La presentan junto con su grupo político como delincuentes que deberían estar en prisión y no en las papeletas, rechazan que sean víctimas de persecución política y les atribuyen enriquecimiento ilícito a costa del país."
+   },
    "1": {
     "palabras": "campaña, anda, dinero, guayas, esposo, asustada",
     "firma": "82821cd28a5b",
@@ -87,7 +92,7 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "1": {
+   "0": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
