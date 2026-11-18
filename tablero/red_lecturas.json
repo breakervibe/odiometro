@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T11:07-05:00",
+ "generado": "2026-11-18T11:23-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -50,14 +50,14 @@
     "texto": "Cuestionan su capacidad para articular ideas y responder sobre sus propuestas a partir de un video difundido, y la presentan como continuadora de un modelo de gestión que asocian con corrupción, señalando además procesos judiciales que, según sostienen, le impedirían ejercer el cargo."
    },
    "2": {
-    "palabras": "parada, mal, idea, chica, preguntan, articular",
+    "palabras": "parada, mal, idea, chica, articular, preguntan",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    }
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, gobierno",
+    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, sinvergüenzas",
     "firma": "ae5e08f82a71",
     "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
    },
@@ -97,20 +97,10 @@
     "firma": "36984dc2aae2",
     "texto": "La presentan como correísta y cómplice de corrupción por respaldar a Luisa González, le reprochan incoherencia frente a Noboa y falta de valores, y combinan descalificaciones sexualizadas y de género con anuncios de que enfrentará procesos judiciales y una derrota electoral."
    },
-   "1": {
+   "2": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
-   },
-   "2": {
-    "palabras": "guayaquil, narcos, abogada, mierda, gracias",
-    "firma": "cc3b8a7ae33b",
-    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales, le atribuyen cercanía con el correísmo y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados; además, la responsabilizan del deterioro de la ciudad y cuestionan su idoneidad para la alcaldía."
-   },
-   "3": {
-    "palabras": "gobierno, chimbadora, dinero",
-    "firma": "6734771c2667",
-    "texto": null
    }
   },
   "Diana Caiza": {}
