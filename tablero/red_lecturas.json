@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T05:50-05:00",
+ "generado": "2026-11-18T06:03-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -26,6 +26,11 @@
     "palabras": "pasó, adn, parece, campaña, guayaquileños, dejó",
     "firma": "9e81e44b93e8",
     "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
+   },
+   "2": {
+    "palabras": "drogadicto, drogada, pena, covid, drogadicta",
+    "firma": "4945bcc09215",
+    "texto": "Los mensajes le atribuyen consumo de drogas para presentarla como deteriorada e incapaz de ejercer un cargo, mezclando burla y falsa compasión. Algunos suman acusaciones de despilfarro y de lucro con obras públicas durante la pandemia."
    },
    "3": {
     "palabras": "ciudad, momento, vaga, traficante",
@@ -69,7 +74,7 @@
    "2": {
     "palabras": "guayaquil, mierda, mejor",
     "firma": "03f7178604de",
-    "texto": null
+    "texto": "Los mensajes la presentan como una aspirante sin experiencia ni conocimientos en administración pública para gobernar Guayaquil, la asocian a un grupo político al que responsabilizan del deterioro de la ciudad y las inundaciones, y la descalifican con insultos de connotación sexual."
    }
   },
   "Yadira Bayas": {},
@@ -92,6 +97,11 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "igual, mujer, correísta, asco, noboa, mal",
+    "firma": "36984dc2aae2",
+    "texto": "La presentan como correísta y cómplice de corrupción por respaldar a Luisa González, le reprochan incoherencia frente a Noboa y falta de valores, y combinan descalificaciones sexualizadas y de género con anuncios de que enfrentará procesos judiciales y una derrota electoral."
+   },
    "1": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
