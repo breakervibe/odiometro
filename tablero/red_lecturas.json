@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T10:25-05:00",
+ "generado": "2026-11-18T10:41-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -75,14 +75,14 @@
   "Yadira Bayas": {},
   "Roberta Zambrano": {
    "0": {
+    "palabras": "esmeraldas, corrupta, gobierno, morillo",
+    "firma": "4b3f858e4ca1",
+    "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
+   },
+   "1": {
     "palabras": "adn, miserable, credibilidad, pueblo",
     "firma": "4d9afa04b12c",
     "texto": "Los mensajes la presentan como integrante corrupta de ADN, vinculada a prácticas mafiosas y extorsión a gobiernos locales junto a Daniel Noboa, y cuestionan su gestión como prefecta acusándola de abandonar a la población afectada por derrames petroleros e inundaciones."
-   },
-   "1": {
-    "palabras": "esmeraldas, gobierno, corrupta, morillo",
-    "firma": "4b3f858e4ca1",
-    "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
    },
    "2": {
     "palabras": "noboa, daniel, moza, mafia",
