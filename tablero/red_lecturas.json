@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T18:23-05:00",
+ "generado": "2026-11-18T18:59-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -103,29 +103,24 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
+    "palabras": "igual, correísta, mujer, asco, noboa, vas",
+    "firma": "36984dc2aae2",
+    "texto": "La presentan como correísta y cómplice de corrupción por respaldar a Luisa González, le reprochan incoherencia frente a Noboa y falta de valores, y combinan descalificaciones sexualizadas y de género con anuncios de que enfrentará procesos judiciales y una derrota electoral."
+   },
+   "1": {
     "palabras": "guayaquil, abogada, narcos, mierda, peor, gracias",
     "firma": "1278e9352326",
     "texto": "La presentan como abogada de narcotraficantes y criminales, vinculada al correísmo, y le atribuyen la intención de usar recursos de Guayaquil para encubrir a sus aliados. Además, cuestionan su capacidad para gobernar y la descalifican por su orientación ideológica y su supuesto desacato a la ley."
    },
-   "1": {
+   "2": {
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
-   },
-   "2": {
-    "palabras": "correísta, mujer, asco, noboa, estúpida",
-    "firma": "2752bd3a35a6",
-    "texto": "La vinculan con el correísmo y le atribuyen defender la corrupción y a narcotraficantes; también la acusan de oportunismo y deslealtad política, comparándola con Sergio Peña. El ataque se expresa con repulsión centrada en su condición de mujer y con alusiones sexuales degradantes."
    },
    "3": {
     "palabras": "gobierno, chimbadora, dinero, debe",
     "firma": "5a526f508106",
     "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
-   },
-   "4": {
-    "palabras": "igual, vas, mal",
-    "firma": "a199b37f58ce",
-    "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
    }
   },
   "Diana Caiza": {}
