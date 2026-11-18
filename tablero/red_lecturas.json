@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T23:55-05:00",
+ "generado": "2026-11-18T00:10-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -70,6 +70,11 @@
     "palabras": "anda, campaña, dinero, guayas, esposo, asustada",
     "firma": "82821cd28a5b",
     "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
+   },
+   "2": {
+    "palabras": "guayaquil, mierda, mejor",
+    "firma": "03f7178604de",
+    "texto": null
    }
   },
   "Yadira Bayas": {},
