@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T11:49-05:00",
+ "generado": "2026-11-18T15:39-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -18,9 +18,9 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "guayaquil, ayuda, urgente, mal, colorada, video",
-    "firma": "36b01bf84908",
-    "texto": "Cuestionan su salud mental y su estabilidad, le atribuyen insinuaciones de consumo de drogas y sostienen que necesita atención especializada en lugar de volver a la Alcaldía de Guayaquil, apoyándose en declaraciones de Jaime Nebot y en críticas a su gestión anterior."
+    "palabras": "guayaquil, ayuda, mal, colorada, video, problema",
+    "firma": "bd2c46572af3",
+    "texto": "Los mensajes cuestionan su estabilidad mental y le insinúan problemas de consumo para presentarla como incapaz de volver a la alcaldía de Guayaquil. Refuerzan el ataque calificando de fracaso su gestión anterior, con apoyo en declaraciones atribuidas a Jaime Nebot, y le atribuyen el vaciamiento de las cuentas municipales."
    },
    "1": {
     "palabras": "pasó, adn, parece, campaña, guayaquileños, dejó",
@@ -28,9 +28,9 @@
     "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
    "2": {
-    "palabras": "drogadicto, drogada, pena, covid, drogadicta",
-    "firma": "4945bcc09215",
-    "texto": "Los mensajes le atribuyen consumo de drogas para presentarla como deteriorada e incapaz de ejercer un cargo, mezclando burla y falsa compasión. Algunos suman acusaciones de despilfarro y de lucro con obras públicas durante la pandemia."
+    "palabras": "urgente, drogadicto, drogada, pena, drogas, covid",
+    "firma": "840f94d16a0b",
+    "texto": "Le atribuyen consumo y adicción a las drogas, y presentan su aspecto y conducta públicos como prueba de un deterioro personal. Con un tono de falsa compasión, sostienen que necesita ayuda urgente y que no está en condiciones de gobernar."
    },
    "3": {
     "palabras": "ciudad, momento, vaga, traficante",
@@ -38,12 +38,17 @@
     "texto": "Los mensajes la presentan como una figura inútil que ya perjudicó a Guayaquil y al PSC con la venia de Jaime Nebot, y la sitúan en una disputa con la administración municipal saliente, a cuyo titular le atribuyen tráfico de combustible."
    },
    "4": {
-    "palabras": "abstinencia, adicto, síndrome, sudaba",
-    "firma": "8014d187e65c",
-    "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
+    "palabras": "abstinencia, adicto, síndrome",
+    "firma": "991d5c3102c9",
+    "texto": "Los mensajes ridiculizan su aspecto físico en el inicio de campaña, en particular su sudoración, y la asocian con la conducta de una persona en abstinencia de drogas. Así insinúan consumo de sustancias o estados de intoxicación para desacreditarla."
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, marido, municipio, combustible, delincuente",
+    "firma": "b6eb0f3cdab0",
+    "texto": "La presentan como cómplice de su esposo, a quien señalan como delincuente por un caso de combustible, y sostienen que no puede administrar el Municipio de Guayaquil con honestidad. La vinculan con la Revolución Ciudadana como organización delictiva y le atribuyen un salario cobrado sin trabajar."
+   },
    "1": {
     "palabras": "continuar, ideas, modelo, gestión, pretende, video",
     "firma": "c60e81321163",
@@ -93,7 +98,7 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "igual, mujer, asco, correísta, noboa, vas",
+    "palabras": "igual, correísta, mujer, asco, noboa, vas",
     "firma": "36984dc2aae2",
     "texto": "La presentan como correísta y cómplice de corrupción por respaldar a Luisa González, le reprochan incoherencia frente a Noboa y falta de valores, y combinan descalificaciones sexualizadas y de género con anuncios de que enfrentará procesos judiciales y una derrota electoral."
    },
@@ -101,6 +106,11 @@
     "palabras": "discapacidad, carnet, discapacitada, bailar",
     "firma": "b525d520a006",
     "texto": "Los mensajes le atribuyen haber obtenido de forma indebida un carnet de discapacidad y exigen que lo devuelva, usando su aparición bailando como supuesta prueba. Vinculan ese señalamiento con su pasado en la función judicial durante el correísmo y con su apoyo a esa corriente."
+   },
+   "3": {
+    "palabras": "gobierno, chimbadora, dinero, debe",
+    "firma": "5a526f508106",
+    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
    }
   },
   "Diana Caiza": {}
