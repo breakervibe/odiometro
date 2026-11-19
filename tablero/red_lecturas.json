@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T00:38-05:00",
+ "generado": "2026-11-19T00:51-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -18,7 +18,7 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "guayaquil, colorada, mal, problema, cuenta, ningún",
+    "palabras": "guayaquil, colorada, mal, cuenta, problema, ningún",
     "firma": "fedfc9685e8c",
     "texto": "Cuestionan su gestión anterior como alcaldesa de Guayaquil, que presentan como la peor de la ciudad, y le atribuyen haber vaciado las arcas municipales en beneficio de su esposo. Además insinúan inestabilidad mental o consumo de drogas para descalificarla y piden no votar por ella."
    },
@@ -107,25 +107,15 @@
     "firma": "51a51d819fa0",
     "texto": "La narrativa sostiene que obtuvo de forma indebida un carnet de discapacidad para acceder a beneficios, y usa su actividad física en campaña, como bailar, para negar su discapacidad. Algunos mensajes lo vinculan a su supuesta afinidad con el correísmo y a cargos judiciales previos."
    },
-   "1": {
-    "palabras": "delincuentes, asco, correista, mujer, noboa, oportunista",
-    "firma": "83573829394f",
-    "texto": "La presentan como correísta y aliada de delincuentes y narcotraficantes, le atribuyen respaldar la corrupción de Luisa González y callar ante abusos del gobierno anterior, y la descalifican como oportunista sin valores, con insultos de carga sexual y de género."
-   },
-   "2": {
-    "palabras": "guayaquil, narcos, abogada, mierda, peor, gracias",
-    "firma": "1278e9352326",
-    "texto": "La presentan como abogada de narcotraficantes y criminales, vinculada al correísmo, y le atribuyen la intención de usar recursos de Guayaquil para encubrir a sus aliados. Además, cuestionan su capacidad para gobernar y la descalifican por su orientación ideológica y su supuesto desacato a la ley."
-   },
    "3": {
     "palabras": "mejor, nomás, seguro",
     "firma": "b470707a04cf",
     "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
    },
    "4": {
-    "palabras": "gobierno, chimbadora, dinero",
-    "firma": "6734771c2667",
-    "texto": null
+    "palabras": "igual, vas, mal",
+    "firma": "a199b37f58ce",
+    "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
    }
   },
   "Diana Caiza": {}
