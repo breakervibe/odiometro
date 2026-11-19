@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T01:58-05:00",
+ "generado": "2026-11-19T02:12-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -97,20 +97,15 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "0": {
-    "palabras": "discapacidad, carnet, discapacitada, parece, campaña, bailar",
-    "firma": "51a51d819fa0",
-    "texto": "La narrativa sostiene que obtuvo de forma indebida un carnet de discapacidad para acceder a beneficios, y usa su actividad física en campaña, como bailar, para negar su discapacidad. Algunos mensajes lo vinculan a su supuesta afinidad con el correísmo y a cargos judiciales previos."
-   },
    "3": {
     "palabras": "mejor, nomás, seguro",
     "firma": "b470707a04cf",
     "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
    },
    "4": {
-    "palabras": "igual, vas, mal",
-    "firma": "a199b37f58ce",
-    "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
+    "palabras": "gobierno, chimbadora, dinero, debe",
+    "firma": "5a526f508106",
+    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
    }
   },
   "Diana Caiza": {}
