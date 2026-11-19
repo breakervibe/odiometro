@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T18:25-05:00",
+ "generado": "2026-11-19T18:45-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -18,7 +18,7 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "ayuda, urgente, drogadicto, drogada, video, droga",
+    "palabras": "urgente, ayuda, drogadicto, drogada, video, droga",
     "firma": "b6618454b5de",
     "texto": "Los mensajes le atribuyen consumo de drogas a partir de su apariencia en videos y la presentan como una persona deteriorada, con referencias a su edad, que requiere ayuda urgente, para cuestionar su capacidad de ejercer el cargo al que aspira."
    },
