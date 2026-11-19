@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T20:20-05:00",
+ "generado": "2026-11-18T20:36-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,30 +17,15 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
-    "palabras": "guayaquil, ayuda, mal, colorada, video, problema",
-    "firma": "bd2c46572af3",
-    "texto": "Los mensajes cuestionan su estabilidad mental y le insinúan problemas de consumo para presentarla como incapaz de volver a la alcaldía de Guayaquil. Refuerzan el ataque calificando de fracaso su gestión anterior, con apoyo en declaraciones atribuidas a Jaime Nebot, y le atribuyen el vaciamiento de las cuentas municipales."
-   },
-   "1": {
-    "palabras": "pasó, adn, parece, campaña, guayaquileños, dejó",
-    "firma": "9e81e44b93e8",
-    "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
-   },
    "2": {
-    "palabras": "urgente, drogadicto, drogada, drogas, pena, covid",
-    "firma": "840f94d16a0b",
-    "texto": "Le atribuyen consumo y adicción a las drogas, y presentan su aspecto y conducta públicos como prueba de un deterioro personal. Con un tono de falsa compasión, sostienen que necesita ayuda urgente y que no está en condiciones de gobernar."
+    "palabras": "pasó, adn, parece",
+    "firma": "8e6015928f59",
+    "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
    },
-   "3": {
+   "4": {
     "palabras": "ciudad, momento, vaga, traficante",
     "firma": "61166768f133",
     "texto": "Los mensajes la presentan como una figura inútil que ya perjudicó a Guayaquil y al PSC con la venia de Jaime Nebot, y la sitúan en una disputa con la administración municipal saliente, a cuyo titular le atribuyen tráfico de combustible."
-   },
-   "4": {
-    "palabras": "abstinencia, adicto, síndrome",
-    "firma": "991d5c3102c9",
-    "texto": "Los mensajes ridiculizan su aspecto físico en el inicio de campaña, en particular su sudoración, y la asocian con la conducta de una persona en abstinencia de drogas. Así insinúan consumo de sustancias o estados de intoxicación para desacreditarla."
    }
   },
   "Fiorella Ycaza": {
@@ -113,9 +98,9 @@
     "texto": "La presentan como abogada de narcotraficantes y criminales, vinculada al correísmo, y le atribuyen la intención de usar recursos de Guayaquil para encubrir a sus aliados. Además, cuestionan su capacidad para gobernar y la descalifican por su orientación ideológica y su supuesto desacato a la ley."
    },
    "3": {
-    "palabras": "gobierno, chimbadora, dinero, debe",
-    "firma": "5a526f508106",
-    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
+    "palabras": "gobierno, chimbadora, dinero",
+    "firma": "6734771c2667",
+    "texto": null
    }
   },
   "Diana Caiza": {}
