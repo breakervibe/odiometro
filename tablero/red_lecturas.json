@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T07:59-05:00",
+ "generado": "2026-11-19T08:16-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -67,7 +67,7 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, sinvergüenzas",
+    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, gobierno",
     "firma": "ae5e08f82a71",
     "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
    },
@@ -93,14 +93,24 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
+    "palabras": "asco, delincuentes, correista, mujer, noboa, mierda",
+    "firma": "824df6244a45",
+    "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
+   },
+   "1": {
     "palabras": "guayaquil, narcos, abogada, gobierno, igual, chimbadora",
     "firma": "feb1ccd76c99",
     "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
    },
-   "4": {
+   "3": {
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
+   },
+   "4": {
+    "palabras": "mejor, nomás, seguro",
+    "firma": "b470707a04cf",
+    "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
    }
   },
   "Diana Caiza": {}
