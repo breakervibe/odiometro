@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T23:54-05:00",
+ "generado": "2026-11-19T00:12-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,10 +17,25 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
+   "0": {
+    "palabras": "guayaquil, colorada, mal, problema, cuenta, ningún",
+    "firma": "fedfc9685e8c",
+    "texto": "Cuestionan su gestión anterior como alcaldesa de Guayaquil, que presentan como la peor de la ciudad, y le atribuyen haber vaciado las arcas municipales en beneficio de su esposo. Además insinúan inestabilidad mental o consumo de drogas para descalificarla y piden no votar por ella."
+   },
+   "1": {
+    "palabras": "ayuda, urgente, drogadicto, video, drogada, drogas",
+    "firma": "d9d3aea8ae64",
+    "texto": "Le atribuyen consumo de drogas a partir de su aparición en videos y, bajo un tono de aparente compasión, la presentan como una persona enferma que necesita ayuda urgente y que no estaría en condiciones de gobernar ni de ejercer el cargo."
+   },
    "2": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
     "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
+   },
+   "3": {
+    "palabras": "campaña, guayaquileños, dejó, menos, corrupta, buen",
+    "firma": "caed55c21327",
+    "texto": "La presentan como corrupta y rechazada por el electorado guayaquileño, y le atribuyen haber adjudicado irregularmente terrenos del nuevo aeropuerto a su esposo; además, la atacan insinuando que consume sustancias y cuestionando su sobriedad durante la campaña."
    },
    "4": {
     "palabras": "ciudad, momento, vaga, traficante",
@@ -33,6 +48,11 @@
     "palabras": "continuar, ideas, modelo, gestión, pretende, video",
     "firma": "c60e81321163",
     "texto": "Cuestionan su capacidad para articular ideas y responder sobre sus propuestas a partir de un video difundido, y la presentan como continuadora de un modelo de gestión que asocian con corrupción, señalando además procesos judiciales que, según sostienen, le impedirían ejercer el cargo."
+   },
+   "1": {
+    "palabras": "guayaquil, esposa, delincuente, combustible, municipio, campaña",
+    "firma": "9066dd78c133",
+    "texto": "Los mensajes vinculan a la candidata con su esposo, exalcalde encarcelado, y la presentan como cómplice de su presunta corrupción y de una supuesta red delictiva de su partido. La describen además como subordinada y sin capacidad propia para administrar el Municipio de Guayaquil."
    },
    "2": {
     "palabras": "marido, dinero, amante, icaza, prisión, robo",
@@ -82,10 +102,30 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, carnet, discapacitada, parece, campaña, bailar",
+    "firma": "51a51d819fa0",
+    "texto": "La narrativa sostiene que obtuvo de forma indebida un carnet de discapacidad para acceder a beneficios, y usa su actividad física en campaña, como bailar, para negar su discapacidad. Algunos mensajes lo vinculan a su supuesta afinidad con el correísmo y a cargos judiciales previos."
+   },
+   "1": {
+    "palabras": "delincuentes, asco, correista, mujer, noboa, oportunista",
+    "firma": "83573829394f",
+    "texto": "La presentan como correísta y aliada de delincuentes y narcotraficantes, le atribuyen respaldar la corrupción de Luisa González y callar ante abusos del gobierno anterior, y la descalifican como oportunista sin valores, con insultos de carga sexual y de género."
+   },
+   "2": {
+    "palabras": "guayaquil, narcos, abogada, mierda, peor, gracias",
+    "firma": "1278e9352326",
+    "texto": "La presentan como abogada de narcotraficantes y criminales, vinculada al correísmo, y le atribuyen la intención de usar recursos de Guayaquil para encubrir a sus aliados. Además, cuestionan su capacidad para gobernar y la descalifican por su orientación ideológica y su supuesto desacato a la ley."
+   },
    "3": {
-    "palabras": "igual, vas, mal",
-    "firma": "a199b37f58ce",
-    "texto": "Los mensajes le anuncian una caída judicial y una derrota electoral segura, la vinculan con Luisa González y el correísmo como partícipe de corrupción y cuestionan su discapacidad, atribuyéndole un uso indebido de beneficios, con descalificaciones sexualizadas y de género."
+    "palabras": "mejor, nomás, seguro",
+    "firma": "b470707a04cf",
+    "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
+   },
+   "4": {
+    "palabras": "gobierno, chimbadora, dinero",
+    "firma": "6734771c2667",
+    "texto": null
    }
   },
   "Diana Caiza": {}
