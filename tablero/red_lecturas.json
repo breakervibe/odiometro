@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T15:16-05:00",
+ "generado": "2026-11-19T15:33-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,11 +17,6 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
-    "palabras": "guayaquil, colorada, mal, adicción, cuenta, ningún",
-    "firma": "2cf6063fc8e5",
-    "texto": "Los mensajes la presentan como no apta para gobernar Guayaquil, atribuyéndole adicción e inestabilidad, y descalifican su gestión anterior como alcaldesa, a la que acusan de vaciar las arcas municipales y de beneficiar económicamente a su esposo."
-   },
    "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
@@ -103,7 +98,7 @@
     "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
    },
    "3": {
-    "palabras": "guayaquil, gobierno, narcos, abogada, igual, chimbadora",
+    "palabras": "guayaquil, abogada, gobierno, narcos, igual, chimbadora",
     "firma": "feb1ccd76c99",
     "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
    }
