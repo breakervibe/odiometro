@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T17:55-05:00",
+ "generado": "2026-11-19T18:11-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,6 +17,16 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
+   "0": {
+    "palabras": "ayuda, urgente, drogadicto, drogada, video, droga",
+    "firma": "b6618454b5de",
+    "texto": "Los mensajes le atribuyen consumo de drogas a partir de su apariencia en videos y la presentan como una persona deteriorada, con referencias a su edad, que requiere ayuda urgente, para cuestionar su capacidad de ejercer el cargo al que aspira."
+   },
+   "1": {
+    "palabras": "guayaquil, colorada, mal, adicción, administración, cuenta",
+    "firma": "e25730648ad7",
+    "texto": "Los mensajes le atribuyen una adicción y un deterioro personal que la inhabilitarían para el cargo, y presentan su gestión como alcaldesa de Guayaquil como la peor, con abandono, falta de obras y vaciamiento de las cuentas municipales en beneficio de su esposo."
+   },
    "2": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
@@ -34,6 +44,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, chimichurri, delincuente, combustible, prófugo",
+    "firma": "8bfd870c78f7",
+    "texto": "Los mensajes la descalifican como aspirante a la alcaldía de Guayaquil al reducir su trayectoria a ser esposa de un exfuncionario, al que acusan de corrupción y delitos; le atribuyen responsabilidad por la gestión de él y la vinculan al correísmo, sumando ataques sobre su vida conyugal."
+   },
    "1": {
     "palabras": "continuar, ideas, modelo, gestión, pretende, video",
     "firma": "c60e81321163",
@@ -101,6 +116,11 @@
     "palabras": "guayaquil, abogada, gobierno, narcos, igual, chimbadora",
     "firma": "feb1ccd76c99",
     "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
+   },
+   "4": {
+    "palabras": "será, acaso, prepotente",
+    "firma": "fc3255b5f331",
+    "texto": "La presentan como prepotente y altanera, y anticipan que ese carácter se agravaría si accede al cargo. Cuestionan su capacidad mental y su preparación, le atribuyen desacato a la ley y la descalifican por su orientación ideológica, comparándola con otro político."
    }
   },
   "Diana Caiza": {}
