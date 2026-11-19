@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T13:01-05:00",
+ "generado": "2026-11-19T13:18-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -108,19 +108,14 @@
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
    },
    "2": {
-    "palabras": "guayaquil, gobierno, narcos, abogada, igual, chimbadora",
-    "firma": "feb1ccd76c99",
-    "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
-   },
-   "3": {
-    "palabras": "asco, delincuentes, correista, mujer, noboa, mierda",
-    "firma": "824df6244a45",
-    "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
+    "palabras": "asco, correista, delincuentes, mujer, noboa, mierda",
+    "firma": "bc72242527f6",
+    "texto": "Los mensajes la descalifican por su afinidad con el correísmo, al que asocian con la corrupción y la delincuencia, le atribuyen ambición y oportunismo por dividir al electorado, y atacan su carácter con rasgos de prepotencia ligados a su condición de mujer."
    },
    "4": {
-    "palabras": "mejor, nomás, seguro",
-    "firma": "b470707a04cf",
-    "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
+    "palabras": "gobierno, chimbadora, dinero, debe",
+    "firma": "5a526f508106",
+    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
    }
   },
   "Diana Caiza": {}
