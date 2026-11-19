@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T10:07-05:00",
+ "generado": "2026-11-19T10:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -39,11 +39,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, chimichurri, delincuente, combustible, municipio",
-    "firma": "0ba48bcf87de",
-    "texto": "Los mensajes la presentan como extensión de su esposo, exalcalde al que señalan como delincuente y le atribuyen tráfico de combustible, y la acusan de complicidad y de carecer de capacidad y plan propio para administrar el municipio, con descalificaciones sexistas sobre su vida conyugal."
-   },
    "1": {
     "palabras": "continuar, ideas, modelo, gestión, pretende, video",
     "firma": "c60e81321163",
@@ -87,16 +82,6 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "1": {
-    "palabras": "guayaquil, gobierno, narcos, abogada, igual, chimbadora",
-    "firma": "feb1ccd76c99",
-    "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
-   },
-   "2": {
-    "palabras": "asco, delincuentes, correista, mujer, noboa, mierda",
-    "firma": "824df6244a45",
-    "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
-   },
    "3": {
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
