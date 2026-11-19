@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T11:51-05:00",
+ "generado": "2026-11-19T12:04-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,6 +17,11 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
+   "0": {
+    "palabras": "guayaquil, colorada, mal, adicción, cuenta, ningún",
+    "firma": "2cf6063fc8e5",
+    "texto": "Los mensajes la presentan como no apta para gobernar Guayaquil, atribuyéndole adicción e inestabilidad, y descalifican su gestión anterior como alcaldesa, a la que acusan de vaciar las arcas municipales y de beneficiar económicamente a su esposo."
+   },
    "1": {
     "palabras": "ayuda, urgente, drogadicto, video, drogada, drogas",
     "firma": "d9d3aea8ae64",
@@ -39,6 +44,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, chimichurri, delincuente, combustible, municipio",
+    "firma": "b4d218a1e570",
+    "texto": "Los mensajes reducen su candidatura a la alcaldía de Guayaquil a su condición de esposa del exalcalde, al que presentan como delincuente. Le niegan capacidad propia para administrar el municipio, la describen como instrumento de otros y la vinculan con la Revolución Ciudadana como supuesta cómplice."
+   },
    "1": {
     "palabras": "continuar, ideas, modelo, gestión, pretende, video",
     "firma": "c60e81321163",
@@ -78,10 +88,30 @@
     "palabras": "esmeraldas, corrupta, gobierno, morillo",
     "firma": "4b3f858e4ca1",
     "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
+   },
+   "1": {
+    "palabras": "adn, miserable, credibilidad",
+    "firma": "f1f90924df18",
+    "texto": "La presentan como parte de un movimiento ADN al que asocian con corrupción, robo y engaño. Le niegan credibilidad, le atribuyen manipular encuestas y exigen que sea investigada como prefecta de Esmeraldas."
    }
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, lumbar, carnet, discapacitada, bailar",
+    "firma": "4e8aff872adb",
+    "texto": "Los mensajes le atribuyen haber obtenido un carné de discapacidad sin padecerla, con el fin de acceder a beneficios, y usan imágenes suyas bailando como supuesta prueba; además, la vinculan con el correísmo y ponen en duda su capacidad intelectual."
+   },
+   "1": {
+    "palabras": "guayaquil, gobierno, narcos, abogada, igual, chimbadora",
+    "firma": "23f6a6e03358",
+    "texto": "La presentan como abogada vinculada a narcotraficantes y criminales que usaría los recursos de Guayaquil para encubrir a aliados del correísmo, y la descalifican como incapaz y como figura que divide el voto opositor en favor del gobierno."
+   },
+   "2": {
+    "palabras": "asco, delincuentes, correista, mujer, noboa, mierda",
+    "firma": "bc72242527f6",
+    "texto": "Los mensajes la descalifican por su afinidad con el correísmo, al que asocian con la corrupción y la delincuencia, le atribuyen ambición y oportunismo por dividir al electorado, y atacan su carácter con rasgos de prepotencia ligados a su condición de mujer."
+   },
    "3": {
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
