@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T13:46-05:00",
+ "generado": "2026-11-19T14:03-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -23,7 +23,7 @@
     "texto": "Los mensajes la presentan como no apta para gobernar Guayaquil, atribuyéndole adicción e inestabilidad, y descalifican su gestión anterior como alcaldesa, a la que acusan de vaciar las arcas municipales y de beneficiar económicamente a su esposo."
    },
    "1": {
-    "palabras": "ayuda, urgente, drogadicto, video, drogada, drogas",
+    "palabras": "ayuda, urgente, drogadicto, drogada, video, drogas",
     "firma": "d9d3aea8ae64",
     "texto": "Le atribuyen consumo de drogas a partir de su aparición en videos y, bajo un tono de aparente compasión, la presentan como una persona enferma que necesita ayuda urgente y que no estaría en condiciones de gobernar ni de ejercer el cargo."
    },
@@ -45,7 +45,7 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, esposa, chimichurri, delincuente, combustible, municipio",
+    "palabras": "guayaquil, esposa, chimichurri, delincuente, combustible, prófugo",
     "firma": "b4d218a1e570",
     "texto": "Los mensajes reducen su candidatura a la alcaldía de Guayaquil a su condición de esposa del exalcalde, al que presentan como delincuente. Le niegan capacidad propia para administrar el municipio, la describen como instrumento de otros y la vinculan con la Revolución Ciudadana como supuesta cómplice."
    },
@@ -109,13 +109,13 @@
    },
    "2": {
     "palabras": "asco, correista, delincuentes, mujer, noboa, mierda",
-    "firma": "bc72242527f6",
-    "texto": "Los mensajes la descalifican por su afinidad con el correísmo, al que asocian con la corrupción y la delincuencia, le atribuyen ambición y oportunismo por dividir al electorado, y atacan su carácter con rasgos de prepotencia ligados a su condición de mujer."
+    "firma": "824df6244a45",
+    "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
    },
-   "4": {
-    "palabras": "gobierno, chimbadora, dinero, debe",
-    "firma": "5a526f508106",
-    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
+   "3": {
+    "palabras": "guayaquil, gobierno, narcos, abogada, igual, chimbadora",
+    "firma": "feb1ccd76c99",
+    "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
    }
   },
   "Diana Caiza": {}
