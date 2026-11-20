@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T10:58-05:00",
+ "generado": "2026-11-20T11:14-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -17,11 +17,6 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
-    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, colorada",
-    "firma": "b56efbebebef",
-    "texto": "Le atribuyen una adicción a las drogas, deducida de su forma de hablar y sus gestos, y la declaran incapaz de gobernar Guayaquil. También descalifican su gestión anterior como alcaldesa y sostienen que su esposo se beneficia económicamente de ella."
-   },
    "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
