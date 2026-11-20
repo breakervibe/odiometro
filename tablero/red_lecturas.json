@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T20:04-05:00",
+ "generado": "2026-11-19T20:21-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -18,11 +18,6 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "urgente, ayuda, drogadicto, drogada, droga, covid",
-    "firma": "b6618454b5de",
-    "texto": "Los mensajes le atribuyen consumo de drogas a partir de su apariencia en videos y la presentan como una persona deteriorada, con referencias a su edad, que requiere ayuda urgente, para cuestionar su capacidad de ejercer el cargo al que aspira."
-   },
-   "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
     "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
@@ -62,14 +57,9 @@
     "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
    },
    "1": {
-    "palabras": "anda, campaña, dinero, guayas, esposo, asustada",
-    "firma": "82821cd28a5b",
-    "texto": "Los mensajes le atribuyen haberse replegado por temor ante una presunta trama de financiamiento irregular, en la que su esposo habría recibido dinero de un tercero para pagos en efectivo y desviado parte de esos fondos a su campaña en Guayas."
-   },
-   "2": {
-    "palabras": "guayaquil, mierda, mejor",
-    "firma": "03f7178604de",
-    "texto": "Los mensajes la presentan como una aspirante sin experiencia ni conocimientos en administración pública para gobernar Guayaquil, la asocian a un grupo político al que responsabilizan del deterioro de la ciudad y las inundaciones, y la descalifican con insultos de connotación sexual."
+    "palabras": "guayaquil, anda, campaña, dinero, guayas, esposo",
+    "firma": "4e3d3875c0bb",
+    "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
    }
   },
   "Yadira Bayas": {},
@@ -96,6 +86,21 @@
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
+   },
+   "2": {
+    "palabras": "asco, delincuentes, correista, mujer, noboa, mierda",
+    "firma": "824df6244a45",
+    "texto": "La presentan como correísta que defiende a Luisa González frente a acusaciones de corrupción y la asocian con delincuentes, mientras otros le atribuyen ambición y oportunismo por dividir al electorado; los ataques recurren a descalificaciones de carácter sexual y de género."
+   },
+   "3": {
+    "palabras": "guayaquil, gobierno, abogada, narcos, igual, chimbadora",
+    "firma": "feb1ccd76c99",
+    "texto": "La presentan como abogada vinculada a narcotraficantes y como candidata funcional a otros intereses que usaría los recursos de Guayaquil para proteger a sus aliados políticos; cuestionan su preparación, su apego a la ley y su temperamento para gobernar la ciudad."
+   },
+   "4": {
+    "palabras": "será, acaso, prepotente",
+    "firma": "fc3255b5f331",
+    "texto": "La presentan como prepotente y altanera, y anticipan que ese carácter se agravaría si accede al cargo. Cuestionan su capacidad mental y su preparación, le atribuyen desacato a la ley y la descalifican por su orientación ideológica, comparándola con otro político."
    }
   },
   "Diana Caiza": {}
