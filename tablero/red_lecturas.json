@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T08:49-05:00",
+ "generado": "2026-11-20T09:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -96,16 +96,6 @@
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
-   },
-   "2": {
-    "palabras": "guayaquil, gobierno, noboa, abogada, narcos, igual",
-    "firma": "2d685e9b7664",
-    "texto": "La presentan como abogada vinculada al narcotráfico y al correísmo, a quien atribuyen la intención de usar fondos de Guayaquil para encubrir a aliados. También la describen como candidata funcional a terceros, perjudicial para el Gobierno de Noboa, y cuestionan su capacidad comparándola con Elsa Bucaram."
-   },
-   "3": {
-    "palabras": "asco, delincuentes, correista, mujer, mierda, mal",
-    "firma": "08b457c1958f",
-    "texto": "La narrativa la presenta como correísta que encubre o respalda la corrupción atribuida a Luisa González, y la descalifica con ataques de género que la describen como ambiciosa y desleal, comparándola con Sergio Peña por, según los mensajes, haber cambiado de postura frente a la Revolución Ciudadana."
    },
    "4": {
     "palabras": "será, acaso, prepotente",
