@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T12:23-05:00",
+ "generado": "2026-11-20T12:39-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -10,18 +10,13 @@
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
    },
    "1": {
-    "palabras": "moza, ricaurte, vergüenza, tipa",
+    "palabras": "moza, vergüenza, ricaurte, tipa",
     "firma": "e85b87bd8d9d",
     "texto": "Los mensajes la presentan como amante de Jorge Yunda Ricaurte para desacreditar su trayectoria y atribuir su cargo de concejal a esa relación. Además la acusan de mentir, de usar cuentas falsas pagadas por terceros y de carecer de legitimidad para aspirar a una dignidad en Pichincha."
    }
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
-    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, droga",
-    "firma": "be38d5a62e60",
-    "texto": "Le atribuyen consumo de drogas y problemas de adicción, que deducen de su forma de hablar y sus gestos, y la presentan como incapaz de volver a la alcaldía; además descalifican su gestión anterior en Guayaquil y acusan a su esposo de quedarse con el dinero."
-   },
    "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
@@ -103,7 +98,7 @@
     "texto": "La presentan como abogada vinculada a narcotraficantes y la asocian al correísmo, atribuyéndole intención de usar recursos de Guayaquil para encubrir a aliados. La equiparan con otras figuras políticas cuestionadas y la descalifican por presunta falta de capacidad para gobernar la ciudad."
    },
    "3": {
-    "palabras": "asco, correista, delincuentes, mujer, será, peña",
+    "palabras": "correista, asco, delincuentes, mujer, será, peña",
     "firma": "8aa5cbdd1ea6",
     "texto": "La narrativa la descalifica por su afiliación correísta, a la que asocian con corrupción, fraude y delincuencia, y la presentan como encubridora de Luisa González. Además, atacan su carácter como mujer, tachándola de arrogante y no apta para un cargo público."
    },
