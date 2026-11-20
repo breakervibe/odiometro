@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T16:08-05:00",
+ "generado": "2026-11-20T16:24-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -82,10 +82,15 @@
     "firma": "4e8aff872adb",
     "texto": "Los mensajes le atribuyen haber obtenido un carné de discapacidad sin padecerla, con el fin de acceder a beneficios, y usan imágenes suyas bailando como supuesta prueba; además, la vinculan con el correísmo y ponen en duda su capacidad intelectual."
    },
-   "2": {
+   "1": {
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
+   },
+   "3": {
+    "palabras": "asco, correista, mujer, delincuentes, será, peña",
+    "firma": "8aa5cbdd1ea6",
+    "texto": "La narrativa la descalifica por su afiliación correísta, a la que asocian con corrupción, fraude y delincuencia, y la presentan como encubridora de Luisa González. Además, atacan su carácter como mujer, tachándola de arrogante y no apta para un cargo público."
    }
   },
   "Diana Caiza": {}
