@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T17:50-05:00",
+ "generado": "2026-11-20T18:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -8,10 +8,20 @@
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
+   },
+   "1": {
+    "palabras": "moza, vergüenza, verga",
+    "firma": "9f57486a581d",
+    "texto": "Los mensajes la presentan como amante de figuras masculinas, entre ellas un exalcalde, y atribuyen a esa supuesta relación su trayectoria y su candidatura, restando valor a su formación. Recurren al descrédito sexual y a la ridiculización personal en lugar de discutir sus propuestas."
    }
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
+   "0": {
+    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, drogas",
+    "firma": "4c2e7093f34d",
+    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
+   },
    "1": {
     "palabras": "pasó, adn, parece",
     "firma": "8e6015928f59",
@@ -60,6 +70,11 @@
     "palabras": "guayaquil, anda, campaña, guayas, dinero, esposo",
     "firma": "4e3d3875c0bb",
     "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
+   },
+   "2": {
+    "palabras": "gdo, corruptos, criminales",
+    "firma": "1afdcc674440",
+    "texto": "La vinculan con la Revolución Ciudadana, presentada como una estructura de corrupción y robo de fondos públicos aliada con grupos de delincuencia organizada y narcotráfico, y le auguran, junto a su movimiento, el rechazo ciudadano y la cárcel."
    }
   },
   "Yadira Bayas": {},
@@ -82,10 +97,25 @@
     "firma": "4e8aff872adb",
     "texto": "Los mensajes le atribuyen haber obtenido un carné de discapacidad sin padecerla, con el fin de acceder a beneficios, y usan imágenes suyas bailando como supuesta prueba; además, la vinculan con el correísmo y ponen en duda su capacidad intelectual."
    },
+   "1": {
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, igual",
+    "firma": "cc89909ce06a",
+    "texto": "La presentan como abogada de narcotraficantes y candidata impuesta por Rafael Correa, y le atribuyen la intención de usar los recursos de Guayaquil para encubrir a aliados correístas. También cuestionan su capacidad y sostienen que critica a Noboa para ganar notoriedad."
+   },
    "2": {
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
+   },
+   "3": {
+    "palabras": "asco, mujer, dan, peña, vas, mal",
+    "firma": "ca0790daaa9f",
+    "texto": "La acusan de respaldar a Luisa González y la corrupción que le atribuyen, la equiparan con Sergio Peña y la tachan de sumisa y sin valores, con descalificaciones sexualizadas y de género, acusaciones de mentir y de usar indebidamente un carnet de discapacidad."
+   },
+   "4": {
+    "palabras": "correista, delincuentes, será, prepotente, acaso",
+    "firma": "12b271bb35eb",
+    "texto": "Los mensajes la presentan como una figura correísta de carácter prepotente y altanero, y anticipan un ejercicio autoritario del cargo si llega a la alcaldía. Además, la asocian con delincuentes, le atribuyen complicidad silenciosa ante abusos del correísmo y cuestionan su capacidad mental."
    }
   },
   "Diana Caiza": {}
