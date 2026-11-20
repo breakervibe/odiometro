@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T10:14-05:00",
+ "generado": "2026-11-20T10:30-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -28,7 +28,7 @@
     "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
    },
    "2": {
-    "palabras": "campaña, guayaquileños, dejó, menos, corrupta, buen",
+    "palabras": "campaña, guayaquileños, dejó, corrupta, menos, buen",
     "firma": "eb274603eedd",
     "texto": "La presentan como una figura corrupta rechazada por el electorado guayaquileño, heredera de la gestión de Jaime Nebot, y le atribuyen haber favorecido a su esposo en la adjudicación de terrenos; además, insinúan consumo de sustancias que pondría en duda su sobriedad durante la campaña."
    },
@@ -96,11 +96,6 @@
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
-   },
-   "4": {
-    "palabras": "será, acaso, prepotente",
-    "firma": "fc3255b5f331",
-    "texto": "La presentan como prepotente y altanera, y anticipan que ese carácter se agravaría si accede al cargo. Cuestionan su capacidad mental y su preparación, le atribuyen desacato a la ley y la descalifican por su orientación ideológica, comparándola con otro político."
    }
   },
   "Diana Caiza": {}
