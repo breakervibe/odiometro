@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T08:07-05:00",
+ "generado": "2026-11-20T08:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -45,7 +45,7 @@
     "texto": "Los mensajes la descalifican como aspirante a la alcaldía de Guayaquil al reducir su trayectoria a ser esposa de un exfuncionario, al que acusan de corrupción y delitos; le atribuyen responsabilidad por la gestión de él y la vinculan al correísmo, sumando ataques sobre su vida conyugal."
    },
    "1": {
-    "palabras": "continuar, ideas, propuestas, modelo, gestión, pretende",
+    "palabras": "propuestas, continuar, ideas, modelo, gestión, pretende",
     "firma": "c06d56bc207e",
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
    },
@@ -67,7 +67,7 @@
     "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
    },
    "1": {
-    "palabras": "guayaquil, anda, campaña, dinero, guayas, esposo",
+    "palabras": "guayaquil, anda, campaña, guayas, dinero, esposo",
     "firma": "4e3d3875c0bb",
     "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
    }
@@ -98,7 +98,7 @@
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
    },
    "2": {
-    "palabras": "guayaquil, gobierno, abogada, narcos, noboa, igual",
+    "palabras": "guayaquil, gobierno, noboa, abogada, narcos, igual",
     "firma": "2d685e9b7664",
     "texto": "La presentan como abogada vinculada al narcotráfico y al correísmo, a quien atribuyen la intención de usar fondos de Guayaquil para encubrir a aliados. También la describen como candidata funcional a terceros, perjudicial para el Gobierno de Noboa, y cuestionan su capacidad comparándola con Elsa Bucaram."
    },
