@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T23:04-05:00",
+ "generado": "2026-11-19T23:19-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -81,6 +81,11 @@
     "palabras": "parece, campaña, plena",
     "firma": "de6cccdfca27",
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
+   },
+   "4": {
+    "palabras": "será, acaso, prepotente",
+    "firma": "fc3255b5f331",
+    "texto": "La presentan como prepotente y altanera, y anticipan que ese carácter se agravaría si accede al cargo. Cuestionan su capacidad mental y su preparación, le atribuyen desacato a la ley y la descalifican por su orientación ideológica, comparándola con otro político."
    }
   },
   "Diana Caiza": {}
