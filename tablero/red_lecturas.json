@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T13:07-05:00",
+ "generado": "2026-11-20T13:23-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -8,11 +8,6 @@
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
-   },
-   "1": {
-    "palabras": "moza, vergüenza, ricaurte, tipa",
-    "firma": "e85b87bd8d9d",
-    "texto": "Los mensajes la presentan como amante de Jorge Yunda Ricaurte para desacreditar su trayectoria y atribuir su cargo de concejal a esa relación. Además la acusan de mentir, de usar cuentas falsas pagadas por terceros y de carecer de legitimidad para aspirar a una dignidad en Pichincha."
    }
   },
   "Carla Larrea": {},
@@ -93,19 +88,14 @@
     "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
    },
    "2": {
-    "palabras": "guayaquil, abogada, narcos, igual, mierda, mal",
-    "firma": "64ab1dd9827f",
-    "texto": "La presentan como abogada vinculada a narcotraficantes y la asocian al correísmo, atribuyéndole intención de usar recursos de Guayaquil para encubrir a aliados. La equiparan con otras figuras políticas cuestionadas y la descalifican por presunta falta de capacidad para gobernar la ciudad."
-   },
-   "3": {
-    "palabras": "correista, asco, delincuentes, mujer, será, peña",
+    "palabras": "correista, asco, mujer, delincuentes, será, peña",
     "firma": "8aa5cbdd1ea6",
     "texto": "La narrativa la descalifica por su afiliación correísta, a la que asocian con corrupción, fraude y delincuencia, y la presentan como encubridora de Luisa González. Además, atacan su carácter como mujer, tachándola de arrogante y no apta para un cargo público."
    },
    "4": {
-    "palabras": "gobierno, noboa, chimbadora, dinero, debe",
-    "firma": "c47175744022",
-    "texto": "La presentan como una candidata funcional al gobierno de Noboa, colocada para dividir el voto, y le reprochan callar que el Ejecutivo retiene fondos a los municipios mientras traslada responsabilidades al Municipio; también descalifican sus declaraciones públicas como improvisadas."
+    "palabras": "guayaquil, narcos, abogada, mierda, gracias, peor",
+    "firma": "1278e9352326",
+    "texto": "La presentan como abogada de narcotraficantes y criminales, vinculada al correísmo, y le atribuyen la intención de usar recursos de Guayaquil para encubrir a sus aliados. Además, cuestionan su capacidad para gobernar y la descalifican por su orientación ideológica y su supuesto desacato a la ley."
    }
   },
   "Diana Caiza": {}
