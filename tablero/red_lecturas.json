@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T21:55-05:00",
+ "generado": "2026-11-20T22:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -34,20 +34,10 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, chimichurri, delincuente, prófugo, combustible",
-    "firma": "8bfd870c78f7",
-    "texto": "Los mensajes la descalifican como aspirante a la alcaldía de Guayaquil al reducir su trayectoria a ser esposa de un exfuncionario, al que acusan de corrupción y delitos; le atribuyen responsabilidad por la gestión de él y la vinculan al correísmo, sumando ataques sobre su vida conyugal."
-   },
    "1": {
-    "palabras": "propuestas, continuar, ideas, modelo, video, gestión",
+    "palabras": "continuar, ideas, propuestas, modelo, video, gestión",
     "firma": "c06d56bc207e",
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
-   },
-   "2": {
-    "palabras": "marido, dinero, amante, icaza, prisión, robo",
-    "firma": "d736cf5041f5",
-    "texto": "Le atribuyen complicidad en los presuntos delitos de su esposo y la presentan como esposa engañada por él; sugieren que terminará en prisión como la mujer señalada como su amante y que se candidatiza para eludir un proceso judicial o por despecho."
    },
    "3": {
     "palabras": "parada, mal, idea, chica, articular, preguntan",
@@ -56,13 +46,8 @@
    }
   },
   "Sofía Espín": {
-   "0": {
-    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, sinvergüenzas",
-    "firma": "ae5e08f82a71",
-    "texto": "Los mensajes la presentan, junto con la Revolución Ciudadana y sus candidatos, como parte de un grupo criminal y corrupto que encubre a Rafael Correa, a quien describen como prófugo, y reclaman su encarcelamiento en lugar de su participación política."
-   },
    "1": {
-    "palabras": "guayaquil, anda, campaña, guayas, dinero, esposo",
+    "palabras": "guayas, guayaquil, anda, campaña, dinero, esposo",
     "firma": "4e3d3875c0bb",
     "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
    }
