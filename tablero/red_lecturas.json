@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T07:27-05:00",
+ "generado": "2026-11-21T07:43-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -23,20 +23,10 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
-    "palabras": "guayaquil, drogadicto, adicción, ciudad, drogas, droga",
-    "firma": "425f33935de3",
-    "texto": "Le atribuyen consumo de drogas y una adicción, que deducen de su forma de hablar y sus gestos, para declararla no apta para la alcaldía de Guayaquil; añaden acusaciones de mala gestión y de saqueo municipal en beneficio de su esposo."
-   },
    "1": {
     "palabras": "campaña, guayaquileños, dejó, corrupta, menos, buen",
     "firma": "eb274603eedd",
     "texto": "La presentan como una figura corrupta rechazada por el electorado guayaquileño, heredera de la gestión de Jaime Nebot, y le atribuyen haber favorecido a su esposo en la adjudicación de terrenos; además, insinúan consumo de sustancias que pondría en duda su sobriedad durante la campaña."
-   },
-   "2": {
-    "palabras": "pasó, adn, parece",
-    "firma": "8e6015928f59",
-    "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
    },
    "3": {
     "palabras": "ayuda, mal, serio",
@@ -51,7 +41,7 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, esposa, chimichurri, delincuente, prófugo, combustible",
+    "palabras": "guayaquil, esposa, chimichurri, delincuente, prófugo, alguien",
     "firma": "f0357ba5000b",
     "texto": "La presentan como una aspirante sin méritos propios a la Alcaldía de Guayaquil, cuyo único aval sería ser esposa de un hombre al que acusan de contrabando de combustible y de estar prófugo, y extienden a ella la acusación de corrupción atribuida al correísmo."
    },
@@ -73,12 +63,7 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "delincuentes, junto, delincuente, ratas, cárcel, exigir",
-    "firma": "5fac65f9d1e7",
-    "texto": "Los mensajes la presentan, junto con su partido, Revolución Ciudadana, y Rafael Correa, como parte de una organización delictiva vinculada al narcotráfico, desacreditan su exigencia de libertad para un procesado y reclaman su encarcelamiento, con insultos deshumanizantes."
-   },
-   "1": {
-    "palabras": "guayas, gobierno, guayaquil, correista, noboa, seguridad",
+    "palabras": "guayas, gobierno, correista, guayaquil, noboa, seguridad",
     "firma": "d95381d7c59e",
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
    },
@@ -109,7 +94,7 @@
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
    "1": {
-    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, mierda",
     "firma": "a00456a4da68",
     "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
    },
