@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T18:42-05:00",
+ "generado": "2026-11-21T18:58-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -61,7 +61,7 @@
     "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
    },
    "1": {
-    "palabras": "propuestas, continuar, ideas, modelo, video, gestión",
+    "palabras": "propuestas, continuar, ideas, video, gestión, modelo",
     "firma": "c06d56bc207e",
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
    },
@@ -124,14 +124,14 @@
     "texto": "La presentan como abogada de criminales y narcotraficantes y le atribuyen la intención de usar los recursos de Guayaquil para favorecer al correísmo. También cuestionan su ambición y su papel divisivo, entre críticas dispersas al gobierno de Noboa y a otras candidatas."
    },
    "2": {
+    "palabras": "correista, delincuentes, será, prepotente, acaso",
+    "firma": "12b271bb35eb",
+    "texto": "Los mensajes la presentan como una figura correísta de carácter prepotente y altanero, y anticipan un ejercicio autoritario del cargo si llega a la alcaldía. Además, la asocian con delincuentes, le atribuyen complicidad silenciosa ante abusos del correísmo y cuestionan su capacidad mental."
+   },
+   "3": {
     "palabras": "igual, amigos, vas, correismo, mal",
     "firma": "c4f344db6cc6",
     "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
-   },
-   "3": {
-    "palabras": "correista, delincuentes, será, prepotente",
-    "firma": "cc9ac27c7d7e",
-    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
