@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T16:47-05:00",
+ "generado": "2026-11-21T17:25-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -7,11 +7,6 @@
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
-   },
-   "3": {
-    "palabras": "debate, tienes, solvencia",
-    "firma": "9b37f5fce13b",
-    "texto": "Cuestionan su valoración del desempeño de su candidata en un debate y la presentan como una asambleísta sin capacidad ni solvencia. Extienden la descalificación a su intelecto y la vinculan con el gobierno de Daniel Noboa, al que atribuyen el deterioro del país."
    }
   },
   "Carla Cevallos": {
@@ -78,17 +73,7 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "1": {
-    "palabras": "guayaquil, noboa, gobierno, abogada, narcos, chimbadora",
-    "firma": "a00456a4da68",
-    "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
-   },
    "2": {
-    "palabras": "dan, correista, asco, delincuentes, mujer, peña",
-    "firma": "2a98bc3d5094",
-    "texto": "La presentan como correísta y cómplice de la corrupción atribuida a ese movimiento y a Luisa González. Cuestionan su carácter como prepotente y autoritario, le atribuyen desacatar la ley y anticipan que abusaría del poder si llegara a la alcaldía de Guayaquil."
-   },
-   "3": {
     "palabras": "igual, amigos, vas, correismo, mal",
     "firma": "c4f344db6cc6",
     "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
