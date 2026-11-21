@@ -1,8 +1,24 @@
 {
- "generado": "2026-11-21T11:53-05:00",
+ "generado": "2026-11-21T12:08-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
-  "Giovanna Ubidia": {},
+  "Giovanna Ubidia": {
+   "0": {
+    "palabras": "adn, sinvergüenza, salud, hablar, iess, nivel",
+    "firma": "fa9e8897da18",
+    "texto": "Cuestionan su legitimidad para proponer mejoras de salud en la Prefectura por pertenecer a ADN, partido al que responsabilizan del deterioro de hospitales y del IESS. La presentan como portavoz de un gobierno que miente, e incluso aparece una alusión a silenciarla violentamente."
+   },
+   "1": {
+    "palabras": "noboa, menos, narco, repudian",
+    "firma": "d6d9335b592c",
+    "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
+   },
+   "2": {
+    "palabras": "debate, tienes, solvencia",
+    "firma": "9b37f5fce13b",
+    "texto": "Cuestionan su valoración del desempeño de su candidata en un debate y la presentan como una asambleísta sin capacidad ni solvencia. Extienden la descalificación a su intelecto y la vinculan con el gobierno de Daniel Noboa, al que atribuyen el deterioro del país."
+   }
+  },
   "Carla Cevallos": {
    "0": {
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
@@ -22,6 +38,11 @@
     "firma": "4c2e7093f34d",
     "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
    },
+   "1": {
+    "palabras": "avezada, gordita, campañas, políticas",
+    "firma": "d851a8c021e1",
+    "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
+   },
    "2": {
     "palabras": "pasó, adn, campaña, guayaquileños, dejó, parece",
     "firma": "9e81e44b93e8",
@@ -34,6 +55,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, chimichurri, alguien, delincuente, prófugo",
+    "firma": "834246b9ba0e",
+    "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
+   },
    "1": {
     "palabras": "propuestas, continuar, ideas, modelo, video, gestión",
     "firma": "c06d56bc207e",
@@ -56,10 +82,20 @@
     "firma": "d95381d7c59e",
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
    },
+   "1": {
+    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, mafias",
+    "firma": "99f4765be0b4",
+    "texto": "Los mensajes reaccionan a una exigencia pública atribuida a la candidata y su entorno político, la presentan como aliada de delincuentes y estructuras mafiosas, deslegitiman su derecho a exigir y piden su encarcelamiento, con descalificaciones ideológicas y deshumanizantes extendidas a su grupo."
+   },
    "2": {
     "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
     "firma": "90d8b69e24ee",
     "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo recibía dinero de un tercero para hacer pagos en efectivo y desviar una parte a su campaña, vinculándola así a un presunto financiamiento irregular."
+   },
+   "3": {
+    "palabras": "prófugo, correa, candidatos, delincuencial, rafael",
+    "firma": "d0b29cedfa6a",
+    "texto": "Los mensajes la vinculan con Rafael Correa, a quien presentan como prófugo, y la describen como parte de un grupo delincuencial y corrupto. Descalifican su capacidad y sus propuestas, y extienden la acusación de complicidad a quienes apoyan a su movimiento."
    }
   },
   "Yadira Bayas": {},
@@ -76,6 +112,11 @@
     "palabras": "discapacidad, parece, campaña, plena, lumbar, carnet",
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
+   },
+   "1": {
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, igual",
+    "firma": "34a67c8fa46a",
+    "texto": "La presentan como abogada de narcotraficantes y figura vinculada al correísmo, a la que atribuyen la intención de usar fondos de Guayaquil para encubrir a aliados. Cuestionan su capacidad de gestión y sostienen que critica al gobierno de Noboa para ganar notoriedad política."
    },
    "2": {
     "palabras": "dan, asco, correista, mujer, delincuentes, peña",
