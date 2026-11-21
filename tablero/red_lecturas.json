@@ -1,12 +1,22 @@
 {
- "generado": "2026-11-21T17:56-05:00",
+ "generado": "2026-11-21T18:12-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
+   "0": {
+    "palabras": "adn, sinvergüenza, hablar, nivel, iess, pública",
+    "firma": "a1d148cd36c7",
+    "texto": "Cuestionan su legitimidad para hablar de salud en la campaña por la Prefectura, al atribuir a su partido, ADN, responsabilidad por la crisis de la salud pública y del IESS. La presentan como subordinada de ese partido, al que califican de corrupto e incompetente."
+   },
    "1": {
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
+   },
+   "2": {
+    "palabras": "salud, gobierno, mejor, política, medicinas, hospitales",
+    "firma": "ca4485f4d749",
+    "texto": "La presentan como representante del gobierno nacional y la responsabilizan por la crisis de hospitales, medicinas y servicios públicos; cuestionan su trayectoria política, su capacidad y la credibilidad de sus ofertas de salud para Pichincha."
    }
   },
   "Carla Cevallos": {
@@ -14,6 +24,11 @@
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
+   },
+   "1": {
+    "palabras": "moza, ricaurte, vergüenza",
+    "firma": "69cf34f9bf1c",
+    "texto": "La presentan como amante de un exalcalde y reducen su trayectoria profesional y política a esa supuesta relación, que usan para desacreditarla y para restar valor a sus denuncias, negando a la vez que esa descalificación tenga carácter machista."
    }
   },
   "Carla Larrea": {},
@@ -23,7 +38,17 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "4": {
+   "1": {
+    "palabras": "guayaquil, pasó, ayuda, drogadicto, adicción, ciudad",
+    "firma": "f1efddc25cb7",
+    "texto": "Le atribuyen una adicción a las drogas, que infieren de su forma de hablar y sus gestos, y la declaran incapaz de volver a la alcaldía de Guayaquil; además califican de deficiente su gestión anterior y sostienen que su esposo se beneficiaba económicamente."
+   },
+   "2": {
+    "palabras": "campaña, adn, guayaquileños, dejó, corrupta, menos",
+    "firma": "756645162d2c",
+    "texto": "La presentan como una exalcaldesa corrupta, rechazada por el electorado guayaquileño, que ahora busca legitimarse como candidata de ADN; le atribuyen haber vaciado las cuentas municipales, adjudicado terrenos a su esposo y haber impedido el aterrizaje de un vuelo humanitario durante la pandemia."
+   },
+   "3": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
@@ -52,10 +77,30 @@
    }
   },
   "Sofía Espín": {
+   "0": {
+    "palabras": "guayas, gobierno, correista, noboa, seguridad, daniel",
+    "firma": "2b4a7ccda982",
+    "texto": "La presentan como figura correísta enfrentada al gobierno de Daniel Noboa y a su política de seguridad, y la descalifican para la Prefectura del Guayas atribuyéndole conductas delictivas y una conspiración pasada contra el Gobierno."
+   },
+   "1": {
+    "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, mafias",
+    "firma": "38b2a8ad8277",
+    "texto": "Los mensajes la presentan, junto con su grupo político, como parte de una red delictiva vinculada a mafias y crimen organizado, exigen su encarcelamiento y deslegitiman sus reclamos públicos negándole autoridad para exigir nada, con ataques de tinte ideológico."
+   },
+   "2": {
+    "palabras": "guayaquil, anda, campaña, dinero, esposo, asustada",
+    "firma": "9da03db6ef04",
+    "texto": "Los mensajes sostienen que la candidata guarda silencio por temor, al atribuir a su esposo la recepción de dinero de un tercero para pagos en efectivo, parte del cual se habría desviado a su campaña; la vinculan así a un presunto financiamiento irregular."
+   },
    "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "d0b29cedfa6a",
     "texto": "Los mensajes la vinculan con Rafael Correa, a quien presentan como prófugo, y la describen como parte de un grupo delincuencial y corrupto. Descalifican su capacidad y sus propuestas, y extienden la acusación de complicidad a quienes apoyan a su movimiento."
+   },
+   "4": {
+    "palabras": "energía, eléctrica, pagar, gratis",
+    "firma": "0d676a2044f4",
+    "texto": "Ridiculizan la supuesta oferta de electricidad gratuita que atribuyen a Sofía Espín y Alberto Cajamarca, presentándola como engaño populista e incoherente con su discurso sobre los ricos, y la descalifican aludiendo a su destitución y vinculándola sexualmente con Jorge Glas."
    }
   },
   "Yadira Bayas": {},
@@ -73,10 +118,20 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
+   "1": {
+    "palabras": "guayaquil, noboa, gobierno, dan, asco, abogada",
+    "firma": "381cb4f9187d",
+    "texto": "La presentan como abogada de criminales y narcotraficantes y le atribuyen la intención de usar los recursos de Guayaquil para favorecer al correísmo. También cuestionan su ambición y su papel divisivo, entre críticas dispersas al gobierno de Noboa y a otras candidatas."
+   },
    "2": {
     "palabras": "igual, amigos, vas, correismo, mal",
     "firma": "c4f344db6cc6",
     "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
+   },
+   "3": {
+    "palabras": "correista, delincuentes, será, prepotente",
+    "firma": "cc9ac27c7d7e",
+    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
