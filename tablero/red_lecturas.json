@@ -1,19 +1,14 @@
 {
- "generado": "2026-11-21T15:24-05:00",
+ "generado": "2026-11-21T15:41-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
-   "0": {
-    "palabras": "adn, salud, sinvergüenza, hablar, nivel, iess",
-    "firma": "fa9e8897da18",
-    "texto": "Cuestionan su legitimidad para proponer mejoras de salud en la Prefectura por pertenecer a ADN, partido al que responsabilizan del deterioro de hospitales y del IESS. La presentan como portavoz de un gobierno que miente, e incluso aparece una alusión a silenciarla violentamente."
-   },
    "1": {
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
-   "2": {
+   "3": {
     "palabras": "debate, tienes, solvencia",
     "firma": "9b37f5fce13b",
     "texto": "Cuestionan su valoración del desempeño de su candidata en un debate y la presentan como una asambleísta sin capacidad ni solvencia. Extienden la descalificación a su intelecto y la vinculan con el gobierno de Daniel Noboa, al que atribuyen el deterioro del país."
@@ -62,20 +57,10 @@
    }
   },
   "Sofía Espín": {
-   "0": {
-    "palabras": "guayas, gobierno, guayaquil, correista, noboa, seguridad",
-    "firma": "d95381d7c59e",
-    "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
-   },
-   "2": {
+   "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "d0b29cedfa6a",
     "texto": "Los mensajes la vinculan con Rafael Correa, a quien presentan como prófugo, y la describen como parte de un grupo delincuencial y corrupto. Descalifican su capacidad y sus propuestas, y extienden la acusación de complicidad a quienes apoyan a su movimiento."
-   },
-   "3": {
-    "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
-    "firma": "90d8b69e24ee",
-    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo recibía dinero de un tercero para hacer pagos en efectivo y desviar una parte a su campaña, vinculándola así a un presunto financiamiento irregular."
    }
   },
   "Yadira Bayas": {},
@@ -94,12 +79,12 @@
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
    "1": {
-    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
+    "palabras": "guayaquil, noboa, gobierno, abogada, narcos, chimbadora",
     "firma": "a00456a4da68",
     "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
    },
    "2": {
-    "palabras": "dan, asco, correista, mujer, delincuentes, peña",
+    "palabras": "dan, correista, asco, delincuentes, mujer, peña",
     "firma": "2a98bc3d5094",
     "texto": "La presentan como correísta y cómplice de la corrupción atribuida a ese movimiento y a Luisa González. Cuestionan su carácter como prepotente y autoritario, le atribuyen desacatar la ley y anticipan que abusaría del poder si llegara a la alcaldía de Guayaquil."
    },
