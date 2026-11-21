@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T12:56-05:00",
+ "generado": "2026-11-21T13:15-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -34,21 +34,16 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "ayuda, guayaquil, drogadicto, adicción, ciudad, drogas",
-    "firma": "4c2e7093f34d",
-    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
-   },
-   "1": {
     "palabras": "avezada, gordita, campañas, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "2": {
-    "palabras": "pasó, adn, campaña, guayaquileños, dejó, parece",
+   "1": {
+    "palabras": "pasó, adn, campaña, guayaquileños, dejó, corrupta",
     "firma": "9e81e44b93e8",
     "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
-   "3": {
+   "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
@@ -56,7 +51,7 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, esposa, chimichurri, alguien, delincuente, prófugo",
+    "palabras": "guayaquil, esposa, chimichurri, alguien, delincuente, juicio",
     "firma": "834246b9ba0e",
     "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
    },
@@ -81,11 +76,6 @@
     "palabras": "guayas, gobierno, correista, noboa, guayaquil, seguridad",
     "firma": "d95381d7c59e",
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
-   },
-   "1": {
-    "palabras": "delincuentes, delincuente, ratas, cárcel, exigir, mafias",
-    "firma": "99f4765be0b4",
-    "texto": "Los mensajes reaccionan a una exigencia pública atribuida a la candidata y su entorno político, la presentan como aliada de delincuentes y estructuras mafiosas, deslegitiman su derecho a exigir y piden su encarcelamiento, con descalificaciones ideológicas y deshumanizantes extendidas a su grupo."
    },
    "2": {
     "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
