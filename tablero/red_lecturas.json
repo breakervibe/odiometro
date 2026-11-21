@@ -1,10 +1,10 @@
 {
- "generado": "2026-11-21T13:45-05:00",
+ "generado": "2026-11-21T14:03-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "adn, sinvergüenza, salud, hablar, nivel, iess",
+    "palabras": "adn, salud, sinvergüenza, hablar, nivel, iess",
     "firma": "fa9e8897da18",
     "texto": "Cuestionan su legitimidad para proponer mejoras de salud en la Prefectura por pertenecer a ADN, partido al que responsabilizan del deterioro de hospitales y del IESS. La presentan como portavoz de un gobierno que miente, e incluso aparece una alusión a silenciarla violentamente."
    },
@@ -24,11 +24,6 @@
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
-   },
-   "1": {
-    "palabras": "moza, ricaurte, vergüenza, queremos",
-    "firma": "5cae0f42adcc",
-    "texto": "Le atribuyen haber sido amante de un exalcalde, al que identifican como Ricaurte, y usan esa supuesta relación para reducir su trayectoria profesional y política a un vínculo sexual, presentándola además como vocera desacreditada que difunde falsedades y motivo de vergüenza."
    }
   },
   "Carla Larrea": {},
@@ -37,11 +32,6 @@
     "palabras": "avezada, gordita, campañas, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
-   },
-   "1": {
-    "palabras": "pasó, adn, campaña, guayaquileños, dejó, corrupta",
-    "firma": "9e81e44b93e8",
-    "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
    "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
@@ -73,7 +63,7 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "guayas, gobierno, correista, noboa, guayaquil, seguridad",
+    "palabras": "guayas, gobierno, guayaquil, correista, noboa, seguridad",
     "firma": "d95381d7c59e",
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
    },
@@ -104,14 +94,19 @@
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
    "1": {
-    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, igual",
-    "firma": "34a67c8fa46a",
-    "texto": "La presentan como abogada de narcotraficantes y figura vinculada al correísmo, a la que atribuyen la intención de usar fondos de Guayaquil para encubrir a aliados. Cuestionan su capacidad de gestión y sostienen que critica al gobierno de Noboa para ganar notoriedad política."
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
+    "firma": "a00456a4da68",
+    "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
    },
    "2": {
     "palabras": "dan, asco, correista, mujer, delincuentes, peña",
-    "firma": "6d4ca74bb5f9",
-    "texto": "La presentan como cómplice de la corrupción atribuida a Luisa González por su afiliación correísta y la descalifican como mujer prepotente e incapaz de respetar la ley, advirtiendo que ejercería el cargo en Guayaquil de forma autoritaria."
+    "firma": "2a98bc3d5094",
+    "texto": "La presentan como correísta y cómplice de la corrupción atribuida a ese movimiento y a Luisa González. Cuestionan su carácter como prepotente y autoritario, le atribuyen desacatar la ley y anticipan que abusaría del poder si llegara a la alcaldía de Guayaquil."
+   },
+   "3": {
+    "palabras": "igual, amigos, vas, correismo, mal",
+    "firma": "c4f344db6cc6",
+    "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
    }
   },
   "Diana Caiza": {}
