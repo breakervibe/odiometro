@@ -1,14 +1,8 @@
 {
- "generado": "2026-11-21T09:46-05:00",
+ "generado": "2026-11-21T10:04-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
-  "Giovanna Ubidia": {
-   "0": {
-    "palabras": "sinvergüenza, hablar, iess, nivel, pública, debateprefectura",
-    "firma": "0980019493fe",
-    "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
-   }
-  },
+  "Giovanna Ubidia": {},
   "Carla Cevallos": {
    "0": {
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
@@ -40,11 +34,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, chimichurri, delincuente, prófugo, alguien",
-    "firma": "f0357ba5000b",
-    "texto": "La presentan como una aspirante sin méritos propios a la Alcaldía de Guayaquil, cuyo único aval sería ser esposa de un hombre al que acusan de contrabando de combustible y de estar prófugo, y extienden a ella la acusación de corrupción atribuida al correísmo."
-   },
    "1": {
     "palabras": "continuar, ideas, propuestas, modelo, video, gestión",
     "firma": "c06d56bc207e",
@@ -76,11 +65,6 @@
   "Yadira Bayas": {},
   "Roberta Zambrano": {
    "0": {
-    "palabras": "adn, credibilidad, miserable",
-    "firma": "f1f90924df18",
-    "texto": "La presentan como parte de un movimiento ADN al que asocian con corrupción, robo y engaño. Le niegan credibilidad, le atribuyen manipular encuestas y exigen que sea investigada como prefecta de Esmeraldas."
-   },
-   "1": {
     "palabras": "esmeraldas, corrupta, gobierno, morillo",
     "firma": "4b3f858e4ca1",
     "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
@@ -93,20 +77,15 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "1": {
-    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
-    "firma": "a00456a4da68",
-    "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
-   },
    "2": {
-    "palabras": "asco, correista, dan, mujer, delincuentes, será",
-    "firma": "2a98bc3d5094",
-    "texto": "La presentan como correísta y cómplice de la corrupción atribuida a ese movimiento y a Luisa González. Cuestionan su carácter como prepotente y autoritario, le atribuyen desacatar la ley y anticipan que abusaría del poder si llegara a la alcaldía de Guayaquil."
+    "palabras": "asco, dan, mujer, peña, vas, mal",
+    "firma": "ca0790daaa9f",
+    "texto": "La acusan de respaldar a Luisa González y la corrupción que le atribuyen, la equiparan con Sergio Peña y la tachan de sumisa y sin valores, con descalificaciones sexualizadas y de género, acusaciones de mentir y de usar indebidamente un carnet de discapacidad."
    },
    "3": {
-    "palabras": "igual, amigos, vas, correismo, mal",
-    "firma": "c4f344db6cc6",
-    "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
+    "palabras": "correista, delincuentes, será, prepotente, acaso",
+    "firma": "12b271bb35eb",
+    "texto": "Los mensajes la presentan como una figura correísta de carácter prepotente y altanero, y anticipan un ejercicio autoritario del cargo si llega a la alcaldía. Además, la asocian con delincuentes, le atribuyen complicidad silenciosa ante abusos del correísmo y cuestionan su capacidad mental."
    }
   },
   "Diana Caiza": {}
