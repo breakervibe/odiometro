@@ -1,43 +1,69 @@
 {
- "generado": "2026-11-20T22:58-05:00",
+ "generado": "2026-11-21T06:43-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
-  "Giovanna Ubidia": {},
+  "Giovanna Ubidia": {
+   "0": {
+    "palabras": "hablar, sinvergüenza, iess, nivel, pública, debateprefectura",
+    "firma": "0980019493fe",
+    "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
+   }
+  },
   "Carla Cevallos": {
    "0": {
     "palabras": "pichincha, bizcocho, sentido, chistosos, doble, rico",
     "firma": "33d0ab999ad9",
     "texto": "Los mensajes la sexualizan mediante expresiones de doble sentido y presentan sus videos de campaña a la Prefectura de Pichincha como contenido humorístico con connotación sexual, insinuando que recurre a ello para captar votos y restando seriedad a su candidatura."
+   },
+   "1": {
+    "palabras": "moza, ricaurte, vergüenza, queremos",
+    "firma": "5cae0f42adcc",
+    "texto": "Le atribuyen haber sido amante de un exalcalde, al que identifican como Ricaurte, y usan esa supuesta relación para reducir su trayectoria profesional y política a un vínculo sexual, presentándola además como vocera desacreditada que difunde falsedades y motivo de vergüenza."
    }
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, drogas",
-    "firma": "4c2e7093f34d",
-    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
+    "palabras": "guayaquil, drogadicto, adicción, ciudad, drogas, droga",
+    "firma": "425f33935de3",
+    "texto": "Le atribuyen consumo de drogas y una adicción, que deducen de su forma de hablar y sus gestos, para declararla no apta para la alcaldía de Guayaquil; añaden acusaciones de mala gestión y de saqueo municipal en beneficio de su esposo."
    },
    "1": {
-    "palabras": "pasó, adn, parece",
-    "firma": "8e6015928f59",
-    "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
-   },
-   "2": {
     "palabras": "campaña, guayaquileños, dejó, corrupta, menos, buen",
     "firma": "eb274603eedd",
     "texto": "La presentan como una figura corrupta rechazada por el electorado guayaquileño, heredera de la gestión de Jaime Nebot, y le atribuyen haber favorecido a su esposo en la adjudicación de terrenos; además, insinúan consumo de sustancias que pondría en duda su sobriedad durante la campaña."
    },
+   "2": {
+    "palabras": "pasó, adn, parece",
+    "firma": "8e6015928f59",
+    "texto": "Los mensajes cuestionan su alineamiento con el movimiento ADN y le atribuyen incoherencia e incumplimiento de promesas, la descalifican con estereotipos sobre su apariencia y su supuesta subordinación a un líder masculino, y presentan su paso por la alcaldía de Guayaquil como una gestión fallida."
+   },
    "3": {
+    "palabras": "ayuda, mal, serio",
+    "firma": "6d3001a12bb9",
+    "texto": "Los mensajes cuestionan su estado de salud y su capacidad para ejercer el cargo, insinúan que sus gestos en entrevistas revelan consumo de sustancias o desequilibrio, y le atribuyen, junto con su esposo, entrega irregular de tierras a una inmobiliaria."
+   },
+   "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, chimichurri, delincuente, prófugo, combustible",
+    "firma": "f0357ba5000b",
+    "texto": "La presentan como una aspirante sin méritos propios a la Alcaldía de Guayaquil, cuyo único aval sería ser esposa de un hombre al que acusan de contrabando de combustible y de estar prófugo, y extienden a ella la acusación de corrupción atribuida al correísmo."
+   },
    "1": {
     "palabras": "continuar, ideas, propuestas, modelo, video, gestión",
     "firma": "c06d56bc207e",
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
+   },
+   "2": {
+    "palabras": "marido, dinero, amante, icaza, prisión, paso",
+    "firma": "b34b16c45fb6",
+    "texto": "Vinculan a la candidata con la prisión preventiva por lavado de dinero dictada contra la mujer que señalan como amante de su esposo, sugieren que ella correrá la misma suerte y atribuyen su candidatura a buscar inmunidad judicial o vengarse de una infidelidad."
    },
    "3": {
     "palabras": "parada, mal, idea, chica, articular, preguntan",
@@ -46,10 +72,20 @@
    }
   },
   "Sofía Espín": {
+   "0": {
+    "palabras": "delincuentes, junto, delincuente, ratas, cárcel, exigir",
+    "firma": "5fac65f9d1e7",
+    "texto": "Los mensajes la presentan, junto con su partido, Revolución Ciudadana, y Rafael Correa, como parte de una organización delictiva vinculada al narcotráfico, desacreditan su exigencia de libertad para un procesado y reclaman su encarcelamiento, con insultos deshumanizantes."
+   },
    "1": {
-    "palabras": "guayas, guayaquil, anda, campaña, dinero, esposo",
-    "firma": "4e3d3875c0bb",
-    "texto": "Los mensajes la presentan como una aspirante correísta que buscaría el poder en Guayaquil para apropiarse de fondos públicos, le atribuyen financiamiento irregular de campaña mediante pagos en efectivo gestionados por su esposo y cuestionan su falta de experiencia administrativa."
+    "palabras": "guayas, gobierno, guayaquil, correista, noboa, seguridad",
+    "firma": "d95381d7c59e",
+    "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
+   },
+   "2": {
+    "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
+    "firma": "90d8b69e24ee",
+    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo recibía dinero de un tercero para hacer pagos en efectivo y desviar una parte a su campaña, vinculándola así a un presunto financiamiento irregular."
    }
   },
   "Yadira Bayas": {},
@@ -66,7 +102,28 @@
    }
   },
   "Marciana Valdivieso": {},
-  "Mónica Luzárraga": {},
+  "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, parece, campaña, plena, lumbar, carnet",
+    "firma": "048cea4b7f0f",
+    "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
+   },
+   "1": {
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
+    "firma": "a00456a4da68",
+    "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
+   },
+   "2": {
+    "palabras": "asco, correista, dan, mujer, delincuentes, será",
+    "firma": "2a98bc3d5094",
+    "texto": "La presentan como correísta y cómplice de la corrupción atribuida a ese movimiento y a Luisa González. Cuestionan su carácter como prepotente y autoritario, le atribuyen desacatar la ley y anticipan que abusaría del poder si llegara a la alcaldía de Guayaquil."
+   },
+   "3": {
+    "palabras": "igual, amigos, vas, correismo, mal",
+    "firma": "c4f344db6cc6",
+    "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
+   }
+  },
   "Diana Caiza": {}
  }
 }
