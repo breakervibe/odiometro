@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T08:59-05:00",
+ "generado": "2026-11-21T09:17-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -24,12 +24,12 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, drogas",
+    "palabras": "ayuda, guayaquil, drogadicto, adicción, ciudad, drogas",
     "firma": "4c2e7093f34d",
     "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
    },
    "1": {
-    "palabras": "pasó, adn, campaña, parece, guayaquileños, dejó",
+    "palabras": "pasó, adn, campaña, guayaquileños, parece, dejó",
     "firma": "9e81e44b93e8",
     "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
@@ -94,7 +94,7 @@
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
    "1": {
-    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, mierda",
+    "palabras": "guayaquil, noboa, gobierno, narcos, abogada, chimbadora",
     "firma": "a00456a4da68",
     "texto": "La presentan como abogada de narcotraficantes y la vinculan al correísmo, al que favorecería con recursos de Guayaquil. Además, la responsabilizan del deterioro de la ciudad junto al alcalde detenido y cuestionan su capacidad para el cargo."
    },
