@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T14:33-05:00",
+ "generado": "2026-11-21T14:53-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -41,7 +41,7 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, esposa, chimichurri, alguien, delincuente, juicio",
+    "palabras": "guayaquil, esposa, chimichurri, alguien, juicio, sano",
     "firma": "834246b9ba0e",
     "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
    },
@@ -51,7 +51,7 @@
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
    },
    "2": {
-    "palabras": "marido, dinero, amante, paso, icaza, prisión",
+    "palabras": "marido, dinero, paso, amante, icaza, prisión",
     "firma": "b34b16c45fb6",
     "texto": "Vinculan a la candidata con la prisión preventiva por lavado de dinero dictada contra la mujer que señalan como amante de su esposo, sugieren que ella correrá la misma suerte y atribuyen su candidatura a buscar inmunidad judicial o vengarse de una infidelidad."
    },
@@ -68,14 +68,14 @@
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
    },
    "2": {
-    "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
-    "firma": "90d8b69e24ee",
-    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo recibía dinero de un tercero para hacer pagos en efectivo y desviar una parte a su campaña, vinculándola así a un presunto financiamiento irregular."
-   },
-   "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "d0b29cedfa6a",
     "texto": "Los mensajes la vinculan con Rafael Correa, a quien presentan como prófugo, y la describen como parte de un grupo delincuencial y corrupto. Descalifican su capacidad y sus propuestas, y extienden la acusación de complicidad a quienes apoyan a su movimiento."
+   },
+   "3": {
+    "palabras": "anda, campaña, dinero, esposo, asustada, calladita",
+    "firma": "90d8b69e24ee",
+    "texto": "Los mensajes le atribuyen un silencio motivado por temor y sostienen que su esposo recibía dinero de un tercero para hacer pagos en efectivo y desviar una parte a su campaña, vinculándola así a un presunto financiamiento irregular."
    }
   },
   "Yadira Bayas": {},
