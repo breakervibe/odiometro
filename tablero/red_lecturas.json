@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T19:04-05:00",
+ "generado": "2026-11-20T19:19-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {},
@@ -80,7 +80,7 @@
   "Yadira Bayas": {},
   "Roberta Zambrano": {
    "0": {
-    "palabras": "adn, miserable, credibilidad",
+    "palabras": "adn, credibilidad, miserable",
     "firma": "f1f90924df18",
     "texto": "La presentan como parte de un movimiento ADN al que asocian con corrupción, robo y engaño. Le niegan credibilidad, le atribuyen manipular encuestas y exigen que sea investigada como prefecta de Esmeraldas."
    },
@@ -91,18 +91,7 @@
    }
   },
   "Marciana Valdivieso": {},
-  "Mónica Luzárraga": {
-   "0": {
-    "palabras": "discapacidad, lumbar, carnet, discapacitada, bailar",
-    "firma": "4e8aff872adb",
-    "texto": "Los mensajes le atribuyen haber obtenido un carné de discapacidad sin padecerla, con el fin de acceder a beneficios, y usan imágenes suyas bailando como supuesta prueba; además, la vinculan con el correísmo y ponen en duda su capacidad intelectual."
-   },
-   "1": {
-    "palabras": "parece, campaña, plena",
-    "firma": "de6cccdfca27",
-    "texto": "Los mensajes no comparten una idea única, pero coinciden en presentar sus actuaciones como oportunismo electoral: cuestionan su criterio profesional, ponen en duda una discapacidad que declara y le atribuyen cambiar de postura o dividir el voto para obtener rédito en campaña."
-   }
-  },
+  "Mónica Luzárraga": {},
   "Diana Caiza": {}
  }
 }
