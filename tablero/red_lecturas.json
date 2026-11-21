@@ -1,10 +1,10 @@
 {
- "generado": "2026-11-21T08:13-05:00",
+ "generado": "2026-11-21T08:29-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "hablar, sinvergüenza, iess, nivel, pública, debateprefectura",
+    "palabras": "sinvergüenza, hablar, iess, nivel, pública, debateprefectura",
     "firma": "0980019493fe",
     "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
    }
@@ -23,17 +23,17 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
+   "0": {
+    "palabras": "guayaquil, ayuda, drogadicto, adicción, ciudad, drogas",
+    "firma": "4c2e7093f34d",
+    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan con tono de burla como alguien que necesita ayuda. Con ello cuestionan su aptitud para la alcaldía y acusan a su esposo de beneficiarse económicamente."
+   },
    "1": {
-    "palabras": "campaña, guayaquileños, dejó, corrupta, menos, buen",
-    "firma": "eb274603eedd",
-    "texto": "La presentan como una figura corrupta rechazada por el electorado guayaquileño, heredera de la gestión de Jaime Nebot, y le atribuyen haber favorecido a su esposo en la adjudicación de terrenos; además, insinúan consumo de sustancias que pondría en duda su sobriedad durante la campaña."
+    "palabras": "pasó, adn, campaña, parece, guayaquileños, dejó",
+    "firma": "9e81e44b93e8",
+    "texto": "La presentan como una política rechazada en Guayaquil por corrupción e ineficacia que se habría reciclado bajo ADN, le atribuyen favorecer a su esposo con terrenos del aeropuerto y haber impedido un vuelo humanitario, y la equiparan con el gobierno con descalificaciones sexistas."
    },
    "3": {
-    "palabras": "ayuda, mal, serio",
-    "firma": "6d3001a12bb9",
-    "texto": "Los mensajes cuestionan su estado de salud y su capacidad para ejercer el cargo, insinúan que sus gestos en entrevistas revelan consumo de sustancias o desequilibrio, y le atribuyen, junto con su esposo, entrega irregular de tierras a una inmobiliaria."
-   },
-   "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
@@ -63,7 +63,7 @@
   },
   "Sofía Espín": {
    "0": {
-    "palabras": "guayas, gobierno, correista, guayaquil, noboa, seguridad",
+    "palabras": "guayas, gobierno, correista, noboa, guayaquil, seguridad",
     "firma": "d95381d7c59e",
     "texto": "Los mensajes la descalifican por su filiación correísta en la contienda por la Prefectura del Guayas, contrastándola con la política de seguridad del Gobierno de Daniel Noboa, le atribuyen conspiración contra un gobierno anterior y vinculan a su esposo con un supuesto manejo irregular de dinero de campaña."
    },
