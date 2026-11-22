@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T11:47-05:00",
+ "generado": "2026-11-22T12:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -17,6 +17,11 @@
     "palabras": "adn, mentirosa, miserables, ratas, delincuentes",
     "firma": "eb73901e2828",
     "texto": "Los mensajes la vinculan con ADN y presentan a esa agrupación como una organización delictiva dedicada al robo; a ella le atribuyen mentir en entrevistas y la descalifican como representante de ese grupo, con llamados a no votar por sus integrantes."
+   },
+   "3": {
+    "palabras": "debate, cara, tienes, solvencia, pichincha",
+    "firma": "97d5b65a1751",
+    "texto": "Cuestionan la solvencia atribuida a su desempeño en el debate por Pichincha, la presentan como figura dependiente del gobierno de Noboa y la juzgan inferior a Arauz. También descalifican a quienes la defienden, con burlas sobre su capacidad y su apariencia."
    }
   },
   "Carla Cevallos": {
@@ -24,6 +29,11 @@
     "palabras": "moza, vergüenza, verga",
     "firma": "9f57486a581d",
     "texto": "Los mensajes la presentan como amante de figuras masculinas, entre ellas un exalcalde, y atribuyen a esa supuesta relación su trayectoria y su candidatura, restando valor a su formación. Recurren al descrédito sexual y a la ridiculización personal en lugar de discutir sus propuestas."
+   },
+   "2": {
+    "palabras": "ricaurte, queremos, antonio",
+    "firma": "eddb74a4a7b9",
+    "texto": "Le atribuyen una relación sentimental con Antonio Ricaurte, entonces concejal y casado, y usan ese supuesto episodio para cuestionar su moralidad, la coherencia de su discurso sobre la familia y su idoneidad para el cargo; algunos mensajes lo presentan además como su asesor."
    }
   },
   "Carla Larrea": {},
@@ -34,16 +44,21 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
    "1": {
-    "palabras": "guayaquil, ayuda, pasó, drogadicto, hagan, merece",
-    "firma": "94bb6a8dadbc",
-    "texto": "Los mensajes le atribuyen una supuesta adicción a las drogas, deducida de su forma de hablar y sus gestos, y la presentan como una persona que necesita ayuda y no está apta para la alcaldía. Algunos añaden que su anterior gestión fue deficiente y que su esposo se beneficia económicamente."
+    "palabras": "ayuda, pasó, drogadicto, drogas, droga, colorada",
+    "firma": "97374ac42e48",
+    "texto": "Los mensajes le atribuyen una adicción a las drogas y la presentan como incapacitada y necesitada de ayuda. Combinan esta acusación con señalamientos de corrupción y de gasto indebido, y la muestran como un mal ejemplo para los jóvenes."
    },
    "2": {
+    "palabras": "guayaquil, hagan, merece, adicción, ciudad, administración",
+    "firma": "93cfcb9464f1",
+    "texto": "Le atribuyen de forma insinuada una adicción y exigen que se someta a un control antidopaje para presentarla como no apta para gobernar Guayaquil. También cuestionan su gestión anterior como alcaldesa, en especial el bloqueo de pistas del aeropuerto, y piden que no regrese."
+   },
+   "3": {
     "palabras": "campaña, adn, guayaquileños, dejó, corrupta, menos",
     "firma": "756645162d2c",
     "texto": "La presentan como una exalcaldesa corrupta, rechazada por el electorado guayaquileño, que ahora busca legitimarse como candidata de ADN; le atribuyen haber vaciado las cuentas municipales, adjudicado terrenos a su esposo y haber impedido el aterrizaje de un vuelo humanitario durante la pandemia."
    },
-   "3": {
+   "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
@@ -78,14 +93,14 @@
     "texto": "Los mensajes la descalifican por su filiación correísta y la contraponen al gobierno de Daniel Noboa, cuya política de seguridad defienden. Le atribuyen conductas delictivas y conspirativas y cuestionan su capacidad para ejercer un cargo local."
    },
    "1": {
-    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
-    "firma": "7e50a4b0212f",
-    "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
-   },
-   "2": {
     "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
     "firma": "6074c36a7f26",
     "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
+   },
+   "2": {
+    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
+    "firma": "7e50a4b0212f",
+    "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
    },
    "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael, mujer",
@@ -114,14 +129,19 @@
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
    "1": {
-    "palabras": "guayaquil, noboa, gobierno, dan, abogada, asco",
-    "firma": "38f12dbdf47c",
-    "texto": "La presentan como abogada de criminales y figura oportunista vinculada a la Revolución Ciudadana, a la que atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados, y cuestionan su capacidad comparándola desfavorablemente con otras mujeres en la contienda."
+    "palabras": "noboa, dan, asco, correista, mujer, peña",
+    "firma": "043d6d282fc5",
+    "texto": "Los mensajes la descalifican con expresiones de repulsión ligadas a su condición de mujer y la asocian al correísmo y a la corrupción. La presentan como ambiciosa, prepotente e improvisada, la comparan con Peña por haber cambiado de lealtad política y cuestionan su aptitud para gobernar Guayaquil."
    },
    "2": {
-    "palabras": "correista, delincuentes, será, prepotente",
-    "firma": "cc9ac27c7d7e",
-    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
+    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
+    "firma": "3fb091e7c2ad",
+    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
+   },
+   "3": {
+    "palabras": "gobierno, chimbadora, dinero, adn",
+    "firma": "4371118a8722",
+    "texto": "La presentan como una candidata funcional al Gobierno y al movimiento ADN, cuya postulación buscaría dividir el voto en favor de Cinthya V., y le reprochan no denunciar que el Gobierno retiene los recursos que corresponden a los municipios."
    }
   },
   "Diana Caiza": {}
