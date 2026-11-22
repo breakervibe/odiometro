@@ -1,13 +1,8 @@
 {
- "generado": "2026-11-21T20:59-05:00",
+ "generado": "2026-11-21T23:01-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
-   "0": {
-    "palabras": "adn, salud, sinvergüenza, hablar, nivel, iess",
-    "firma": "fa9e8897da18",
-    "texto": "Cuestionan su legitimidad para proponer mejoras de salud en la Prefectura por pertenecer a ADN, partido al que responsabilizan del deterioro de hospitales y del IESS. La presentan como portavoz de un gobierno que miente, e incluso aparece una alusión a silenciarla violentamente."
-   },
    "1": {
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
@@ -28,12 +23,12 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "3": {
+   "2": {
     "palabras": "campaña, adn, guayaquileños, dejó, corrupta, menos",
     "firma": "756645162d2c",
     "texto": "La presentan como una exalcaldesa corrupta, rechazada por el electorado guayaquileño, que ahora busca legitimarse como candidata de ADN; le atribuyen haber vaciado las cuentas municipales, adjudicado terrenos a su esposo y haber impedido el aterrizaje de un vuelo humanitario durante la pandemia."
    },
-   "4": {
+   "3": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
