@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T09:31-05:00",
+ "generado": "2026-11-22T09:48-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -19,13 +19,7 @@
     "texto": "Los mensajes la vinculan con ADN y presentan a esa agrupación como una organización delictiva dedicada al robo; a ella le atribuyen mentir en entrevistas y la descalifican como representante de ese grupo, con llamados a no votar por sus integrantes."
    }
   },
-  "Carla Cevallos": {
-   "0": {
-    "palabras": "moza, ricaurte, vergüenza, queremos",
-    "firma": "5cae0f42adcc",
-    "texto": "Le atribuyen haber sido amante de un exalcalde, al que identifican como Ricaurte, y usan esa supuesta relación para reducir su trayectoria profesional y política a un vínculo sexual, presentándola además como vocera desacreditada que difunde falsedades y motivo de vergüenza."
-   }
-  },
+  "Carla Cevallos": {},
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
@@ -34,7 +28,7 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
    "1": {
-    "palabras": "guayaquil, ayuda, pasó, drogadicto, adicción, hagan",
+    "palabras": "guayaquil, ayuda, pasó, drogadicto, hagan, adicción",
     "firma": "94bb6a8dadbc",
     "texto": "Los mensajes le atribuyen una supuesta adicción a las drogas, deducida de su forma de hablar y sus gestos, y la presentan como una persona que necesita ayuda y no está apta para la alcaldía. Algunos añaden que su anterior gestión fue deficiente y que su esposo se beneficia económicamente."
    },
@@ -78,14 +72,14 @@
     "texto": "Los mensajes la descalifican por su filiación correísta y la contraponen al gobierno de Daniel Noboa, cuya política de seguridad defienden. Le atribuyen conductas delictivas y conspirativas y cuestionan su capacidad para ejercer un cargo local."
    },
    "1": {
-    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
-    "firma": "7e50a4b0212f",
-    "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
-   },
-   "2": {
     "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
     "firma": "6074c36a7f26",
     "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
+   },
+   "2": {
+    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
+    "firma": "7e50a4b0212f",
+    "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
    },
    "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael, mujer",
