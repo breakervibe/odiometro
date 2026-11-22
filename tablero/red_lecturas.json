@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T06:37-05:00",
+ "generado": "2026-11-22T06:52-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -118,20 +118,10 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "1": {
-    "palabras": "guayaquil, noboa, gobierno, dan, abogada, asco",
-    "firma": "38f12dbdf47c",
-    "texto": "La presentan como abogada de criminales y figura oportunista vinculada a la Revolución Ciudadana, a la que atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados, y cuestionan su capacidad comparándola desfavorablemente con otras mujeres en la contienda."
-   },
-   "2": {
+   "3": {
     "palabras": "correista, delincuentes, será, prepotente, acaso",
     "firma": "12b271bb35eb",
     "texto": "Los mensajes la presentan como una figura correísta de carácter prepotente y altanero, y anticipan un ejercicio autoritario del cargo si llega a la alcaldía. Además, la asocian con delincuentes, le atribuyen complicidad silenciosa ante abusos del correísmo y cuestionan su capacidad mental."
-   },
-   "3": {
-    "palabras": "igual, amigos, vas, correismo, mal",
-    "firma": "c4f344db6cc6",
-    "texto": "La vinculan con el correísmo y la equiparan con figuras de ese movimiento procesadas o cuestionadas, atribuyéndole mentira y corrupción; anticipan que también enfrentará procesos judiciales o una derrota electoral, y combinan esa acusación con descalificaciones sexuales y misóginas."
    }
   },
   "Diana Caiza": {}
