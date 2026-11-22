@@ -1,22 +1,17 @@
 {
- "generado": "2026-11-21T19:30-05:00",
+ "generado": "2026-11-21T19:48-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "adn, sinvergüenza, hablar, nivel, iess, pública",
-    "firma": "a1d148cd36c7",
-    "texto": "Cuestionan su legitimidad para hablar de salud en la campaña por la Prefectura, al atribuir a su partido, ADN, responsabilidad por la crisis de la salud pública y del IESS. La presentan como subordinada de ese partido, al que califican de corrupto e incompetente."
+    "palabras": "adn, salud, sinvergüenza, hablar, nivel, iess",
+    "firma": "fa9e8897da18",
+    "texto": "Cuestionan su legitimidad para proponer mejoras de salud en la Prefectura por pertenecer a ADN, partido al que responsabilizan del deterioro de hospitales y del IESS. La presentan como portavoz de un gobierno que miente, e incluso aparece una alusión a silenciarla violentamente."
    },
    "1": {
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
-   },
-   "2": {
-    "palabras": "salud, gobierno, mejor, política, medicinas, hospitales",
-    "firma": "ca4485f4d749",
-    "texto": "La presentan como representante del gobierno nacional y la responsabilizan por la crisis de hospitales, medicinas y servicios públicos; cuestionan su trayectoria política, su capacidad y la credibilidad de sus ofertas de salud para Pichincha."
    }
   },
   "Carla Cevallos": {
