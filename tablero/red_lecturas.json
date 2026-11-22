@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T17:56-05:00",
+ "generado": "2026-11-22T18:12-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -12,6 +12,11 @@
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
+   },
+   "2": {
+    "palabras": "adn, mentirosa, sinvergüenzas, miserables, ratas, delincuentes",
+    "firma": "e9bd71c4bd61",
+    "texto": "Los mensajes la asocian con el movimiento ADN y con Daniel Noboa, y presentan a ese grupo como una organización de delincuentes que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a votar contra cualquier candidatura de esa agrupación."
    },
    "3": {
     "palabras": "debate, cara, tienes, solvencia, pichincha",
@@ -123,10 +128,25 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
+   "1": {
+    "palabras": "guayaquil, abogada, igual, mierda, gracias, correismo",
+    "firma": "046d73f1f7f6",
+    "texto": "La presentan como candidata del correísmo y abogada de criminales y narcotraficantes, y le atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados políticos, asociándola al deterioro de la ciudad y a otras figuras de ese movimiento."
+   },
    "2": {
-    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
-    "firma": "3fb091e7c2ad",
-    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
+    "palabras": "noboa, payasos, peña, candidatos, mujer, sergio",
+    "firma": "7d1ca4c4b9dd",
+    "texto": "La comparan con Sergio Peña, a quien presentan como alguien que abandonó al partido que lo llevó a la Asamblea. Le atribuyen ser una aliada encubierta de Noboa, dividir el electorado opositor por ambición y favorecer así a otra candidatura."
+   },
+   "3": {
+    "palabras": "gobierno, chimbadora, dinero, debe, adn",
+    "firma": "d80bf3ebc028",
+    "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
+   },
+   "4": {
+    "palabras": "correista, será, prepotente, delincuentes",
+    "firma": "cc9ac27c7d7e",
+    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
