@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T11:02-05:00",
+ "generado": "2026-11-22T11:19-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -78,14 +78,14 @@
     "texto": "Los mensajes la descalifican por su filiación correísta y la contraponen al gobierno de Daniel Noboa, cuya política de seguridad defienden. Le atribuyen conductas delictivas y conspirativas y cuestionan su capacidad para ejercer un cargo local."
    },
    "1": {
-    "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
-    "firma": "6074c36a7f26",
-    "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
-   },
-   "2": {
     "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
     "firma": "7e50a4b0212f",
     "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
+   },
+   "2": {
+    "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
+    "firma": "6074c36a7f26",
+    "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
    },
    "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael, mujer",
@@ -113,7 +113,12 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "3": {
+   "1": {
+    "palabras": "guayaquil, noboa, gobierno, dan, abogada, asco",
+    "firma": "38f12dbdf47c",
+    "texto": "La presentan como abogada de criminales y figura oportunista vinculada a la Revolución Ciudadana, a la que atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados, y cuestionan su capacidad comparándola desfavorablemente con otras mujeres en la contienda."
+   },
+   "2": {
     "palabras": "correista, delincuentes, será, prepotente",
     "firma": "cc9ac27c7d7e",
     "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
