@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T12:33-05:00",
+ "generado": "2026-11-22T12:50-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -128,20 +128,15 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "1": {
-    "palabras": "noboa, dan, asco, correista, mujer, peña",
-    "firma": "043d6d282fc5",
-    "texto": "Los mensajes la descalifican con expresiones de repulsión ligadas a su condición de mujer y la asocian al correísmo y a la corrupción. La presentan como ambiciosa, prepotente e improvisada, la comparan con Peña por haber cambiado de lealtad política y cuestionan su aptitud para gobernar Guayaquil."
-   },
-   "2": {
-    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
-    "firma": "3fb091e7c2ad",
-    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
-   },
    "3": {
-    "palabras": "gobierno, chimbadora, dinero, adn",
-    "firma": "4371118a8722",
-    "texto": "La presentan como una candidata funcional al Gobierno y al movimiento ADN, cuya postulación buscaría dividir el voto en favor de Cinthya V., y le reprochan no denunciar que el Gobierno retiene los recursos que corresponden a los municipios."
+    "palabras": "gobierno, chimbadora, dinero, debe",
+    "firma": "5a526f508106",
+    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
+   },
+   "4": {
+    "palabras": "correista, delincuentes, será, prepotente",
+    "firma": "cc9ac27c7d7e",
+    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
