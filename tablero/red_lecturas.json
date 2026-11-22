@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T14:04-05:00",
+ "generado": "2026-11-22T14:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -12,11 +12,6 @@
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
-   },
-   "2": {
-    "palabras": "adn, mentirosa, miserables, ratas, delincuentes",
-    "firma": "eb73901e2828",
-    "texto": "Los mensajes la vinculan con ADN y presentan a esa agrupación como una organización delictiva dedicada al robo; a ella le atribuyen mentir en entrevistas y la descalifican como representante de ese grupo, con llamados a no votar por sus integrantes."
    },
    "3": {
     "palabras": "debate, cara, tienes, solvencia, pichincha",
@@ -93,14 +88,14 @@
     "texto": "Los mensajes la descalifican por su filiación correísta y la contraponen al gobierno de Daniel Noboa, cuya política de seguridad defienden. Le atribuyen conductas delictivas y conspirativas y cuestionan su capacidad para ejercer un cargo local."
    },
    "1": {
-    "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
-    "firma": "6074c36a7f26",
-    "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
-   },
-   "2": {
     "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
     "firma": "7e50a4b0212f",
     "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
+   },
+   "2": {
+    "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
+    "firma": "6074c36a7f26",
+    "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
    },
    "3": {
     "palabras": "prófugo, correa, candidatos, delincuencial, rafael, mujer",
@@ -128,15 +123,10 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "3": {
-    "palabras": "gobierno, chimbadora, dinero, debe",
-    "firma": "5a526f508106",
-    "texto": "La presentan como una candidata funcional al Gobierno, colocada para dividir el voto en Guayaquil, y le reprochan no exigir al Gobierno la entrega de los fondos que corresponden a los municipios, además de descalificar sus declaraciones públicas como incoherentes."
-   },
-   "4": {
-    "palabras": "correista, delincuentes, será, prepotente",
-    "firma": "cc9ac27c7d7e",
-    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
+   "2": {
+    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
+    "firma": "3fb091e7c2ad",
+    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
    }
   },
   "Diana Caiza": {}
