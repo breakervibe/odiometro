@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T10:16-05:00",
+ "generado": "2026-11-22T10:34-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -19,7 +19,13 @@
     "texto": "Los mensajes la vinculan con ADN y presentan a esa agrupación como una organización delictiva dedicada al robo; a ella le atribuyen mentir en entrevistas y la descalifican como representante de ese grupo, con llamados a no votar por sus integrantes."
    }
   },
-  "Carla Cevallos": {},
+  "Carla Cevallos": {
+   "0": {
+    "palabras": "moza, vergüenza, verga",
+    "firma": "9f57486a581d",
+    "texto": "Los mensajes la presentan como amante de figuras masculinas, entre ellas un exalcalde, y atribuyen a esa supuesta relación su trayectoria y su candidatura, restando valor a su formación. Recurren al descrédito sexual y a la ridiculización personal en lugar de discutir sus propuestas."
+   }
+  },
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
@@ -28,7 +34,7 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
    "1": {
-    "palabras": "guayaquil, ayuda, pasó, drogadicto, hagan, adicción",
+    "palabras": "guayaquil, ayuda, pasó, drogadicto, hagan, merece",
     "firma": "94bb6a8dadbc",
     "texto": "Los mensajes le atribuyen una supuesta adicción a las drogas, deducida de su forma de hablar y sus gestos, y la presentan como una persona que necesita ayuda y no está apta para la alcaldía. Algunos añaden que su anterior gestión fue deficiente y que su esposo se beneficia económicamente."
    },
@@ -107,15 +113,10 @@
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "1": {
-    "palabras": "guayaquil, noboa, gobierno, dan, abogada, asco",
-    "firma": "38f12dbdf47c",
-    "texto": "La presentan como abogada de criminales y figura oportunista vinculada a la Revolución Ciudadana, a la que atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados, y cuestionan su capacidad comparándola desfavorablemente con otras mujeres en la contienda."
-   },
-   "2": {
-    "palabras": "correista, delincuentes, será, prepotente, acaso",
-    "firma": "12b271bb35eb",
-    "texto": "Los mensajes la presentan como una figura correísta de carácter prepotente y altanero, y anticipan un ejercicio autoritario del cargo si llega a la alcaldía. Además, la asocian con delincuentes, le atribuyen complicidad silenciosa ante abusos del correísmo y cuestionan su capacidad mental."
+   "3": {
+    "palabras": "correista, delincuentes, será, prepotente",
+    "firma": "cc9ac27c7d7e",
+    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
