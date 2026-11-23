@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T20:17-05:00",
+ "generado": "2026-11-22T20:34-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -52,11 +52,6 @@
     "palabras": "ayuda, pasó, drogadicto, drogas, droga, colorada",
     "firma": "97374ac42e48",
     "texto": "Los mensajes le atribuyen una adicción a las drogas y la presentan como incapacitada y necesitada de ayuda. Combinan esta acusación con señalamientos de corrupción y de gasto indebido, y la muestran como un mal ejemplo para los jóvenes."
-   },
-   "3": {
-    "palabras": "campaña, adn, guayaquileños, dejó, corrupta, menos",
-    "firma": "756645162d2c",
-    "texto": "La presentan como una exalcaldesa corrupta, rechazada por el electorado guayaquileño, que ahora busca legitimarse como candidata de ADN; le atribuyen haber vaciado las cuentas municipales, adjudicado terrenos a su esposo y haber impedido el aterrizaje de un vuelo humanitario durante la pandemia."
    },
    "4": {
     "palabras": "abstinencia, adicto, síndrome, sudaba",
@@ -123,12 +118,7 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "0": {
-    "palabras": "discapacidad, parece, campaña, lumbar, plena, carnet",
-    "firma": "048cea4b7f0f",
-    "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
-   },
-   "1": {
+   "2": {
     "palabras": "guayaquil, abogada, igual, correismo, narcos, peor",
     "firma": "3fb091e7c2ad",
     "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
@@ -139,9 +129,9 @@
     "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
    },
    "4": {
-    "palabras": "correista, será, prepotente, delincuentes",
-    "firma": "cc9ac27c7d7e",
-    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
+    "palabras": "mejor, nomás, seguro",
+    "firma": "b470707a04cf",
+    "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
    }
   },
   "Diana Caiza": {}
