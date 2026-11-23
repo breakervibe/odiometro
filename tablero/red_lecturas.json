@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T01:47-05:00",
+ "generado": "2026-11-23T02:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -66,7 +66,7 @@
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
    "2": {
-    "palabras": "propuestas, continuar, ideas, gestión, preguntas, video",
+    "palabras": "propuestas, continuar, ideas, gestión, video, preguntas",
     "firma": "7149c167543c",
     "texto": "Cuestionan su capacidad para el cargo a partir de un video y un debate en que, según sostienen, evade preguntas y no articula sus propuestas; además le atribuyen falta de experiencia, procesos judiciales y que pretende continuar una gestión que califican de corrupta, vinculándola con su esposo."
    },
@@ -112,11 +112,6 @@
     "palabras": "discapacidad, parece, campaña, lumbar, carnet, discapacitada",
     "firma": "aab50f4f3922",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar y le atribuyen haberlo obtenido para acceder a beneficios, contrastándolo con su actividad física en campaña; algunos añaden descalificaciones sobre su capacidad intelectual y su afiliación correísta."
-   },
-   "3": {
-    "palabras": "gobierno, chimbadora, dinero, adn, debe",
-    "firma": "d80bf3ebc028",
-    "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
    }
   },
   "Diana Caiza": {}
