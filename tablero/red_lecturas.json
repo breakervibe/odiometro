@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T09:33-05:00",
+ "generado": "2026-11-23T09:50-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -42,16 +42,6 @@
     "palabras": "avezada, gordita, campañas, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
-   },
-   "1": {
-    "palabras": "guayaquil, urgente, hagan, merece, drogadicto, adicción",
-    "firma": "83dec8fb3a0f",
-    "texto": "Le atribuyen consumo de drogas y una adicción no reconocida, y exigen que se someta a un control antidoping antes del debate, presentándola como no apta para gobernar Guayaquil. Algunos mensajes añaden que su gestión anterior dejó la ciudad en abandono."
-   },
-   "4": {
-    "palabras": "abstinencia, síndrome, adicto",
-    "firma": "991d5c3102c9",
-    "texto": "Los mensajes ridiculizan su aspecto físico en el inicio de campaña, en particular su sudoración, y la asocian con la conducta de una persona en abstinencia de drogas. Así insinúan consumo de sustancias o estados de intoxicación para desacreditarla."
    }
   },
   "Fiorella Ycaza": {
