@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T22:32-05:00",
+ "generado": "2026-11-22T23:33-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,11 +43,6 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "1": {
-    "palabras": "guayaquil, hagan, ayuda, merece, pasó, drogadicto",
-    "firma": "94bb6a8dadbc",
-    "texto": "Los mensajes le atribuyen una supuesta adicción a las drogas, deducida de su forma de hablar y sus gestos, y la presentan como una persona que necesita ayuda y no está apta para la alcaldía. Algunos añaden que su anterior gestión fue deficiente y que su esposo se beneficia económicamente."
-   },
    "3": {
     "palabras": "abstinencia, síndrome, adicto, sudaba",
     "firma": "8014d187e65c",
@@ -61,7 +56,7 @@
     "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
    },
    "1": {
-    "palabras": "propuestas, continuar, ideas, video, gestión, modelo",
+    "palabras": "propuestas, continuar, ideas, gestión, video, modelo",
     "firma": "c06d56bc207e",
     "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
    },
@@ -114,7 +109,7 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "2": {
-    "palabras": "guayaquil, abogada, igual, correismo, narcos, peor",
+    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
     "firma": "3fb091e7c2ad",
     "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
    },
