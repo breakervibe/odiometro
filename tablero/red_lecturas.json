@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T23:33-05:00",
+ "generado": "2026-11-23T00:01-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,6 +43,16 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
+   "1": {
+    "palabras": "guayaquil, hagan, merece, ayuda, pasó, drogadicto",
+    "firma": "39bd2e1c1d02",
+    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan, con tono de falsa compasión, como alguien que necesita ayuda e incapaz de ejercer la alcaldía. Además, cuestionan su gestión anterior y acusan a su esposo de beneficiarse económicamente."
+   },
+   "2": {
+    "palabras": "campaña, adn, guayaquileños, dejó, menos, corrupta",
+    "firma": "41d6e95f3b13",
+    "texto": "Le atribuyen corrupción en su gestión como alcaldesa de Guayaquil, incluido el vaciamiento de fondos municipales y adjudicaciones a favor de su esposo, y cuestionan su candidatura por ADN como un intento de lavar esa imagen ante el electorado guayaquileño."
+   },
    "3": {
     "palabras": "abstinencia, síndrome, adicto, sudaba",
     "firma": "8014d187e65c",
@@ -51,22 +61,22 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, esposa, chimichurri, alguien, juicio, sano",
-    "firma": "834246b9ba0e",
-    "texto": "La presentan como carente de méritos propios, definida sólo por ser la esposa de un exfuncionario al que le atribuyen contrabando de combustible, la fuga y el deterioro de Guayaquil. La vinculan además al correísmo como corrupto y la descalifican con insultos sexistas sobre su capacidad y su vida conyugal."
+    "palabras": "guayaquil, esposa, alguien, juicio, sano, prófugo",
+    "firma": "bf7da7fc0786",
+    "texto": "Los mensajes cuestionan su aptitud para la Alcaldía de Guayaquil, sostienen que su único mérito es ser la esposa de su marido y extienden a ella las acusaciones de delito y fuga atribuidas a él, además de vincularla con una supuesta corrupción del correísmo."
    },
    "1": {
-    "palabras": "propuestas, continuar, ideas, gestión, video, modelo",
-    "firma": "c06d56bc207e",
-    "texto": "Cuestionan su preparación y le atribuyen incapacidad para articular ideas y responder sobre sus propuestas. Además, la presentan como continuadora de una gestión previa que califican de corrupta y sostienen que procesos judiciales le impedirían ejercer la Alcaldía de Guayaquil."
+    "palabras": "marido, paso, dinero, amante, icaza, prisión",
+    "firma": "c31404a3d398",
+    "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
    "2": {
-    "palabras": "marido, paso, dinero, amante, icaza, prisión",
-    "firma": "b34b16c45fb6",
-    "texto": "Vinculan a la candidata con la prisión preventiva por lavado de dinero dictada contra la mujer que señalan como amante de su esposo, sugieren que ella correrá la misma suerte y atribuyen su candidatura a buscar inmunidad judicial o vengarse de una infidelidad."
+    "palabras": "propuestas, continuar, ideas, gestión, preguntas, video",
+    "firma": "7149c167543c",
+    "texto": "Cuestionan su capacidad para el cargo a partir de un video y un debate en que, según sostienen, evade preguntas y no articula sus propuestas; además le atribuyen falta de experiencia, procesos judiciales y que pretende continuar una gestión que califican de corrupta, vinculándola con su esposo."
    },
    "3": {
-    "palabras": "parada, idea, mal, chica, articular, preguntan",
+    "palabras": "parada, mal, idea, chica, articular, preguntan",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    }
@@ -108,20 +118,25 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, parece, campaña, lumbar, carnet, discapacitada",
+    "firma": "aab50f4f3922",
+    "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar y le atribuyen haberlo obtenido para acceder a beneficios, contrastándolo con su actividad física en campaña; algunos añaden descalificaciones sobre su capacidad intelectual y su afiliación correísta."
+   },
+   "1": {
+    "palabras": "guayaquil, abogada, igual, mierda, gracias, narcos",
+    "firma": "046d73f1f7f6",
+    "texto": "La presentan como candidata del correísmo y abogada de criminales y narcotraficantes, y le atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados políticos, asociándola al deterioro de la ciudad y a otras figuras de ese movimiento."
+   },
    "2": {
-    "palabras": "guayaquil, abogada, igual, narcos, correismo, peor",
-    "firma": "3fb091e7c2ad",
-    "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
+    "palabras": "noboa, peña, correista, mujer, será, prepotente",
+    "firma": "616efc515a42",
+    "texto": "La presentan como una réplica femenina de Sergio Peña, a quien le atribuyen haber traicionado al correísmo; la acusan de dividir ese electorado en favor de Noboa, quien la respaldaría en secreto, y la descalifican por un supuesto carácter prepotente impropio de un cargo público."
    },
    "3": {
     "palabras": "gobierno, chimbadora, dinero, adn, debe",
     "firma": "d80bf3ebc028",
     "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
-   },
-   "4": {
-    "palabras": "mejor, nomás, seguro",
-    "firma": "b470707a04cf",
-    "texto": "Cuestionan su idoneidad y vaticinan su derrota; la asocian con el respaldo de Pocho Harb, la equiparan con Yunda y le atribuyen defender a narcotraficantes. Estos ataques se mezclan con otros sobre consumo de drogas dirigidos contra otro aspirante."
    }
   },
   "Diana Caiza": {}
