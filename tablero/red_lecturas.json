@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T08:40-05:00",
+ "generado": "2026-11-23T08:58-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -55,11 +55,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, alguien, juicio, sano, prófugo",
-    "firma": "5e52da36ac99",
-    "texto": "Cuestionan su idoneidad para la Alcaldía de Guayaquil y sostienen que su único mérito es ser la esposa del alcalde. La vinculan al correísmo y a Rafael Correa, le atribuyen complicidad en los delitos imputados a su esposo y la responsabilizan por la gestión de este."
-   },
    "1": {
     "palabras": "marido, paso, dinero, amante, icaza, prisión",
     "firma": "c31404a3d398",
