@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T06:39-05:00",
+ "generado": "2026-11-23T07:00-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -47,16 +47,6 @@
     "palabras": "guayaquil, urgente, hagan, merece, drogadicto, adicción",
     "firma": "83dec8fb3a0f",
     "texto": "Le atribuyen consumo de drogas y una adicción no reconocida, y exigen que se someta a un control antidoping antes del debate, presentándola como no apta para gobernar Guayaquil. Algunos mensajes añaden que su gestión anterior dejó la ciudad en abandono."
-   },
-   "2": {
-    "palabras": "ayuda, pasó, campaña, colorada, drogas, marido",
-    "firma": "8497ad8f6801",
-    "texto": "La narrativa le atribuye consumo de drogas o fármacos para explicar su comportamiento en público y la presenta como necesitada de ayuda; además, la ridiculizan por su edad y su aspecto y cuestionan que habría antepuesto a su esposo a su labor en el municipio."
-   },
-   "3": {
-    "palabras": "adn, guayaquileños, menos, dejó, corrupta, buen",
-    "firma": "f0c7cce0899c",
-    "texto": "La presentan como una exalcaldesa corrupta, rechazada por los guayaquileños, a la que acusan de vaciar las cuentas municipales y beneficiar a su esposo con terrenos del nuevo aeropuerto. Cuestionan su candidatura por ADN como un intento de lavar su imagen y le atribuyen consumo de drogas."
    },
    "4": {
     "palabras": "abstinencia, síndrome, adicto",
@@ -129,7 +119,7 @@
     "texto": "Le atribuyen haber obtenido de forma indebida un carnet de discapacidad por una afección lumbar para acceder a beneficios, y usan su actividad física en campaña, como bailar, para sostener que la discapacidad es fingida y exigir que se le retire."
    },
    "1": {
-    "palabras": "noboa, guayaquil, gobierno, peor, abogada, igual",
+    "palabras": "noboa, guayaquil, peor, gobierno, abogada, igual",
     "firma": "678e827d6b92",
     "texto": "La presentan como oportunista que ataca a Noboa para ganar posiciones y que debe su candidatura al correísmo, y cuestionan su ejercicio como abogada de presuntos criminales y su idoneidad para gobernar Guayaquil, a cuyo deterioro la asocian."
    },
@@ -138,15 +128,10 @@
     "firma": "cea8fb751c50",
     "texto": "La presentan como una política oportunista que habría crecido gracias a Revolución Ciudadana y ahora la ataca, comparándola con Sergio Peña. Además le atribuyen corrupción, consumo de alcohol y la descalifican con comentarios sobre su cuerpo y su ambición."
    },
-   "3": {
+   "4": {
     "palabras": "correa, apoyo, rafael",
     "firma": "54f8ebbc44d0",
     "texto": null
-   },
-   "4": {
-    "palabras": "pipo, corrupta, podría, españa",
-    "firma": "92a05d0d90eb",
-    "texto": "La presentan como corrupta y defensora de narcotraficantes, a partir de un viaje a España que le atribuyen para defender a un acusado de asesinato. Refuerzan el ataque con alusiones a consumo de alcohol, descalificaciones sexualizadas y señalamientos sobre incumplir normas electorales."
    }
   },
   "Diana Caiza": {}
