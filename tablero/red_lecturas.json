@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T21:48-05:00",
+ "generado": "2026-11-22T22:08-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -44,17 +44,12 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
    "1": {
-    "palabras": "guayaquil, hagan, merece, adicción, ciudad, administración",
-    "firma": "93cfcb9464f1",
-    "texto": "Le atribuyen de forma insinuada una adicción y exigen que se someta a un control antidopaje para presentarla como no apta para gobernar Guayaquil. También cuestionan su gestión anterior como alcaldesa, en especial el bloqueo de pistas del aeropuerto, y piden que no regrese."
+    "palabras": "guayaquil, hagan, ayuda, merece, pasó, drogadicto",
+    "firma": "94bb6a8dadbc",
+    "texto": "Los mensajes le atribuyen una supuesta adicción a las drogas, deducida de su forma de hablar y sus gestos, y la presentan como una persona que necesita ayuda y no está apta para la alcaldía. Algunos añaden que su anterior gestión fue deficiente y que su esposo se beneficia económicamente."
    },
-   "2": {
-    "palabras": "ayuda, pasó, drogadicto, drogas, droga, colorada",
-    "firma": "97374ac42e48",
-    "texto": "Los mensajes le atribuyen una adicción a las drogas y la presentan como incapacitada y necesitada de ayuda. Combinan esta acusación con señalamientos de corrupción y de gasto indebido, y la muestran como un mal ejemplo para los jóvenes."
-   },
-   "4": {
-    "palabras": "abstinencia, adicto, síndrome, sudaba",
+   "3": {
+    "palabras": "abstinencia, síndrome, adicto, sudaba",
     "firma": "8014d187e65c",
     "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
    }
@@ -76,7 +71,7 @@
     "texto": "Vinculan a la candidata con la prisión preventiva por lavado de dinero dictada contra la mujer que señalan como amante de su esposo, sugieren que ella correrá la misma suerte y atribuyen su candidatura a buscar inmunidad judicial o vengarse de una infidelidad."
    },
    "3": {
-    "palabras": "parada, mal, idea, chica, articular, preguntan",
+    "palabras": "parada, idea, mal, chica, articular, preguntan",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    }
@@ -124,7 +119,7 @@
     "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
    },
    "3": {
-    "palabras": "gobierno, chimbadora, dinero, debe, adn",
+    "palabras": "gobierno, chimbadora, dinero, adn, debe",
     "firma": "d80bf3ebc028",
     "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
    },
