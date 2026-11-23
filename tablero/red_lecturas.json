@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T19:31-05:00",
+ "generado": "2026-11-22T19:49-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -19,7 +19,7 @@
     "texto": "Los mensajes la asocian con el movimiento ADN y con Daniel Noboa, y presentan a ese grupo como una organización de delincuentes que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a votar contra cualquier candidatura de esa agrupación."
    },
    "3": {
-    "palabras": "debate, cara, tienes, solvencia, pichincha",
+    "palabras": "debate, tienes, cara, solvencia, pichincha",
     "firma": "97d5b65a1751",
     "texto": "Cuestionan la solvencia atribuida a su desempeño en el debate por Pichincha, la presentan como figura dependiente del gobierno de Noboa y la juzgan inferior a Arauz. También descalifican a quienes la defienden, con burlas sobre su capacidad y su apariencia."
    }
@@ -44,14 +44,14 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
    "1": {
-    "palabras": "ayuda, pasó, drogadicto, drogas, droga, colorada",
-    "firma": "97374ac42e48",
-    "texto": "Los mensajes le atribuyen una adicción a las drogas y la presentan como incapacitada y necesitada de ayuda. Combinan esta acusación con señalamientos de corrupción y de gasto indebido, y la muestran como un mal ejemplo para los jóvenes."
-   },
-   "2": {
     "palabras": "guayaquil, hagan, merece, adicción, ciudad, administración",
     "firma": "93cfcb9464f1",
     "texto": "Le atribuyen de forma insinuada una adicción y exigen que se someta a un control antidopaje para presentarla como no apta para gobernar Guayaquil. También cuestionan su gestión anterior como alcaldesa, en especial el bloqueo de pistas del aeropuerto, y piden que no regrese."
+   },
+   "2": {
+    "palabras": "ayuda, pasó, drogadicto, drogas, droga, colorada",
+    "firma": "97374ac42e48",
+    "texto": "Los mensajes le atribuyen una adicción a las drogas y la presentan como incapacitada y necesitada de ayuda. Combinan esta acusación con señalamientos de corrupción y de gasto indebido, y la muestran como un mal ejemplo para los jóvenes."
    },
    "3": {
     "palabras": "campaña, adn, guayaquileños, dejó, corrupta, menos",
@@ -124,11 +124,11 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "discapacidad, parece, campaña, plena, lumbar, carnet",
+    "palabras": "discapacidad, parece, campaña, lumbar, plena, carnet",
     "firma": "048cea4b7f0f",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar, contrastándola con su actividad física en campaña, y le atribuyen haberlo obtenido para acceder a beneficios sin padecer realmente la condición."
    },
-   "2": {
+   "1": {
     "palabras": "guayaquil, abogada, igual, correismo, narcos, peor",
     "firma": "3fb091e7c2ad",
     "texto": "Los mensajes la presentan como abogada de narcotraficantes y criminales vinculada al correísmo, y sostienen que usaría los recursos de Guayaquil para encubrir a sus aliados. Cuestionan además su capacidad y su preparación para gobernar, y le atribuyen prepotencia y desacato a la ley."
@@ -137,6 +137,11 @@
     "palabras": "gobierno, chimbadora, dinero, debe, adn",
     "firma": "d80bf3ebc028",
     "texto": "La presentan como candidata funcional al gobierno y a ADN, cuya función sería dividir el voto para favorecer a otra opción, y le reprochan callar sobre la retención de recursos que el gobierno debe transferir a los municipios."
+   },
+   "4": {
+    "palabras": "correista, será, prepotente, delincuentes",
+    "firma": "cc9ac27c7d7e",
+    "texto": "Los mensajes la vinculan con el correísmo y la asocian a figuras acusadas de delitos, a quienes atribuyen fraudes y violencia que ella habría callado. La presentan como prepotente e irrespetuosa de la ley, y advierten que ese carácter se agravaría si llegara a la alcaldía de Guayaquil."
    }
   },
   "Diana Caiza": {}
