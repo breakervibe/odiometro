@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T00:54-05:00",
+ "generado": "2026-11-23T01:14-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,20 +43,15 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "1": {
-    "palabras": "guayaquil, hagan, merece, ayuda, pasó, drogadicto",
-    "firma": "39bd2e1c1d02",
-    "texto": "Le atribuyen una adicción a las drogas a partir de su forma de hablar y sus gestos, y la presentan, con tono de falsa compasión, como alguien que necesita ayuda e incapaz de ejercer la alcaldía. Además, cuestionan su gestión anterior y acusan a su esposo de beneficiarse económicamente."
-   },
-   "2": {
+   "3": {
     "palabras": "campaña, adn, guayaquileños, dejó, menos, corrupta",
     "firma": "41d6e95f3b13",
     "texto": "Le atribuyen corrupción en su gestión como alcaldesa de Guayaquil, incluido el vaciamiento de fondos municipales y adjudicaciones a favor de su esposo, y cuestionan su candidatura por ADN como un intento de lavar esa imagen ante el electorado guayaquileño."
    },
-   "3": {
-    "palabras": "abstinencia, síndrome, adicto, sudaba",
-    "firma": "8014d187e65c",
-    "texto": "Los mensajes interpretan su aspecto físico durante el inicio de campaña como señal de consumo de drogas, presentándola como adicta o bajo efectos de sustancias, y la ridiculizan para cuestionar su sobriedad y su idoneidad."
+   "4": {
+    "palabras": "abstinencia, síndrome, adicto",
+    "firma": "991d5c3102c9",
+    "texto": "Los mensajes ridiculizan su aspecto físico en el inicio de campaña, en particular su sudoración, y la asocian con la conducta de una persona en abstinencia de drogas. Así insinúan consumo de sustancias o estados de intoxicación para desacreditarla."
    }
   },
   "Fiorella Ycaza": {
@@ -97,11 +92,6 @@
     "firma": "6074c36a7f26",
     "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
    },
-   "3": {
-    "palabras": "prófugo, correa, candidatos, delincuencial, rafael, mujer",
-    "firma": "9460fdb1c235",
-    "texto": "Los mensajes la descalifican por su vínculo con Rafael Correa y la Revolución Ciudadana, a quienes asocian con la corrupción y la delincuencia, cuestionan su capacidad y sus propuestas, y extienden el desprecio a las mujeres que respaldan esa opción política."
-   },
    "4": {
     "palabras": "energía, eléctrica, pagar, gratis",
     "firma": "0d676a2044f4",
@@ -122,16 +112,6 @@
     "palabras": "discapacidad, parece, campaña, lumbar, carnet, discapacitada",
     "firma": "aab50f4f3922",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar y le atribuyen haberlo obtenido para acceder a beneficios, contrastándolo con su actividad física en campaña; algunos añaden descalificaciones sobre su capacidad intelectual y su afiliación correísta."
-   },
-   "1": {
-    "palabras": "guayaquil, abogada, igual, mierda, gracias, narcos",
-    "firma": "046d73f1f7f6",
-    "texto": "La presentan como candidata del correísmo y abogada de criminales y narcotraficantes, y le atribuyen la intención de usar los recursos de Guayaquil para proteger a sus aliados políticos, asociándola al deterioro de la ciudad y a otras figuras de ese movimiento."
-   },
-   "2": {
-    "palabras": "noboa, peña, correista, mujer, será, prepotente",
-    "firma": "616efc515a42",
-    "texto": "La presentan como una réplica femenina de Sergio Peña, a quien le atribuyen haber traicionado al correísmo; la acusan de dividir ese electorado en favor de Noboa, quien la respaldaría en secreto, y la descalifican por un supuesto carácter prepotente impropio de un cargo público."
    },
    "3": {
     "palabras": "gobierno, chimbadora, dinero, adn, debe",
