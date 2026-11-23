@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T12:14-05:00",
+ "generado": "2026-11-23T12:32-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -48,11 +48,6 @@
     "firma": "83dec8fb3a0f",
     "texto": "Le atribuyen consumo de drogas y una adicción no reconocida, y exigen que se someta a un control antidoping antes del debate, presentándola como no apta para gobernar Guayaquil. Algunos mensajes añaden que su gestión anterior dejó la ciudad en abandono."
    },
-   "2": {
-    "palabras": "peor, trata, ayuda, pasó, colorada, marido",
-    "firma": "0f747275ecde",
-    "texto": "Los mensajes la atacan por su vida privada: le atribuyen consumo de drogas, infidelidad y haber colocado a su pareja en el municipio. La ridiculizan con alusiones a su aspecto y salud mental y la presentan como alguien que obtuvo cargos a cambio de favores sexuales."
-   },
    "3": {
     "palabras": "campaña, adn, guayaquileños, menos, dejó, corrupta",
     "firma": "e166e7f52a67",
@@ -82,27 +77,17 @@
    }
   },
   "Sofía Espín": {
-   "0": {
-    "palabras": "gobierno, correista, noboa, junto, seguridad, daniel",
-    "firma": "d0b4799e58a5",
-    "texto": "Los mensajes la descalifican por su filiación correísta y la contraponen al gobierno de Daniel Noboa, cuya política de seguridad defienden. Le atribuyen conductas delictivas y conspirativas y cuestionan su capacidad para ejercer un cargo local."
-   },
    "1": {
     "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
     "firma": "7e50a4b0212f",
     "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
    },
    "2": {
-    "palabras": "guayas, guayaquil, tratando, anda, campaña, dinero",
-    "firma": "6074c36a7f26",
-    "texto": "La presentan como candidata del correísmo que financiaría su campaña con dinero irregular: atribuyen a su esposo el manejo de pagos en efectivo y a ella el cobro de diezmos a sus asesores. Además, descalifican sus propuestas para Guayas como promesas populistas."
-   },
-   "3": {
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "a254abe5f0c9",
     "texto": "Los mensajes la vinculan con Rafael Correa y el correísmo, al que califican de prófugo y delictivo, y la presentan como candidata incapaz, fanática y cómplice de la corrupción, con descalificaciones que se extienden a las mujeres ecuatorianas como incapaces de decidir por sí mismas."
    },
-   "4": {
+   "3": {
     "palabras": "energía, eléctrica, pagar, gratis",
     "firma": "0d676a2044f4",
     "texto": "Ridiculizan la supuesta oferta de electricidad gratuita que atribuyen a Sofía Espín y Alberto Cajamarca, presentándola como engaño populista e incoherente con su discurso sobre los ricos, y la descalifican aludiendo a su destitución y vinculándola sexualmente con Jorge Glas."
