@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T13:33-05:00",
+ "generado": "2026-11-24T13:53-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -38,11 +38,6 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "1": {
-    "palabras": "guayaquil, urgente, hagan, merece, ayuda, drogadicto",
-    "firma": "5bbc9e5e7238",
-    "texto": "Los mensajes le atribuyen consumo de drogas y una afección mental o neurológica, y presentan una supuesta preocupación por su salud como argumento para declararla incapaz de volver a gobernar Guayaquil. Uno la contrasta con la candidatura de Fiorella como garantía de continuidad."
-   },
    "2": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
@@ -52,11 +47,6 @@
     "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
     "firma": "ee07eeac1eb0",
     "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
-   },
-   "4": {
-    "palabras": "marido, quiero, drogas, dar, vida",
-    "firma": "66be0870e20d",
-    "texto": "Le atribuyen consumo de drogas, compartido con su esposo, y la descalifican para gobernar por ello. Le imputan además corrupción en la pandemia y el uso de favores sexuales para obtener cargos. Rechazan su candidatura por asociarla a su esposo."
    }
   },
   "Fiorella Ycaza": {
@@ -82,16 +72,6 @@
    }
   },
   "Sofía Espín": {
-   "0": {
-    "palabras": "guayas, guayaquil, gobierno, correista, noboa, junto",
-    "firma": "1a8d355b8c1f",
-    "texto": "Los mensajes la presentan como una figura correísta sin legitimidad para gobernar el Guayas, le atribuyen conspiración contra un gobierno anterior y promesas populistas, y contraponen sus críticas a la gestión de seguridad y emergencias del gobierno de Daniel Noboa."
-   },
-   "1": {
-    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, mafias",
-    "firma": "7e50a4b0212f",
-    "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
-   },
    "2": {
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "9d989e109593",
