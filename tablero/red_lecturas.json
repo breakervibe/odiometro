@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T18:49-05:00",
+ "generado": "2026-11-23T19:11-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,25 +43,10 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "1": {
-    "palabras": "guayaquil, urgente, hagan, merece, drogadicto, adicción",
-    "firma": "83dec8fb3a0f",
-    "texto": "Le atribuyen consumo de drogas y una adicción no reconocida, y exigen que se someta a un control antidoping antes del debate, presentándola como no apta para gobernar Guayaquil. Algunos mensajes añaden que su gestión anterior dejó la ciudad en abandono."
-   },
-   "2": {
-    "palabras": "peor, trata, ayuda, pasó, colorada, municipio",
-    "firma": "20d1cc14f286",
-    "texto": "Le atribuyen consumo de drogas o fármacos, la presentan como alguien que necesita rehabilitación y se burlan de su aspecto y su edad. También cuestionan su gestión anterior como alcaldesa de Guayaquil y la vinculan con Daniel Noboa para restarle credibilidad."
-   },
-   "3": {
-    "palabras": "campaña, adn, guayaquileños, menos, dejó, corrupta",
+   "4": {
+    "palabras": "campaña, adn, menos, guayaquileños, dejó, corrupta",
     "firma": "a9fdbdd685a7",
     "texto": "Los mensajes la presentan como una exalcaldesa rechazada por los guayaquileños, a quien atribuyen corrupción, vaciamiento de fondos municipales, reparto de contratos a familiares y la negativa a un vuelo humanitario en pandemia, y cuestionan su candidatura con ADN como intento de lavar esa imagen."
-   },
-   "4": {
-    "palabras": "marido, drogas, dar, vida, mal",
-    "firma": "c4a1a68b203f",
-    "texto": "Le atribuyen consumo de drogas compartido con su esposo y la presentan como incapaz de gobernar. Además, la acusan de corrupción, de beneficiarse de negocios de tierras de su esposo y de haber obtenido cargos a cambio de favores sexuales."
    }
   },
   "Fiorella Ycaza": {
