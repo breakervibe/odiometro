@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-24T07:04-05:00",
+ "generado": "2026-11-24T07:25-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "sinvergüenza, salud, hablar, nivel, iess, pública",
-    "firma": "725653c27f16",
-    "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, al vincularla con ADN y responsabilizar a ese partido del deterioro de hospitales y del IESS; le atribuyen ofrecer promesas inviables y la presentan como subordinada a su partido."
+    "palabras": "adn, sinvergüenza, hablar, nivel, iess, pública",
+    "firma": "a1d148cd36c7",
+    "texto": "Cuestionan su legitimidad para hablar de salud en la campaña por la Prefectura, al atribuir a su partido, ADN, responsabilidad por la crisis de la salud pública y del IESS. La presentan como subordinada de ese partido, al que califican de corrupto e incompetente."
    },
    "1": {
     "palabras": "noboa, menos, narco, repudian",
@@ -14,9 +14,9 @@
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
    "2": {
-    "palabras": "adn, mentirosa, sinvergüenzas, miserables, ratas, delincuentes",
-    "firma": "e9bd71c4bd61",
-    "texto": "Los mensajes la asocian con el movimiento ADN y con Daniel Noboa, y presentan a ese grupo como una organización de delincuentes que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a votar contra cualquier candidatura de esa agrupación."
+    "palabras": "salud, gobierno, mejor, política, medicinas, hospitales",
+    "firma": "ca4485f4d749",
+    "texto": "La presentan como representante del gobierno nacional y la responsabilizan por la crisis de hospitales, medicinas y servicios públicos; cuestionan su trayectoria política, su capacidad y la credibilidad de sus ofertas de salud para Pichincha."
    },
    "3": {
     "palabras": "debate, tienes, cara, solvencia, pichincha",
@@ -47,16 +47,6 @@
     "palabras": "peor, trata, municipio, colorada, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
-   },
-   "3": {
-    "palabras": "urgente, ayuda, drogadicto, drogadicta, necesita, droga",
-    "firma": "261cc14cf682",
-    "texto": "Le atribuyen consumo de drogas y un deterioro físico y mental que, según los mensajes, le impediría controlarse, y la presentan como alguien que necesita tratamiento urgente. Con un tono de falsa compasión cuestionan su aptitud para el cargo y su respaldo electoral, y le suman acusaciones de corrupción."
-   },
-   "4": {
-    "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
-    "firma": "ee07eeac1eb0",
-    "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
    }
   },
   "Fiorella Ycaza": {
@@ -99,13 +89,7 @@
    }
   },
   "Yadira Bayas": {},
-  "Roberta Zambrano": {
-   "0": {
-    "palabras": "esmeraldas, corrupta, gobierno, morillo",
-    "firma": "4b3f858e4ca1",
-    "texto": "La presentan como candidata corrupta del Gobierno en Esmeraldas y le atribuyen gestiones irregulares con la ministra Nataly Morillo para obtener fondos de instituciones públicas. Piden que no gobierne la provincia y reclaman su caída junto a otros señalados por corrupción."
-   }
-  },
+  "Roberta Zambrano": {},
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
