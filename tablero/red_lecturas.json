@@ -1,10 +1,10 @@
 {
- "generado": "2026-11-24T06:15-05:00",
+ "generado": "2026-11-24T06:33-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "salud, sinvergüenza, hablar, nivel, iess, pública",
+    "palabras": "sinvergüenza, salud, hablar, nivel, iess, pública",
     "firma": "725653c27f16",
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, al vincularla con ADN y responsabilizar a ese partido del deterioro de hospitales y del IESS; le atribuyen ofrecer promesas inviables y la presentan como subordinada a su partido."
    },
@@ -60,22 +60,12 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
+   "1": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "1": {
-    "palabras": "guayaquil, prófugo, propuestas, preguntas, campaña, contrabandista",
-    "firma": "04360682cb69",
-    "texto": "La presentan como subordinada a Rafael Correa y le atribuyen complicidad con su esposo, a quien vinculan con el contrabando de combustible. Además cuestionan su desempeño en el debate por la Alcaldía de Guayaquil, su supuesta evasión de entrevistas y su capacidad para responder preguntas."
-   },
    "2": {
-    "palabras": "esposa, alguien, correista, parece, juicio, sano",
-    "firma": "06407314c114",
-    "texto": "Los mensajes niegan que tenga méritos propios para la Alcaldía de Guayaquil y reducen su trayectoria a ser esposa de su marido, a quien presentan como delincuente. La vinculan al correísmo como sinónimo de corrupción y cuestionan la sensatez de votar por ella."
-   },
-   "3": {
     "palabras": "gestión, continuar, ideas, video, evade, modelo",
     "firma": "1a1607bf463c",
     "texto": "Cuestionan su preparación a partir de un video viral en el que, según los mensajes, no articula sus ideas y evade preguntas sobre sus propuestas. Además, la asocian con la delincuencia, le atribuyen la intención de continuar una gestión que califican de corrupta y sostienen que sus procesos judiciales le impedirían ejercer el cargo."
