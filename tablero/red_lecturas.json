@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T23:03-05:00",
+ "generado": "2026-11-23T23:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -45,7 +45,7 @@
    }
   },
   "Fiorella Ycaza": {
-   "1": {
+   "0": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
@@ -83,8 +83,8 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "3": {
-    "palabras": "españa, pipo, corrupta, podría, viajó",
+   "2": {
+    "palabras": "españa, pipo, corrupta, viajó, podría",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
