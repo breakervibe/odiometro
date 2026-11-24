@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T14:27-05:00",
+ "generado": "2026-11-24T14:47-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -38,15 +38,15 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
+   "1": {
+    "palabras": "guayaquil, marido, quiero, hagan, merece, drogas",
+    "firma": "5d97dfd73220",
+    "texto": "Le atribuyen consumo de drogas, incluso junto a su esposo, y corrupción en la gestión de Guayaquil, en especial durante la pandemia. Usan su vida sentimental y sexual, con alusiones a sus parejas y supuestas infidelidades, para descalificarla como apta para gobernar la ciudad."
+   },
    "2": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
-   },
-   "3": {
-    "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
-    "firma": "ee07eeac1eb0",
-    "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
    }
   },
   "Fiorella Ycaza": {
