@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T09:07-05:00",
+ "generado": "2026-11-24T09:27-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -50,12 +50,22 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, prófugo, propuestas, preguntas, campaña, contrabandista",
+    "firma": "04360682cb69",
+    "texto": "La presentan como subordinada a Rafael Correa y le atribuyen complicidad con su esposo, a quien vinculan con el contrabando de combustible. Además cuestionan su desempeño en el debate por la Alcaldía de Guayaquil, su supuesta evasión de entrevistas y su capacidad para responder preguntas."
+   },
    "1": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
    "2": {
+    "palabras": "esposa, alguien, correista, parece, sano, juicio",
+    "firma": "06407314c114",
+    "texto": "Los mensajes niegan que tenga méritos propios para la Alcaldía de Guayaquil y reducen su trayectoria a ser esposa de su marido, a quien presentan como delincuente. La vinculan al correísmo como sinónimo de corrupción y cuestionan la sensatez de votar por ella."
+   },
+   "3": {
     "palabras": "gestión, continuar, ideas, video, evade, modelo",
     "firma": "1a1607bf463c",
     "texto": "Cuestionan su preparación a partir de un video viral en el que, según los mensajes, no articula sus ideas y evade preguntas sobre sus propuestas. Además, la asocian con la delincuencia, le atribuyen la intención de continuar una gestión que califican de corrupta y sostienen que sus procesos judiciales le impedirían ejercer el cargo."
@@ -103,14 +113,14 @@
     "texto": "La presentan como subordinada al gobierno de Noboa, acusándola de no defender a Guayaquil ante un supuesto bloqueo, y también la vinculan al correísmo. Cuestionan su preparación y su apego a la ley, y le atribuyen la defensa de criminales como abogada."
    },
    "2": {
-    "palabras": "españa, pipo, corrupta, viajó, podría",
-    "firma": "9ca8c877e456",
-    "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
-   },
-   "3": {
     "palabras": "mujer, prueba, dió, peña, mal",
     "firma": "90bbfe41eb90",
     "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
+   },
+   "3": {
+    "palabras": "españa, pipo, corrupta, viajó, podría",
+    "firma": "9ca8c877e456",
+    "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
    "4": {
     "palabras": "dan, políticos, asco",
