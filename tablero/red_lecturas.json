@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T10:00-05:00",
+ "generado": "2026-11-24T10:22-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -26,9 +26,9 @@
   },
   "Carla Cevallos": {
    "0": {
-    "palabras": "moza, ricaurte, vergüenza, queremos, verga",
-    "firma": "f6e3a804a331",
-    "texto": "Los mensajes reducen su trayectoria a una supuesta relación sentimental con un exalcalde, a la que atribuyen su posición política, y la descalifican como difusora de falsedades financiada con fondos públicos, vinculándola con otras figuras políticas a las que también desacreditan."
+    "palabras": "moza, vergüenza, ricaurte, queremos",
+    "firma": "5cae0f42adcc",
+    "texto": "Le atribuyen haber sido amante de un exalcalde, al que identifican como Ricaurte, y usan esa supuesta relación para reducir su trayectoria profesional y política a un vínculo sexual, presentándola además como vocera desacreditada que difunde falsedades y motivo de vergüenza."
    }
   },
   "Carla Larrea": {},
@@ -37,11 +37,6 @@
     "palabras": "avezada, gordita, campañas, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
-   },
-   "1": {
-    "palabras": "guayaquil, marido, quiero, hagan, merece, drogas",
-    "firma": "5d97dfd73220",
-    "texto": "Le atribuyen consumo de drogas, incluso junto a su esposo, y corrupción en la gestión de Guayaquil, en especial durante la pandemia. Usan su vida sentimental y sexual, con alusiones a sus parejas y supuestas infidelidades, para descalificarla como apta para gobernar la ciudad."
    },
    "2": {
     "palabras": "peor, trata, municipio, colorada, debate, habla",
