@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T15:19-05:00",
+ "generado": "2026-11-24T15:40-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -44,7 +44,7 @@
     "texto": "Le atribuyen consumo de drogas, incluso junto a su esposo, y corrupción en la gestión de Guayaquil, en especial durante la pandemia. Usan su vida sentimental y sexual, con alusiones a sus parejas y supuestas infidelidades, para descalificarla como apta para gobernar la ciudad."
    },
    "2": {
-    "palabras": "peor, trata, colorada, municipio, debate, habla",
+    "palabras": "peor, trata, municipio, colorada, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    }
@@ -109,7 +109,7 @@
     "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
    },
    "3": {
-    "palabras": "españa, pipo, corrupta, viajó, podría",
+    "palabras": "españa, pipo, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
