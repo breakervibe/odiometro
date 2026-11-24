@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T19:48-05:00",
+ "generado": "2026-11-23T20:08-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,8 +43,13 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico. Sin embargo, la escasez de mensajes impide identificar una acusación concreta y sostenida."
    },
-   "4": {
-    "palabras": "campaña, adn, menos, guayaquileños, dejó, corrupta",
+   "2": {
+    "palabras": "peor, trata, ayuda, pasó, colorada, municipio",
+    "firma": "20d1cc14f286",
+    "texto": "Le atribuyen consumo de drogas o fármacos, la presentan como alguien que necesita rehabilitación y se burlan de su aspecto y su edad. También cuestionan su gestión anterior como alcaldesa de Guayaquil y la vinculan con Daniel Noboa para restarle credibilidad."
+   },
+   "3": {
+    "palabras": "campaña, adn, guayaquileños, menos, dejó, corrupta",
     "firma": "a9fdbdd685a7",
     "texto": "Los mensajes la presentan como una exalcaldesa rechazada por los guayaquileños, a quien atribuyen corrupción, vaciamiento de fondos municipales, reparto de contratos a familiares y la negativa a un vuelo humanitario en pandemia, y cuestionan su candidatura con ADN como intento de lavar esa imagen."
    }
