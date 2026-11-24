@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T23:52-05:00",
+ "generado": "2026-11-24T00:15-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -42,6 +42,26 @@
     "palabras": "avezada, gordita, campañas, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
+   },
+   "1": {
+    "palabras": "guayaquil, marido, quiero, hagan, merece, drogas",
+    "firma": "5d97dfd73220",
+    "texto": "Le atribuyen consumo de drogas, incluso junto a su esposo, y corrupción en la gestión de Guayaquil, en especial durante la pandemia. Usan su vida sentimental y sexual, con alusiones a sus parejas y supuestas infidelidades, para descalificarla como apta para gobernar la ciudad."
+   },
+   "2": {
+    "palabras": "peor, trata, colorada, municipio, debate, habla",
+    "firma": "cf9c159520cf",
+    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
+   },
+   "3": {
+    "palabras": "urgente, ayuda, drogadicto, drogadicta, necesita, droga",
+    "firma": "261cc14cf682",
+    "texto": "Le atribuyen consumo de drogas y un deterioro físico y mental que, según los mensajes, le impediría controlarse, y la presentan como alguien que necesita tratamiento urgente. Con un tono de falsa compasión cuestionan su aptitud para el cargo y su respaldo electoral, y le suman acusaciones de corrupción."
+   },
+   "4": {
+    "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
+    "firma": "ee07eeac1eb0",
+    "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
    }
   },
   "Fiorella Ycaza": {
@@ -49,6 +69,21 @@
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "1": {
+    "palabras": "esposa, alguien, correista, juicio, sano, parece",
+    "firma": "06407314c114",
+    "texto": "Los mensajes niegan que tenga méritos propios para la Alcaldía de Guayaquil y reducen su trayectoria a ser esposa de su marido, a quien presentan como delincuente. La vinculan al correísmo como sinónimo de corrupción y cuestionan la sensatez de votar por ella."
+   },
+   "2": {
+    "palabras": "guayaquil, prófugo, propuestas, preguntas, campaña, combustible",
+    "firma": "04360682cb69",
+    "texto": "La presentan como subordinada a Rafael Correa y le atribuyen complicidad con su esposo, a quien vinculan con el contrabando de combustible. Además cuestionan su desempeño en el debate por la Alcaldía de Guayaquil, su supuesta evasión de entrevistas y su capacidad para responder preguntas."
+   },
+   "3": {
+    "palabras": "gestión, continuar, ideas, video, evade, modelo",
+    "firma": "1a1607bf463c",
+    "texto": "Cuestionan su preparación a partir de un video viral en el que, según los mensajes, no articula sus ideas y evade preguntas sobre sus propuestas. Además, la asocian con la delincuencia, le atribuyen la intención de continuar una gestión que califican de corrupta y sostienen que sus procesos judiciales le impedirían ejercer el cargo."
    },
    "4": {
     "palabras": "parada, mal, idea, chica, articular, preguntan",
@@ -67,6 +102,11 @@
     "firma": "7e50a4b0212f",
     "texto": "Los mensajes presentan a la candidata y a su entorno político como delincuentes vinculados a mafias y grupos criminales, exigen su encarcelamiento y descalifican cualquier exigencia pública suya como ilegítima, asociándola además con la izquierda y con intenciones de robar."
    },
+   "2": {
+    "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
+    "firma": "9d989e109593",
+    "texto": "La presentan como una ficha del correísmo, subordinada a Rafael Correa, al que llaman prófugo, y la descalifican por incapaz y fanática. Extienden a ella y a su partido acusaciones de corrupción y complicidad delictiva, y desprecian a las mujeres que la apoyan."
+   },
    "3": {
     "palabras": "energía, eléctrica, pagar, gratis",
     "firma": "0d676a2044f4",
@@ -83,10 +123,25 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, parece, campaña, lumbar, milagro, carnet",
+    "firma": "8853757e3b23",
+    "texto": "Cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar y le atribuyen haberlo obtenido para acceder a beneficios. Contrastan esa condición con su actividad física en campaña, que presentan como prueba de un fraude, y añaden descalificaciones sobre su capacidad intelectual y su filiación correísta."
+   },
+   "1": {
+    "palabras": "noboa, guayaquil, peor, gobierno, abogada, chimbadora",
+    "firma": "a8db879241d9",
+    "texto": "La presentan como subordinada al gobierno de Noboa, acusándola de no defender a Guayaquil ante un supuesto bloqueo, y también la vinculan al correísmo. Cuestionan su preparación y su apego a la ley, y le atribuyen la defensa de criminales como abogada."
+   },
    "2": {
     "palabras": "españa, pipo, corrupta, viajó, podría",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
+   },
+   "3": {
+    "palabras": "mujer, prueba, dió, peña, mal",
+    "firma": "90bbfe41eb90",
+    "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
    },
    "4": {
     "palabras": "correa, apoyo, rafael",
