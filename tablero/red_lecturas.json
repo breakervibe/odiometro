@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-25T12:45-05:00",
+ "generado": "2026-11-25T12:52-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
    "0": {
-    "palabras": "sinvergüenza, salud, hablar, nivel, iess, pública",
-    "firma": "725653c27f16",
-    "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, al vincularla con ADN y responsabilizar a ese partido del deterioro de hospitales y del IESS; le atribuyen ofrecer promesas inviables y la presentan como subordinada a su partido."
+    "palabras": "sinvergüenza, hablar, nivel, iess, pública, debateprefectura",
+    "firma": "0980019493fe",
+    "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
    },
    "1": {
     "palabras": "adn, igual, mentirosa, miserables, ratas, sinvergüenzas",
@@ -19,14 +19,14 @@
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
    "3": {
+    "palabras": "salud, gobierno, política, mejor, medicinas",
+    "firma": "f6280bf9bb89",
+    "texto": "La presentan como recién llegada a la política y representante de un gobierno nacional al que responsabilizan del deterioro de hospitales y de la falta de medicinas. Desestiman sus propuestas de salud para la provincia y cuestionan su capacidad de responder sin apoyo de asesores."
+   },
+   "4": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
     "firma": "97d5b65a1751",
     "texto": "Cuestionan la solvencia atribuida a su desempeño en el debate por Pichincha, la presentan como figura dependiente del gobierno de Noboa y la juzgan inferior a Arauz. También descalifican a quienes la defienden, con burlas sobre su capacidad y su apariencia."
-   },
-   "4": {
-    "palabras": "gobierno, política, mejor",
-    "firma": "f32da0dcd0ca",
-    "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
   "Carla Cevallos": {
