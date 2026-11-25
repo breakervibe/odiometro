@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T23:54-05:00",
+ "generado": "2026-11-25T00:17-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -22,6 +22,11 @@
     "palabras": "cara, debate, tienes, solvencia, pichincha",
     "firma": "97d5b65a1751",
     "texto": "Cuestionan la solvencia atribuida a su desempeño en el debate por Pichincha, la presentan como figura dependiente del gobierno de Noboa y la juzgan inferior a Arauz. También descalifican a quienes la defienden, con burlas sobre su capacidad y su apariencia."
+   },
+   "4": {
+    "palabras": "gobierno, mejor, política",
+    "firma": "f32da0dcd0ca",
+    "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
   "Carla Cevallos": {
@@ -60,10 +65,30 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, propuestas, preguntas, correista, entrevista, delincuente",
+    "firma": "b93cf0e917bd",
+    "texto": "La presentan como candidata correísta sin preparación que evade preguntas y entrevistas, y le atribuyen la intención de continuar la corrupción imputada a su esposo, encarcelado, y a Rafael Correa, sugiriendo que su esposo la dirigiría desde prisión."
+   },
    "1": {
+    "palabras": "esposa, prófugo, campaña, contrabandista, tenía, alguien",
+    "firma": "4b82ebb7c7e3",
+    "texto": "La definen principalmente como esposa de un hombre al que acusan de contrabando de combustible, le niegan méritos propios para la alcaldía de Guayaquil, le atribuyen vínculos con lavado de activos y exigen su inhabilitación, cuestionando además que la respalde una figura que describen como prófuga."
+   },
+   "2": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "3": {
+    "palabras": "modelo, pretende, continuar, gestión, ideas, aseguró",
+    "firma": "8cfa27e85aad",
+    "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
+   },
+   "4": {
+    "palabras": "parada, chica, mal, idea, articular",
+    "firma": "3760154b3869",
+    "texto": "Los mensajes la presentan como incapaz de articular ideas o responder con claridad en entrevistas, sin preparación ni experiencia en administración pública, dependiente de asesores y como heredera de un proyecto familiar, en contraste desfavorable con León Febres-Cordero y Jaime Nebot."
    }
   },
   "Sofía Espín": {
@@ -89,13 +114,24 @@
    }
   },
   "Yadira Bayas": {},
-  "Roberta Zambrano": {},
+  "Roberta Zambrano": {
+   "0": {
+    "palabras": "esmeraldas, provincia, debe, morillo",
+    "firma": "87c4b6242294",
+    "texto": "La presentan como candidata corrupta del gobierno de Daniel Noboa, le atribuyen gestionar fondos irregulares con la ministra Nataly Morillo y facilitar el narcotráfico en Esmeraldas, e insinúan una relación sentimental con el presidente para desacreditarla ante el electorado provincial."
+   }
+  },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
     "palabras": "discapacidad, parece, campaña, lumbar, milagro, carnet",
     "firma": "8853757e3b23",
     "texto": "Cuestionan la legitimidad de su carnet de discapacidad por una afección lumbar y le atribuyen haberlo obtenido para acceder a beneficios. Contrastan esa condición con su actividad física en campaña, que presentan como prueba de un fraude, y añaden descalificaciones sobre su capacidad intelectual y su filiación correísta."
+   },
+   "1": {
+    "palabras": "noboa, guayaquil, peor, gobierno, abogada, chimbadora",
+    "firma": "4bd370c08f6e",
+    "texto": "La presentan como oportunista que cambia de bando: unos le reprochan no haber defendido a Guayaquil ante el gobierno de Noboa y le atribuyen beneficios personales por apoyarlo; otros la vinculan al correísmo y sostienen que ataca a Noboa para ascender políticamente."
    },
    "2": {
     "palabras": "mujer, prueba, dió, peña, mal",
