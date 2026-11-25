@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T09:14-05:00",
+ "generado": "2026-11-25T09:32-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -59,14 +59,14 @@
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
    "3": {
-    "palabras": "marido, urgente, quiero, ayuda, drogas, necesita",
-    "firma": "d8dc99a5c88e",
-    "texto": "Le atribuyen consumo de drogas junto a su esposo y la presentan como alguien mentalmente incapaz que requiere rehabilitación urgente. Asocian esto con acusaciones de robo, insinuaciones sexuales sobre cómo obtuvo cargos y rechazo a su aspiración a la alcaldía."
-   },
-   "4": {
     "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
     "firma": "9c1590af3a63",
     "texto": "Le atribuyen consumo de drogas y la acusan de corrupción e ineficacia durante su gestión en la alcaldía de Guayaquil, incluido haber vaciado sus cuentas. Cuestionan su alianza con ADN, presentándola como rechazada por el electorado guayaquileño y extendiendo el señalamiento de adicción al presidente Noboa."
+   },
+   "4": {
+    "palabras": "marido, quiero, drogas, dar, vida",
+    "firma": "66be0870e20d",
+    "texto": "Le atribuyen consumo de drogas, compartido con su esposo, y la descalifican para gobernar por ello. Le imputan además corrupción en la pandemia y el uso de favores sexuales para obtener cargos. Rechazan su candidatura por asociarla a su esposo."
    }
   },
   "Fiorella Ycaza": {
