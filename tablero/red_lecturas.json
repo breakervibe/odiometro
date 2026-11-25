@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T04:28-05:00",
+ "generado": "2026-11-25T04:49-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -55,11 +55,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, propuestas, preguntas, correista, entrevista, delincuente",
-    "firma": "b93cf0e917bd",
-    "texto": "La presentan como candidata correísta sin preparación que evade preguntas y entrevistas, y le atribuyen la intención de continuar la corrupción imputada a su esposo, encarcelado, y a Rafael Correa, sugiriendo que su esposo la dirigiría desde prisión."
-   },
    "1": {
     "palabras": "esposa, prófugo, campaña, contrabandista, tenía, alguien",
     "firma": "4b82ebb7c7e3",
@@ -74,11 +69,6 @@
     "palabras": "modelo, pretende, continuar, gestión, ideas, aseguró",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
-   },
-   "4": {
-    "palabras": "parada, chica, mal, idea, articular",
-    "firma": "3760154b3869",
-    "texto": "Los mensajes la presentan como incapaz de articular ideas o responder con claridad en entrevistas, sin preparación ni experiencia en administración pública, dependiente de asesores y como heredera de un proyecto familiar, en contraste desfavorable con León Febres-Cordero y Jaime Nebot."
    }
   },
   "Sofía Espín": {
