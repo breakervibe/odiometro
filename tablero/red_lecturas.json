@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T22:18-05:00",
+ "generado": "2026-11-24T22:35-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,7 +9,7 @@
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, al vincularla con ADN y responsabilizar a ese partido del deterioro de hospitales y del IESS; le atribuyen ofrecer promesas inviables y la presentan como subordinada a su partido."
    },
    "1": {
-    "palabras": "noboa, menos, narco, repudian",
+    "palabras": "noboa, narco, menos, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
@@ -60,15 +60,10 @@
    }
   },
   "Fiorella Ycaza": {
-   "2": {
+   "1": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
-   },
-   "3": {
-    "palabras": "modelo, pretende, continuar, gestión, ideas, video",
-    "firma": "1a1607bf463c",
-    "texto": "Cuestionan su preparación a partir de un video viral en el que, según los mensajes, no articula sus ideas y evade preguntas sobre sus propuestas. Además, la asocian con la delincuencia, le atribuyen la intención de continuar una gestión que califican de corrupta y sostienen que sus procesos judiciales le impedirían ejercer el cargo."
    },
    "4": {
     "palabras": "parada, chica, mal, idea, articular, preguntan",
