@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T14:37-05:00",
+ "generado": "2026-11-25T14:56-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,22 +43,27 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "1": {
-    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
-    "firma": "7d62a8490293",
-    "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
+   "2": {
+    "palabras": "peor, colorada, trata, municipio, debate, habla",
+    "firma": "cf9c159520cf",
+    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
-   "4": {
-    "palabras": "hablar, adicción, problema, actual, forma",
-    "firma": "5a5e7d824f5e",
-    "texto": null
+   "3": {
+    "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
+    "firma": "ee07eeac1eb0",
+    "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
    }
   },
   "Fiorella Ycaza": {
-   "1": {
+   "0": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "1": {
+    "palabras": "esposa, prófugo, campaña, tenía, contrabandista, alguien",
+    "firma": "4b82ebb7c7e3",
+    "texto": "La definen principalmente como esposa de un hombre al que acusan de contrabando de combustible, le niegan méritos propios para la alcaldía de Guayaquil, le atribuyen vínculos con lavado de activos y exigen su inhabilitación, cuestionando además que la respalde una figura que describen como prófuga."
    },
    "2": {
     "palabras": "modelo, continuar, gestión, pretende, ideas, video",
@@ -66,7 +71,7 @@
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
    },
    "3": {
-    "palabras": "guayaquil, propuestas, preguntas, correa, municipio, debate",
+    "palabras": "guayaquil, propuestas, preguntas, municipio, correa, debate",
     "firma": "25a8b8107da9",
     "texto": "La presentan como incapaz de gobernar Guayaquil por su desempeño en el debate: le atribuyen leer, evadir preguntas y carecer de propuestas, formación y experiencia. La retratan como subordinada a Rafael Correa y sugieren que su esposo la asesoraría desde prisión."
    }
