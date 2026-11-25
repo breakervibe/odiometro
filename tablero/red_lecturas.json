@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T09:46-05:00",
+ "generado": "2026-11-25T10:16-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -53,15 +53,10 @@
     "firma": "7d62a8490293",
     "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
    },
-   "2": {
+   "3": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
-   },
-   "3": {
-    "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
-    "firma": "9c1590af3a63",
-    "texto": "Le atribuyen consumo de drogas y la acusan de corrupción e ineficacia durante su gestión en la alcaldía de Guayaquil, incluido haber vaciado sus cuentas. Cuestionan su alianza con ADN, presentándola como rechazada por el electorado guayaquileño y extendiendo el señalamiento de adicción al presidente Noboa."
    },
    "4": {
     "palabras": "marido, quiero, drogas, dar, vida",
@@ -71,17 +66,12 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "esposa, prófugo, campaña, tenía, contrabandista, alguien",
-    "firma": "4b82ebb7c7e3",
-    "texto": "La definen principalmente como esposa de un hombre al que acusan de contrabando de combustible, le niegan méritos propios para la alcaldía de Guayaquil, le atribuyen vínculos con lavado de activos y exigen su inhabilitación, cuestionando además que la respalde una figura que describen como prófuga."
-   },
-   "1": {
     "palabras": "marido, dinero, paso, amante, icaza, chimichurri",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
    "2": {
-    "palabras": "modelo, continuar, pretende, gestión, ideas, aseguró",
+    "palabras": "modelo, continuar, pretende, gestión, ideas, video",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
    }
@@ -142,11 +132,6 @@
     "palabras": "españa, pipo, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
-   },
-   "4": {
-    "palabras": "dan, políticos, asco",
-    "firma": "f3387fd92fba",
-    "texto": "Los mensajes expresan repulsión hacia la clase política en general, a la que presentan como degradada y carente del respeto de otras épocas, e incluyen a la candidata en ese rechazo; uno le atribuye un carné de discapacidad irregular y cuestiona a quienes la apoyan desde redes sociales."
    }
   },
   "Diana Caiza": {}
