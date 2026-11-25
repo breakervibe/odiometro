@@ -1,8 +1,13 @@
 {
- "generado": "2026-11-25T17:45-05:00",
+ "generado": "2026-11-25T18:04-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
+   "0": {
+    "palabras": "sinvergüenza, salud, hablar, nivel, iess, niunsolovotoparaadn",
+    "firma": "e4c5b0ed599e",
+    "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
+   },
    "1": {
     "palabras": "adn, igual, mentirosa, miserables, sinvergüenzas, ratas",
     "firma": "636e8539ed1e",
@@ -43,6 +48,11 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
+   "1": {
+    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
+    "firma": "15b3fea5eb72",
+    "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la declaran indigna de gobernar Guayaquil frente a Fiorella Ycaza. Otros mensajes descalifican la capacidad de Ycaza y la presentan como candidata de un dirigente prófugo."
+   },
    "2": {
     "palabras": "peor, colorada, trata, municipio, debate, habla",
     "firma": "cf9c159520cf",
@@ -52,10 +62,20 @@
     "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
     "firma": "ee07eeac1eb0",
     "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
+   },
+   "4": {
+    "palabras": "marido, drogas, quiero, dar, vida, mal",
+    "firma": "8eadf9c4c39b",
+    "texto": "Le atribuyen consumo y adicción a las drogas, compartido con su esposo, y la acusan de corrupción en cargos públicos, incluida la pandemia y negocios de tierras. Algunos mensajes sexualizan su trayectoria política y la vinculan a las prácticas atribuidas a su esposo para rechazar su candidatura."
    }
   },
   "Fiorella Ycaza": {
    "0": {
+    "palabras": "esposa, prófugo, esposo, campaña, correista, tenía",
+    "firma": "88f072ef640a",
+    "texto": "La reducen a su condición de esposa de un hombre al que acusan de contrabando y lavado de activos, le atribuyen complicidad en esos delitos y la vinculan al correísmo y a Luisa González para negarle capacidad propia y exigir su inhabilitación."
+   },
+   "1": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
@@ -69,6 +89,11 @@
     "palabras": "guayaquil, propuestas, preguntas, correa, municipio, debate",
     "firma": "25a8b8107da9",
     "texto": "La presentan como incapaz de gobernar Guayaquil por su desempeño en el debate: le atribuyen leer, evadir preguntas y carecer de propuestas, formación y experiencia. La retratan como subordinada a Rafael Correa y sugieren que su esposo la asesoraría desde prisión."
+   },
+   "4": {
+    "palabras": "parada, chica, mal, idea",
+    "firma": "0bf693b27631",
+    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
    }
   },
   "Sofía Espín": {
