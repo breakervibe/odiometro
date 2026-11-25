@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T13:51-05:00",
+ "generado": "2026-11-25T14:09-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -26,7 +26,7 @@
   },
   "Carla Cevallos": {
    "0": {
-    "palabras": "moza, vergüenza, ricaurte",
+    "palabras": "moza, ricaurte, vergüenza",
     "firma": "69cf34f9bf1c",
     "texto": "La presentan como amante de un exalcalde y reducen su trayectoria profesional y política a esa supuesta relación, que usan para desacreditarla y para restar valor a sus denuncias, negando a la vez que esa descalificación tenga carácter machista."
    },
@@ -48,15 +48,10 @@
     "firma": "7d62a8490293",
     "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
    },
-   "3": {
-    "palabras": "peor, trata, colorada, municipio, debate, habla",
-    "firma": "cf9c159520cf",
-    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
-   },
    "4": {
-    "palabras": "marido, quiero, drogas, dar, vida",
-    "firma": "66be0870e20d",
-    "texto": "Le atribuyen consumo de drogas, compartido con su esposo, y la descalifican para gobernar por ello. Le imputan además corrupción en la pandemia y el uso de favores sexuales para obtener cargos. Rechazan su candidatura por asociarla a su esposo."
+    "palabras": "hablar, adicción, problema, actual, forma",
+    "firma": "5a5e7d824f5e",
+    "texto": null
    }
   },
   "Fiorella Ycaza": {
@@ -65,10 +60,15 @@
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
+   "2": {
+    "palabras": "modelo, continuar, gestión, pretende, ideas, video",
+    "firma": "8cfa27e85aad",
+    "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
+   },
    "3": {
-    "palabras": "parada, chica, mal, idea",
-    "firma": "0bf693b27631",
-    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
+    "palabras": "guayaquil, propuestas, preguntas, correa, municipio, debate",
+    "firma": "25a8b8107da9",
+    "texto": "La presentan como incapaz de gobernar Guayaquil por su desempeño en el debate: le atribuyen leer, evadir preguntas y carecer de propuestas, formación y experiencia. La retratan como subordinada a Rafael Correa y sugieren que su esposo la asesoraría desde prisión."
    }
   },
   "Sofía Espín": {
