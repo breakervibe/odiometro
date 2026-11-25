@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T11:51-05:00",
+ "generado": "2026-11-25T12:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -12,6 +12,11 @@
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
+   },
+   "2": {
+    "palabras": "adn, igual, mentirosa, miserables, ratas, sinvergüenzas",
+    "firma": "d2a54add1eb4",
+    "texto": "Los mensajes atacan a la candidata a través de su partido, ADN, al que presentan como una organización corrupta que miente y busca enriquecerse con recursos públicos. Le atribuyen falta de honestidad y llaman a no votar por ella ni por sus aliados, incluido Daniel Noboa."
    },
    "3": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -79,6 +84,16 @@
     "palabras": "modelo, continuar, pretende, gestión, ideas, video",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
+   },
+   "3": {
+    "palabras": "guayaquil, propuestas, preguntas, correa, municipio, debate",
+    "firma": "25a8b8107da9",
+    "texto": "La presentan como incapaz de gobernar Guayaquil por su desempeño en el debate: le atribuyen leer, evadir preguntas y carecer de propuestas, formación y experiencia. La retratan como subordinada a Rafael Correa y sugieren que su esposo la asesoraría desde prisión."
+   },
+   "4": {
+    "palabras": "esposo, correístas, correista, delincuente, parece, cachuda",
+    "firma": "df1491442105",
+    "texto": "La presentan como correísta corrupta que continuaría los delitos atribuidos a su esposo, a quien llaman delincuente y preso. Además la ridiculizan aludiendo a una supuesta infidelidad de él, le reprochan indiferencia ante su encarcelamiento y descalifican a sus votantes."
    }
   },
   "Sofía Espín": {
@@ -137,6 +152,11 @@
     "palabras": "mujer, prueba, dió, peña, mal",
     "firma": "90bbfe41eb90",
     "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
+   },
+   "4": {
+    "palabras": "correa, prófugo, apoyo, rafael",
+    "firma": "58f1c6ad8845",
+    "texto": null
    }
   },
   "Diana Caiza": {}
