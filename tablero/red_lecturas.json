@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T05:45-05:00",
+ "generado": "2026-11-25T06:03-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -17,6 +17,11 @@
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
+   },
+   "3": {
+    "palabras": "salud, gobierno, mejor, política, medicinas",
+    "firma": "f6280bf9bb89",
+    "texto": "La presentan como recién llegada a la política y representante de un gobierno nacional al que responsabilizan del deterioro de hospitales y de la falta de medicinas. Desestiman sus propuestas de salud para la provincia y cuestionan su capacidad de responder sin apoyo de asesores."
    },
    "4": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -43,10 +48,20 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
+   "1": {
+    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
+    "firma": "7d62a8490293",
+    "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
+   },
    "2": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
+   },
+   "3": {
+    "palabras": "marido, urgente, quiero, ayuda, drogas, necesita",
+    "firma": "d8dc99a5c88e",
+    "texto": "Le atribuyen consumo de drogas junto a su esposo y la presentan como alguien mentalmente incapaz que requiere rehabilitación urgente. Asocian esto con acusaciones de robo, insinuaciones sexuales sobre cómo obtuvo cargos y rechazo a su aspiración a la alcaldía."
    },
    "4": {
     "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
@@ -55,6 +70,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, propuestas, preguntas, correista, delincuente, esposo",
+    "firma": "d0ca38e9436f",
+    "texto": "La presentan como subordinada de Rafael Correa y continuadora de la supuesta corrupción de su esposo encarcelado. Cuestionan su desempeño en el debate por la Alcaldía de Guayaquil, le atribuyen evadir preguntas y entrevistas, y la descalifican por falta de experiencia y preparación."
+   },
    "1": {
     "palabras": "esposa, prófugo, campaña, contrabandista, tenía, alguien",
     "firma": "4b82ebb7c7e3",
@@ -69,6 +89,11 @@
     "palabras": "modelo, pretende, continuar, gestión, ideas, aseguró",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
+   },
+   "4": {
+    "palabras": "parada, chica, mal, idea",
+    "firma": "0bf693b27631",
+    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
    }
   },
   "Sofía Espín": {
@@ -76,6 +101,11 @@
     "palabras": "guayas, guayaquil, gobierno, correista, noboa, junto",
     "firma": "7c118f82a59c",
     "texto": "La presentan como figura correísta opuesta al gobierno de Noboa, le atribuyen una salida del cargo en 2018 por supuesta conspiración y cuestionan su candidatura en Guayas tachando de populistas sus propuestas sobre tarifas eléctricas y negando su conocimiento sobre emergencias climáticas."
+   },
+   "1": {
+    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, narcos",
+    "firma": "912e696c3c52",
+    "texto": "Los mensajes la presentan, junto con su partido y su entorno familiar, como parte de una red delictiva vinculada al narcotráfico y al crimen organizado, exigen su encarcelamiento y la acusan de enriquecimiento ilícito, combinando estas acusaciones con agresiones sexistas sobre su cuerpo."
    },
    "2": {
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
@@ -94,6 +124,11 @@
     "palabras": "esmeraldas, provincia, debe, morillo",
     "firma": "87c4b6242294",
     "texto": "La presentan como candidata corrupta del gobierno de Daniel Noboa, le atribuyen gestionar fondos irregulares con la ministra Nataly Morillo y facilitar el narcotráfico en Esmeraldas, e insinúan una relación sentimental con el presidente para desacreditarla ante el electorado provincial."
+   },
+   "1": {
+    "palabras": "adn, gobierno, corrupta, credibilidad",
+    "firma": "2801988cbccc",
+    "texto": "La presentan como corrupta y parte de una estructura de ADN y del gobierno, a la que asocian con robo y mentira; le niegan credibilidad, cuestionan una encuesta que le atribuyen y la vinculan con la ministra Nataly Morillo, recurriendo además a la animalización."
    }
   },
   "Marciana Valdivieso": {},
