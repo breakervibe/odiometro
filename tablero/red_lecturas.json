@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T12:19-05:00",
+ "generado": "2026-11-25T12:45-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,14 +9,14 @@
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, al vincularla con ADN y responsabilizar a ese partido del deterioro de hospitales y del IESS; le atribuyen ofrecer promesas inviables y la presentan como subordinada a su partido."
    },
    "1": {
+    "palabras": "adn, igual, mentirosa, miserables, ratas, sinvergüenzas",
+    "firma": "636e8539ed1e",
+    "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
+   },
+   "2": {
     "palabras": "noboa, menos, narco, repudian",
     "firma": "d6d9335b592c",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
-   },
-   "2": {
-    "palabras": "adn, igual, mentirosa, miserables, ratas, sinvergüenzas",
-    "firma": "d2a54add1eb4",
-    "texto": "Los mensajes atacan a la candidata a través de su partido, ADN, al que presentan como una organización corrupta que miente y busca enriquecerse con recursos públicos. Le atribuyen falta de honestidad y llaman a no votar por ella ni por sus aliados, incluido Daniel Noboa."
    },
    "3": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -53,32 +53,22 @@
     "firma": "7d62a8490293",
     "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
    },
-   "2": {
-    "palabras": "marido, urgente, quiero, drogas, ayuda, necesita",
-    "firma": "d8dc99a5c88e",
-    "texto": "Le atribuyen consumo de drogas junto a su esposo y la presentan como alguien mentalmente incapaz que requiere rehabilitación urgente. Asocian esto con acusaciones de robo, insinuaciones sexuales sobre cómo obtuvo cargos y rechazo a su aspiración a la alcaldía."
-   },
    "3": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
    "4": {
-    "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
-    "firma": "9c1590af3a63",
-    "texto": "Le atribuyen consumo de drogas y la acusan de corrupción e ineficacia durante su gestión en la alcaldía de Guayaquil, incluido haber vaciado sus cuentas. Cuestionan su alianza con ADN, presentándola como rechazada por el electorado guayaquileño y extendiendo el señalamiento de adicción al presidente Noboa."
+    "palabras": "marido, quiero, drogas, dar, vida",
+    "firma": "66be0870e20d",
+    "texto": "Le atribuyen consumo de drogas, compartido con su esposo, y la descalifican para gobernar por ello. Le imputan además corrupción en la pandemia y el uso de favores sexuales para obtener cargos. Rechazan su candidatura por asociarla a su esposo."
    }
   },
   "Fiorella Ycaza": {
-   "0": {
+   "1": {
     "palabras": "marido, dinero, paso, amante, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
-   },
-   "1": {
-    "palabras": "esposa, prófugo, campaña, tenía, contrabandista, alguien",
-    "firma": "4b82ebb7c7e3",
-    "texto": "La definen principalmente como esposa de un hombre al que acusan de contrabando de combustible, le niegan méritos propios para la alcaldía de Guayaquil, le atribuyen vínculos con lavado de activos y exigen su inhabilitación, cuestionando además que la respalde una figura que describen como prófuga."
    },
    "2": {
     "palabras": "modelo, continuar, pretende, gestión, ideas, video",
@@ -89,11 +79,6 @@
     "palabras": "guayaquil, propuestas, preguntas, correa, municipio, debate",
     "firma": "25a8b8107da9",
     "texto": "La presentan como incapaz de gobernar Guayaquil por su desempeño en el debate: le atribuyen leer, evadir preguntas y carecer de propuestas, formación y experiencia. La retratan como subordinada a Rafael Correa y sugieren que su esposo la asesoraría desde prisión."
-   },
-   "4": {
-    "palabras": "esposo, correístas, correista, delincuente, parece, cachuda",
-    "firma": "df1491442105",
-    "texto": "La presentan como correísta corrupta que continuaría los delitos atribuidos a su esposo, a quien llaman delincuente y preso. Además la ridiculizan aludiendo a una supuesta infidelidad de él, le reprochan indiferencia ante su encarcelamiento y descalifican a sus votantes."
    }
   },
   "Sofía Espín": {
