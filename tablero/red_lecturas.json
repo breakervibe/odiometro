@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T02:27-05:00",
+ "generado": "2026-11-25T02:44-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -43,17 +43,12 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "1": {
-    "palabras": "guayaquil, marido, urgente, quiero, hagan, ayuda",
-    "firma": "618dda8842f9",
-    "texto": "Los mensajes le atribuyen consumo de drogas, también junto a su esposo, y la presentan como incapacitada y necesitada de tratamiento, exigiéndole controles antidoping para debatir. Algunos añaden acusaciones de corrupción durante su alcaldía y de haber obtenido cargos a cambio de favores sexuales."
-   },
-   "2": {
+   "3": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
-   "3": {
+   "4": {
     "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
     "firma": "9c1590af3a63",
     "texto": "Le atribuyen consumo de drogas y la acusan de corrupción e ineficacia durante su gestión en la alcaldía de Guayaquil, incluido haber vaciado sus cuentas. Cuestionan su alianza con ADN, presentándola como rechazada por el electorado guayaquileño y extendiendo el señalamiento de adicción al presidente Noboa."
