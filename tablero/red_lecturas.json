@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T23:05-05:00",
+ "generado": "2026-11-24T23:23-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -26,7 +26,7 @@
   },
   "Carla Cevallos": {
    "0": {
-    "palabras": "moza, ricaurte, vergüenza",
+    "palabras": "moza, vergüenza, ricaurte",
     "firma": "69cf34f9bf1c",
     "texto": "La presentan como amante de un exalcalde y reducen su trayectoria profesional y política a esa supuesta relación, que usan para desacreditarla y para restar valor a sus denuncias, negando a la vez que esa descalificación tenga carácter machista."
    },
@@ -64,11 +64,6 @@
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
-   },
-   "4": {
-    "palabras": "parada, chica, mal, idea, articular, preguntan",
-    "firma": "8a4ec8a03312",
-    "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    }
   },
   "Sofía Espín": {
