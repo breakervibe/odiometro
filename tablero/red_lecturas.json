@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T08:32-05:00",
+ "generado": "2026-11-25T08:48-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,7 +9,7 @@
     "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
    },
    "1": {
-    "palabras": "adn, igual, mentirosa, miserables, sinvergüenzas, ratas",
+    "palabras": "adn, igual, mentirosa, miserables, ratas, sinvergüenzas",
     "firma": "636e8539ed1e",
     "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
    },
@@ -71,29 +71,19 @@
   },
   "Fiorella Ycaza": {
    "0": {
-    "palabras": "guayaquil, propuestas, preguntas, correista, esposo, correístas",
-    "firma": "d0ca38e9436f",
-    "texto": "La presentan como subordinada de Rafael Correa y continuadora de la supuesta corrupción de su esposo encarcelado. Cuestionan su desempeño en el debate por la Alcaldía de Guayaquil, le atribuyen evadir preguntas y entrevistas, y la descalifican por falta de experiencia y preparación."
-   },
-   "1": {
     "palabras": "esposa, prófugo, campaña, tenía, contrabandista, alguien",
     "firma": "4b82ebb7c7e3",
     "texto": "La definen principalmente como esposa de un hombre al que acusan de contrabando de combustible, le niegan méritos propios para la alcaldía de Guayaquil, le atribuyen vínculos con lavado de activos y exigen su inhabilitación, cuestionando además que la respalde una figura que describen como prófuga."
    },
-   "2": {
-    "palabras": "marido, paso, dinero, icaza, amante, prisión",
+   "1": {
+    "palabras": "marido, dinero, paso, amante, icaza, chimichurri",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "3": {
-    "palabras": "modelo, pretende, continuar, gestión, ideas, aseguró",
+   "2": {
+    "palabras": "modelo, continuar, pretende, gestión, ideas, aseguró",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
-   },
-   "4": {
-    "palabras": "parada, chica, mal, idea",
-    "firma": "0bf693b27631",
-    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
    }
   },
   "Sofía Espín": {
