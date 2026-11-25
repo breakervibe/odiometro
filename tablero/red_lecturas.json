@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T00:32-05:00",
+ "generado": "2026-11-25T01:04-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -97,11 +97,6 @@
     "firma": "7c118f82a59c",
     "texto": "La presentan como figura correísta opuesta al gobierno de Noboa, le atribuyen una salida del cargo en 2018 por supuesta conspiración y cuestionan su candidatura en Guayas tachando de populistas sus propuestas sobre tarifas eléctricas y negando su conocimiento sobre emergencias climáticas."
    },
-   "1": {
-    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, narcos",
-    "firma": "51c791b1ce2f",
-    "texto": "Los mensajes la presentan, junto con su partido y su entorno familiar, como parte de una red delictiva vinculada al narcotráfico y al crimen organizado, exigen su encarcelamiento y le atribuyen enriquecimiento con fondos públicos, combinando estas acusaciones con ataques a su aspecto físico."
-   },
    "2": {
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "9d989e109593",
@@ -130,8 +125,8 @@
    },
    "1": {
     "palabras": "noboa, guayaquil, peor, gobierno, abogada, chimbadora",
-    "firma": "4bd370c08f6e",
-    "texto": "La presentan como oportunista que cambia de bando: unos le reprochan no haber defendido a Guayaquil ante el gobierno de Noboa y le atribuyen beneficios personales por apoyarlo; otros la vinculan al correísmo y sostienen que ataca a Noboa para ascender políticamente."
+    "firma": "a8db879241d9",
+    "texto": "La presentan como subordinada al gobierno de Noboa, acusándola de no defender a Guayaquil ante un supuesto bloqueo, y también la vinculan al correísmo. Cuestionan su preparación y su apego a la ley, y le atribuyen la defensa de criminales como abogada."
    },
    "2": {
     "palabras": "mujer, prueba, dió, peña, mal",
