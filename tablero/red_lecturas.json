@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T18:58-05:00",
+ "generado": "2026-11-24T19:20-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -62,19 +62,9 @@
     "palabras": "menos, pasó, campaña, drogadicto, adn, drogadicta",
     "firma": "9c1590af3a63",
     "texto": "Le atribuyen consumo de drogas y la acusan de corrupción e ineficacia durante su gestión en la alcaldía de Guayaquil, incluido haber vaciado sus cuentas. Cuestionan su alianza con ADN, presentándola como rechazada por el electorado guayaquileño y extendiendo el señalamiento de adicción al presidente Noboa."
-   },
-   "4": {
-    "palabras": "hablar, adicción, problema, actual, forma",
-    "firma": "5a5e7d824f5e",
-    "texto": null
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, prófugo, propuestas, preguntas, campaña",
-    "firma": "38f73f19e89a",
-    "texto": "La presentan como candidata sin méritos propios, cuya única credencial sería ser la esposa de su esposo, a quien acusan de contrabando y lavado de activos. Le atribuyen complicidad en esos delitos, la vinculan a Rafael Correa y cuestionan su desempeño en el debate y que rehúya entrevistas."
-   },
    "1": {
     "palabras": "marido, paso, dinero, icaza, amante, prisión",
     "firma": "c31404a3d398",
@@ -85,8 +75,8 @@
     "firma": "1a1607bf463c",
     "texto": "Cuestionan su preparación a partir de un video viral en el que, según los mensajes, no articula sus ideas y evade preguntas sobre sus propuestas. Además, la asocian con la delincuencia, le atribuyen la intención de continuar una gestión que califican de corrupta y sostienen que sus procesos judiciales le impedirían ejercer el cargo."
    },
-   "3": {
-    "palabras": "parada, mal, chica, idea, articular, preguntan",
+   "4": {
+    "palabras": "parada, chica, mal, idea, articular, preguntan",
     "firma": "8a4ec8a03312",
     "texto": "Los mensajes cuestionan su capacidad para el cargo: la presentan como incapaz de articular ideas, evasiva ante las preguntas en entrevistas y sin conocimiento de la administración pública, y la infantilizan al sugerir que depende de sus asesores para formular propuestas."
    }
@@ -134,14 +124,14 @@
     "texto": "La presentan como subordinada al gobierno de Noboa, acusándola de no defender a Guayaquil ante un supuesto bloqueo, y también la vinculan al correísmo. Cuestionan su preparación y su apego a la ley, y le atribuyen la defensa de criminales como abogada."
    },
    "2": {
-    "palabras": "mujer, prueba, dió, peña, mal",
-    "firma": "90bbfe41eb90",
-    "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
-   },
-   "3": {
     "palabras": "españa, pipo, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
+   },
+   "3": {
+    "palabras": "mujer, prueba, dió, peña, mal",
+    "firma": "90bbfe41eb90",
+    "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
    },
    "4": {
     "palabras": "dan, políticos, asco",
