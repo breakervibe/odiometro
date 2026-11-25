@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T03:21-05:00",
+ "generado": "2026-11-25T03:43-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,14 +9,14 @@
     "texto": "Cuestionan su legitimidad para hablar de salud en el debate por la Prefectura, al atribuirle a ella y a su partido, ADN, responsabilidad por la situación del IESS y de la salud pública, y la presentan como deshonesta por abordar el tema."
    },
    "1": {
-    "palabras": "noboa, narco, menos, repudian",
-    "firma": "d6d9335b592c",
-    "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
-   },
-   "2": {
     "palabras": "adn, igual, mentirosa, miserables, sinvergüenzas, ratas",
     "firma": "636e8539ed1e",
     "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
+   },
+   "2": {
+    "palabras": "noboa, menos, narco, repudian",
+    "firma": "d6d9335b592c",
+    "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
    "4": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -43,7 +43,7 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "3": {
+   "2": {
     "palabras": "peor, trata, colorada, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
