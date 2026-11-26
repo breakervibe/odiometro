@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T17:54-05:00",
+ "generado": "2026-11-26T18:08-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -48,17 +48,42 @@
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
    },
+   "2": {
+    "palabras": "urgente, pasó, ayuda, adn, drogadicto, drogadicta",
+    "firma": "14504e48db7c",
+    "texto": "Le atribuyen una adicción a las drogas y la presentan como una mujer mayor deteriorada, sin control sobre sí misma y necesitada de ayuda; además cuestionan su gestión anterior como alcaldesa de Guayaquil y piden que no sea elegida nuevamente."
+   },
    "3": {
     "palabras": "peor, colorada, trata, municipio, debate, habla",
     "firma": "cf9c159520cf",
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
+   },
+   "4": {
+    "palabras": "menos, campaña, problema, hablar, parálisis, facial",
+    "firma": "02857f9d2e89",
+    "texto": "Los mensajes centran el ataque en su rostro y su forma de hablar: cuestionan la parálisis facial que ella mencionó, la atribuyen a tratamientos estéticos o a consumo de drogas, y sostienen que su deterioro personal explica su desempeño en campaña y debates."
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, prófugo, campaña, correa, contrabandista",
+    "firma": "4575e16c9307",
+    "texto": "La presentan como candidata sin méritos propios a la alcaldía de Guayaquil, definida por ser esposa de un hombre al que llaman contrabandista y como títere del correísmo y de un prófugo. Le atribuyen implicación en lavado de activos y piden su inhabilitación."
+   },
    "1": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "2": {
+    "palabras": "propuestas, modelo, preguntas, continuar, gestión, pretende",
+    "firma": "c4f927401e8c",
+    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen evadir preguntas y carecer de propuestas, ridiculizan su trayectoria como modelo y la presentan como continuidad de una gestión corrupta vinculada a Rafael Correa, con procesos judiciales que le impedirían ejercer."
+   },
+   "3": {
+    "palabras": "esposo, correístas, delincuente, correista, cachuda, preso",
+    "firma": "cad5dd6b8063",
+    "texto": "La vinculan al correísmo y le atribuyen corrupción heredada de su esposo, a quien presentan como delincuente condenado, y le auguran continuidad en el robo; además la desacreditan con alusiones sexistas a una supuesta infidelidad de él y critican que cuestione la entrega de ayudas por otros candidatos."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
@@ -77,6 +102,11 @@
     "firma": "912e696c3c52",
     "texto": "Los mensajes la presentan, junto con su partido y su entorno familiar, como parte de una red delictiva vinculada al narcotráfico y al crimen organizado, exigen su encarcelamiento y la acusan de enriquecimiento ilícito, combinando estas acusaciones con agresiones sexistas sobre su cuerpo."
    },
+   "2": {
+    "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
+    "firma": "658447047d88",
+    "texto": "La vinculan con Rafael Correa y el correísmo, a los que presentan como estructura delincuencial y corrupta, para descalificarla como candidata incapaz y fanática, cuestionar sus propuestas como irrealizables y extender la descalificación a las mujeres que la apoyan."
+   },
    "3": {
     "palabras": "energía, eléctrica, pagar, gratis",
     "firma": "0d676a2044f4",
@@ -85,6 +115,11 @@
   },
   "Yadira Bayas": {},
   "Roberta Zambrano": {
+   "0": {
+    "palabras": "esmeraldas, noboa, provincia, debe, gane, morillo",
+    "firma": "53fe327f9ddf",
+    "texto": "La presentan como candidata del gobierno de Daniel Noboa y del partido ADN, le atribuyen corrupción, negociados y falta de gestión en la provincia, la vinculan con la ministra Nathaly Morillo y le imputan, con connotación sexual, una relación personal con el presidente para descalificarla."
+   },
    "1": {
     "palabras": "adn, gobierno, corrupta, credibilidad",
     "firma": "2801988cbccc",
@@ -98,10 +133,20 @@
     "firma": "7b3a906128d3",
     "texto": "Le atribuyen haber obtenido un carnet de discapacidad lumbar sin padecerla, para acceder a beneficios, y contrastan esa condición con su actividad física en campaña; algunos mensajes piden no votar por quien tenga ese carnet y emplean la discapacidad como descalificación intelectual."
    },
+   "1": {
+    "palabras": "correa, correismo, rafael, prófugo, apoyo",
+    "firma": "49044c73391b",
+    "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
+   },
    "2": {
     "palabras": "noboa, guayaquil, gobierno, chimbadora, peor, abogada",
     "firma": "3958e55e0020",
     "texto": "La presentan como una candidata funcional al gobierno de Daniel Noboa y a ADN, que habría callado ante el bloqueo a Guayaquil, y le atribuyen dividir el voto; otros mensajes la vinculan con el correísmo o la consideran un lastre electoral para el oficialismo."
+   },
+   "3": {
+    "palabras": "candidatos, bueno, queda, buena, papel, payasos",
+    "firma": "99ccc1195219",
+    "texto": "Presentan su imagen de campaña como una actuación impostada que oculta una supuesta verdadera personalidad, le atribuyen el uso indebido de un carné de discapacidad y la ridiculizan por su edad y su trayectoria televisiva, dentro de una descalificación general de los candidatos como payasos sin preparación."
    },
    "4": {
     "palabras": "pipo, españa, corrupta, podría, viajó",
