@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T07:49-05:00",
+ "generado": "2026-11-26T08:07-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -76,11 +76,6 @@
     "texto": "La presentan como incapaz de articular ideas y como alguien que evade preguntas sobre sus propuestas en el debate por la Alcaldía de Guayaquil. Cuestionan su formación y experiencia, la vinculan a Rafael Correa y a su esposo, y le atribuyen rehuir entrevistas."
    },
    "3": {
-    "palabras": "esposo, correista, correístas, delincuente, cachuda, trabajo",
-    "firma": "f8f6120792e0",
-    "texto": "La vinculan con su esposo, a quien presentan como delincuente encarcelado, y le atribuyen continuar su presunta corrupción bajo filiación correísta. La atacan además con burlas sobre una supuesta infidelidad conyugal y cuestionan su capacidad, sugiriendo que repite discursos ajenos."
-   },
-   "4": {
     "palabras": "modelo, continuar, gestión, pretende, ideas, aseguró",
     "firma": "8cfa27e85aad",
     "texto": "También le atribuyen la intención de continuar una gestión que califican de corrupta y aluden a procesos judiciales abiertos."
@@ -123,25 +118,20 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "1": {
-    "palabras": "noboa, guayaquil, gobierno, peor, chimbadora, abogada",
-    "firma": "1711b17b80e8",
-    "texto": "La presentan como una política oportunista que divide el voto y critica a Noboa para ganar notoriedad, le atribuyen afinidad con el correísmo y la acusan de no haber defendido a Guayaquil; también cuestionan su capacidad comparándola desfavorablemente con otras figuras políticas."
-   },
    "2": {
     "palabras": "pipo, españa, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
    "3": {
-    "palabras": "mujer, prueba, dió, peña",
-    "firma": "a337d5efd68a",
-    "texto": "La equiparan con Sergio Peña para presentarla como una candidata impuesta por Rafael Correa sin méritos ni preparación, sólo por ser esposa de su esposo, y le atribuyen ambición y deslealtad hacia la Revolución Ciudadana; algunos mensajes añaden acusaciones de corrupción y de conducir alcoholizada."
-   },
-   "4": {
     "palabras": "correa, prófugo, apoyo, rafael",
     "firma": "58f1c6ad8845",
     "texto": null
+   },
+   "4": {
+    "palabras": "dan, políticos, asco",
+    "firma": "f3387fd92fba",
+    "texto": "Los mensajes expresan repulsión hacia la clase política en general, a la que presentan como degradada y carente del respeto de otras épocas, e incluyen a la candidata en ese rechazo; uno le atribuye un carné de discapacidad irregular y cuestiona a quienes la apoyan desde redes sociales."
    }
   },
   "Diana Caiza": {}
