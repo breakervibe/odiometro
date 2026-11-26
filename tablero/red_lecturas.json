@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T14:20-05:00",
+ "generado": "2026-11-26T14:37-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -39,7 +39,7 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "avezada, gordita, campañas, políticas",
+    "palabras": "avezada, campañas, gordita, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
@@ -65,20 +65,25 @@
    }
   },
   "Fiorella Ycaza": {
-   "1": {
+   "0": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "3": {
-    "palabras": "esposo, correístas, correista, delincuente, cachuda, preso",
-    "firma": "df1491442105",
-    "texto": "La presentan como correísta corrupta que continuaría los delitos atribuidos a su esposo, a quien llaman delincuente y preso. Además la ridiculizan aludiendo a una supuesta infidelidad de él, le reprochan indiferencia ante su encarcelamiento y descalifican a sus votantes."
+   "1": {
+    "palabras": "esposa, prófugo, campaña, contrabandista, alguien, política",
+    "firma": "cd3eff1cf097",
+    "texto": "La reducen a su condición de esposa de un hombre al que señalan como contrabandista y corrupto, niegan que tenga méritos propios para la alcaldía de Guayaquil y deslegitiman su candidatura por el respaldo de un político prófugo, exigiendo su inhabilitación."
    },
-   "4": {
-    "palabras": "parada, chica, mal, idea",
-    "firma": "0bf693b27631",
-    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
+   "2": {
+    "palabras": "guayaquil, propuestas, preguntas, correa, debate, verdad",
+    "firma": "54d222783fea",
+    "texto": "La presentan como incapaz y evasiva tras el debate por la Alcaldía de Guayaquil, sin propuestas, experiencia ni preparación, y como subordinada a Rafael Correa; le atribuyen eludir preguntas y entrevistas, y sugieren que su esposo, desde prisión, la orientaría."
+   },
+   "3": {
+    "palabras": "modelo, continuar, gestión, pretende, video, ideas",
+    "firma": "27f6bb302240",
+    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen incapacidad para articular ideas y propuestas, ridiculizan su experiencia como modelo, la vinculan con una herencia política corrupta y con la condena de su esposo, y la presentan como impedida por procesos judiciales."
    }
   },
   "Sofía Espín": {
@@ -113,7 +118,7 @@
     "firma": "7b3a906128d3",
     "texto": "Le atribuyen haber obtenido un carnet de discapacidad lumbar sin padecerla, para acceder a beneficios, y contrastan esa condición con su actividad física en campaña; algunos mensajes piden no votar por quien tenga ese carnet y emplean la discapacidad como descalificación intelectual."
    },
-   "1": {
+   "2": {
     "palabras": "noboa, guayaquil, gobierno, chimbadora, peor, abogada",
     "firma": "3958e55e0020",
     "texto": "La presentan como una candidata funcional al gobierno de Daniel Noboa y a ADN, que habría callado ante el bloqueo a Guayaquil, y le atribuyen dividir el voto; otros mensajes la vinculan con el correísmo o la consideran un lastre electoral para el oficialismo."
