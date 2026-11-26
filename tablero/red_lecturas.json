@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T09:59-05:00",
+ "generado": "2026-11-26T10:16-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -65,6 +65,11 @@
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
+   "3": {
+    "palabras": "esposo, correístas, correista, delincuente, cachuda, trabajo",
+    "firma": "f8f6120792e0",
+    "texto": "La vinculan con su esposo, a quien presentan como delincuente encarcelado, y le atribuyen continuar su presunta corrupción bajo filiación correísta. La atacan además con burlas sobre una supuesta infidelidad conyugal y cuestionan su capacidad, sugiriendo que repite discursos ajenos."
+   },
    "4": {
     "palabras": "parada, chica, mal, idea",
     "firma": "0bf693b27631",
@@ -78,7 +83,7 @@
     "texto": "La presentan como figura correísta opuesta al gobierno de Noboa, le atribuyen una salida del cargo en 2018 por supuesta conspiración y cuestionan su candidatura en Guayas tachando de populistas sus propuestas sobre tarifas eléctricas y negando su conocimiento sobre emergencias climáticas."
    },
    "1": {
-    "palabras": "delincuentes, delincuente, miserables, ratas, cárcel, narcos",
+    "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, narcos",
     "firma": "912e696c3c52",
     "texto": "Los mensajes la presentan, junto con su partido y su entorno familiar, como parte de una red delictiva vinculada al narcotráfico y al crimen organizado, exigen su encarcelamiento y la acusan de enriquecimiento ilícito, combinando estas acusaciones con agresiones sexistas sobre su cuerpo."
    },
@@ -114,9 +119,9 @@
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
    "4": {
-    "palabras": "mujer, prueba, dió, peña",
-    "firma": "a337d5efd68a",
-    "texto": "La equiparan con Sergio Peña para presentarla como una candidata impuesta por Rafael Correa sin méritos ni preparación, sólo por ser esposa de su esposo, y le atribuyen ambición y deslealtad hacia la Revolución Ciudadana; algunos mensajes añaden acusaciones de corrupción y de conducir alcoholizada."
+    "palabras": "dan, políticos, asco",
+    "firma": "f3387fd92fba",
+    "texto": "Los mensajes expresan repulsión hacia la clase política en general, a la que presentan como degradada y carente del respeto de otras épocas, e incluyen a la candidata en ese rechazo; uno le atribuye un carné de discapacidad irregular y cuestiona a quienes la apoyan desde redes sociales."
    }
   },
   "Diana Caiza": {}
