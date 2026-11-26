@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T12:54-05:00",
+ "generado": "2026-11-26T13:09-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -100,11 +100,6 @@
   },
   "Yadira Bayas": {},
   "Roberta Zambrano": {
-   "0": {
-    "palabras": "esmeraldas, provincia, debe, morillo",
-    "firma": "87c4b6242294",
-    "texto": "La presentan como candidata corrupta del gobierno de Daniel Noboa, le atribuyen gestionar fondos irregulares con la ministra Nataly Morillo y facilitar el narcotráfico en Esmeraldas, e insinúan una relación sentimental con el presidente para desacreditarla ante el electorado provincial."
-   },
    "1": {
     "palabras": "adn, gobierno, corrupta, credibilidad",
     "firma": "2801988cbccc",
@@ -114,7 +109,7 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "discapacidad, carnet, parece, campaña, lumbar, milagro",
+    "palabras": "discapacidad, carnet, campaña, parece, lumbar, milagro",
     "firma": "7b3a906128d3",
     "texto": "Le atribuyen haber obtenido un carnet de discapacidad lumbar sin padecerla, para acceder a beneficios, y contrastan esa condición con su actividad física en campaña; algunos mensajes piden no votar por quien tenga ese carnet y emplean la discapacidad como descalificación intelectual."
    },
