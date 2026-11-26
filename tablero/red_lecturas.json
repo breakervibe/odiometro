@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T12:10-05:00",
+ "generado": "2026-11-26T12:27-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -53,11 +53,6 @@
     "firma": "3cd96edb7ca5",
     "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
    },
-   "3": {
-    "palabras": "urgente, ayuda, hablar, problema, drogadicto, parálisis",
-    "firma": "587e98bab78a",
-    "texto": "Los mensajes cuestionan su aptitud a partir de su aspecto físico y su forma de hablar: le atribuyen consumo de drogas o retoques estéticos, ponen en duda la parálisis facial que ella ha explicado y la presentan con una compasión condescendiente, como alguien deteriorado."
-   },
    "4": {
     "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
     "firma": "ee07eeac1eb0",
@@ -65,30 +60,20 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
+   "1": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "1": {
-    "palabras": "esposa, prófugo, campaña, contrabandista, alguien, política",
-    "firma": "cd3eff1cf097",
-    "texto": "La reducen a su condición de esposa de un hombre al que señalan como contrabandista y corrupto, niegan que tenga méritos propios para la alcaldía de Guayaquil y deslegitiman su candidatura por el respaldo de un político prófugo, exigiendo su inhabilitación."
-   },
-   "2": {
-    "palabras": "guayaquil, propuestas, preguntas, correa, debate, verdad",
-    "firma": "54d222783fea",
-    "texto": "La presentan como incapaz y evasiva tras el debate por la Alcaldía de Guayaquil, sin propuestas, experiencia ni preparación, y como subordinada a Rafael Correa; le atribuyen eludir preguntas y entrevistas, y sugieren que su esposo, desde prisión, la orientaría."
-   },
    "3": {
-    "palabras": "esposo, correístas, correista, delincuente, cachuda, trabajo",
-    "firma": "f8f6120792e0",
-    "texto": "La vinculan con su esposo, a quien presentan como delincuente encarcelado, y le atribuyen continuar su presunta corrupción bajo filiación correísta. La atacan además con burlas sobre una supuesta infidelidad conyugal y cuestionan su capacidad, sugiriendo que repite discursos ajenos."
+    "palabras": "esposo, correístas, correista, delincuente, cachuda, preso",
+    "firma": "df1491442105",
+    "texto": "La presentan como correísta corrupta que continuaría los delitos atribuidos a su esposo, a quien llaman delincuente y preso. Además la ridiculizan aludiendo a una supuesta infidelidad de él, le reprochan indiferencia ante su encarcelamiento y descalifican a sus votantes."
    },
    "4": {
-    "palabras": "modelo, continuar, gestión, pretende, ideas, aseguró",
-    "firma": "27f6bb302240",
-    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen incapacidad para articular ideas y propuestas, ridiculizan su experiencia como modelo, la vinculan con una herencia política corrupta y con la condena de su esposo, y la presentan como impedida por procesos judiciales."
+    "palabras": "parada, chica, mal, idea",
+    "firma": "0bf693b27631",
+    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
    }
   },
   "Sofía Espín": {
@@ -134,14 +119,14 @@
     "texto": "Le atribuyen haber obtenido un carnet de discapacidad lumbar sin padecerla, para acceder a beneficios, y contrastan esa condición con su actividad física en campaña; algunos mensajes piden no votar por quien tenga ese carnet y emplean la discapacidad como descalificación intelectual."
    },
    "1": {
-    "palabras": "noboa, guayaquil, gobierno, peor, chimbadora, abogada",
-    "firma": "3958e55e0020",
-    "texto": "La presentan como una candidata funcional al gobierno de Daniel Noboa y a ADN, que habría callado ante el bloqueo a Guayaquil, y le atribuyen dividir el voto; otros mensajes la vinculan con el correísmo o la consideran un lastre electoral para el oficialismo."
-   },
-   "2": {
     "palabras": "correa, correismo, rafael, prófugo, candidatos, apoyo",
     "firma": "e00b0bf81d11",
     "texto": "Los mensajes la presentan como pieza o carta oculta del correísmo, subordinada a Rafael Correa, a quien describen como prófugo y sentenciado. Extienden a ella acusaciones de corrupción y vínculos con estructuras delictivas, y le atribuyen la defensa de delincuentes y un estilo confrontativo compartido con sus seguidores."
+   },
+   "2": {
+    "palabras": "noboa, guayaquil, gobierno, chimbadora, peor, abogada",
+    "firma": "3958e55e0020",
+    "texto": "La presentan como una candidata funcional al gobierno de Daniel Noboa y a ADN, que habría callado ante el bloqueo a Guayaquil, y le atribuyen dividir el voto; otros mensajes la vinculan con el correísmo o la consideran un lastre electoral para el oficialismo."
    },
    "3": {
     "palabras": "pipo, españa, corrupta, podría, viajó",
