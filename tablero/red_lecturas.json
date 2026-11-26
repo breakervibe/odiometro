@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T18:08-05:00",
+ "generado": "2026-11-26T18:25-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -49,19 +49,9 @@
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
    },
    "2": {
-    "palabras": "urgente, pasó, ayuda, adn, drogadicto, drogadicta",
-    "firma": "14504e48db7c",
-    "texto": "Le atribuyen una adicción a las drogas y la presentan como una mujer mayor deteriorada, sin control sobre sí misma y necesitada de ayuda; además cuestionan su gestión anterior como alcaldesa de Guayaquil y piden que no sea elegida nuevamente."
-   },
-   "3": {
-    "palabras": "peor, colorada, trata, municipio, debate, habla",
-    "firma": "cf9c159520cf",
-    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
-   },
-   "4": {
-    "palabras": "menos, campaña, problema, hablar, parálisis, facial",
-    "firma": "02857f9d2e89",
-    "texto": "Los mensajes centran el ataque en su rostro y su forma de hablar: cuestionan la parálisis facial que ella mencionó, la atribuyen a tratamientos estéticos o a consumo de drogas, y sostienen que su deterioro personal explica su desempeño en campaña y debates."
+    "palabras": "peor, marido, drogas, quiero, colorada, trata",
+    "firma": "3cd96edb7ca5",
+    "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
    }
   },
   "Fiorella Ycaza": {
