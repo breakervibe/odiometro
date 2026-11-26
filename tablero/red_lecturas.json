@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T05:56-05:00",
+ "generado": "2026-11-26T06:09-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -132,6 +132,11 @@
     "palabras": "discapacidad, parece, campaña, lumbar, milagro, carnet",
     "firma": "d2caca632c44",
     "texto": "Los mensajes cuestionan la legitimidad de su carnet de discapacidad lumbar y le atribuyen haberlo obtenido para acceder a beneficios. Contrastan esa condición con su actividad física en campaña y, en algunos casos, plantean que tener discapacidad la inhabilita para recibir votos."
+   },
+   "1": {
+    "palabras": "noboa, guayaquil, gobierno, peor, chimbadora, abogada",
+    "firma": "1711b17b80e8",
+    "texto": "La presentan como una política oportunista que divide el voto y critica a Noboa para ganar notoriedad, le atribuyen afinidad con el correísmo y la acusan de no haber defendido a Guayaquil; también cuestionan su capacidad comparándola desfavorablemente con otras figuras políticas."
    },
    "2": {
     "palabras": "pipo, españa, corrupta, podría, viajó",
