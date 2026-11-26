@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T22:05-05:00",
+ "generado": "2026-11-25T22:21-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -34,11 +34,6 @@
     "palabras": "moza, ricaurte, vergüenza",
     "firma": "69cf34f9bf1c",
     "texto": "La presentan como amante de un exalcalde y reducen su trayectoria profesional y política a esa supuesta relación, que usan para desacreditarla y para restar valor a sus denuncias, negando a la vez que esa descalificación tenga carácter machista."
-   },
-   "2": {
-    "palabras": "vas, ganar, perder",
-    "firma": "8aa01ad4ca70",
-    "texto": "Los mensajes le auguran la derrota en la contienda por la Prefectura y la descalifican como oportunista e ingenua. Le atribuyen contratar personas para hostigar los vehículos de la institución y desestiman como paranoia sus señalamientos."
    }
   },
   "Carla Larrea": {},
@@ -104,14 +99,14 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "2": {
-    "palabras": "mujer, prueba, dió, peña, mal",
-    "firma": "90bbfe41eb90",
-    "texto": "La comparan con Sergio Peña como figura que habría usado a la Revolución Ciudadana para ascender y luego dividir su electorado por ambición. Además la acusan de corrupción, de dar positivo en alcoholemia y de ser candidata sin méritos, impuesta por ser esposa de un dirigente."
-   },
-   "3": {
     "palabras": "españa, pipo, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
+   },
+   "3": {
+    "palabras": "mujer, prueba, dió, peña",
+    "firma": "a337d5efd68a",
+    "texto": "La equiparan con Sergio Peña para presentarla como una candidata impuesta por Rafael Correa sin méritos ni preparación, sólo por ser esposa de su esposo, y le atribuyen ambición y deslealtad hacia la Revolución Ciudadana; algunos mensajes añaden acusaciones de corrupción y de conducir alcoholizada."
    },
    "4": {
     "palabras": "correa, prófugo, apoyo, rafael",
