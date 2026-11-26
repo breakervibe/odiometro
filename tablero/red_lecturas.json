@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T17:22-05:00",
+ "generado": "2026-11-26T17:40-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,7 +9,7 @@
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
    },
    "1": {
-    "palabras": "noboa, menos, narco, candidatos, repudian",
+    "palabras": "noboa, candidatos, menos, narco, repudian",
     "firma": "febfc86a6015",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y extienden esa acusación a ella y a los candidatos de su partido, señalados como corruptos y rechazados. También descalifican su capacidad intelectual y sostienen que perdería un debate con Andrés Arauz."
    },
@@ -48,15 +48,10 @@
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
    },
-   "2": {
-    "palabras": "peor, marido, drogas, quiero, colorada, trata",
-    "firma": "3cd96edb7ca5",
-    "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
-   },
-   "4": {
-    "palabras": "menos, pasó, campaña, adn, guayaquileños, dejó",
-    "firma": "ee07eeac1eb0",
-    "texto": "Le atribuyen corrupción e ineptitud en su gestión como alcaldesa de Guayaquil, incluidos contratos a familiares, adjudicaciones a su esposo y el vaciamiento de fondos municipales, y presentan su candidatura por ADN como un reciclaje oportunista, con ataques a su edad, apariencia y vida sexual."
+   "3": {
+    "palabras": "peor, colorada, trata, municipio, debate, habla",
+    "firma": "cf9c159520cf",
+    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    }
   },
   "Fiorella Ycaza": {
