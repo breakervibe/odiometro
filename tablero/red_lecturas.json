@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T11:27-05:00",
+ "generado": "2026-11-26T11:43-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -8,15 +8,10 @@
     "firma": "e4c5b0ed599e",
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
    },
-   "1": {
+   "2": {
     "palabras": "adn, igual, mentirosa, miserables, sinvergüenzas, ratas",
     "firma": "636e8539ed1e",
     "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
-   },
-   "2": {
-    "palabras": "noboa, menos, narco, repudian",
-    "firma": "d6d9335b592c",
-    "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y le atribuyen incapacidad intelectual, mala fe y falta de respaldo ciudadano, extendiendo acusaciones de ineptitud y corrupción a su partido."
    },
    "3": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -60,7 +55,7 @@
    }
   },
   "Fiorella Ycaza": {
-   "1": {
+   "0": {
     "palabras": "marido, dinero, amante, paso, chimichurri, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
@@ -69,11 +64,6 @@
     "palabras": "esposo, correístas, correista, delincuente, cachuda, trabajo",
     "firma": "f8f6120792e0",
     "texto": "La vinculan con su esposo, a quien presentan como delincuente encarcelado, y le atribuyen continuar su presunta corrupción bajo filiación correísta. La atacan además con burlas sobre una supuesta infidelidad conyugal y cuestionan su capacidad, sugiriendo que repite discursos ajenos."
-   },
-   "4": {
-    "palabras": "parada, chica, mal, idea",
-    "firma": "0bf693b27631",
-    "texto": "Los mensajes la presentan como incapaz y sin preparación para el cargo: cuestionan su expresión en entrevistas, su desconocimiento de la administración pública y su falta de experiencia. Le atribuyen depender de asesores y la infantilizan, comparándola desfavorablemente con alcaldes anteriores de Guayaquil."
    }
   },
   "Sofía Espín": {
@@ -119,9 +109,9 @@
     "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    },
    "4": {
-    "palabras": "dan, políticos, asco",
-    "firma": "f3387fd92fba",
-    "texto": "Los mensajes expresan repulsión hacia la clase política en general, a la que presentan como degradada y carente del respeto de otras épocas, e incluyen a la candidata en ese rechazo; uno le atribuye un carné de discapacidad irregular y cuestiona a quienes la apoyan desde redes sociales."
+    "palabras": "mujer, prueba, dió, peña",
+    "firma": "a337d5efd68a",
+    "texto": "La equiparan con Sergio Peña para presentarla como una candidata impuesta por Rafael Correa sin méritos ni preparación, sólo por ser esposa de su esposo, y le atribuyen ambición y deslealtad hacia la Revolución Ciudadana; algunos mensajes añaden acusaciones de corrupción y de conducir alcoholizada."
    }
   },
   "Diana Caiza": {}
