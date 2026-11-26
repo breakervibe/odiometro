@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T22:47-05:00",
+ "generado": "2026-11-25T23:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -98,6 +98,11 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "1": {
+    "palabras": "noboa, guayaquil, gobierno, peor, chimbadora, abogada",
+    "firma": "4bd370c08f6e",
+    "texto": "La presentan como oportunista que cambia de bando: unos le reprochan no haber defendido a Guayaquil ante el gobierno de Noboa y le atribuyen beneficios personales por apoyarlo; otros la vinculan al correísmo y sostienen que ataca a Noboa para ascender políticamente."
+   },
    "2": {
     "palabras": "españa, pipo, corrupta, podría, viajó",
     "firma": "9ca8c877e456",
