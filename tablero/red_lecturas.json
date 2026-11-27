@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T16:28-05:00",
+ "generado": "2026-11-27T16:46-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -29,13 +29,7 @@
     "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
-  "Carla Cevallos": {
-   "0": {
-    "palabras": "moza, ricaurte, man",
-    "firma": "e31e6d1bd5cc",
-    "texto": "Le atribuyen una relación sentimental extramarital con Ricaurte, vinculado a ADN, y la descalifican para la prefectura por esa supuesta condición de amante. Le exigen que la confirme y rechazan que ese señalamiento sea calificado de machista."
-   }
-  },
+  "Carla Cevallos": {},
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
@@ -74,11 +68,6 @@
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
-   },
-   "3": {
-    "palabras": "esposo, correístas, delincuente, correista, preso, delincuentes",
-    "firma": "56cd82c35de1",
-    "texto": "La presentan como una correísta corrupta que continuaría los robos atribuidos a su esposo, a quien describen como delincuente condenado a prisión, y piden no votar por ella. Otro mensaje le reprocha criticar el reparto de ayudas de otros candidatos en lugar de actuar."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
@@ -123,11 +112,6 @@
   },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
-   "0": {
-    "palabras": "discapacidad, campaña, carnet, parece, lumbar, milagro",
-    "firma": "7b3a906128d3",
-    "texto": "Le atribuyen haber obtenido un carnet de discapacidad lumbar sin padecerla, para acceder a beneficios, y contrastan esa condición con su actividad física en campaña; algunos mensajes piden no votar por quien tenga ese carnet y emplean la discapacidad como descalificación intelectual."
-   },
    "1": {
     "palabras": "correa, correismo, rafael, prófugo, apoyo",
     "firma": "49044c73391b",
