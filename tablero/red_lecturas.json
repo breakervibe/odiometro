@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T11:13-05:00",
+ "generado": "2026-11-27T11:31-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -14,7 +14,7 @@
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y extienden esa acusación a ella y a los candidatos de su partido, señalados como corruptos y rechazados. También descalifican su capacidad intelectual y sostienen que perdería un debate con Andrés Arauz."
    },
    "2": {
-    "palabras": "adn, igual, mentirosa, miserables, sinvergüenzas, ratas",
+    "palabras": "adn, igual, miserables, mentirosa, sinvergüenzas, ratas",
     "firma": "636e8539ed1e",
     "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
    },
@@ -29,13 +29,7 @@
     "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
-  "Carla Cevallos": {
-   "0": {
-    "palabras": "moza, ricaurte, vergüenza",
-    "firma": "69cf34f9bf1c",
-    "texto": "La presentan como amante de un exalcalde y reducen su trayectoria profesional y política a esa supuesta relación, que usan para desacreditarla y para restar valor a sus denuncias, negando a la vez que esa descalificación tenga carácter machista."
-   }
-  },
+  "Carla Cevallos": {},
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
@@ -43,7 +37,7 @@
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "1": {
+   "2": {
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
@@ -54,26 +48,16 @@
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
    "4": {
-    "palabras": "marido, drogas, quiero, drogadicto, dar, vida",
+    "palabras": "drogas, marido, quiero, drogadicto, dar, vida",
     "firma": "a1619e80ff36",
     "texto": "Le atribuyen consumo y adicción a las drogas, extendida a su esposo, y la presentan como corrupta, acusándola de robo durante la pandemia y de apropiación de tierras. Añaden insinuaciones sexuales sobre cómo habría obtenido cargos y descalifican su nueva postulación a la alcaldía."
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, prófugo, campaña, correa, contrabandista",
-    "firma": "4575e16c9307",
-    "texto": "La presentan como candidata sin méritos propios a la alcaldía de Guayaquil, definida por ser esposa de un hombre al que llaman contrabandista y como títere del correísmo y de un prófugo. Le atribuyen implicación en lavado de activos y piden su inhabilitación."
-   },
-   "1": {
+   "2": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
-   },
-   "2": {
-    "palabras": "propuestas, modelo, continuar, preguntas, gestión, pretende",
-    "firma": "c4f927401e8c",
-    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen evadir preguntas y carecer de propuestas, ridiculizan su trayectoria como modelo y la presentan como continuidad de una gestión corrupta vinculada a Rafael Correa, con procesos judiciales que le impedirían ejercer."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
