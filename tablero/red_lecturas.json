@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T11:59-05:00",
+ "generado": "2026-11-27T12:16-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -29,13 +29,24 @@
     "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
-  "Carla Cevallos": {},
+  "Carla Cevallos": {
+   "0": {
+    "palabras": "moza, ricaurte, man",
+    "firma": "e31e6d1bd5cc",
+    "texto": "Le atribuyen una relación sentimental extramarital con Ricaurte, vinculado a ADN, y la descalifican para la prefectura por esa supuesta condición de amante. Le exigen que la confirme y rechazan que ese señalamiento sea calificado de machista."
+   }
+  },
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
     "palabras": "avezada, campañas, gordita, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
+   },
+   "1": {
+    "palabras": "menos, urgente, adn, problema, pasó, parálisis",
+    "firma": "317f714e668b",
+    "texto": "Cuestionan su estado físico y su capacidad para expresarse en campaña, y lo atribuyen al consumo de drogas o a intervenciones estéticas. Algunos mensajes también le atribuyen corrupción e ineptitud en su gestión anterior y critican su alianza con ADN."
    },
    "2": {
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
@@ -48,16 +59,31 @@
     "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
    },
    "4": {
-    "palabras": "drogas, marido, quiero, drogadicto, dar, vida",
+    "palabras": "drogas, marido, quiero, drogadicto, dar, mal",
     "firma": "a1619e80ff36",
     "texto": "Le atribuyen consumo y adicción a las drogas, extendida a su esposo, y la presentan como corrupta, acusándola de robo durante la pandemia y de apropiación de tierras. Añaden insinuaciones sexuales sobre cómo habría obtenido cargos y descalifican su nueva postulación a la alcaldía."
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, propuestas, modelo, continuar, preguntas, correa",
+    "firma": "dc4c3219684b",
+    "texto": "La presentan como incapaz e improvisada para la Alcaldía de Guayaquil: cuestionan su desempeño en el debate, le atribuyen evadir preguntas y carecer de propuestas, formación y experiencia, y la reducen a candidata subordinada a Rafael Correa, sugiriendo además que su esposo la asesoraría desde prisión."
+   },
+   "1": {
+    "palabras": "esposa, prófugo, campaña, cachuda, contrabandista, política",
+    "firma": "2036deb640f7",
+    "texto": "La presentan como esposa de un acusado de contrabando de combustible, le atribuyen complicidad y lavado de activos, y piden su inhabilitación; cuestionan su capacidad para la Alcaldía de Guayaquil, reducen su trayectoria a ser esposa y vinculan su campaña a Rafael Correa, señalado como prófugo."
+   },
    "2": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "3": {
+    "palabras": "esposo, correístas, delincuente, correista, preso, delincuentes",
+    "firma": "56cd82c35de1",
+    "texto": "La presentan como una correísta corrupta que continuaría los robos atribuidos a su esposo, a quien describen como delincuente condenado a prisión, y piden no votar por ella. Otro mensaje le reprocha criticar el reparto de ayudas de otros candidatos en lugar de actuar."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
