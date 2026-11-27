@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T17:46-05:00",
+ "generado": "2026-11-27T18:01-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -29,7 +29,13 @@
     "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
-  "Carla Cevallos": {},
+  "Carla Cevallos": {
+   "0": {
+    "palabras": "moza, ricaurte, man, queremos",
+    "firma": "429da0da0dcf",
+    "texto": "Le atribuyen una relación sentimental extramatrimonial con un político y, a partir de ello, la descalifican como funcionaria y como aspirante a la prefectura, reduciendo su trayectoria a ese supuesto vínculo y negando que este señalamiento sea machista."
+   }
+  },
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
@@ -41,6 +47,11 @@
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
+   },
+   "2": {
+    "palabras": "menos, adn, parálisis, problema, pasó, campaña",
+    "firma": "194297ea31e9",
+    "texto": "Los mensajes ridiculizan su aspecto y su forma de hablar, le insinúan consumo de drogas y cuestionan su estado de salud tras la parálisis facial que relató; además la presentan como corrupta e incapaz y cuestionan su acercamiento a ADN, vinculando a su esposo con cuentas falsas."
    },
    "3": {
     "palabras": "peor, colorada, trata, municipio, debate, habla",
@@ -63,6 +74,16 @@
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
+   },
+   "2": {
+    "palabras": "propuestas, modelo, continuar, preguntas, trabajo, gestión",
+    "firma": "e0da11c00484",
+    "texto": "Cuestionan su capacidad para la Alcaldía de Guayaquil: la presentan como improvisada y sin propuestas, le atribuyen evadir preguntas en el debate y entrevistas, minimizan su trayectoria laboral reduciéndola a su pasado como modelo y la vinculan con Rafael Correa y con procesos judiciales."
+   },
+   "3": {
+    "palabras": "esposo, correista, correístas, delincuente, preso, rrupt",
+    "firma": "49c9c3ab0e29",
+    "texto": "Los mensajes llaman a no votar por ella, la presentan como corrupta y correísta, y le atribuyen la intención de continuar los robos que imputan a su esposo, a quien describen como condenado y preso; la descalifican por su vínculo conyugal."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
@@ -116,6 +137,21 @@
     "palabras": "correa, correismo, rafael, prófugo, apoyo",
     "firma": "49044c73391b",
     "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
+   },
+   "2": {
+    "palabras": "noboa, mejor, guayaquil, chimbadora, discapacitada, gobierno",
+    "firma": "2bca21dfce7f",
+    "texto": "La presentan como una candidata sin lealtad propia, subordinada al gobierno de Noboa, y le reprochan no haber defendido a Guayaquil ante el bloqueo. Le atribuyen vínculos con el correísmo y con la defensa de narcotraficantes, y cuestionan su capacidad y su respeto a la ley."
+   },
+   "3": {
+    "palabras": "candidatos, bueno, queda, buena, papel",
+    "firma": "aee521013613",
+    "texto": "La presentan como una figura que finge una imagen de rectitud ante el electorado y le atribuyen mentir y un uso indebido del carné de discapacidad. La atacan con animalizaciones, alusiones sexuales, vínculos con el narcotráfico y burlas sobre su edad y su presunta discapacidad."
+   },
+   "4": {
+    "palabras": "mujer, pipo, españa, corrupta, prueba, dió",
+    "firma": "5c836fe23999",
+    "texto": "La presentan como corrupta y vinculada al narcotráfico por supuestamente viajar a España para defender a un implicado en un asesinato, le atribuyen consumo de alcohol y la comparan con Sergio Peña como oportunista que habría traicionado a la Revolución Ciudadana."
    }
   },
   "Diana Caiza": {}
