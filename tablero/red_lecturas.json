@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T05:51-05:00",
+ "generado": "2026-11-27T06:05-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -65,6 +65,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, prófugo, campaña, cachuda, correa",
+    "firma": "bd55c32c7cae",
+    "texto": "La presentan como candidata sin méritos propios, definida por ser esposa de un hombre al que acusan de contrabando, y le atribuyen implicación en lavado de activos. Cuestionan su autonomía al sostener que la dirige Rafael Correa, a quien llaman prófugo, y piden su inhabilitación."
+   },
    "1": {
     "palabras": "marido, dinero, amante, chimichurri, paso, icaza",
     "firma": "c31404a3d398",
@@ -74,6 +79,11 @@
     "palabras": "propuestas, modelo, preguntas, continuar, gestión, pretende",
     "firma": "c4f927401e8c",
     "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen evadir preguntas y carecer de propuestas, ridiculizan su trayectoria como modelo y la presentan como continuidad de una gestión corrupta vinculada a Rafael Correa, con procesos judiciales que le impedirían ejercer."
+   },
+   "3": {
+    "palabras": "esposo, correístas, delincuente, correista, preso",
+    "firma": "cbd24b8bf561",
+    "texto": "La presentan como corrupta y vinculada al correísmo, y llaman a no votar por ella con el argumento de que su esposo estaría condenado y preso por robo. Le atribuyen la intención de continuar esas prácticas y la cuestionan por criticar la entrega de ayudas de otros candidatos."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
