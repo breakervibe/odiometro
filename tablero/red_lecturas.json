@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T22:26-05:00",
+ "generado": "2026-11-26T22:43-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -38,20 +38,15 @@
   },
   "Carla Larrea": {},
   "Cynthia Viteri": {
-   "0": {
+   "1": {
     "palabras": "avezada, campañas, gordita, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "1": {
+   "2": {
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
-   },
-   "2": {
-    "palabras": "peor, marido, drogas, colorada, quiero, trata",
-    "firma": "3cd96edb7ca5",
-    "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
    }
   },
   "Fiorella Ycaza": {
@@ -100,11 +95,6 @@
   },
   "Yadira Bayas": {},
   "Roberta Zambrano": {
-   "0": {
-    "palabras": "esmeraldas, noboa, provincia, debe, gane, morillo",
-    "firma": "53fe327f9ddf",
-    "texto": "La presentan como candidata del gobierno de Daniel Noboa y del partido ADN, le atribuyen corrupción, negociados y falta de gestión en la provincia, la vinculan con la ministra Nathaly Morillo y le imputan, con connotación sexual, una relación personal con el presidente para descalificarla."
-   },
    "1": {
     "palabras": "adn, gobierno, corrupta, credibilidad",
     "firma": "2801988cbccc",
