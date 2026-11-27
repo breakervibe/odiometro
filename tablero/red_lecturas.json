@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T15:42-05:00",
+ "generado": "2026-11-27T16:00-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -44,11 +44,6 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
    "1": {
-    "palabras": "menos, urgente, adn, problema, pasó, parálisis",
-    "firma": "317f714e668b",
-    "texto": "Cuestionan su estado físico y su capacidad para expresarse en campaña, y lo atribuyen al consumo de drogas o a intervenciones estéticas. Algunos mensajes también le atribuyen corrupción e ineptitud en su gestión anterior y critican su alianza con ADN."
-   },
-   "2": {
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
@@ -106,6 +101,11 @@
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "658447047d88",
     "texto": "La vinculan con Rafael Correa y el correísmo, a los que presentan como estructura delincuencial y corrupta, para descalificarla como candidata incapaz y fanática, cuestionar sus propuestas como irrealizables y extender la descalificación a las mujeres que la apoyan."
+   },
+   "3": {
+    "palabras": "energía, eléctrica, pagar, gratis",
+    "firma": "0d676a2044f4",
+    "texto": "Ridiculizan la supuesta oferta de electricidad gratuita que atribuyen a Sofía Espín y Alberto Cajamarca, presentándola como engaño populista e incoherente con su discurso sobre los ricos, y la descalifican aludiendo a su destitución y vinculándola sexualmente con Jorge Glas."
    }
   },
   "Yadira Bayas": {},
@@ -132,16 +132,6 @@
     "palabras": "correa, correismo, rafael, prófugo, apoyo",
     "firma": "49044c73391b",
     "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
-   },
-   "2": {
-    "palabras": "noboa, mejor, guayaquil, chimbadora, gobierno, peor",
-    "firma": "1101246b5c36",
-    "texto": "La presentan como una candidata funcional al gobierno de Noboa y a ADN, colocada para dividir el voto, y le reprochan no haber defendido a Guayaquil frente a las medidas del gobierno. Otros la descalifican como improvisada, de izquierda y contraria a acatar las leyes."
-   },
-   "4": {
-    "palabras": "pipo, españa, corrupta, podría, viajó",
-    "firma": "9ca8c877e456",
-    "texto": "La presentan como exjueza corrupta y defensora de narcotraficantes por un supuesto viaje a España para defender a un cabecilla criminal, y refuerzan la acusación con descalificaciones sexualizadas, consumo de alcohol y supuestas infracciones electorales."
    }
   },
   "Diana Caiza": {}
