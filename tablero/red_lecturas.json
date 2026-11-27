@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T14:12-05:00",
+ "generado": "2026-11-27T14:30-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -65,15 +65,25 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, propuestas, modelo, continuar, preguntas, correa",
+    "firma": "dc4c3219684b",
+    "texto": "La presentan como incapaz e improvisada para la Alcaldía de Guayaquil: cuestionan su desempeño en el debate, le atribuyen evadir preguntas y carecer de propuestas, formación y experiencia, y la reducen a candidata subordinada a Rafael Correa, sugiriendo además que su esposo la asesoraría desde prisión."
+   },
    "1": {
+    "palabras": "esposa, prófugo, campaña, cachuda, contrabandista, alguien",
+    "firma": "2036deb640f7",
+    "texto": "La presentan como esposa de un acusado de contrabando de combustible, le atribuyen complicidad y lavado de activos, y piden su inhabilitación; cuestionan su capacidad para la Alcaldía de Guayaquil, reducen su trayectoria a ser esposa y vinculan su campaña a Rafael Correa, señalado como prófugo."
+   },
+   "2": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "2": {
-    "palabras": "propuestas, modelo, continuar, preguntas, gestión, pretende",
-    "firma": "c4f927401e8c",
-    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen evadir preguntas y carecer de propuestas, ridiculizan su trayectoria como modelo y la presentan como continuidad de una gestión corrupta vinculada a Rafael Correa, con procesos judiciales que le impedirían ejercer."
+   "3": {
+    "palabras": "esposo, correístas, delincuente, correista, preso, delincuentes",
+    "firma": "56cd82c35de1",
+    "texto": "La presentan como una correísta corrupta que continuaría los robos atribuidos a su esposo, a quien describen como delincuente condenado a prisión, y piden no votar por ella. Otro mensaje le reprocha criticar el reparto de ayudas de otros candidatos en lugar de actuar."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
@@ -124,7 +134,7 @@
     "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
    },
    "2": {
-    "palabras": "noboa, guayaquil, mejor, chimbadora, gobierno, peor",
+    "palabras": "noboa, mejor, guayaquil, chimbadora, gobierno, peor",
     "firma": "1101246b5c36",
     "texto": "La presentan como una candidata funcional al gobierno de Noboa y a ADN, colocada para dividir el voto, y le reprochan no haber defendido a Guayaquil frente a las medidas del gobierno. Otros la descalifican como improvisada, de izquierda y contraria a acatar las leyes."
    },
