@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T06:05-05:00",
+ "generado": "2026-11-27T06:19-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -39,29 +39,24 @@
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
-    "palabras": "peor, menos, colorada, urgente, trata, municipio",
-    "firma": "438b35182b0a",
-    "texto": "Cuestionan su gestión como alcaldesa de Guayaquil: le atribuyen no haber hecho obras, haber otorgado contratos a familiares y parejas y haber vaciado las cuentas municipales. La tachan de corrupta e inepta, insinúan consumo de drogas y rechazan su alianza con ADN."
-   },
-   "1": {
     "palabras": "avezada, campañas, gordita, políticas",
     "firma": "d851a8c021e1",
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
-   "2": {
+   "1": {
     "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
     "firma": "2e5781f9332c",
     "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
    },
    "3": {
+    "palabras": "peor, colorada, trata, municipio, debate, habla",
+    "firma": "cf9c159520cf",
+    "texto": "Le atribuyen nepotismo y corrupción en su gestión municipal, al acusarla de colocar a familiares y a una pareja sentimental en el municipio y de favorecer a su expareja con terrenos. La atacan además mediante alusiones a su vida sentimental, burlas sobre su desempeño en un debate y descalificaciones sobre su estabilidad emocional."
+   },
+   "4": {
     "palabras": "marido, drogas, quiero, drogadicto, dar, vida",
     "firma": "a1619e80ff36",
     "texto": "Le atribuyen consumo y adicción a las drogas, extendida a su esposo, y la presentan como corrupta, acusándola de robo durante la pandemia y de apropiación de tierras. Añaden insinuaciones sexuales sobre cómo habría obtenido cargos y descalifican su nueva postulación a la alcaldía."
-   },
-   "4": {
-    "palabras": "problema, hablar, parálisis, facial, adicción, cara",
-    "firma": "e5ca56cda260",
-    "texto": "Los mensajes centran el ataque en su apariencia y su salud: atribuyen su parálisis facial y su dificultad al hablar a tratamientos estéticos, a un supuesto derrame cerebral o a una adicción, y presentan ese estado como prueba de que no está en condiciones de debatir ni gobernar."
    }
   },
   "Fiorella Ycaza": {
