@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T12:43-05:00",
+ "generado": "2026-11-27T13:00-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -65,25 +65,15 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, propuestas, modelo, continuar, preguntas, correa",
-    "firma": "dc4c3219684b",
-    "texto": "La presentan como incapaz e improvisada para la Alcaldía de Guayaquil: cuestionan su desempeño en el debate, le atribuyen evadir preguntas y carecer de propuestas, formación y experiencia, y la reducen a candidata subordinada a Rafael Correa, sugiriendo además que su esposo la asesoraría desde prisión."
-   },
    "1": {
-    "palabras": "esposa, prófugo, campaña, cachuda, contrabandista, política",
-    "firma": "2036deb640f7",
-    "texto": "La presentan como esposa de un acusado de contrabando de combustible, le atribuyen complicidad y lavado de activos, y piden su inhabilitación; cuestionan su capacidad para la Alcaldía de Guayaquil, reducen su trayectoria a ser esposa y vinculan su campaña a Rafael Correa, señalado como prófugo."
-   },
-   "2": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
     "texto": "La vinculan con el caso por presunto lavado de dinero en que fue procesada la mujer señalada como amante de su esposo, le auguran prisión y atribuyen su candidatura a buscar inmunidad o vengarse de una infidelidad, presentándola como mujer engañada."
    },
-   "3": {
-    "palabras": "esposo, correístas, delincuente, correista, preso, delincuentes",
-    "firma": "56cd82c35de1",
-    "texto": "La presentan como una correísta corrupta que continuaría los robos atribuidos a su esposo, a quien describen como delincuente condenado a prisión, y piden no votar por ella. Otro mensaje le reprocha criticar el reparto de ayudas de otros candidatos en lugar de actuar."
+   "2": {
+    "palabras": "propuestas, modelo, continuar, preguntas, gestión, pretende",
+    "firma": "c4f927401e8c",
+    "texto": "Cuestionan su preparación para la Alcaldía de Guayaquil: le atribuyen evadir preguntas y carecer de propuestas, ridiculizan su trayectoria como modelo y la presentan como continuidad de una gestión corrupta vinculada a Rafael Correa, con procesos judiciales que le impedirían ejercer."
    },
    "4": {
     "palabras": "parada, chica, mal, idea",
@@ -106,11 +96,6 @@
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
     "firma": "658447047d88",
     "texto": "La vinculan con Rafael Correa y el correísmo, a los que presentan como estructura delincuencial y corrupta, para descalificarla como candidata incapaz y fanática, cuestionar sus propuestas como irrealizables y extender la descalificación a las mujeres que la apoyan."
-   },
-   "3": {
-    "palabras": "energía, eléctrica, pagar, gratis",
-    "firma": "0d676a2044f4",
-    "texto": "Ridiculizan la supuesta oferta de electricidad gratuita que atribuyen a Sofía Espín y Alberto Cajamarca, presentándola como engaño populista e incoherente con su discurso sobre los ricos, y la descalifican aludiendo a su destitución y vinculándola sexualmente con Jorge Glas."
    }
   },
   "Yadira Bayas": {},
