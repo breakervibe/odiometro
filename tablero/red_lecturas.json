@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T14:41-05:00",
+ "generado": "2026-11-28T15:00-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -49,12 +49,7 @@
     "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
    },
    "2": {
-    "palabras": "peor, drogas, marido, colorada, quiero, municipio",
-    "firma": "3cd96edb7ca5",
-    "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
-   },
-   "3": {
-    "palabras": "menos, ciudad, adn, drogadicta, pasó, corrupta",
+    "palabras": "menos, ciudad, adn, corrupta, drogadicta, pasó",
     "firma": "ddb5edf50c16",
     "texto": "Le atribuyen corrupción e incapacidad en su anterior gestión en la alcaldía de Guayaquil e invocan procesos fiscales, mientras cuestionan su alianza con ADN como blanqueo. La descalifican además atribuyéndole consumo de drogas y aludiendo a su edad y apariencia."
    }
@@ -93,7 +88,7 @@
     "texto": "La presentan como figura correísta opuesta al gobierno de Noboa, le atribuyen una salida del cargo en 2018 por supuesta conspiración y cuestionan su candidatura en Guayas tachando de populistas sus propuestas sobre tarifas eléctricas y negando su conocimiento sobre emergencias climáticas."
    },
    "1": {
-    "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, narcos",
+    "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, sinvergüenza",
     "firma": "72919a83d896",
     "texto": "La presentan como delincuente que debería estar en la cárcel y la asocian con corrupción, sobreprecios y cobro de diezmos atribuidos al correísmo. La atacan como parte de un grupo político descalificado en bloque, con insultos sobre su aspecto físico y connotación sexual."
    },
@@ -119,7 +114,7 @@
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "0": {
-    "palabras": "discapacidad, carnet, lumbar, milagro, alguien, tenga",
+    "palabras": "discapacidad, carnet, lumbar, milagro, alguien, sale",
     "firma": "09ab680c732e",
     "texto": "Le atribuyen haber obtenido de forma indebida un carnet de discapacidad para acceder a beneficios y ventajas en concursos, y cuestionan su idoneidad para la alcaldía. La desacreditan con burlas sobre su condición física, su apariencia y su afiliación correísta."
    },
