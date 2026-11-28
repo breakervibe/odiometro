@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T18:48-05:00",
+ "generado": "2026-11-27T19:37-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -9,14 +9,14 @@
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
    },
    "1": {
-    "palabras": "noboa, candidatos, menos, narco, repudian",
+    "palabras": "noboa, candidatos, narco, menos, repudian",
     "firma": "febfc86a6015",
     "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y extienden esa acusación a ella y a los candidatos de su partido, señalados como corruptos y rechazados. También descalifican su capacidad intelectual y sostienen que perdería un debate con Andrés Arauz."
    },
    "2": {
     "palabras": "adn, igual, miserables, mentirosa, sinvergüenzas, ratas",
-    "firma": "636e8539ed1e",
-    "texto": "Los mensajes la atacan a través de su partido, ADN, al que presentan como una organización delictiva aliada de Noboa que busca apropiarse de recursos públicos. Le atribuyen mentir en una entrevista y llaman a no votar por ella, con expresiones de amenaza."
+    "firma": "d2a54add1eb4",
+    "texto": "Los mensajes atacan a la candidata a través de su partido, ADN, al que presentan como una organización corrupta que miente y busca enriquecerse con recursos públicos. Le atribuyen falta de honestidad y llaman a no votar por ella ni por sus aliados, incluido Daniel Noboa."
    },
    "3": {
     "palabras": "cara, debate, tienes, solvencia, pichincha",
@@ -65,11 +65,6 @@
    }
   },
   "Fiorella Ycaza": {
-   "0": {
-    "palabras": "guayaquil, esposa, prófugo, campaña, cachuda, correa",
-    "firma": "bd55c32c7cae",
-    "texto": "La presentan como candidata sin méritos propios, definida por ser esposa de un hombre al que acusan de contrabando, y le atribuyen implicación en lavado de activos. Cuestionan su autonomía al sostener que la dirige Rafael Correa, a quien llaman prófugo, y piden su inhabilitación."
-   },
    "1": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
@@ -114,18 +109,7 @@
    }
   },
   "Yadira Bayas": {},
-  "Roberta Zambrano": {
-   "0": {
-    "palabras": "esmeraldas, noboa, política, debe, gane, morillo",
-    "firma": "300e36a05038",
-    "texto": "Los mensajes la presentan como la candidata corrupta del gobierno de Daniel Noboa en Esmeraldas. Le atribuyen gestiones irregulares de fondos junto a la ministra Nataly Morillo, la vinculan con narcotráfico y lavado, insinúan una relación personal con Noboa y llaman a no votar por ella."
-   },
-   "1": {
-    "palabras": "adn, gobierno, corrupta, credibilidad",
-    "firma": "2801988cbccc",
-    "texto": "La presentan como corrupta y parte de una estructura de ADN y del gobierno, a la que asocian con robo y mentira; le niegan credibilidad, cuestionan una encuesta que le atribuyen y la vinculan con la ministra Nataly Morillo, recurriendo además a la animalización."
-   }
-  },
+  "Roberta Zambrano": {},
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
    "1": {
