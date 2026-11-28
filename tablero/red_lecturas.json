@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T11:47-05:00",
+ "generado": "2026-11-28T12:02-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -47,6 +47,21 @@
     "palabras": "peor, drogas, marido, colorada, quiero, municipio",
     "firma": "3cd96edb7ca5",
     "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
+   },
+   "2": {
+    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
+    "firma": "7d62a8490293",
+    "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
+   },
+   "3": {
+    "palabras": "menos, adn, ciudad, pasó, campaña, drogadicta",
+    "firma": "ddb5edf50c16",
+    "texto": "Le atribuyen corrupción e incapacidad en su anterior gestión en la alcaldía de Guayaquil e invocan procesos fiscales, mientras cuestionan su alianza con ADN como blanqueo. La descalifican además atribuyéndole consumo de drogas y aludiendo a su edad y apariencia."
+   },
+   "4": {
+    "palabras": "parálisis, problema, hablar, facial, adicción, cara",
+    "firma": "e1308d055bd8",
+    "texto": "Los mensajes giran en torno a su parálisis facial: cuestionan su apariencia y su forma de hablar, le atribuyen un derrame cerebral o el abuso de procedimientos estéticos y usan su condición de salud para descalificarla en lo personal y lo político."
    }
   },
   "Fiorella Ycaza": {
@@ -81,6 +96,11 @@
     "palabras": "guayas, guayaquil, gobierno, correista, noboa, junto",
     "firma": "7c118f82a59c",
     "texto": "La presentan como figura correísta opuesta al gobierno de Noboa, le atribuyen una salida del cargo en 2018 por supuesta conspiración y cuestionan su candidatura en Guayas tachando de populistas sus propuestas sobre tarifas eléctricas y negando su conocimiento sobre emergencias climáticas."
+   },
+   "1": {
+    "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, narcos",
+    "firma": "72919a83d896",
+    "texto": "La presentan como delincuente que debería estar en la cárcel y la asocian con corrupción, sobreprecios y cobro de diezmos atribuidos al correísmo. La atacan como parte de un grupo político descalificado en bloque, con insultos sobre su aspecto físico y connotación sexual."
    },
    "2": {
     "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
