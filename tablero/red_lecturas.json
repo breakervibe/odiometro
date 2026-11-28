@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T13:57-05:00",
+ "generado": "2026-11-28T14:15-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -54,7 +54,7 @@
     "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
    },
    "3": {
-    "palabras": "menos, ciudad, adn, pasó, drogadicta, campaña",
+    "palabras": "menos, ciudad, adn, drogadicta, pasó, corrupta",
     "firma": "ddb5edf50c16",
     "texto": "Le atribuyen corrupción e incapacidad en su anterior gestión en la alcaldía de Guayaquil e invocan procesos fiscales, mientras cuestionan su alianza con ADN como blanqueo. La descalifican además atribuyéndole consumo de drogas y aludiendo a su edad y apariencia."
    }
@@ -96,11 +96,6 @@
     "palabras": "delincuentes, delincuente, ratas, miserables, cárcel, narcos",
     "firma": "72919a83d896",
     "texto": "La presentan como delincuente que debería estar en la cárcel y la asocian con corrupción, sobreprecios y cobro de diezmos atribuidos al correísmo. La atacan como parte de un grupo político descalificado en bloque, con insultos sobre su aspecto físico y connotación sexual."
-   },
-   "2": {
-    "palabras": "correismo, prófugo, correa, candidatos, delincuencial, rafael",
-    "firma": "658447047d88",
-    "texto": "La vinculan con Rafael Correa y el correísmo, a los que presentan como estructura delincuencial y corrupta, para descalificarla como candidata incapaz y fanática, cuestionar sus propuestas como irrealizables y extender la descalificación a las mujeres que la apoyan."
    },
    "3": {
     "palabras": "energía, eléctrica, pagar, gratis",
