@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T23:53-05:00",
+ "generado": "2026-11-28T00:10-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -7,6 +7,11 @@
     "palabras": "sinvergüenza, salud, hablar, nivel, iess, niunsolovotoparaadn",
     "firma": "e4c5b0ed599e",
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
+   },
+   "1": {
+    "palabras": "noboa, candidatos, narco, menos, repudian, dinero",
+    "firma": "a51667586d94",
+    "texto": "La presentan como subordinada de Daniel Noboa, a quien llaman presidente vinculado al narcotráfico, y le atribuyen actuar por dinero y por complacerlo. Cuestionan su capacidad intelectual para un cargo político y describen sus propuestas como un saqueo de recursos públicos."
    },
    "2": {
     "palabras": "adn, igual, miserables, mentirosa, sinvergüenzas, ratas",
@@ -60,6 +65,11 @@
    }
   },
   "Fiorella Ycaza": {
+   "0": {
+    "palabras": "guayaquil, esposa, prófugo, campaña, cachuda, correa",
+    "firma": "6a5dcf511e13",
+    "texto": "La presentan como una candidatura sin méritos propios, definida por ser esposa del alcalde de Guayaquil, y le atribuyen complicidad en los delitos que imputan a su esposo, vinculándola con Rafael Correa; piden su inhabilitación y recurren a insultos sobre su vida conyugal."
+   },
    "1": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
     "firma": "c31404a3d398",
@@ -104,13 +114,34 @@
    }
   },
   "Yadira Bayas": {},
-  "Roberta Zambrano": {},
+  "Roberta Zambrano": {
+   "0": {
+    "palabras": "esmeraldas, noboa, corrupta, política, debe, gane",
+    "firma": "f6ff671dd426",
+    "texto": "La presentan como corrupta y candidata del gobierno de Daniel Noboa, le atribuyen gestiones irregulares de fondos con la ministra Nataly Morillo y negociados sin resultados, insinúan una relación sexual con el presidente y llaman a no votarla en Esmeraldas."
+   },
+   "1": {
+    "palabras": "merece, vulgar, esmeraldeños",
+    "firma": "17024987bfa4",
+    "texto": "La presentan como vulgar, ignorante y carente de ideas, le atribuyen plagio universitario e hipocresía al denunciar plagios ajenos, la comparan con Elsa Bucaram aludiendo a cirugías estéticas y piden a los esmeraldeños no votar por ella por considerarla indigna de representarlos."
+   }
+  },
   "Marciana Valdivieso": {},
   "Mónica Luzárraga": {
+   "0": {
+    "palabras": "discapacidad, carnet, lumbar, milagro, alguien, tenga",
+    "firma": "09ab680c732e",
+    "texto": "Le atribuyen haber obtenido de forma indebida un carnet de discapacidad para acceder a beneficios y ventajas en concursos, y cuestionan su idoneidad para la alcaldía. La desacreditan con burlas sobre su condición física, su apariencia y su afiliación correísta."
+   },
    "1": {
     "palabras": "correa, correismo, rafael, prófugo, apoyo",
     "firma": "49044c73391b",
     "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
+   },
+   "2": {
+    "palabras": "campaña, parece, verdadera, pura",
+    "firma": "7d226fbd27ca",
+    "texto": "La presentan como oportunista e insincera, que fingiría una imagen amable y críticas al municipio sólo por la campaña; cuestionan su discapacidad declarada, la acusan de dividir el voto de izquierda, de servir al gobierno y de financiamiento irregular."
    },
    "3": {
     "palabras": "noboa, mejor, guayaquil, chimbadora, gobierno, abogada",
