@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T21:20-05:00",
+ "generado": "2026-11-27T21:36-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -7,11 +7,6 @@
     "palabras": "sinvergüenza, salud, hablar, nivel, iess, niunsolovotoparaadn",
     "firma": "e4c5b0ed599e",
     "texto": "Cuestionan su legitimidad para proponer mejoras en salud desde la Prefectura, como abrir centros de salud las 24 horas, al responsabilizar a ADN y al Gobierno nacional del deterioro del sistema público de salud. La presentan como subordinada al presidente, inexperta y oportunista."
-   },
-   "1": {
-    "palabras": "noboa, candidatos, narco, menos, repudian",
-    "firma": "febfc86a6015",
-    "texto": "La presentan como subordinada de Daniel Noboa, a quien vinculan con el narcotráfico, y extienden esa acusación a ella y a los candidatos de su partido, señalados como corruptos y rechazados. También descalifican su capacidad intelectual y sostienen que perdería un debate con Andrés Arauz."
    },
    "2": {
     "palabras": "adn, igual, miserables, mentirosa, sinvergüenzas, ratas",
@@ -118,6 +113,11 @@
     "texto": "La vinculan con el correísmo y con Rafael Correa, a quien presentan como su mentor y como prófugo condenado por corrupción, para descalificar su candidatura como apuesta oculta de ese movimiento, asociarla con una organización delictiva y desalentar el voto por ella."
    },
    "3": {
+    "palabras": "noboa, mejor, guayaquil, chimbadora, gobierno, abogada",
+    "firma": "1101246b5c36",
+    "texto": "La presentan como una candidata funcional al gobierno de Noboa y a ADN, colocada para dividir el voto, y le reprochan no haber defendido a Guayaquil frente a las medidas del gobierno. Otros la descalifican como improvisada, de izquierda y contraria a acatar las leyes."
+   },
+   "4": {
     "palabras": "candidatos, bueno, queda, buena, papel",
     "firma": "aee521013613",
     "texto": "La presentan como una figura que finge una imagen de rectitud ante el electorado y le atribuyen mentir y un uso indebido del carné de discapacidad. La atacan con animalizaciones, alusiones sexuales, vínculos con el narcotráfico y burlas sobre su edad y su presunta discapacidad."
