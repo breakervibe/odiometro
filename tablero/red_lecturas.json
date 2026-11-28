@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T05:59-05:00",
+ "generado": "2026-11-28T06:11-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -29,7 +29,13 @@
     "texto": "La presentan como una recién llegada a la política y como representante del gobierno nacional y de ADN, a la que responsabilizan por la crisis del país y de los servicios de salud, y cuestionan su independencia al asociarla con una política que se vende."
    }
   },
-  "Carla Cevallos": {},
+  "Carla Cevallos": {
+   "0": {
+    "palabras": "moza, ricaurte, man, queremos, antonio",
+    "firma": "9adbdf46e2ba",
+    "texto": "Le atribuyen una supuesta relación sentimental con Antonio Ricaurte y la presentan como su amante, usando esa versión para cuestionar su moralidad, su idoneidad para el cargo y su notoriedad política, y le exigen explicaciones sobre su pasado."
+   }
+  },
   "Carla Larrea": {},
   "Cynthia Viteri": {
    "0": {
