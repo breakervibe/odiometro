@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T09:38-05:00",
+ "generado": "2026-11-28T09:54-05:00",
  "modelo": "claude-opus-5-5",
  "candidatas": {
   "Giovanna Ubidia": {
@@ -44,26 +44,21 @@
     "texto": "Los mensajes asocian su figura con prácticas de campaña presentadas como calculadas o astutas, y combinan esa crítica con alusiones despectivas a su aspecto físico."
    },
    "1": {
-    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
-    "firma": "2e5781f9332c",
-    "texto": "Le atribuyen consumo de drogas, exigen que se someta a un control antidopaje antes del debate y la acusan de criminal por la gestión de los cadáveres durante la pandemia, presentándola como candidata del gobierno de Noboa; otros mensajes descalifican la capacidad intelectual de Fiorella."
-   },
-   "2": {
     "palabras": "peor, drogas, marido, colorada, quiero, municipio",
     "firma": "3cd96edb7ca5",
     "texto": "Los mensajes atacan su vida sexual y afectiva, le atribuyen infidelidad, consumo de drogas e intercambio de favores sexuales por cargos, y la acusan de haber colocado en el municipio a su pareja y de corrupción en la gestión, incluida la pandemia."
    },
-   "4": {
-    "palabras": "parálisis, problema, hablar, facial, adicción, cara",
-    "firma": "e5ca56cda260",
-    "texto": "Los mensajes centran el ataque en su apariencia y su salud: atribuyen su parálisis facial y su dificultad al hablar a tratamientos estéticos, a un supuesto derrame cerebral o a una adicción, y presentan ese estado como prueba de que no está en condiciones de debatir ni gobernar."
+   "2": {
+    "palabras": "guayaquil, fiorella, nomás, prófugo, limitadita, hagan",
+    "firma": "7d62a8490293",
+    "texto": "Le atribuyen consumo de drogas y exigen someterla a pruebas antidoping, la vinculan con el gobierno de Noboa y la responsabilizan del manejo de los fallecidos en la pandemia. Paralelamente, cuestionan la capacidad de la candidata Fiorella, presentada como respaldada por un prófugo."
    }
   },
   "Fiorella Ycaza": {
    "0": {
     "palabras": "guayaquil, esposa, prófugo, campaña, cachuda, correa",
-    "firma": "6a5dcf511e13",
-    "texto": "La presentan como una candidatura sin méritos propios, definida por ser esposa del alcalde de Guayaquil, y le atribuyen complicidad en los delitos que imputan a su esposo, vinculándola con Rafael Correa; piden su inhabilitación y recurren a insultos sobre su vida conyugal."
+    "firma": "bd55c32c7cae",
+    "texto": "La presentan como candidata sin méritos propios, definida por ser esposa de un hombre al que acusan de contrabando, y le atribuyen implicación en lavado de activos. Cuestionan su autonomía al sostener que la dirige Rafael Correa, a quien llaman prófugo, y piden su inhabilitación."
    },
    "1": {
     "palabras": "marido, dinero, chimichurri, amante, paso, icaza",
@@ -134,7 +129,7 @@
     "texto": "La presentan como una candidata sin lealtad propia, subordinada al gobierno de Noboa, y le reprochan no haber defendido a Guayaquil ante el bloqueo. Le atribuyen vínculos con el correísmo y con la defensa de narcotraficantes, y cuestionan su capacidad y su respeto a la ley."
    },
    "3": {
-    "palabras": "campaña, parece, verdadera, pura",
+    "palabras": "campaña, parece, pura, verdadera",
     "firma": "7d226fbd27ca",
     "texto": "La presentan como oportunista e insincera, que fingiría una imagen amable y críticas al municipio sólo por la campaña; cuestionan su discapacidad declarada, la acusan de dividir el voto de izquierda, de servir al gobierno y de financiamiento irregular."
    },
